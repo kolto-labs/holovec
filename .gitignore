@@ -1,0 +1,10 @@
+__pycache__/
+.cache/
+
+/staging/
+*.egg-info/
+/build/
+/dist/
+/.venv/
+
+/evaluation/

@@ -1,0 +1,3741 @@
+{
+  "source_url": "https://www.swtor.com/patchnotes",
+  "observed_at_utc": "2026-11-16T12:18:10.738572+00:00",
+  "source_response_sha256": "71a8e1fc93c6552c9510ff0042a554f50925d8359ac0abd0d7cb15961bce87f7",
+  "normalized_listing_sha256": "9b76af3d69ec498be7bd61854a69534f542582afb39f08b2fb900ad257e1e166",
+  "scope": "Links and publisher-provided labels from the live English patch index, not the patch-note bodies. The index may omit removed, regional, pre-release or unlisted builds. Listing an update does not imply its story, data, branch or reuse rights are covered.",
+  "link_count": 373,
+  "dated_count": 355,
+  "items": [
+    {
+      "publisher_label": "09/22/2026 - Game Update 7.9.1c",
+      "publisher_url": "https://www.swtor.com/patchnotes/09222026/game-update-7.9.1c",
+      "listed_date": "2026-09-22",
+      "version": "7.9.1c",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "08/25/26 - Game Update 7.9.1b",
+      "publisher_url": "https://www.swtor.com/patchnotes/082526/game-update-7.9.1b",
+      "listed_date": "2026-08-25",
+      "version": "7.9.1b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "08/04/2026 - Game Update 7.9.1a",
+      "publisher_url": "https://www.swtor.com/patchnotes/08042026/game-update-7.9.1a",
+      "listed_date": "2026-08-04",
+      "version": "7.9.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "08/04/2026 - Game Update 7.9.1 \"Light and Shadow\"",
+      "publisher_url": "https://www.swtor.com/patchnotes/08042026/game-update-7.9.1-light-and-shadow",
+      "listed_date": "2026-08-04",
+      "version": "7.9.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "07/08/2026 - Game Update 7.9c",
+      "publisher_url": "https://www.swtor.com/patchnotes/07082026/game-update-7.9c",
+      "listed_date": "2026-07-08",
+      "version": "7.9c",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "06/23/2026 - Game Update 7.9b",
+      "publisher_url": "https://www.swtor.com/patchnotes/06232026/game-update-7.9b",
+      "listed_date": "2026-06-23",
+      "version": "7.9b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "06/08/2026 - Game Update 7.9a",
+      "publisher_url": "https://www.swtor.com/patchnotes/06082026/game-update-7.9a",
+      "listed_date": "2026-06-08",
+      "version": "7.9a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "06/02/2026 - Game Update 7.9 \"Legacy Reborn\"",
+      "publisher_url": "https://www.swtor.com/patchnotes/06022026/game-update-7.9-legacy-reborn",
+      "listed_date": "2026-06-02",
+      "version": "7.9",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "04/09/2026 - Game Update 7.8.1c",
+      "publisher_url": "https://www.swtor.com/patchnotes/04092026/game-update-7.8.1c",
+      "listed_date": "2026-04-09",
+      "version": "7.8.1c",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "04/07/2026 - Game Update 7.8.1b",
+      "publisher_url": "https://www.swtor.com/patchnotes/04072026/game-update-7.8.1b",
+      "listed_date": "2026-04-07",
+      "version": "7.8.1b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "03/19/2026 - Game Update 7.8.1a",
+      "publisher_url": "https://www.swtor.com/patchnotes/03192026/game-update-7.8.1a",
+      "listed_date": "2026-03-19",
+      "version": "7.8.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "03/10/2026 - Game Update 7.8.1 \"Master's Enigma\"",
+      "publisher_url": "https://www.swtor.com/patchnotes/03102026/game-update-7.8.1-masters-enigma",
+      "listed_date": "2026-03-10",
+      "version": "7.8.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "01/27/2026 - Game Update 7.8c",
+      "publisher_url": "https://www.swtor.com/patchnotes/01272026/game-update-7.8c",
+      "listed_date": "2026-01-27",
+      "version": "7.8c",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/17/2025 - Game Update 7.8b",
+      "publisher_url": "https://www.swtor.com/patchnotes/12172025/game-update-7.8b",
+      "listed_date": "2025-12-17",
+      "version": "7.8b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/16/2025 - Game Update 7.8a",
+      "publisher_url": "https://www.swtor.com/patchnotes/12162025/game-update-7.8a",
+      "listed_date": "2025-12-16",
+      "version": "7.8a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/09/2025 - Game Update 7.8 \"Pursuit of Ruin\"",
+      "publisher_url": "https://www.swtor.com/patchnotes/12092025/game-update-7.8-pursuit-ruin",
+      "listed_date": "2025-12-09",
+      "version": "7.8",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "11/04/2025 - Game Update 7.7.1d",
+      "publisher_url": "https://www.swtor.com/patchnotes/11042025/game-update-7.7.1d",
+      "listed_date": "2025-11-04",
+      "version": "7.7.1d",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "09/30/2025 - Game Update 7.7.1c",
+      "publisher_url": "https://www.swtor.com/patchnotes/09302025/game-update-7.7.1c",
+      "listed_date": "2025-09-30",
+      "version": "7.7.1c",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "09/08/2025 - Game Update 7.7.1b",
+      "publisher_url": "https://www.swtor.com/patchnotes/09082025/game-update-7.7.1b",
+      "listed_date": "2025-09-08",
+      "version": "7.7.1b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "08/21/2025 - Game Update 7.7.1a Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/08212025/game-update-7.7.1a-patch-notes",
+      "listed_date": "2025-08-21",
+      "version": "7.7.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "08/19/2025 - Game Update 7.7.1 \"Flashpoint Resurgence\"",
+      "publisher_url": "https://www.swtor.com/patchnotes/08192025/game-update-7.7.1-flashpoint-resurgence",
+      "listed_date": "2025-08-19",
+      "version": "7.7.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "06/17/2025 - Game Update 7.7d",
+      "publisher_url": "https://www.swtor.com/patchnotes/06172025/game-update-7.7d",
+      "listed_date": "2025-06-17",
+      "version": "7.7d",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "06/10/2025 - Game Update 7.7c",
+      "publisher_url": "https://www.swtor.com/patchnotes/06102025/game-update-7.7c",
+      "listed_date": "2025-06-10",
+      "version": "7.7c",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "06/04/2025 - Game Update 7.7b",
+      "publisher_url": "https://www.swtor.com/patchnotes/06042025/game-update-7.7b",
+      "listed_date": "2025-06-04",
+      "version": "7.7b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "05/30/2025 - Game Update 7.7a",
+      "publisher_url": "https://www.swtor.com/patchnotes/05302025/game-update-7.7a",
+      "listed_date": "2025-05-30",
+      "version": "7.7a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "05/28/2025 - Game Update 7.7 \"Dynamic Worlds\"",
+      "publisher_url": "https://www.swtor.com/patchnotes/05282025/game-update-7.7-dynamic-worlds",
+      "listed_date": "2025-05-28",
+      "version": "7.7",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "04/17/2025 - Game Update 7.6.1d",
+      "publisher_url": "https://www.swtor.com/patchnotes/04172025/game-update-7.6.1d",
+      "listed_date": "2025-04-17",
+      "version": "7.6.1d",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "04/01/2025 - Game Update 7.6.1c",
+      "publisher_url": "https://www.swtor.com/patchnotes/04012025/game-update-7.6.1c",
+      "listed_date": "2025-04-01",
+      "version": "7.6.1c",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "03/21/2025 - Game Update 7.6.1b",
+      "publisher_url": "https://www.swtor.com/patchnotes/03212025/game-update-7.6.1b",
+      "listed_date": "2025-03-21",
+      "version": "7.6.1b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "03/13/2025 - Game Update 7.6.1a",
+      "publisher_url": "https://www.swtor.com/patchnotes/03132025/game-update-7.6.1a",
+      "listed_date": "2025-03-13",
+      "version": "7.6.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "03/11/2025 - Game Update 7.6.1 \"Rising Powers\"",
+      "publisher_url": "https://www.swtor.com/patchnotes/03112025/game-update-7.6.1-rising-powers",
+      "listed_date": "2025-03-11",
+      "version": "7.6.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "01/24/2025 - Game Update 7.6d",
+      "publisher_url": "https://www.swtor.com/patchnotes/01242025/game-update-7.6d",
+      "listed_date": "2025-01-24",
+      "version": "7.6d",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/19/2024 - Game Update 7.6c",
+      "publisher_url": "https://www.swtor.com/patchnotes/12192024/game-update-7.6c",
+      "listed_date": "2024-12-19",
+      "version": "7.6c",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/17/2024 - Game Update 7.6b",
+      "publisher_url": "https://www.swtor.com/patchnotes/12172024/game-update-7.6b",
+      "listed_date": "2024-12-17",
+      "version": "7.6b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/12/2024 - Game Update 7.6a",
+      "publisher_url": "https://www.swtor.com/patchnotes/12122024/game-update-7.6a",
+      "listed_date": "2024-12-12",
+      "version": "7.6a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/10/2024 - Game Update 7.6 \"Galactic Threads\"",
+      "publisher_url": "https://www.swtor.com/patchnotes/12102024/game-update-7.6-galactic-threads",
+      "listed_date": "2024-12-10",
+      "version": "7.6",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "10/01/2024 - Game Update 7.5.1c",
+      "publisher_url": "https://www.swtor.com/patchnotes/10012024/game-update-7.5.1c",
+      "listed_date": "2024-10-01",
+      "version": "7.5.1c",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "09/10/2024 - Game Update 7.5.1b",
+      "publisher_url": "https://www.swtor.com/patchnotes/09102024/game-update-7.5.1b",
+      "listed_date": "2024-09-10",
+      "version": "7.5.1b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "08/29/2024 - Game Update 7.5.1a",
+      "publisher_url": "https://www.swtor.com/patchnotes/08292024/game-update-7.5.1a",
+      "listed_date": "2024-08-29",
+      "version": "7.5.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "08/20/24 - Game Update 7.5.1",
+      "publisher_url": "https://www.swtor.com/patchnotes/082024/game-update-7.5.1",
+      "listed_date": "2024-08-20",
+      "version": "7.5.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "7/10/24 - Game Update 7.5c",
+      "publisher_url": "https://www.swtor.com/patchnotes/71024/game-update-7.5c",
+      "listed_date": "2024-07-10",
+      "version": "7.5c",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "6/26/24 - Game Update 7.5b",
+      "publisher_url": "https://www.swtor.com/patchnotes/62624/game-update-7.5b",
+      "listed_date": "2024-06-26",
+      "version": "7.5b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "6/4/24 - Game Update 7.5a",
+      "publisher_url": "https://www.swtor.com/patchnotes/6424/game-update-7.5a",
+      "listed_date": "2024-06-04",
+      "version": "7.5a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "05/29/2024 - Game Update 7.5 : Desperate Defiance",
+      "publisher_url": "https://www.swtor.com/patchnotes/05292024/game-update-7.5-desperate-defiance",
+      "listed_date": "2024-05-29",
+      "version": "7.5",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "04/03/2024 - Game Update 7.4.1c",
+      "publisher_url": "https://www.swtor.com/patchnotes/04032024/game-update-7.4.1c",
+      "listed_date": "2024-04-03",
+      "version": "7.4.1c",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "03/20/2024 - Game Update 7.4.1b",
+      "publisher_url": "https://www.swtor.com/patchnotes/03202024/game-update-7.4.1b",
+      "listed_date": "2024-03-20",
+      "version": "7.4.1b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "03/14/2024 - Game Update 7.4.1a",
+      "publisher_url": "https://www.swtor.com/patchnotes/03142024/game-update-7.4.1a",
+      "listed_date": "2024-03-14",
+      "version": "7.4.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "3/11/24 - Game Update 7.4.1",
+      "publisher_url": "https://www.swtor.com/patchnotes/31124/game-update-7.4.1",
+      "listed_date": "2024-03-11",
+      "version": "7.4.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1/24/2024 - Game Update 7.4b",
+      "publisher_url": "https://www.swtor.com/patchnotes/1242024/game-update-7.4b",
+      "listed_date": "2024-01-24",
+      "version": "7.4b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/06/2023 - Game Update 7.4a",
+      "publisher_url": "https://www.swtor.com/patchnotes/12062023/game-update-7.4a",
+      "listed_date": "2023-12-06",
+      "version": "7.4a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/5/23 - Game Update 7.4 : Chains in the Dark",
+      "publisher_url": "https://www.swtor.com/patchnotes/12523/game-update-7.4-chains-dark",
+      "listed_date": "2023-12-05",
+      "version": "7.4",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "10/3/23 - Game Update 7.3.1b",
+      "publisher_url": "https://www.swtor.com/patchnotes/10323/game-update-7.3.1b",
+      "listed_date": "2023-10-03",
+      "version": "7.3.1b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "9/13/23 - Game Update 7.3.1a",
+      "publisher_url": "https://www.swtor.com/patchnotes/91323/game-update-7.3.1a",
+      "listed_date": "2023-09-13",
+      "version": "7.3.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "9/5/2023 - Game Update 7.3.1",
+      "publisher_url": "https://www.swtor.com/patchnotes/952023/game-update-7.3.1",
+      "listed_date": "2023-09-05",
+      "version": "7.3.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "6/27/23 - Game Update 7.3c",
+      "publisher_url": "https://www.swtor.com/patchnotes/62723/game-update-7.3c",
+      "listed_date": "2023-06-27",
+      "version": "7.3c",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "06/21/2023 - Game Update 7.3b",
+      "publisher_url": "https://www.swtor.com/patchnotes/06212023/game-update-7.3b",
+      "listed_date": "2023-06-21",
+      "version": "7.3b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "06/15/2023 - Game Update 7.3a",
+      "publisher_url": "https://www.swtor.com/patchnotes/06152023/game-update-7.3a",
+      "listed_date": "2023-06-15",
+      "version": "7.3a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "06/13/2023 - Game Update 7.3: Old Wounds",
+      "publisher_url": "https://www.swtor.com/patchnotes/06132023/game-update-7.3-old-wounds",
+      "listed_date": "2023-06-13",
+      "version": "7.3",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "05/16/2023 - Game Update 7.2.1d",
+      "publisher_url": "https://www.swtor.com/patchnotes/05162023/game-update-7.2.1d",
+      "listed_date": "2023-05-16",
+      "version": "7.2.1d",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "04/27/2023 - Game Update 7.2.1c",
+      "publisher_url": "https://www.swtor.com/patchnotes/04272023/game-update-7.2.1c",
+      "listed_date": "2023-04-27",
+      "version": "7.2.1c",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "04/25/2023 - Game Update 7.2.1b",
+      "publisher_url": "https://www.swtor.com/patchnotes/04252023/game-update-7.2.1b",
+      "listed_date": "2023-04-25",
+      "version": "7.2.1b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "04/06/2023 - Game Update 7.2.1a",
+      "publisher_url": "https://www.swtor.com/patchnotes/04062023/game-update-7.2.1a",
+      "listed_date": "2023-04-06",
+      "version": "7.2.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "03/28/2023 - Game Update 7.2.1",
+      "publisher_url": "https://www.swtor.com/patchnotes/03282023/game-update-7.2.1",
+      "listed_date": "2023-03-28",
+      "version": "7.2.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "01/18/2023 - Game Update 7.2b",
+      "publisher_url": "https://www.swtor.com/patchnotes/01182023/game-update-7.2b",
+      "listed_date": "2023-01-18",
+      "version": "7.2b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/20/2022 - Game Update 7.2a",
+      "publisher_url": "https://www.swtor.com/patchnotes/12202022/game-update-7.2a",
+      "listed_date": "2022-12-20",
+      "version": "7.2a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/13/2022 - Game Update 7.2: Showdown on Ruhnuk",
+      "publisher_url": "https://www.swtor.com/patchnotes/12132022/game-update-7.2-showdown-ruhnuk",
+      "listed_date": "2022-12-13",
+      "version": "7.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "10/28/2022 - Game Update 7.1.1b",
+      "publisher_url": "https://www.swtor.com/patchnotes/10282022/game-update-7.1.1b",
+      "listed_date": "2022-10-28",
+      "version": "7.1.1b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "10/20/2022 - Game Update 7.1.1a",
+      "publisher_url": "https://www.swtor.com/patchnotes/10202022/game-update-7.1.1a",
+      "listed_date": "2022-10-20",
+      "version": "7.1.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "10/18/2022 - Game  Update 7.1.1",
+      "publisher_url": "https://www.swtor.com/patchnotes/10182022/game-update-7.1.1",
+      "listed_date": "2022-10-18",
+      "version": "7.1.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "08/11/2022 - Game Update 7.1a",
+      "publisher_url": "https://www.swtor.com/patchnotes/08112022/game-update-7.1a",
+      "listed_date": "2022-08-11",
+      "version": "7.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "08/02/2022 - Game Update 7.1: Digging Deeper",
+      "publisher_url": "https://www.swtor.com/patchnotes/08022022/game-update-7.1-digging-deeper",
+      "listed_date": "2022-08-02",
+      "version": "7.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "06/07/2022 - Game Update 7.0.2b",
+      "publisher_url": "https://www.swtor.com/patchnotes/06072022/game-update-7.0.2b",
+      "listed_date": "2022-06-07",
+      "version": "7.0.2b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "05/05/2022 - Game Update 7.0.2a",
+      "publisher_url": "https://www.swtor.com/patchnotes/05052022/game-update-7.0.2a",
+      "listed_date": "2022-05-05",
+      "version": "7.0.2a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "04/26/2022 - Game Update 7.0.2",
+      "publisher_url": "https://www.swtor.com/patchnotes/04262022/game-update-7.0.2",
+      "listed_date": "2022-04-26",
+      "version": "7.0.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "3/29/2022 - Game Update 7.0.1a",
+      "publisher_url": "https://www.swtor.com/patchnotes/3292022/game-update-7.0.1a",
+      "listed_date": "2022-03-29",
+      "version": "7.0.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "03/22/2022 - Game Update 7.0.1",
+      "publisher_url": "https://www.swtor.com/patchnotes/03222022/game-update-7.0.1",
+      "listed_date": "2022-03-22",
+      "version": "7.0.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "02/15/2022 - Game Update 7.0: Legacy of the Sith",
+      "publisher_url": "https://www.swtor.com/patchnotes/02152022/game-update-7.0-legacy-sith",
+      "listed_date": "2022-02-15",
+      "version": "7.0",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/14/2021 - Game Update 6.3.2b",
+      "publisher_url": "https://www.swtor.com/patchnotes/12142021/game-update-6.3.2b",
+      "listed_date": "2021-12-14",
+      "version": "6.3.2b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "09/14/2021 - Game Update 6.3.2a",
+      "publisher_url": "https://www.swtor.com/patchnotes/09142021/game-update-6.3.2a",
+      "listed_date": "2021-09-14",
+      "version": "6.3.2a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "08/31/2021 - Game Update 6.3.2",
+      "publisher_url": "https://www.swtor.com/patchnotes/08312021/game-update-6.3.2",
+      "listed_date": "2021-08-31",
+      "version": "6.3.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "06/29/2021 - Game Update 6.3.1",
+      "publisher_url": "https://www.swtor.com/patchnotes/06292021/game-update-6.3.1",
+      "listed_date": "2021-06-29",
+      "version": "6.3.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "05/10/2021 - Game Update 6.3a",
+      "publisher_url": "https://www.swtor.com/patchnotes/05102021/game-update-6.3a",
+      "listed_date": "2021-05-10",
+      "version": "6.3a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "04/27/2021 - Game Update 6.3",
+      "publisher_url": "https://www.swtor.com/patchnotes/04272021/game-update-6.3",
+      "listed_date": "2021-04-27",
+      "version": "6.3",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "03/16/2021 - Game Update 6.2.1a",
+      "publisher_url": "https://www.swtor.com/patchnotes/03162021/game-update-6.2.1a",
+      "listed_date": "2021-03-16",
+      "version": "6.2.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "03/02/2021 - Game Update 6.2.1",
+      "publisher_url": "https://www.swtor.com/patchnotes/03022021/game-update-6.2.1",
+      "listed_date": "2021-03-02",
+      "version": "6.2.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/15/2020 - Game Update 6.2a",
+      "publisher_url": "https://www.swtor.com/patchnotes/12152020/game-update-6.2a",
+      "listed_date": "2020-12-15",
+      "version": "6.2a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/9/2020 - Game Update 6.2",
+      "publisher_url": "https://www.swtor.com/patchnotes/1292020/game-update-6.2",
+      "listed_date": "2020-12-09",
+      "version": "6.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "11/03/2020 - Game Update 6.1.4c",
+      "publisher_url": "https://www.swtor.com/patchnotes/11032020/game-update-6.1.4c",
+      "listed_date": "2020-11-03",
+      "version": "6.1.4c",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "10/27/2020 - Game Update 6.1.4b",
+      "publisher_url": "https://www.swtor.com/patchnotes/10272020/game-update-6.1.4b-0",
+      "listed_date": "2020-10-27",
+      "version": "6.1.4b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "10/21/2020 - Game Update 6.1.4a",
+      "publisher_url": "https://www.swtor.com/patchnotes/10212020/game-update-6.1.4a",
+      "listed_date": "2020-10-21",
+      "version": "6.1.4a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "10/20/2020 - Game Update 6.1.4",
+      "publisher_url": "https://www.swtor.com/patchnotes/10202020/game-update-6.1.4",
+      "listed_date": "2020-10-20",
+      "version": "6.1.4",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "9/9/2020 - Game Update 6.1.3",
+      "publisher_url": "https://www.swtor.com/patchnotes/992020/game-update-6.1.3",
+      "listed_date": "2020-09-09",
+      "version": "6.1.3",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "7/28/2020 - Game Update 6.1.2d",
+      "publisher_url": "https://www.swtor.com/patchnotes/7282020/game-update-6.1.2d",
+      "listed_date": "2020-07-28",
+      "version": "6.1.2d",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "7/21/2020 - Game Update 6.1.2c",
+      "publisher_url": "https://www.swtor.com/patchnotes/7212020/game-update-6.1.2c",
+      "listed_date": "2020-07-21",
+      "version": "6.1.2c",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "7/16/2020 - Game Update 6.1.2b",
+      "publisher_url": "https://www.swtor.com/patchnotes/7162020/game-update-6.1.2b",
+      "listed_date": "2020-07-16",
+      "version": "6.1.2b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "6/30/2020 - Game Update 6.1.2a",
+      "publisher_url": "https://www.swtor.com/patchnotes/6302020/game-update-6.1.2a",
+      "listed_date": "2020-06-30",
+      "version": "6.1.2a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "6/24/2020 - Game Update 6.1.2",
+      "publisher_url": "https://www.swtor.com/patchnotes/6242020/game-update-6.1.2",
+      "listed_date": "2020-06-24",
+      "version": "6.1.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "6/02/2020 - Game Update 6.1.1b",
+      "publisher_url": "https://www.swtor.com/patchnotes/6022020/game-update-6.1.1b",
+      "listed_date": "2020-06-02",
+      "version": "6.1.1b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "4/28/2020 - Game Update 6.1.1a",
+      "publisher_url": "https://www.swtor.com/patchnotes/4282020/game-update-6.1.1a",
+      "listed_date": "2020-04-28",
+      "version": "6.1.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "4/21/2020 - Game Update 6.1.1",
+      "publisher_url": "https://www.swtor.com/patchnotes/4212020/game-update-6.1.1",
+      "listed_date": "2020-04-21",
+      "version": "6.1.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "3/24/2020 - Game Update 6.1c",
+      "publisher_url": "https://www.swtor.com/patchnotes/3242020/game-update-6.1c",
+      "listed_date": "2020-03-24",
+      "version": "6.1c",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "3/13/2020 - Game Update 6.1b",
+      "publisher_url": "https://www.swtor.com/patchnotes/3132020/game-update-6.1b",
+      "listed_date": "2020-03-13",
+      "version": "6.1b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2/20/2020 - Game Update 6.1a",
+      "publisher_url": "https://www.swtor.com/patchnotes/2202020/game-update-6.1a",
+      "listed_date": "2020-02-20",
+      "version": "6.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "02/13/2020 - Game Update 6.1",
+      "publisher_url": "https://www.swtor.com/patchnotes/02132020/game-update-6.1",
+      "listed_date": "2020-02-13",
+      "version": "6.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/17/2019 - Game Update 6.0.2a",
+      "publisher_url": "https://www.swtor.com/patchnotes/12172019/game-update-6.0.2a",
+      "listed_date": "2019-12-17",
+      "version": "6.0.2a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/12/2019 - Game Update 6.0.2",
+      "publisher_url": "https://www.swtor.com/patchnotes/12122019/game-update-6.0.2",
+      "listed_date": "2019-12-12",
+      "version": "6.0.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "Game Update 6.0.1a",
+      "publisher_url": "https://www.swtor.com/patchnotes/game-update-6.0.1a",
+      "listed_date": null,
+      "version": "6.0.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "11/14/2019 - Game Update 6.0.1",
+      "publisher_url": "https://www.swtor.com/patchnotes/11142019/game-update-6.0.1",
+      "listed_date": "2019-11-14",
+      "version": "6.0.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "10/29/2019 - Game Update 6.0a",
+      "publisher_url": "https://www.swtor.com/patchnotes/10292019/game-update-6.0a",
+      "listed_date": "2019-10-29",
+      "version": "6.0a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "10/22/2019 - Game Update 6.0: Onslaught",
+      "publisher_url": "https://www.swtor.com/patchnotes/10222019/game-update-6.0-onslaught",
+      "listed_date": "2019-10-22",
+      "version": "6.0",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "7/16/2019 - Game Update 5.10.4",
+      "publisher_url": "https://www.swtor.com/patchnotes/7162019/game-update-5.10.4",
+      "listed_date": "2019-07-16",
+      "version": "5.10.4",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "06/11/2019 - Game Update 5.10.3a",
+      "publisher_url": "https://www.swtor.com/patchnotes/06112019/game-update-5.10.3a",
+      "listed_date": "2019-06-11",
+      "version": "5.10.3a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "06/04/2019 - Game Update 5.10.3: The Dantooine Incursion",
+      "publisher_url": "https://www.swtor.com/patchnotes/06042019/game-update-5.10.3-dantooine-incursion",
+      "listed_date": "2019-06-04",
+      "version": "5.10.3",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "5/2/2019 - Game Update 5.10.2b",
+      "publisher_url": "https://www.swtor.com/patchnotes/522019/game-update-5.10.2b",
+      "listed_date": "2019-05-02",
+      "version": "5.10.2b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "4/19/2019 - Game Update 5.10.2a",
+      "publisher_url": "https://www.swtor.com/patchnotes/4192019/game-update-5.10.2a",
+      "listed_date": "2019-04-19",
+      "version": "5.10.2a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "04/11/2019 - Game Update 5.10.2: Heralds of Victory",
+      "publisher_url": "https://www.swtor.com/patchnotes/04112019/game-update-5.10.2-heralds-victory",
+      "listed_date": "2019-04-11",
+      "version": "5.10.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "03/14/2019 - Game Update 5.10.1a",
+      "publisher_url": "https://www.swtor.com/patchnotes/03142019/game-update-5.10.1a",
+      "listed_date": "2019-03-14",
+      "version": "5.10.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "02/12/2019 - Game Update 5.10.1: The Wretched Hive",
+      "publisher_url": "https://www.swtor.com/patchnotes/02122019/game-update-5.10.1-wretched-hive",
+      "listed_date": "2019-02-12",
+      "version": "5.10.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1/15/2019 - Game Update 5.10b",
+      "publisher_url": "https://www.swtor.com/patchnotes/1152019/game-update-5.10b",
+      "listed_date": "2019-01-15",
+      "version": "5.10b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/20/2018 - Game Update 5.10a",
+      "publisher_url": "https://www.swtor.com/patchnotes/12202018/game-update-5.10a",
+      "listed_date": "2018-12-20",
+      "version": "5.10a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/11/2018 - Game Update 5.10: Jedi Under Siege",
+      "publisher_url": "https://www.swtor.com/patchnotes/12112018/game-update-5.10-jedi-under-siege",
+      "listed_date": "2018-12-11",
+      "version": "5.10",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "10/23/2018 - Game Update 5.9.3a",
+      "publisher_url": "https://www.swtor.com/patchnotes/10232018/game-update-5.9.3a",
+      "listed_date": "2018-10-23",
+      "version": "5.9.3a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "10/2/2018 - Game Update 5.9.3: Fame and Fortune",
+      "publisher_url": "https://www.swtor.com/patchnotes/1022018/game-update-5.9.3-fame-and-fortune",
+      "listed_date": "2018-10-02",
+      "version": "5.9.3",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "9/13/2018 - Game Update 5.9.2b",
+      "publisher_url": "https://www.swtor.com/patchnotes/9132018/game-update-5.9.2b",
+      "listed_date": "2018-09-13",
+      "version": "5.9.2b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "Game Update 5.9.2a",
+      "publisher_url": "https://www.swtor.com/patchnotes/game-update-5.9.2a",
+      "listed_date": null,
+      "version": "5.9.2a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "8/7/2018 - Game Update 5.9.2: Galactic Legend",
+      "publisher_url": "https://www.swtor.com/patchnotes/872018/game-update-5.9.2-galactic-legend",
+      "listed_date": "2018-08-07",
+      "version": "5.9.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "06/13/2018 - Game Update 5.9.1a",
+      "publisher_url": "https://www.swtor.com/patchnotes/06132018/game-update-5.9.1a",
+      "listed_date": "2018-06-13",
+      "version": "5.9.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "05/22/2018 - Game Update 5.9.1",
+      "publisher_url": "https://www.swtor.com/patchnotes/05222018/game-update-5.9.1",
+      "listed_date": "2018-05-22",
+      "version": "5.9.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "05/10/2018 - Game Update 5.9a",
+      "publisher_url": "https://www.swtor.com/patchnotes/05102018/game-update-5.9a",
+      "listed_date": "2018-05-10",
+      "version": "5.9a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "05/03/2018 - Game Update 5.9: The Nathema Conspiracy",
+      "publisher_url": "https://www.swtor.com/patchnotes/05032018/game-update-5.9-nathema-conspiracy",
+      "listed_date": "2018-05-03",
+      "version": "5.9",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "03/27/2018 - Game Update 5.8a",
+      "publisher_url": "https://www.swtor.com/patchnotes/03272018/game-update-5.8a",
+      "listed_date": "2018-03-27",
+      "version": "5.8a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "3/20/2018 - Game Update 5.8: Command Authority",
+      "publisher_url": "https://www.swtor.com/patchnotes/3202018/game-update-5.8-command-authority",
+      "listed_date": "2018-03-20",
+      "version": "5.8",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "03/06/2018 - Game Update 5.7b",
+      "publisher_url": "https://www.swtor.com/patchnotes/03062018/game-update-5.7b",
+      "listed_date": "2018-03-06",
+      "version": "5.7b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "01/30/2018 - Game Update 5.7a",
+      "publisher_url": "https://www.swtor.com/patchnotes/01302018/game-update-5.7a",
+      "listed_date": "2018-01-30",
+      "version": "5.7a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1/23/2018 - Game Update 5.7: Legacy of the Creators",
+      "publisher_url": "https://www.swtor.com/patchnotes/1232018/game-update-5.7-legacy-creators",
+      "listed_date": "2018-01-23",
+      "version": "5.7",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/12/2017 - Game Update 5.6.1",
+      "publisher_url": "https://www.swtor.com/patchnotes/12122017/game-update-5.6.1",
+      "listed_date": "2017-12-12",
+      "version": "5.6.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "11/28/2017 - Game Update 5.6: A Traitor Among the Chiss",
+      "publisher_url": "https://www.swtor.com/patchnotes/11282017/game-update-5.6-traitor-among-chiss",
+      "listed_date": "2017-11-28",
+      "version": "5.6",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "11/15/2017 - Game Update 5.5.1a",
+      "publisher_url": "https://www.swtor.com/patchnotes/11152017/game-update-5.5.1a",
+      "listed_date": "2017-11-15",
+      "version": "5.5.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "11/8/2017 - Game Update 5.5.1: United Forces",
+      "publisher_url": "https://www.swtor.com/patchnotes/1182017/game-update-5.5.1-united-forces",
+      "listed_date": "2017-11-08",
+      "version": "5.5.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "10/31/2017 - Game Update 5.5a",
+      "publisher_url": "https://www.swtor.com/patchnotes/10312017/game-update-5.5a",
+      "listed_date": "2017-10-31",
+      "version": "5.5a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "10/10/2017 - Game Update 5.5: United Forces Preparation",
+      "publisher_url": "https://www.swtor.com/patchnotes/10102017/game-update-5.5-united-forces-preparation",
+      "listed_date": "2017-10-10",
+      "version": "5.5",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "8/31/2017 - Game Update 5.4a",
+      "publisher_url": "https://www.swtor.com/patchnotes/8312017/game-update-5.4a",
+      "listed_date": "2017-08-31",
+      "version": "5.4a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "8/22/2017 - Game Update 5.4: Crisis on Umbara",
+      "publisher_url": "https://www.swtor.com/patchnotes/8222017/game-update-5.4-crisis-umbara",
+      "listed_date": "2017-08-22",
+      "version": "5.4",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "7/13/2017 - Game Update 5.3a",
+      "publisher_url": "https://www.swtor.com/patchnotes/7132017/game-update-5.3a",
+      "listed_date": "2017-07-13",
+      "version": "5.3a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "7/11/2017 - Game Update 5.3: Sisters of Carnage",
+      "publisher_url": "https://www.swtor.com/patchnotes/7112017/game-update-5.3-sisters-carnage",
+      "listed_date": "2017-07-11",
+      "version": "5.3",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "6/13/2017 - Game Update 5.2.2: Nar Shaddaa Summer",
+      "publisher_url": "https://www.swtor.com/patchnotes/6132017/game-update-5.2.2-nar-shaddaa-summer",
+      "listed_date": "2017-06-13",
+      "version": "5.2.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "5/2/2017 - Game Update 5.2.1",
+      "publisher_url": "https://www.swtor.com/patchnotes/522017/game-update-5.2.1",
+      "listed_date": "2017-05-02",
+      "version": "5.2.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "04/18/2017 - Game Update 5.2: The War for Iokath",
+      "publisher_url": "https://www.swtor.com/patchnotes/04182017/game-update-5.2-war-iokath",
+      "listed_date": "2017-04-18",
+      "version": "5.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "03/13/2017 - Game Update 5.1.3",
+      "publisher_url": "https://www.swtor.com/patchnotes/03132017/game-update-5.1.3",
+      "listed_date": "2017-03-13",
+      "version": "5.1.3",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2/28/2017 - Game Update 5.1.2",
+      "publisher_url": "https://www.swtor.com/patchnotes/2282017/game-update-5.1.2",
+      "listed_date": "2017-02-28",
+      "version": "5.1.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2/7/2017 - Game Update 5.1.1",
+      "publisher_url": "https://www.swtor.com/patchnotes/272017/game-update-5.1.1",
+      "listed_date": "2017-02-07",
+      "version": "5.1.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1/23/17 - Game Update 5.1: Defend the Throne",
+      "publisher_url": "https://www.swtor.com/patchnotes/12317/game-update-5.1-defend-throne",
+      "listed_date": "2017-01-23",
+      "version": "5.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/16/2016 - 5.0.1a Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/12162016/5.0.1a-patch-notes",
+      "listed_date": "2016-12-16",
+      "version": "5.0.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/13/2016 - Game Update 5.0.1 Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/12132016/game-update-5.0.1-patch-notes",
+      "listed_date": "2016-12-13",
+      "version": "5.0.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/3/2016 - 5.0a Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/1232016/5.0a-patch-notes",
+      "listed_date": "2016-12-03",
+      "version": "5.0a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "11/29/2016 - Game Update 5.0: Knights of the Eternal Throne Early Access",
+      "publisher_url": "https://www.swtor.com/patchnotes/11292016/game-update-5.0-knights-eternal-throne-early-access",
+      "listed_date": "2016-11-29",
+      "version": "5.0",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "10/27/2016 - Patch 4.7.3a",
+      "publisher_url": "https://www.swtor.com/patchnotes/10272016/patch-4.7.3a",
+      "listed_date": "2016-10-27",
+      "version": "4.7.3a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "10/25/2016 - Game Update 4.7.3",
+      "publisher_url": "https://www.swtor.com/patchnotes/10252016/game-update-4.7.3",
+      "listed_date": "2016-10-25",
+      "version": "4.7.3",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "10/4/2016 - Game Update 4.7.2",
+      "publisher_url": "https://www.swtor.com/patchnotes/1042016/game-update-4.7.2",
+      "listed_date": "2016-10-04",
+      "version": "4.7.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "9/7/2016 - Game Update 4.7.1: Shroud of Memory",
+      "publisher_url": "https://www.swtor.com/patchnotes/972016/game-update-4.7.1-shroud-memory",
+      "listed_date": "2016-09-07",
+      "version": "4.7.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "8/16/2016 - 4.7a Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/8162016/4.7a-patch-notes",
+      "listed_date": "2016-08-16",
+      "version": "4.7a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "8/9/2016 - Game Update 4.7: The Battle of Odessen",
+      "publisher_url": "https://www.swtor.com/patchnotes/892016/game-update-4.7-battle-odessen",
+      "listed_date": "2016-08-09",
+      "version": "4.7",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "7/5/2016 - 4.6a Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/752016/4.6a-patch-notes",
+      "listed_date": "2016-07-05",
+      "version": "4.6a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "6/28/2016 - Game Update 4.6: The GEMINI Deception",
+      "publisher_url": "https://www.swtor.com/patchnotes/6282016/game-update-4.6-gemini-deception",
+      "listed_date": "2016-06-28",
+      "version": "4.6",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "6/1/2016 - Game Update 4.5: Mandalore’s Revenge",
+      "publisher_url": "https://www.swtor.com/patchnotes/612016/game-update-4.5-mandalore%E2%80%99s-revenge",
+      "listed_date": "2016-06-01",
+      "version": "4.5",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "5/3/2016 - Game Update 4.4: Profit and Plunder",
+      "publisher_url": "https://www.swtor.com/patchnotes/532016/game-update-4.4-profit-and-plunder",
+      "listed_date": "2016-05-03",
+      "version": "4.4",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "4/19/2016 - Server Patch",
+      "publisher_url": "https://www.swtor.com/patchnotes/4192016/server-patch",
+      "listed_date": "2016-04-19",
+      "version": null,
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "4/7/2016 - 4.3a Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/472016/4.3a-patch-notes",
+      "listed_date": "2016-04-07",
+      "version": "4.3a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "4/5/2016 - Game Update 4.3: Visions in the Dark",
+      "publisher_url": "https://www.swtor.com/patchnotes/452016/game-update-4.3-visions-dark",
+      "listed_date": "2016-04-05",
+      "version": "4.3",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "3/24/2016 - 4.2b Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/3242016/4.2b-patch-notes",
+      "listed_date": "2016-03-24",
+      "version": "4.2b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "3/10/2016 - 4.2a Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/3102016/4.2a-patch-notes",
+      "listed_date": "2016-03-10",
+      "version": "4.2a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "3/8/2016 - Game Update 4.2: Disavowed Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/382016/game-update-4.2-disavowed-patch-notes",
+      "listed_date": "2016-03-08",
+      "version": "4.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2/18/2016 - Patch Notes 4.1b",
+      "publisher_url": "https://www.swtor.com/patchnotes/2182016/patch-notes-4.1b",
+      "listed_date": "2016-02-18",
+      "version": "4.1b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2/11/2016 - Patch Notes 4.1a",
+      "publisher_url": "https://www.swtor.com/patchnotes/2112016/patch-notes-4.1a",
+      "listed_date": "2016-02-11",
+      "version": "4.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2/8/2016 - Game Update 4.1: Anarchy in Paradise Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/282016/game-update-4.1-anarchy-paradise-patch-notes",
+      "listed_date": "2016-02-08",
+      "version": "4.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1/12/2016 - Game Update 4.0.4",
+      "publisher_url": "https://www.swtor.com/patchnotes/1122016/game-update-4.0.4",
+      "listed_date": "2016-01-12",
+      "version": "4.0.4",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/10/2015 - Patch Notes 4.0.3a",
+      "publisher_url": "https://www.swtor.com/patchnotes/12102015/patch-notes-4.0.3a",
+      "listed_date": "2015-12-10",
+      "version": "4.0.3a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/7/2015 - Game Update 4.0.3",
+      "publisher_url": "https://www.swtor.com/patchnotes/1272015/game-update-4.0.3",
+      "listed_date": "2015-12-07",
+      "version": "4.0.3",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "11/25/2015 - Server Patch",
+      "publisher_url": "https://www.swtor.com/patchnotes/11252015/server-patch",
+      "listed_date": "2015-11-25",
+      "version": null,
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "11/24/2015 - Patch Notes 4.0.2a",
+      "publisher_url": "https://www.swtor.com/patchnotes/11242015/patch-notes-4.0.2a",
+      "listed_date": "2015-11-24",
+      "version": "4.0.2a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "11/17/2015 - Game Update 4.0.2 Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/11172015/game-update-4.0.2-patch-notes",
+      "listed_date": "2015-11-17",
+      "version": "4.0.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "11/4/2015 - Patch Notes 4.0.1a",
+      "publisher_url": "https://www.swtor.com/patchnotes/1142015/patch-notes-4.0.1a",
+      "listed_date": "2015-11-04",
+      "version": "4.0.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "10/27/2015 - Game Update 4.0.1",
+      "publisher_url": "https://www.swtor.com/patchnotes/10272015/game-update-4.0.1",
+      "listed_date": "2015-10-27",
+      "version": "4.0.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "10/22/2015 - Patch Notes 4.0a",
+      "publisher_url": "https://www.swtor.com/patchnotes/10222015/patch-notes-4.0a",
+      "listed_date": "2015-10-22",
+      "version": "4.0a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "10/20/2015 - Game Update 4.0: Knights of the Fallen Empire Early Access",
+      "publisher_url": "https://www.swtor.com/patchnotes/10202015/game-update-4.0-knights-fallen-empire-early-access",
+      "listed_date": "2015-10-20",
+      "version": "4.0",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "9/22/2015 - Game Update 3.3.2 Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/9222015/game-update-3.3.2-patch-notes",
+      "listed_date": "2015-09-22",
+      "version": "3.3.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "8/18/2015 - Game Update 3.3.1 Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/8182015/game-update-3.3.1-patch-notes",
+      "listed_date": "2015-08-18",
+      "version": "3.3.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "7/28/2015 - 3.3a Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/7282015/3.3a-patch-notes",
+      "listed_date": "2015-07-28",
+      "version": "3.3a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "7/22/2015 - Game Update 3.3: Grand Togruta Celebration",
+      "publisher_url": "https://www.swtor.com/patchnotes/7222015/game-update-3.3-grand-togruta-celebration",
+      "listed_date": "2015-07-22",
+      "version": "3.3",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "6/25/2015 - 3.2.2a Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/6252015/3.2.2a-patch-notes",
+      "listed_date": "2015-06-25",
+      "version": "3.2.2a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "6/23/2015 - Game Update 3.2.2 Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/6232015/game-update-3.2.2-patch-notes",
+      "listed_date": "2015-06-23",
+      "version": "3.2.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "5/26/2015 - Game Update 3.2.1 Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/5262015/game-update-3.2.1-patch-notes",
+      "listed_date": "2015-05-26",
+      "version": "3.2.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "5/14/2015 - 3.2c Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/5142015/3.2c-patch-notes",
+      "listed_date": "2015-05-14",
+      "version": "3.2c",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "5/12/2015 - 3.2b Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/5122015/3.2b-patch-notes",
+      "listed_date": "2015-05-12",
+      "version": "3.2b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "4/30/2015 - 3.2a Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/4302015/3.2a-patch-notes",
+      "listed_date": "2015-04-30",
+      "version": "3.2a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "4/28/2015 - Game Update 3.2: Rise of the Emperor",
+      "publisher_url": "https://www.swtor.com/patchnotes/4282015/game-update-3.2-rise-emperor",
+      "listed_date": "2015-04-28",
+      "version": "3.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "4/9/2015 - 3.1.2a Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/492015/3.1.2a-patch-notes",
+      "listed_date": "2015-04-09",
+      "version": "3.1.2a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "4/7/2015 - Game Update 3.1.2 Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/472015/game-update-3.1.2-patch-notes",
+      "listed_date": "2015-04-07",
+      "version": "3.1.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "3/12/2015 - Game Update 3.1.1 Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/3122015/game-update-3.1.1-patch-notes",
+      "listed_date": "2015-03-12",
+      "version": "3.1.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "3/3/2015 - 3.1a Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/332015/3.1a-patch-notes",
+      "listed_date": "2015-03-03",
+      "version": "3.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2/12/2015 - Game Update 3.1: Conflict On Rishi",
+      "publisher_url": "https://www.swtor.com/patchnotes/2122015/game-update-3.1-conflict-rishi",
+      "listed_date": "2015-02-12",
+      "version": "3.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1/27/2015 - 3.0.2b Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/1272015/3.0.2b-patch-notes",
+      "listed_date": "2015-01-27",
+      "version": "3.0.2b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1/21/2015 - 3.0.2a Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/1212015/3.0.2a-patch-notes",
+      "listed_date": "2015-01-21",
+      "version": "3.0.2a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1/13/2015 - Game Update 3.0.2 Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/1132015/game-update-3.0.2-patch-notes",
+      "listed_date": "2015-01-13",
+      "version": "3.0.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/16/2014 - Game Update 3.0.1 Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/12162014/game-update-3.0.1-patch-notes",
+      "listed_date": "2014-12-16",
+      "version": "3.0.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/10/2014 - 3.0.0b Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/12102014/3.0.0b-patch-notes",
+      "listed_date": "2014-12-10",
+      "version": "3.0.0b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/9/2014 - 3.0.0a Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/1292014/3.0.0a-patch-notes",
+      "listed_date": "2014-12-09",
+      "version": "3.0.0a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/2/2014 - Game Update 3.0: Shadow of Revan Early Access",
+      "publisher_url": "https://www.swtor.com/patchnotes/1222014/game-update-3.0-shadow-revan-early-access",
+      "listed_date": "2014-12-02",
+      "version": "3.0",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "11/18/2014 - Patch Notes 2.10.3a",
+      "publisher_url": "https://www.swtor.com/patchnotes/11182014/patch-notes-2.10.3a",
+      "listed_date": "2014-11-18",
+      "version": "2.10.3a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "11/11/2014 - Game Update 2.10.3 Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/11112014/game-update-2.10.3-patch-notes",
+      "listed_date": "2014-11-11",
+      "version": "2.10.3",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "11/4/2014 - 2.10.2a Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/1142014/2.10.2a-patch-notes",
+      "listed_date": "2014-11-04",
+      "version": "2.10.2a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "10/22/2014 - 2.10.2 Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/10222014/2.10.2-patch-notes",
+      "listed_date": "2014-10-22",
+      "version": "2.10.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "10/15/2014 - 2.10.1c Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/10152014/2.10.1c-patch-notes",
+      "listed_date": "2014-10-15",
+      "version": "2.10.1c",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "10/2/2014 - 2.10.1a Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/1022014/2.10.1a-patch-notes",
+      "listed_date": "2014-10-02",
+      "version": "2.10.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "9/30/2014 - 2.10.1 Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/9302014/2.10.1-patch-notes",
+      "listed_date": "2014-09-30",
+      "version": "2.10.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "9/9/2014 - Game Update 2.10: Forged Alliances Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/992014/game-update-2.10-forged-alliances-patch-notes",
+      "listed_date": "2014-09-09",
+      "version": "2.10",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "9/4/2014 - 2.9d Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/942014/2.9d-patch-notes",
+      "listed_date": "2014-09-04",
+      "version": "2.9d",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "8/29/2014 - 2.9c Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/8292014/2.9c-patch-notes",
+      "listed_date": "2014-08-29",
+      "version": "2.9c",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "8/26/14 - 2.9b Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/82614/2.9b-patch-notes",
+      "listed_date": "2014-08-26",
+      "version": "2.9b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "8/21/2014 - 2.9a Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/8212014/2.9a-patch-notes",
+      "listed_date": "2014-08-21",
+      "version": "2.9a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "8/19/2014 - Game Update 2.9: Galactic Strongholds Early Access",
+      "publisher_url": "https://www.swtor.com/patchnotes/8192014/game-update-2.9-galactic-strongholds-early-access",
+      "listed_date": "2014-08-19",
+      "version": "2.9",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "7/22/2014 - 2.8.2 Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/7222014/2.8.2-patch-notes",
+      "listed_date": "2014-07-22",
+      "version": "2.8.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "7/1/2014 - 2.8.1 Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/712014/2.8.1-patch-notes",
+      "listed_date": "2014-07-01",
+      "version": "2.8.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "6/18/2014 - 2.8b Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/6182014/2.8b-patch-notes",
+      "listed_date": "2014-06-18",
+      "version": "2.8b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "6/13/2014 - 2.8a Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/6132014/2.8a-patch-notes",
+      "listed_date": "2014-06-13",
+      "version": "2.8a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "6/10/2014 - Game Update 2.8: Spoils Of War",
+      "publisher_url": "https://www.swtor.com/patchnotes/6102014/game-update-2.8-spoils-war",
+      "listed_date": "2014-06-10",
+      "version": "2.8",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "5/20/2014 - 2.7.2 Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/5202014/2.7.2-patch-notes",
+      "listed_date": "2014-05-20",
+      "version": "2.7.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "4/29/2014 - 2.7.1 Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/4292014/2.7.1-patch-notes",
+      "listed_date": "2014-04-29",
+      "version": "2.7.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "4/8/2014 - Game Update 2.7: Invasion",
+      "publisher_url": "https://www.swtor.com/patchnotes/482014/game-update-2.7-invasion",
+      "listed_date": "2014-04-08",
+      "version": "2.7",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "3/18/2014 - 2.6.2 Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/3182014/2.6.2-patch-notes",
+      "listed_date": "2014-03-18",
+      "version": "2.6.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "3/10/2014 - 2.6.1a Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/3102014/2.6.1a-patch-notes",
+      "listed_date": "2014-03-10",
+      "version": "2.6.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2/25/2014 - 2.6.1 Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/2252014/2.6.1-patch-notes",
+      "listed_date": "2014-02-25",
+      "version": "2.6.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2/10/2014 - 2.6a Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/2102014/2.6a-patch-notes",
+      "listed_date": "2014-02-10",
+      "version": "2.6a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2/4/2014 - Game Update 2.6: Galactic Starfighter",
+      "publisher_url": "https://www.swtor.com/patchnotes/242014/game-update-2.6-galactic-starfighter",
+      "listed_date": "2014-02-04",
+      "version": "2.6",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1/21/2014 - 2.5.2a Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/1212014/2.5.2a-patch-notes",
+      "listed_date": "2014-01-21",
+      "version": "2.5.2a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1/14/2014 - 2.5.2 Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/1142014/2.5.2-patch-notes",
+      "listed_date": "2014-01-14",
+      "version": "2.5.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/19/2013 - 2.5.1a Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/12192013/2.5.1a-patch-notes",
+      "listed_date": "2013-12-19",
+      "version": "2.5.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/17/2013 - Game Update 2.5.1 Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/12172013/game-update-2.5.1-patch-notes",
+      "listed_date": "2013-12-17",
+      "version": "2.5.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/11/2013 - 2.5b Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/12112013/2.5b-patch-notes",
+      "listed_date": "2013-12-11",
+      "version": "2.5b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "12/10/2013 - 2.5a Patch Notes",
+      "publisher_url": "https://www.swtor.com/patchnotes/12102013/2.5a-patch-notes",
+      "listed_date": "2013-12-10",
+      "version": "2.5a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.5 - Galactic Starfighter Early Access",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.5/galactic-starfighter-early-access",
+      "listed_date": null,
+      "version": "2.5",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "Launcher Update - 11/19/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/launcher-update/11192013",
+      "listed_date": "2013-11-19",
+      "version": null,
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.4.3a - 11/19/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.4.3a/11192013",
+      "listed_date": "2013-11-19",
+      "version": "2.4.3a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.4.3 - 11/12/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.4.3/11122013",
+      "listed_date": "2013-11-12",
+      "version": "2.4.3",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "New Feature - 11/5/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/new-feature/1152013",
+      "listed_date": "2013-11-05",
+      "version": null,
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.4.2 - 10/29/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.4.2/10292013",
+      "listed_date": "2013-10-29",
+      "version": "2.4.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.4.1b - 10/22/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.4.1b/10222013",
+      "listed_date": "2013-10-22",
+      "version": "2.4.1b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.4.1a - 10/17/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.4.1a/10172013",
+      "listed_date": "2013-10-17",
+      "version": "2.4.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.4.1 - 10/15/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.4.1/10152013",
+      "listed_date": "2013-10-15",
+      "version": "2.4.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.4.0b - 10/8/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.4.0b/1082013",
+      "listed_date": "2013-10-08",
+      "version": "2.4.0b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.4.0a - 10/3/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.4.0a/1032013",
+      "listed_date": "2013-10-03",
+      "version": "2.4.0a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "Launcher Update - 10/2/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/launcher-update/1022013",
+      "listed_date": "2013-10-02",
+      "version": null,
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.4.0 - The Dread War",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.4.0/dread-war",
+      "listed_date": null,
+      "version": "2.4.0",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "Launcher Update - 9/26/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/launcher-update/9262013",
+      "listed_date": "2013-09-26",
+      "version": null,
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "Launcher Update - 9/24/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/launcher-update/9242013",
+      "listed_date": "2013-09-24",
+      "version": null,
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.3.3a - 9/20/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.3.3a/9202013",
+      "listed_date": "2013-09-20",
+      "version": "2.3.3a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.3.3 - 9/17/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.3.3/9172013",
+      "listed_date": "2013-09-17",
+      "version": "2.3.3",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.3.2b - 9/11/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.3.2b/9112013",
+      "listed_date": "2013-09-11",
+      "version": "2.3.2b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.3.2a - 9/6/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.3.2a/962013",
+      "listed_date": "2013-09-06",
+      "version": "2.3.2a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.3.2 - 9/4/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.3.2/942013",
+      "listed_date": "2013-09-04",
+      "version": "2.3.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.3.1a - 8/22/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.3.1a/8222013",
+      "listed_date": "2013-08-22",
+      "version": "2.3.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.3.1 - 8/21/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.3.1/8212013",
+      "listed_date": "2013-08-21",
+      "version": "2.3.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.3.0c - 8/16/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.3.0c/8162013",
+      "listed_date": "2013-08-16",
+      "version": "2.3.0c",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.3.0b - 8/9/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.3.0b/892013",
+      "listed_date": "2013-08-09",
+      "version": "2.3.0b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.3.0a - 8/8/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.3.0a/882013",
+      "listed_date": "2013-08-08",
+      "version": "2.3.0a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.3 - Titans of Industry",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.3/titans-industry",
+      "listed_date": null,
+      "version": "2.3",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "Launcher Update - 7/30/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/launcher-update/7302013",
+      "listed_date": "2013-07-30",
+      "version": null,
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.2.3 - 7/23/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.2.3/7232013",
+      "listed_date": "2013-07-23",
+      "version": "2.2.3",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.2.2a - 7/16/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.2.2a/7162013",
+      "listed_date": "2013-07-16",
+      "version": "2.2.2a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.2.2 - 7/10/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.2.2/7102013",
+      "listed_date": "2013-07-10",
+      "version": "2.2.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.2.1 - 6/25/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.2.1/6252013",
+      "listed_date": "2013-06-25",
+      "version": "2.2.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.2.0a - 6/18/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.2.0a/6182013",
+      "listed_date": "2013-06-18",
+      "version": "2.2.0a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.2 - Operation Nightmare",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.2/operation-nightmare",
+      "listed_date": null,
+      "version": "2.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.1.1 - 5/30/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.1.1/5302013",
+      "listed_date": "2013-05-30",
+      "version": "2.1.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.1.0b - 5/17/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.1.0b/5172013",
+      "listed_date": "2013-05-17",
+      "version": "2.1.0b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.1.0a - 5/15/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.1.0a/5152013",
+      "listed_date": "2013-05-15",
+      "version": "2.1.0a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.1.0 - Customization",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.1.0/customization",
+      "listed_date": null,
+      "version": "2.1.0",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.0.1 - 4/24/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.0.1/4242013",
+      "listed_date": "2013-04-24",
+      "version": "2.0.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.0.0b - 4/16/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.0.0b/4162013",
+      "listed_date": "2013-04-16",
+      "version": "2.0.0b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.0.0a - 4/10/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.0.0a/4102013",
+      "listed_date": "2013-04-10",
+      "version": "2.0.0a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "2.0, RotHC - Rise of the Hutt Cartel and Scum and Villainy",
+      "publisher_url": "https://www.swtor.com/patchnotes/2.0-rothc/rise-hutt-cartel-and-scum-and-villainy",
+      "listed_date": null,
+      "version": "2.0",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.7.3a - 4/2/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.7.3a/422013",
+      "listed_date": "2013-04-02",
+      "version": "1.7.3a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.7.3 - 3/26/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.7.3/3262013",
+      "listed_date": "2013-03-26",
+      "version": "1.7.3",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.7.2b - 3/22/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.7.2b/3222013",
+      "listed_date": "2013-03-22",
+      "version": "1.7.2b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.7.2a - 3/14/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.7.2a/3142013",
+      "listed_date": "2013-03-14",
+      "version": "1.7.2a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.7.2 - 3/12/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.7.2/3122013",
+      "listed_date": "2013-03-12",
+      "version": "1.7.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.7.1 - 2/27/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.7.1/2272013",
+      "listed_date": "2013-02-27",
+      "version": "1.7.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.7.0b - 2/16/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.7.0b/2162013",
+      "listed_date": "2013-02-16",
+      "version": "1.7.0b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.7.0a - 2/14/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.7.0a/2142013",
+      "listed_date": "2013-02-14",
+      "version": "1.7.0a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.7.0 - Return of the Gree",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.7.0/return-gree",
+      "listed_date": null,
+      "version": "1.7.0",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.6.3a - 1/25/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.6.3a/1252013",
+      "listed_date": "2013-01-25",
+      "version": "1.6.3a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.6.3 - 1/23/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.6.3/1232013",
+      "listed_date": "2013-01-23",
+      "version": "1.6.3",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.6.2a - 1/15/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.6.2a/1152013",
+      "listed_date": "2013-01-15",
+      "version": "1.6.2a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.6.2 - 1/8/2013",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.6.2/182013",
+      "listed_date": "2013-01-08",
+      "version": "1.6.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.6.1 - 12/18/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.6.1/12182012",
+      "listed_date": "2012-12-18",
+      "version": "1.6.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.6.0 - Ancient Hypergate",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.6.0/ancient-hypergate",
+      "listed_date": null,
+      "version": "1.6.0",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.5.2a - 12/6/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.5.2a/1262012",
+      "listed_date": "2012-12-06",
+      "version": "1.5.2a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.5.2 - 12/4/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.5.2/1242012",
+      "listed_date": "2012-12-04",
+      "version": "1.5.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.5.1a - 11/28/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.5.1a/11282012",
+      "listed_date": "2012-11-28",
+      "version": "1.5.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.5.1 - 11/27/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.5.1/11272012",
+      "listed_date": "2012-11-27",
+      "version": "1.5.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.5.0a - 11/16/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.5.0a/11162012",
+      "listed_date": "2012-11-16",
+      "version": "1.5.0a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.5.0 - HK-51 Activated",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.5.0/hk-51-activated",
+      "listed_date": null,
+      "version": "1.5.0",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.4.3 - 10/30/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.4.3/10302012",
+      "listed_date": "2012-10-30",
+      "version": "1.4.3",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.4.2 - 10/16/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.4.2/10162012",
+      "listed_date": "2012-10-16",
+      "version": "1.4.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.4.1a - 10/12/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.4.1a/10122012",
+      "listed_date": "2012-10-12",
+      "version": "1.4.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.4.1 - 10/9/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.4.1/1092012",
+      "listed_date": "2012-10-09",
+      "version": "1.4.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.4.0b - 10/2/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.4.0b/1022012",
+      "listed_date": "2012-10-02",
+      "version": "1.4.0b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.4.0a - 9/27/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.4.0a/9272012",
+      "listed_date": "2012-09-27",
+      "version": "1.4.0a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.4.0 - Terror From Beyond",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.4.0/terror-beyond",
+      "listed_date": null,
+      "version": "1.4.0",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.3.8 - 9/13/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.3.8/9132012",
+      "listed_date": "2012-09-13",
+      "version": "1.3.8",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.3.7a - 9/11/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.3.7a/9112012",
+      "listed_date": "2012-09-11",
+      "version": "1.3.7a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.3.7 - 9/5/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.3.7/952012",
+      "listed_date": "2012-09-05",
+      "version": "1.3.7",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.3.6 - 8/21/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.3.6/8212012",
+      "listed_date": "2012-08-21",
+      "version": "1.3.6",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.3.5b - 8/16/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.3.5b/8162012",
+      "listed_date": "2012-08-16",
+      "version": "1.3.5b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.3.5a - 8/9/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.3.5a/892012",
+      "listed_date": "2012-08-09",
+      "version": "1.3.5a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.3.5 - 8/7/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.3.5/872012",
+      "listed_date": "2012-08-07",
+      "version": "1.3.5",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.3.4a - 7/26/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.3.4a/7262012",
+      "listed_date": "2012-07-26",
+      "version": "1.3.4a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.3.4 - 7/24/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.3.4/7242012",
+      "listed_date": "2012-07-24",
+      "version": "1.3.4",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.3.3 - 7/17/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.3.3/7172012",
+      "listed_date": "2012-07-17",
+      "version": "1.3.3",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.3.2 - 7/10/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.3.2/7102012",
+      "listed_date": "2012-07-10",
+      "version": "1.3.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.3.1 - 7/3/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.3.1/732012",
+      "listed_date": "2012-07-03",
+      "version": "1.3.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.3.0b - 6/29/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.3.0b/6292012",
+      "listed_date": "2012-06-29",
+      "version": "1.3.0b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.3.0a - 6/28/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.3.0a/6282012",
+      "listed_date": "2012-06-28",
+      "version": "1.3.0a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.3.0 - Allies",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.3.0/allies",
+      "listed_date": null,
+      "version": "1.3.0",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.2.7b - 6/19/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.2.7b/6192012",
+      "listed_date": "2012-06-19",
+      "version": "1.2.7b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.2.7a - 6/13/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.2.7a/6132012",
+      "listed_date": "2012-06-13",
+      "version": "1.2.7a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.2.7 - 6/12/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.2.7/6122012",
+      "listed_date": "2012-06-12",
+      "version": "1.2.7",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.2.6a - 6/7/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.2.6a/672012",
+      "listed_date": "2012-06-07",
+      "version": "1.2.6a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.2.6 - 6/5/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.2.6/652012",
+      "listed_date": "2012-06-05",
+      "version": "1.2.6",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.2.5 - Addendum",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.2.5/addendum",
+      "listed_date": null,
+      "version": "1.2.5",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.2.5 - 5/30/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.2.5/5302012",
+      "listed_date": "2012-05-30",
+      "version": "1.2.5",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.2.4 - 5/15/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.2.4/5152012",
+      "listed_date": "2012-05-15",
+      "version": "1.2.4",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.2.3a - 5/10/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.2.3a/5102012",
+      "listed_date": "2012-05-10",
+      "version": "1.2.3a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.2.3 - 5/8/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.2.3/582012",
+      "listed_date": "2012-05-08",
+      "version": "1.2.3",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.2.2 - 5/1/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.2.2/512012",
+      "listed_date": "2012-05-01",
+      "version": "1.2.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.2.1a - 4/27/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.2.1a/4272012",
+      "listed_date": "2012-04-27",
+      "version": "1.2.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.2.1 - 4/24/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.2.1/4242012",
+      "listed_date": "2012-04-24",
+      "version": "1.2.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.2.0c - 4/19/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.2.0c/4192012",
+      "listed_date": "2012-04-19",
+      "version": "1.2.0c",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.2.0b - 4/17/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.2.0b/4172012",
+      "listed_date": "2012-04-17",
+      "version": "1.2.0b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.2.0a - 4/13/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.2.0a/4132012",
+      "listed_date": "2012-04-13",
+      "version": "1.2.0a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.2.0 - Legacy",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.2.0/legacy",
+      "listed_date": null,
+      "version": "1.2.0",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.1.5e - 4/3/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.1.5e/432012",
+      "listed_date": "2012-04-03",
+      "version": "1.1.5e",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.1.5d - 3/23/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.1.5d/3232012",
+      "listed_date": "2012-03-23",
+      "version": "1.1.5d",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.1.5c - 3/20/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.1.5c/3202012",
+      "listed_date": "2012-03-20",
+      "version": "1.1.5c",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.1.5b - 3/15/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.1.5b/3152012",
+      "listed_date": "2012-03-15",
+      "version": "1.1.5b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.1.5a - 3/13/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.1.5a/3132012",
+      "listed_date": "2012-03-13",
+      "version": "1.1.5a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.1.5 - 3/6/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.1.5/362012",
+      "listed_date": "2012-03-06",
+      "version": "1.1.5",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.1.4 - 2/22/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.1.4/2222012",
+      "listed_date": "2012-02-22",
+      "version": "1.1.4",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.1.3a - 2/14/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.1.3a/2142012",
+      "listed_date": "2012-02-14",
+      "version": "1.1.3a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.1.3 - 2/14/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.1.3/2142012",
+      "listed_date": "2012-02-14",
+      "version": "1.1.3",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.1.2a - 2/9/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.1.2a/292012",
+      "listed_date": "2012-02-09",
+      "version": "1.1.2a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.1.2 - 2/7/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.1.2/272012",
+      "listed_date": "2012-02-07",
+      "version": "1.1.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.1.1a - 2/2/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.1.1a/222012",
+      "listed_date": "2012-02-02",
+      "version": "1.1.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.1.1 - 1/31/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.1.1/1312012",
+      "listed_date": "2012-01-31",
+      "version": "1.1.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.1.0c - 1/28/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.1.0c/1282012",
+      "listed_date": "2012-01-28",
+      "version": "1.1.0c",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.1.0b - 1/24/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.1.0b/1242012",
+      "listed_date": "2012-01-24",
+      "version": "1.1.0b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.1.0a - 1/19/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.1.0a/1192012",
+      "listed_date": "2012-01-19",
+      "version": "1.1.0a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.1.0 - Rise of the Rakghouls",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.1.0/rise-rakghouls",
+      "listed_date": null,
+      "version": "1.1.0",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.0.2d - 1/12/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.0.2d/1122012",
+      "listed_date": "2012-01-12",
+      "version": "1.0.2d",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.0.2c - 1/6/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.0.2c/162012",
+      "listed_date": "2012-01-06",
+      "version": "1.0.2c",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.0.2b - 1/5/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.0.2b/152012",
+      "listed_date": "2012-01-05",
+      "version": "1.0.2b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.0.2a - 1/4/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.0.2a/142012",
+      "listed_date": "2012-01-04",
+      "version": "1.0.2a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.0.2 - 1/4/2012",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.0.2/142012",
+      "listed_date": "2012-01-04",
+      "version": "1.0.2",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.0.1a - 12/29/2011",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.0.1a/12292011",
+      "listed_date": "2011-12-29",
+      "version": "1.0.1a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.0.1 - 12/27/2011",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.0.1/12272011",
+      "listed_date": "2011-12-27",
+      "version": "1.0.1",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "Known Issues",
+      "publisher_url": "https://www.swtor.com/patchnotes/known-issues",
+      "listed_date": null,
+      "version": null,
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.0.0f - 12/22/2011",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.0.0f/12222011",
+      "listed_date": "2011-12-22",
+      "version": "1.0.0f",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.0.0e - 12/22/2011",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.0.0e/12222011",
+      "listed_date": "2011-12-22",
+      "version": "1.0.0e",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.0.0d - 12/20/2011",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.0.0d/12202011",
+      "listed_date": "2011-12-20",
+      "version": "1.0.0d",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.0.0c - 12/19/2011",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.0.0c/12192011",
+      "listed_date": "2011-12-19",
+      "version": "1.0.0c",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.0.0b - 12/17/2011",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.0.0b/12172011",
+      "listed_date": "2011-12-17",
+      "version": "1.0.0b",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.0.0a - 12/16/2011",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.0.0a/12162011",
+      "listed_date": "2011-12-16",
+      "version": "1.0.0a",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    },
+    {
+      "publisher_label": "1.0.0 - Welcome",
+      "publisher_url": "https://www.swtor.com/patchnotes/1.0.0/welcome",
+      "listed_date": null,
+      "version": "1.0.0",
+      "status": "publisher_index_discovery",
+      "primary_content_acquired": false,
+      "redistribution_rights": "not_established",
+      "embedded": false
+    }
+  ]
+}

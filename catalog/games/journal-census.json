@@ -1,0 +1,98 @@
+{
+  "scope": "Every indexed JRL resource and observed loose .jrl file under inventoried asset directories and the installation root. Physical metadata, source occurrences and duplicate fields are retained. String and localized prose have fingerprints.",
+  "limitations": "Exact case-sensitive quest-tag fingerprint and entry-ID joins are candidate references. Module and override precedence, script-generated updates, state-dependent behavior, narrative prose, other builds and languages remain unresolved.",
+  "input_sha256": {
+    "catalog/games/resources.parquet": "ea17c9675c5ebf5f7735e58631406ecbfeb3220aab0fe3ea79caba8a428f315b",
+    "catalog/games/resource-census.json": "d0052633ff3663400d9523ac9004424ff7127f0ebefef928d866457bf38c390f",
+    "catalog/games/dialogues.parquet": "59b601fba5191d09ddd16418e20329af57e651ebf86cd8279194bee502df14b5",
+    "catalog/games/dialogue-nodes.parquet": "c951d9aef93816c424a97518034c0c86a26ebf02ec95414ed36031b81d1cec9e"
+  },
+  "producer_sha256": "a725fcc92d89e749b6f5f72b5245035e3f0fc347c93bd528c17ed6e2414efb55",
+  "metadata_reader_sha256": "913ad280f7781042c1fe0683e47be14c05ae4650d56caca0f86bba5ed8b08d14",
+  "reader_module_sha256": {
+    "pykotor.common": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pykotor.common.geometry": "1599e7eb5a8c69fef4252fc5220a7589482a783c04903c74d38ae9c1d4fa6e3f",
+    "pykotor.common.language": "ab50fe01a2f2f876790d2458b441a24cf3987dfea128cb466778a7b40cb5fc81",
+    "pykotor.common.misc": "0a80526e47a9eb676b7527ec96f60a7b5aa40d8fcce05c719426e3195b267d55",
+    "pykotor.common.stream": "55a92170d341254858d6475b28650eb58035d9c92562147d6374bad7769449b9",
+    "pykotor.extract": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pykotor.extract.capsule": "ea00c1db2544a4cd4e2df3bff017a05e869cb6038896b1d76634a32f7e24e329",
+    "pykotor.extract.chitin": "98a2e60825a947dd516e34741f0fb4d29c0512d5987079492589293527133b5f",
+    "pykotor.extract.file": "b713c4b1f99654b657982443ad11c36f69d3fce62783e4b4b25257069f5dfb1f",
+    "pykotor.resource.formats.erf": "2ade94c0d297fb2d6d9d055521dd70ab700e8e44689c06abc96f8f7b1a51a4cd",
+    "pykotor.resource.formats.erf.erf_auto": "c33ef97cd954b7155dc99a95f58e36a2e2cda14e419f3e4337470100a4605ef7",
+    "pykotor.resource.formats.erf.erf_data": "9dbe93088adf9ac116441d2ca0814a7e9bf9d8d76aff14f6314e32bc82f19d05",
+    "pykotor.resource.formats.erf.io_erf": "b74d7073d6ce5defce0b9228c2bd7b49a09a0731c67cc79485b52ac50281bf77",
+    "pykotor.resource.formats.gff": "03f7e003b2818a49aea27095003313812ecd7468ec26ffffcf3469d123d6be4e",
+    "pykotor.resource.formats.gff.gff_auto": "b3d5a94124626c6244810c3172ab2e2f0e39d0b81801b04f366095243baa787e",
+    "pykotor.resource.formats.gff.gff_data": "32cd44c53c31eae00c76aa2cca27cca032f2abbae7c470b766686413bd8e2b6f",
+    "pykotor.resource.formats.gff.io_gff": "6455cb512ff1c2f187c96bcb728b54d09cefc7c39d44b808e0b1b37fd7e7fde2",
+    "pykotor.resource.formats.gff.io_gff_xml": "cd7ee3c70cf71781048a9b2e8464d046900240677f5f89bbb92cf3d92d5e6e0c",
+    "pykotor.resource.formats.rim": "852f9deb0928e57536a2ffdc3affbaeb5be358ade8b3e373537ca46e01f59e2f",
+    "pykotor.resource.formats.rim.io_rim": "09906ad310ea81dc43c30e4fcbba052e31b2c84e44452178c4c898be6a02d2a3",
+    "pykotor.resource.formats.rim.rim_auto": "740963cebdaf7e5fb6a3076517f3f6eb8f62f9b2e2b6f2ec665b32b3e127ca96",
+    "pykotor.resource.formats.rim.rim_data": "31ff92ef86cc7200b7e98f75441d4f4c8d53302ab1c5a3a9e64c6334072e3084",
+    "pykotor.resource.type": "87cd6300924d0a4a66e2b81690b1fc4711f5da3aa14d2a59be54bdf143d4e1ea",
+    "pykotor.tools": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pykotor.tools.encoding": "60c8d94d70257b0b2922259e2ce4edd7ddd1a948e29b5762bad65063e03281dc",
+    "pykotor.tools.misc": "24633f5b9718fa685e19046ef9380fa1d780eda84b7a0a1a3f553da8955bce0e",
+    "pykotor.tools.path": "a869d6f4719a834165323193301ec042fc9647cf5ba2195bc96bb6847990040f",
+    "utility.error_handling": "ff2e05b9e1dd5c4561703aebf2fb3e3b9a7e3429d79d065a34ef53d5a8c4145d",
+    "utility.logger_util": "570357eae762bf7f36cf69cb06edc4fdbefb2fab33c44ea5c268ef426633943e",
+    "utility.misc": "9fde13d939d59ad1584c449e57158624178ca5b26448de97cdcbc2fa3fb3878d",
+    "utility.string_util": "0babadf7783da0d7c52312f29e51dcb7c403086ff46e5e5f6abb4a4a5d00c4e2",
+    "utility.system": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utility.system.path": "db4422f983bfbeb4edbb56cd414a6244757afe0931804a6ae4f4e5807a4b7254"
+  },
+  "independent_validation": "All physical GFF struct/field signatures, category and entry-list counts and ordered UInt32 entry IDs cross-checked directly against binary tables.",
+  "source_containers_stable": true,
+  "loose_resources": [
+    {
+      "game": "k2",
+      "inventory_id": "a4b22510875bd82143633a3e1e685f14ba85934cba5597f3fb0bc3827041a603",
+      "storage": "loose",
+      "container": "override/global.jrl",
+      "source_entry": 0,
+      "resref": "global",
+      "resource_type": "jrl",
+      "resource_type_id": 2056,
+      "offset": 0,
+      "size": 91453,
+      "resource_sha256": "204befbecc6d1f06aed74ca36e9f088d1ff7c87821cd1d76717c28975cc76830"
+    }
+  ],
+  "games": {
+    "k1": {
+      "packed_resources": 4,
+      "loose_resources": 0,
+      "categories": 103,
+      "entries": 649
+    },
+    "k2": {
+      "packed_resources": 1,
+      "loose_resources": 1,
+      "categories": 237,
+      "entries": 1498
+    }
+  },
+  "dialogue_references": {
+    "nodes_inspected": 164585,
+    "empty_quest_fields": 162269,
+    "nonempty_quest_fields": 2316,
+    "with_exact_category_matches": 2316,
+    "with_exact_entry_matches": 2316
+  },
+  "outputs": {
+    "journals": {
+      "file": "journals.parquet",
+      "rows": 6,
+      "sha256": "444bdbc7d99149fe8be3ec2f1c18243111b62400b818ed8792d42365bbb14ec5"
+    },
+    "journal-dialogue-references": {
+      "file": "journal-dialogue-references.parquet",
+      "rows": 2316,
+      "sha256": "12e18c58a0c4d592954f02ec46738c503995b173e5c6b083158d94a16521c15f"
+    }
+  },
+  "embedded": false
+}

@@ -1,0 +1,477 @@
+{
+  "description": "Partial arc-to-issue metadata, transcribed from a pinned Wikipedia article; not the original comics and not an exhaustive franchise story census.",
+  "source": {
+    "id": "wikipedia-series-snapshot",
+    "url": "https://en.wikipedia.org/wiki/Star_Wars:_Knights_of_the_Old_Republic_(comics)",
+    "revision": 1328300519,
+    "timestamp": "2025-12-19T01:41:13Z",
+    "text_sha256": "1769471de259f4961fbce09383a2b56b36bb5a6f92133a82e2fa21113e058f34",
+    "license": "CC BY-SA 4.0",
+    "attribution": "Wikipedia contributors; see article history"
+  },
+  "arcs": [
+    {
+      "id": "kotor-arc-commencement",
+      "title": "Commencement",
+      "issue_ids": [
+        "kotor-2006-001",
+        "kotor-2006-002",
+        "kotor-2006-003",
+        "kotor-2006-004",
+        "kotor-2006-005",
+        "kotor-2006-006"
+      ],
+      "source_id": "wikipedia-series-snapshot",
+      "primary_story_content_acquired": false,
+      "secondary_arc_source": {
+        "dataset": "data/wookieepedia-publication-summaries.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic:_Commencement",
+        "text_sha256": "9f40a8ca34aaeecd6be896b6dc6ad5b43fad0d18dd6a580d4d2ec435cdae1f84",
+        "revision_id": null,
+        "scope": "arc-level secondary material; not individual issue coverage"
+      },
+      "series_plot_section": {
+        "dataset": "data/wookieepedia-kotor-series-arc-sections.jsonl",
+        "section": "Commencement",
+        "revision_id": "15829847",
+        "text_sha256": "9824a98a58900b162dae1eea88dbd2cad394b2cc3b86bc6a73ae3fcea4576bcc",
+        "scope": "secondary arc-level narrative, not proof of complete issue-level content"
+      }
+    },
+    {
+      "id": "kotor-arc-flashpoint",
+      "title": "Flashpoint",
+      "issue_ids": [
+        "kotor-2006-007",
+        "kotor-2006-008",
+        "kotor-2006-010"
+      ],
+      "source_id": "wikipedia-series-snapshot",
+      "primary_story_content_acquired": false,
+      "secondary_arc_source": {
+        "dataset": "data/wookieepedia-publication-summaries.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic:_Flashpoint",
+        "text_sha256": "ce7ae84bd40a446105d9e8cac95611f44678ca1571f77d54f4f99371b51219c4",
+        "revision_id": null,
+        "scope": "arc-level secondary material; not individual issue coverage"
+      },
+      "series_plot_section": {
+        "dataset": "data/wookieepedia-kotor-series-arc-sections.jsonl",
+        "section": "Flashpoint",
+        "revision_id": "15829847",
+        "text_sha256": "a75a6e6fed9dd6225fae436698b5696bba71a1b938e463e5fc9b0133d157d4fa",
+        "scope": "secondary arc-level narrative, not proof of complete issue-level content"
+      }
+    },
+    {
+      "id": "kotor-arc-flashpoint-interlude-homecoming",
+      "title": "Flashpoint Interlude: Homecoming",
+      "issue_ids": [
+        "kotor-2006-009"
+      ],
+      "source_id": "wikipedia-series-snapshot",
+      "primary_story_content_acquired": false
+    },
+    {
+      "id": "kotor-arc-reunion",
+      "title": "Reunion",
+      "issue_ids": [
+        "kotor-2006-011",
+        "kotor-2006-012"
+      ],
+      "source_id": "wikipedia-series-snapshot",
+      "primary_story_content_acquired": false,
+      "secondary_arc_source": {
+        "dataset": "data/wookieepedia-publication-summaries.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic:_Reunion",
+        "text_sha256": "2c27737165742bd04b32558612f536a9412b842864bf7e7cf95d5344923eab40",
+        "revision_id": null,
+        "scope": "arc-level secondary material; not individual issue coverage"
+      },
+      "series_plot_section": {
+        "dataset": "data/wookieepedia-kotor-series-arc-sections.jsonl",
+        "section": "Reunion",
+        "revision_id": "15829847",
+        "text_sha256": "62fffc33e080824701e4498afd94be0b60931de695145c03891111d631a0f14b",
+        "scope": "secondary arc-level narrative, not proof of complete issue-level content"
+      }
+    },
+    {
+      "id": "kotor-arc-days-of-fear",
+      "title": "Days of Fear",
+      "issue_ids": [
+        "kotor-2006-013",
+        "kotor-2006-014",
+        "kotor-2006-015"
+      ],
+      "source_id": "wikipedia-series-snapshot",
+      "primary_story_content_acquired": false,
+      "secondary_arc_source": {
+        "dataset": "data/wookieepedia-publication-summaries.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic:_Days_of_Fear",
+        "text_sha256": "490f8bbb31c50c95a8c2bed1423970e5b27160231873bccfa829a3686f3cf661",
+        "revision_id": null,
+        "scope": "arc-level secondary material; not individual issue coverage"
+      },
+      "series_plot_section": {
+        "dataset": "data/wookieepedia-kotor-series-arc-sections.jsonl",
+        "section": "Days of Fear",
+        "revision_id": "15829847",
+        "text_sha256": "129a941316b1882a78895fd6aabac98c15dd0ca641349ae381a22d5c03ab1e3d",
+        "scope": "secondary arc-level narrative, not proof of complete issue-level content"
+      }
+    },
+    {
+      "id": "kotor-arc-nights-of-anger",
+      "title": "Nights of Anger",
+      "issue_ids": [
+        "kotor-2006-016",
+        "kotor-2006-017",
+        "kotor-2006-018"
+      ],
+      "source_id": "wikipedia-series-snapshot",
+      "primary_story_content_acquired": false,
+      "secondary_arc_source": {
+        "dataset": "data/wookieepedia-publication-summaries.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic:_Nights_of_Anger",
+        "text_sha256": "f78d9df3b154b34e6673dbe43b8cde6b1e56e5c4def1922910b155d0fb8c312e",
+        "revision_id": null,
+        "scope": "arc-level secondary material; not individual issue coverage"
+      },
+      "series_plot_section": {
+        "dataset": "data/wookieepedia-kotor-series-arc-sections.jsonl",
+        "section": "Nights of Anger",
+        "revision_id": "15829847",
+        "text_sha256": "d3ad04b578dd67a91b7f96df45ebb087400588c1e4e135e0bec91fe962f2b750",
+        "scope": "secondary arc-level narrative, not proof of complete issue-level content"
+      }
+    },
+    {
+      "id": "kotor-arc-daze-of-hate",
+      "title": "Daze of Hate",
+      "issue_ids": [
+        "kotor-2006-019",
+        "kotor-2006-020",
+        "kotor-2006-021"
+      ],
+      "source_id": "wikipedia-series-snapshot",
+      "primary_story_content_acquired": false,
+      "secondary_arc_source": {
+        "dataset": "data/wookieepedia-reviewed-story-plots.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic:_Daze_of_Hate",
+        "text_sha256": "c73086d2785cdb86a424ef43584478442bfb119f0b31c069b26885d70c66ad75",
+        "revision_id": "14744353",
+        "scope": "arc-level secondary material; not individual issue coverage"
+      },
+      "series_plot_section": {
+        "dataset": "data/wookieepedia-kotor-series-arc-sections.jsonl",
+        "section": "Daze of Hate",
+        "revision_id": "15829847",
+        "text_sha256": "05690b586cc32eabd2e60bb30690aaff1ef489e5ac04786769511c7a665422a0",
+        "scope": "secondary arc-level narrative, not proof of complete issue-level content"
+      }
+    },
+    {
+      "id": "kotor-arc-knights-of-suffering",
+      "title": "Knights of Suffering",
+      "issue_ids": [
+        "kotor-2006-022",
+        "kotor-2006-023",
+        "kotor-2006-024"
+      ],
+      "source_id": "wikipedia-series-snapshot",
+      "primary_story_content_acquired": false,
+      "secondary_arc_source": {
+        "dataset": "data/wookieepedia-reviewed-kotor-arc.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic:_Knights_of_Suffering",
+        "text_sha256": "796f8b5ab59b17b780ee2c3c0de2c9fa71ae7c4feed1f10d25d4b01a53d7758b",
+        "revision_id": "14744361",
+        "scope": "arc-level secondary material; not individual issue coverage"
+      },
+      "series_plot_section": {
+        "dataset": "data/wookieepedia-kotor-series-arc-sections.jsonl",
+        "section": "Knights of Suffering",
+        "revision_id": "15829847",
+        "text_sha256": "070594d3f747b7652cbd005815cce4c258ae2a3bdd3a62842d20cbd52dce970f",
+        "scope": "secondary arc-level narrative, not proof of complete issue-level content"
+      }
+    },
+    {
+      "id": "kotor-arc-vector",
+      "title": "Vector",
+      "issue_ids": [
+        "kotor-2006-025",
+        "kotor-2006-026",
+        "kotor-2006-027",
+        "kotor-2006-028"
+      ],
+      "source_id": "wikipedia-series-snapshot",
+      "primary_story_content_acquired": false,
+      "secondary_arc_source": {
+        "dataset": "data/wookieepedia-publication-summaries.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic:_Vector",
+        "text_sha256": "1d98d77abed3f9a15ca3a25055df2a64495395b121808a514af1d462567bcd5a",
+        "revision_id": null,
+        "scope": "arc-level secondary material; not individual issue coverage"
+      },
+      "series_plot_section": {
+        "dataset": "data/wookieepedia-kotor-series-arc-sections.jsonl",
+        "section": "Vector",
+        "revision_id": "15829847",
+        "text_sha256": "deea25a1706c0ce5a2bcc1309844be01f6d0d0e394a08275acad5b43ce2ea87e",
+        "scope": "secondary arc-level narrative, not proof of complete issue-level content"
+      }
+    },
+    {
+      "id": "kotor-arc-exalted",
+      "title": "Exalted",
+      "issue_ids": [
+        "kotor-2006-029",
+        "kotor-2006-030"
+      ],
+      "source_id": "wikipedia-series-snapshot",
+      "primary_story_content_acquired": false,
+      "secondary_arc_source": {
+        "dataset": "data/wookieepedia-publication-summaries.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic:_Exalted",
+        "text_sha256": "a6830ada2682febf2c575b82278d1eebdb8f5f70f9f0ce8ad379b9cade5a5bef",
+        "revision_id": null,
+        "scope": "arc-level secondary material; not individual issue coverage"
+      },
+      "series_plot_section": {
+        "dataset": "data/wookieepedia-kotor-series-arc-sections.jsonl",
+        "section": "Exalted",
+        "revision_id": "15829847",
+        "text_sha256": "004bb82e27cf0c01f938431ec508cce95312d3057951a89958a19c480ce534b2",
+        "scope": "secondary arc-level narrative, not proof of complete issue-level content"
+      }
+    },
+    {
+      "id": "kotor-arc-turnabout",
+      "title": "Turnabout",
+      "issue_ids": [
+        "kotor-2006-031"
+      ],
+      "source_id": "wikipedia-series-snapshot",
+      "primary_story_content_acquired": false,
+      "series_plot_section": {
+        "dataset": "data/wookieepedia-kotor-series-arc-sections.jsonl",
+        "section": "Turnabout",
+        "revision_id": "15829847",
+        "text_sha256": "c1b74234a06e9d2a2a55c8870427faa71f6540f82f22248536bee34ace277f2e",
+        "scope": "secondary arc-level narrative, not proof of complete issue-level content"
+      }
+    },
+    {
+      "id": "kotor-arc-vindication",
+      "title": "Vindication",
+      "issue_ids": [
+        "kotor-2006-032",
+        "kotor-2006-033",
+        "kotor-2006-034",
+        "kotor-2006-035"
+      ],
+      "source_id": "wikipedia-series-snapshot",
+      "primary_story_content_acquired": false,
+      "secondary_arc_source": {
+        "dataset": "data/wookieepedia-publication-summaries.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic:_Vindication",
+        "text_sha256": "b1f9d4758d0749422f951ee97295b78719996f1ffaaba16a495724a0369ce278",
+        "revision_id": null,
+        "scope": "arc-level secondary material; not individual issue coverage"
+      },
+      "series_plot_section": {
+        "dataset": "data/wookieepedia-kotor-series-arc-sections.jsonl",
+        "section": "Vindication",
+        "revision_id": "15829847",
+        "text_sha256": "aef6a757ed8c2663636319e7f3bdcc4f24d25812adba344abb1223cb2ee980c2",
+        "scope": "secondary arc-level narrative, not proof of complete issue-level content"
+      }
+    },
+    {
+      "id": "kotor-arc-prophet-motive",
+      "title": "Prophet Motive",
+      "issue_ids": [
+        "kotor-2006-036",
+        "kotor-2006-037"
+      ],
+      "source_id": "wikipedia-series-snapshot",
+      "primary_story_content_acquired": false,
+      "secondary_arc_source": {
+        "dataset": "data/wookieepedia-publication-summaries.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic:_Prophet_Motive",
+        "text_sha256": "1b4115412123be66e8ab04ec44330987967deaeb3badc417cd47ba9f5070ee89",
+        "revision_id": null,
+        "scope": "arc-level secondary material; not individual issue coverage"
+      },
+      "series_plot_section": {
+        "dataset": "data/wookieepedia-kotor-series-arc-sections.jsonl",
+        "section": "Prophet Motive",
+        "revision_id": "15829847",
+        "text_sha256": "5fd1417728ec25c6f8ad8b5403e7b872e1e107e8fbb30704c5242d8e276d032b",
+        "scope": "secondary arc-level narrative, not proof of complete issue-level content"
+      }
+    },
+    {
+      "id": "kotor-arc-faithful-execution",
+      "title": "Faithful Execution",
+      "issue_ids": [
+        "kotor-2006-038"
+      ],
+      "source_id": "wikipedia-series-snapshot",
+      "primary_story_content_acquired": false,
+      "series_plot_section": {
+        "dataset": "data/wookieepedia-kotor-series-arc-sections.jsonl",
+        "section": "Faithful Execution",
+        "revision_id": "15829847",
+        "text_sha256": "1f4af35ae19e09fba96135a52b26b30d6ba32bfe0c9e4318b443307c6fcb8c82",
+        "scope": "secondary arc-level narrative, not proof of complete issue-level content"
+      }
+    },
+    {
+      "id": "kotor-arc-dueling-ambitions",
+      "title": "Dueling Ambitions",
+      "issue_ids": [
+        "kotor-2006-039",
+        "kotor-2006-040",
+        "kotor-2006-041"
+      ],
+      "source_id": "wikipedia-series-snapshot",
+      "primary_story_content_acquired": false,
+      "secondary_arc_source": {
+        "dataset": "data/wookieepedia-publication-summaries.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic:_Dueling_Ambitions",
+        "text_sha256": "b456435c67680fc733344e44fcf3e7055501e26d7c4301450442eb43d1dbbdf1",
+        "revision_id": null,
+        "scope": "arc-level secondary material; not individual issue coverage"
+      },
+      "series_plot_section": {
+        "dataset": "data/wookieepedia-kotor-series-arc-sections.jsonl",
+        "section": "Dueling Ambitions",
+        "revision_id": "15829847",
+        "text_sha256": "83fb5fe1ece881d937b6e6da265619f416bdf38c897dd5e50b1a291bcf0e38c1",
+        "scope": "secondary arc-level narrative, not proof of complete issue-level content"
+      }
+    },
+    {
+      "id": "kotor-arc-masks",
+      "title": "Masks",
+      "issue_ids": [
+        "kotor-2006-042"
+      ],
+      "source_id": "wikipedia-series-snapshot",
+      "primary_story_content_acquired": false,
+      "series_plot_section": {
+        "dataset": "data/wookieepedia-kotor-series-arc-sections.jsonl",
+        "section": "Masks",
+        "revision_id": "15829847",
+        "text_sha256": "456314ebc4092250b064fbb1933e2b6ab72d4ab21ea4c30de5c48a865199b960",
+        "scope": "secondary arc-level narrative, not proof of complete issue-level content"
+      }
+    },
+    {
+      "id": "kotor-arc-the-reaping",
+      "title": "The Reaping",
+      "issue_ids": [
+        "kotor-2006-043",
+        "kotor-2006-044"
+      ],
+      "source_id": "wikipedia-series-snapshot",
+      "primary_story_content_acquired": false,
+      "secondary_arc_source": {
+        "dataset": "data/wookieepedia-publication-summaries.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic:_The_Reaping",
+        "text_sha256": "7df08a8421b4e388d93a6ee54e9bc72c3e6739fd58cc0b5ad4284b5c8f933f51",
+        "revision_id": null,
+        "scope": "arc-level secondary material; not individual issue coverage"
+      },
+      "series_plot_section": {
+        "dataset": "data/wookieepedia-kotor-series-arc-sections.jsonl",
+        "section": "The Reaping",
+        "revision_id": "15829847",
+        "text_sha256": "6d4bbdaf74daae6227c89f44aa201c6b4c8a3f89149b4b90d41795d643e7f516",
+        "scope": "secondary arc-level narrative, not proof of complete issue-level content"
+      }
+    },
+    {
+      "id": "kotor-arc-destroyer",
+      "title": "Destroyer",
+      "issue_ids": [
+        "kotor-2006-045",
+        "kotor-2006-046"
+      ],
+      "source_id": "wikipedia-series-snapshot",
+      "primary_story_content_acquired": false,
+      "secondary_arc_source": {
+        "dataset": "data/wookieepedia-publication-summaries.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic:_Destroyer",
+        "text_sha256": "4ef9840524a9f8f701df4496a2bbb25b4a25538980e0e58c829c45dfe6fae6f0",
+        "revision_id": null,
+        "scope": "arc-level secondary material; not individual issue coverage"
+      },
+      "series_plot_section": {
+        "dataset": "data/wookieepedia-kotor-series-arc-sections.jsonl",
+        "section": "Destroyer",
+        "revision_id": "15829847",
+        "text_sha256": "a487a893f1f79536334a0727a5e580bf193ad1d4e954133ad3794314656f819a",
+        "scope": "secondary arc-level narrative, not proof of complete issue-level content"
+      }
+    },
+    {
+      "id": "kotor-arc-demon",
+      "title": "Demon",
+      "issue_ids": [
+        "kotor-2006-047",
+        "kotor-2006-048",
+        "kotor-2006-049",
+        "kotor-2006-050"
+      ],
+      "source_id": "wikipedia-series-snapshot",
+      "primary_story_content_acquired": false,
+      "secondary_arc_source": {
+        "dataset": "data/wookieepedia-publication-summaries.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic:_Demon",
+        "text_sha256": "9bee50ca83dc7322dfee0c96f753bf45dca4e6bedf4b461868c73b93eff021da",
+        "revision_id": null,
+        "scope": "arc-level secondary material; not individual issue coverage"
+      },
+      "series_plot_section": {
+        "dataset": "data/wookieepedia-kotor-series-arc-sections.jsonl",
+        "section": "Demon",
+        "revision_id": "15829847",
+        "text_sha256": "8401083cb9031ac4bc2c905c9feacd24e07843d24f25d40d68886a5544c07ac8",
+        "scope": "secondary arc-level narrative, not proof of complete issue-level content"
+      }
+    },
+    {
+      "id": "kotor-arc-war",
+      "title": "War",
+      "issue_ids": [
+        "kotor-war-001",
+        "kotor-war-002",
+        "kotor-war-003",
+        "kotor-war-004",
+        "kotor-war-005"
+      ],
+      "source_id": "wikipedia-series-snapshot",
+      "primary_story_content_acquired": false,
+      "secondary_arc_context": {
+        "inventory": "catalog/works/kotor-war-secondary-context.json",
+        "scope": "Existing character biography section; not a complete issue-specific account, and unmarked excerpt rights are unverified."
+      }
+    },
+    {
+      "id": "kotor-crossroads",
+      "title": "Crossroads",
+      "issue_ids": [],
+      "source_id": "wikipedia-series-snapshot",
+      "primary_story_content_acquired": false,
+      "note": "Flipbook issue numbering differs across sources; do not merge until edition reconciled."
+    }
+  ],
+  "limitations": [
+    "Wikipedia story-arc mapping has not been individually checked against each original issue or edition.",
+    "Crossovers can include issues in other comic series; those are not enumerated here.",
+    "Crossroads flipbook numbering remains unresolved."
+  ]
+}

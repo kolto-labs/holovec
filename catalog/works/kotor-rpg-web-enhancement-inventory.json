@@ -1,0 +1,240 @@
+{
+  "description": "Nine 2008 KOTOR Campaign Guide web enhancements discovered via a revision-pinned bibliography and archived Wizards of the Coast pages. Source prose, game rules and images are not included. Listing is not proof that all ancillary tabletop material has been found.",
+  "source_bibliography": "https://www.jedipedia.net/w/index.php?title=KotOR_Campaign_Guide_Web_Enhancement&oldid=1256436",
+  "publisher_archive_note": "Archived pages identify Lucasfilm content as all rights reserved; reuse permissions remain unestablished.",
+  "items": [
+    {
+      "id": "kotor-campaign-guide-web-enhancement-01",
+      "number": 1,
+      "title": "The Sandcrawler",
+      "original_publisher": "Wizards of the Coast",
+      "publisher_original_url": "http://www.wizards.com/default.asp?x=starwars/article/KOTORweben1",
+      "publisher_archive_url": "https://web.archive.org/web/20080822224947/http://www.wizards.com/default.asp?x=starwars/article/KOTORweben1",
+      "bibliography": "https://www.jedipedia.net/w/index.php?title=KotOR_Campaign_Guide_Web_Enhancement&oldid=1256436",
+      "related_secondary_subjects": [
+        {
+          "title": "Sandcrawler/Legends",
+          "records": [
+            {
+              "dataset": "data/wookieepedia-broad-references.jsonl",
+              "url": "https://starwars.fandom.com/wiki/Sandcrawler/Legends",
+              "text_sha256": "8e88c6fa6404c8abb7b261b5eae8cace7fde59aaa41d32c2590079ad68907cf3",
+              "source_revision_id": null
+            }
+          ]
+        }
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false,
+      "qualification": "Publisher archive reference and title only; related secondary subjects do not represent the enhancement or confer reuse rights."
+    },
+    {
+      "id": "kotor-campaign-guide-web-enhancement-02",
+      "number": 2,
+      "title": "Captain Dallan Morvis",
+      "original_publisher": "Wizards of the Coast",
+      "publisher_original_url": "http://www.wizards.com/default.asp?x=starwars/article/KOTORweben2",
+      "publisher_archive_url": "https://web.archive.org/web/20080913235115/http://www.wizards.com/default.asp?x=starwars/article/KOTORweben2",
+      "bibliography": "https://www.jedipedia.net/w/index.php?title=KotOR_Campaign_Guide_Web_Enhancement&oldid=1256436",
+      "related_secondary_subjects": [
+        {
+          "title": "Dallan Morvis",
+          "records": [
+            {
+              "dataset": "data/wookieepedia-reference-supplement.parquet",
+              "url": "https://starwars.fandom.com/wiki/Dallan_Morvis",
+              "text_sha256": "bd8d2b0126795b9d6575b334c2ba589caf4e13fc9e429cc034213ac8343c88e1",
+              "source_revision_id": null
+            }
+          ]
+        }
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false,
+      "qualification": "Publisher archive reference and title only; related secondary subjects do not represent the enhancement or confer reuse rights."
+    },
+    {
+      "id": "kotor-campaign-guide-web-enhancement-03",
+      "number": 3,
+      "title": "Elbee (T1-LB)",
+      "original_publisher": "Wizards of the Coast",
+      "publisher_original_url": "http://www.wizards.com/default.asp?x=starwars/article/KOTORweben3Elbee",
+      "publisher_archive_url": "https://web.archive.org/web/20080928045816/http://www.wizards.com/default.asp?x=starwars/article/KOTORweben3Elbee",
+      "bibliography": "https://www.jedipedia.net/w/index.php?title=KotOR_Campaign_Guide_Web_Enhancement&oldid=1256436",
+      "related_secondary_subjects": [
+        {
+          "title": "T1-LB",
+          "records": [
+            {
+              "dataset": "data/wookieepedia-legends.parquet",
+              "url": "https://starwars.fandom.com/wiki/T1-LB",
+              "text_sha256": "34df882cb8c8adb4aa29d8323c3a64386410c1212031a2b5ad4de69bd685a4c4",
+              "source_revision_id": null
+            }
+          ]
+        }
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false,
+      "qualification": "Publisher archive reference and title only; related secondary subjects do not represent the enhancement or confer reuse rights."
+    },
+    {
+      "id": "kotor-campaign-guide-web-enhancement-04",
+      "number": 4,
+      "title": "Heirloom Items",
+      "original_publisher": "Wizards of the Coast",
+      "publisher_original_url": "http://www.wizards.com/default.asp?x=starwars/article/KOTORweben4Heirloom",
+      "publisher_archive_url": "https://web.archive.org/web/20081005041634/http://www.wizards.com/default.asp?x=starwars/article/KOTORweben4Heirloom",
+      "bibliography": "https://www.jedipedia.net/w/index.php?title=KotOR_Campaign_Guide_Web_Enhancement&oldid=1256436",
+      "related_secondary_subjects": [],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false,
+      "qualification": "Publisher archive reference and title only; related secondary subjects do not represent the enhancement or confer reuse rights."
+    },
+    {
+      "id": "kotor-campaign-guide-web-enhancement-05",
+      "number": 5,
+      "title": "Karnak Tetsu, Sorcerer of Tund",
+      "original_publisher": "Wizards of the Coast",
+      "publisher_original_url": "http://www.wizards.com/default.asp?x=starwars/article/KOTORweben5",
+      "publisher_archive_url": "https://web.archive.org/web/20081010074106/http://www.wizards.com/default.asp?x=starwars/article/KOTORweben5",
+      "bibliography": "https://www.jedipedia.net/w/index.php?title=KotOR_Campaign_Guide_Web_Enhancement&oldid=1256436",
+      "related_secondary_subjects": [
+        {
+          "title": "Karnak Tetsu",
+          "records": [
+            {
+              "dataset": "data/wookieepedia-legends.parquet",
+              "url": "https://starwars.fandom.com/wiki/Karnak_Tetsu",
+              "text_sha256": "24c45590a5a0a25c73d770c8e1fe06222ea19c87f7e03f0074db2cee5945725a",
+              "source_revision_id": null
+            }
+          ]
+        }
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false,
+      "qualification": "Publisher archive reference and title only; related secondary subjects do not represent the enhancement or confer reuse rights."
+    },
+    {
+      "id": "kotor-campaign-guide-web-enhancement-06",
+      "number": 6,
+      "title": "Arkanian Legacy",
+      "original_publisher": "Wizards of the Coast",
+      "publisher_original_url": "http://www.wizards.com/default.asp?x=starwars/article/KOTORweben6ArkLeg",
+      "publisher_archive_url": "https://web.archive.org/web/20081020083225/http://www.wizards.com/default.asp?x=starwars/article/KOTORweben6ArkLeg",
+      "bibliography": "https://www.jedipedia.net/w/index.php?title=KotOR_Campaign_Guide_Web_Enhancement&oldid=1256436",
+      "related_secondary_subjects": [
+        {
+          "title": "Arkanian Legacy",
+          "records": [
+            {
+              "dataset": "data/wookieepedia-legends.parquet",
+              "url": "https://starwars.fandom.com/wiki/Arkanian_Legacy",
+              "text_sha256": "fc92e011373cbc84fd9d85f23d87efb4b7f2c47f62dd561ff8d298e2cc8c7a41",
+              "source_revision_id": null
+            }
+          ]
+        }
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false,
+      "qualification": "Publisher archive reference and title only; related secondary subjects do not represent the enhancement or confer reuse rights."
+    },
+    {
+      "id": "kotor-campaign-guide-web-enhancement-07",
+      "number": 7,
+      "title": "Shasa",
+      "original_publisher": "Wizards of the Coast",
+      "publisher_original_url": "http://www.wizards.com/default.asp?x=starwars/article/KOTORweben7",
+      "publisher_archive_url": "https://web.archive.org/web/20081031050041/http://www.wizards.com/default.asp?x=starwars/article/KOTORweben7",
+      "bibliography": "https://www.jedipedia.net/w/index.php?title=KotOR_Campaign_Guide_Web_Enhancement&oldid=1256436",
+      "related_secondary_subjects": [
+        {
+          "title": "Shasa",
+          "records": [
+            {
+              "dataset": "data/wookieepedia-legends.parquet",
+              "url": "https://starwars.fandom.com/wiki/Shasa",
+              "text_sha256": "d9e8bdc48e1d5050c6f87fb8d13694fb4595c7b1ec0ba1a6aa9a89fc26386d81",
+              "source_revision_id": null
+            }
+          ]
+        }
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false,
+      "qualification": "Publisher archive reference and title only; related secondary subjects do not represent the enhancement or confer reuse rights."
+    },
+    {
+      "id": "kotor-campaign-guide-web-enhancement-08",
+      "number": 8,
+      "title": "The Last Resort and the Moomo Williwaw",
+      "original_publisher": "Wizards of the Coast",
+      "publisher_original_url": "http://www.wizards.com/default.asp?x=starwars/article/KOTORweben8",
+      "publisher_archive_url": "https://web.archive.org/web/20081205075525/http://www.wizards.com/default.asp?x=starwars/article/KOTORweben8",
+      "bibliography": "https://www.jedipedia.net/w/index.php?title=KotOR_Campaign_Guide_Web_Enhancement&oldid=1256436",
+      "related_secondary_subjects": [
+        {
+          "title": "The Last Resort (starship)",
+          "records": [
+            {
+              "dataset": "data/wookieepedia-legends.parquet",
+              "url": "https://starwars.fandom.com/wiki/The_Last_Resort_(starship)",
+              "text_sha256": "0d28ef1103b28722bdf5f6d62a9b00aee1b00a49dfa028d21209a04a6f142b2d",
+              "source_revision_id": null
+            }
+          ]
+        },
+        {
+          "title": "Moomo Williwaw",
+          "records": [
+            {
+              "dataset": "data/wookieepedia-reference-supplement.parquet",
+              "url": "https://starwars.fandom.com/wiki/Moomo_Williwaw",
+              "text_sha256": "415893879de1e930119c6148c00d3fb099d8942360fd1a757d1e70ef9f53588f",
+              "source_revision_id": null
+            }
+          ]
+        }
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false,
+      "qualification": "Publisher archive reference and title only; related secondary subjects do not represent the enhancement or confer reuse rights."
+    },
+    {
+      "id": "kotor-campaign-guide-web-enhancement-09",
+      "number": 9,
+      "title": "Urban Bombardier Speeder Bike",
+      "original_publisher": "Wizards of the Coast",
+      "publisher_original_url": "http://www.wizards.com/default.asp?x=starwars/article/KOTORweben9",
+      "publisher_archive_url": "https://web.archive.org/web/20081203121927/http://www.wizards.com/default.asp?x=starwars/article/KOTORweben9",
+      "bibliography": "https://www.jedipedia.net/w/index.php?title=KotOR_Campaign_Guide_Web_Enhancement&oldid=1256436",
+      "related_secondary_subjects": [
+        {
+          "title": "Urban Bombadier",
+          "records": [
+            {
+              "dataset": "data/wookieepedia-reference-supplement.parquet",
+              "url": "https://starwars.fandom.com/wiki/Urban_Bombadier",
+              "text_sha256": "787ec47c423b1b097835753f8d410b5a23db14b84dac4ae45c1139f246346725",
+              "source_revision_id": null
+            }
+          ]
+        }
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false,
+      "qualification": "Publisher archive reference and title only; related secondary subjects do not represent the enhancement or confer reuse rights."
+    }
+  ]
+}

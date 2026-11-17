@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "kind": "Local file comparison with locally cached Steam depot metadata",
+  "observed_at_utc": "2026-11-16T17:32:58.689219+00:00",
+  "license": "CC0-1.0 for HoloVec-authored factual observations; underlying game rights remain separate",
+  "client_declaration": {
+    "app_id": 32370,
+    "build_id": "4143502",
+    "installed_depot_id": 32371,
+    "installed_manifest_id": "4122010938027300909",
+    "declared_depot_bytes": 3603240375
+  },
+  "reference": {
+    "depot_id": 32371,
+    "manifest_id": "4122010938027300909",
+    "cached_manifest_sha256": "5abf7bf8144a737ee90efbe1904a3e55b11dce3af883913a94bb374fa8c08836",
+    "manifest_entries": 16044,
+    "signature_cryptographically_verified": false
+  },
+  "observations": [
+    {
+      "installation": "k1-harness",
+      "entries": 16044,
+      "statuses": {
+        "different": 19,
+        "directory_present": 665,
+        "matches_reference": 15360
+      }
+    },
+    {
+      "installation": "k1-steam-tree",
+      "entries": 16044,
+      "statuses": {
+        "different": 85,
+        "directory_present": 665,
+        "matches_reference": 15294
+      }
+    }
+  ],
+  "comparison_data": {
+    "path": "catalog/games/distribution-files.parquet",
+    "rows": 32088,
+    "sha256": "e599521a1383b2efee04934d550a9ec9003331062de04c0ac273acb31664531e"
+  },
+  "comparison_tool_sha256": "efb362b51756ccf7d4a3e734e1e72c92673f7218062c8805e0e8ae80249e39fa",
+  "reader_module_sha256": {
+    "steam.core.manifest": "d3d7788b31e67f0d0e5e36bdc1aeb1f9c2b099706df37e9a640e5220db1c839e",
+    "vdf": "8287027feb42abc4d142566780f9b044e2a8164e8ae3139a45dceb27cb3db6c0"
+  },
+  "limitations": [
+    "The reference is a local cached manifest associated with a local Steam client declaration.",
+    "The reader parses the manifest; its Steam signature has not been cryptographically verified.",
+    "Comparisons cover listed depot paths. Additional local files, other depots, builds, platforms and languages require separate inventories.",
+    "File hashes establish byte correspondence to this reference. Original game content rights and narrative completeness remain unresolved."
+  ],
+  "comparison_tool_source": "src/holovec/steam_inventory.py"
+}

@@ -1,0 +1,787 @@
+{
+  "description": "Bibliographic reconciliation of two SWTOR webcomic serials and six print issues; numbering from secondary bibliographies, not independently inspected installments. Source page counts conflict and are not asserted. No primary content or rights clearance.",
+  "sources": {
+    "series": "https://starwars.fandom.com/wiki/Star_Wars:_The_Old_Republic_(comic_series)",
+    "threat_bibliography": "https://www.jedi-archiv.de/Era1/TOR-C1.htm",
+    "blood_bibliography": "https://www.jedi-archiv.de/Era1/TOR-C2.htm",
+    "blood_independent": "https://starwarsfanworks.com/wp-content/uploads/2020/04/SWTG56LegendsV1.pdf",
+    "act1": "https://starwars.fandom.com/wiki/The_Old_Republic,_Threat_of_Peace_Act_1:_Treaty_of_Coruscant",
+    "act2": "https://starwars.fandom.com/wiki/The_Old_Republic,_Threat_of_Peace_Act_2:_New_Galactic_Order",
+    "act3": "https://starwars.fandom.com/wiki/The_Old_Republic,_Threat_of_Peace_Act_3:_Uncertain_Surrender"
+  },
+  "acts": [
+    {
+      "id": "threat-1",
+      "series": "Threat of Peace",
+      "act_number": 1,
+      "title": "Treaty of Coruscant",
+      "numbered_installments": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "print_issue_id": "tor-2010-001",
+      "relationship": "secondary bibliographies identify this act as reprinted in the linked issue; page-level fidelity and edition variants unverified",
+      "evidence": [
+        "series",
+        "threat_bibliography",
+        "act1"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false,
+      "secondary_series_narrative": {
+        "dataset": "data/wookieepedia-swtor-comic-media-sections.jsonl",
+        "section": "Threat of Peace",
+        "revision_id": "15803850",
+        "text_sha256": "34231031e0e36e6a4761b528f544d9da286dc7fbefd1ca39fab9c7a1dbee08b4",
+        "scope": "series-level summary, not complete act or installment content"
+      },
+      "appearance_index": {
+        "dataset": "data/wookieepedia-threat-webcomic-appearance-indices.jsonl",
+        "url": "https://starwars.fandom.com/wiki/The_Old_Republic%2C_Threat_of_Peace_Act_1:_Treaty_of_Coruscant",
+        "revision_id": "14747654",
+        "text_sha256": "949300572ec14bd4dbb82aaaaf67acef3c28aad001f52dca3f232772ea58cda3",
+        "link_occurrences": 70,
+        "scope": "Secondary editorial index of the webcomic act; print issue and page fidelity unverified."
+      }
+    },
+    {
+      "id": "threat-2",
+      "series": "Threat of Peace",
+      "act_number": 2,
+      "title": "New Galactic Order",
+      "numbered_installments": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "print_issue_id": "tor-2010-002",
+      "relationship": "secondary bibliographies identify this act as reprinted in the linked issue; page-level fidelity and edition variants unverified",
+      "evidence": [
+        "series",
+        "threat_bibliography",
+        "act2"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false,
+      "secondary_series_narrative": {
+        "dataset": "data/wookieepedia-swtor-comic-media-sections.jsonl",
+        "section": "Threat of Peace",
+        "revision_id": "15803850",
+        "text_sha256": "34231031e0e36e6a4761b528f544d9da286dc7fbefd1ca39fab9c7a1dbee08b4",
+        "scope": "series-level summary, not complete act or installment content"
+      },
+      "appearance_index": {
+        "dataset": "data/wookieepedia-threat-webcomic-appearance-indices.jsonl",
+        "url": "https://starwars.fandom.com/wiki/The_Old_Republic%2C_Threat_of_Peace_Act_2:_New_Galactic_Order",
+        "revision_id": "14747655",
+        "text_sha256": "c9e2cd5ac6ff79d0b2600b5628ddf509a56914f258f3c58485dfa4cf62c43d41",
+        "link_occurrences": 72,
+        "scope": "Secondary editorial index of the webcomic act; print issue and page fidelity unverified."
+      }
+    },
+    {
+      "id": "threat-3",
+      "series": "Threat of Peace",
+      "act_number": 3,
+      "title": "Uncertain Surrender",
+      "numbered_installments": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "print_issue_id": "tor-2010-003",
+      "relationship": "secondary bibliographies identify this act as reprinted in the linked issue; page-level fidelity and edition variants unverified",
+      "evidence": [
+        "series",
+        "threat_bibliography",
+        "act3"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false,
+      "secondary_series_narrative": {
+        "dataset": "data/wookieepedia-swtor-comic-media-sections.jsonl",
+        "section": "Threat of Peace",
+        "revision_id": "15803850",
+        "text_sha256": "34231031e0e36e6a4761b528f544d9da286dc7fbefd1ca39fab9c7a1dbee08b4",
+        "scope": "series-level summary, not complete act or installment content"
+      },
+      "appearance_index": {
+        "dataset": "data/wookieepedia-threat-webcomic-appearance-indices.jsonl",
+        "url": "https://starwars.fandom.com/wiki/The_Old_Republic%2C_Threat_of_Peace_Act_3:_Uncertain_Surrender",
+        "revision_id": "14747656",
+        "text_sha256": "9a0f21e81987b59fa47b211a749b678fc119c80fb5aa57028cd4c4122e8d2e4c",
+        "link_occurrences": 47,
+        "scope": "Secondary editorial index of the webcomic act; print issue and page fidelity unverified."
+      }
+    },
+    {
+      "id": "blood-1",
+      "series": "Blood of the Empire",
+      "act_number": 1,
+      "title": "Shades of the Sith",
+      "numbered_installments": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "print_issue_id": "tor-2010-004",
+      "relationship": "secondary bibliographies identify this act as reprinted in the linked issue; page-level fidelity and edition variants unverified",
+      "evidence": [
+        "series",
+        "blood_bibliography",
+        "blood_independent"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false,
+      "secondary_act_plot_summary": {
+        "dataset": "data/wookieepedia-reviewed-story-plots.jsonl",
+        "url": "https://starwars.fandom.com/wiki/The_Old_Republic%2C_Blood_of_the_Empire_Act_1:_Shades_of_the_Sith",
+        "revision_id": "15824598",
+        "text_sha256": "99ca277ddc290fb99009d63257b935cf1e93b3ff222735a19e572666f2a84cb0",
+        "scope": "secondary act-level plot summary; not primary comic pages"
+      },
+      "secondary_series_narrative": {
+        "dataset": "data/wookieepedia-swtor-comic-media-sections.jsonl",
+        "section": "Blood of the Empire",
+        "revision_id": "15803850",
+        "text_sha256": "ed773bf6a81cd6dd46f78cdb4f24b9f420c69edc563ac66a44fc35f4fb8b2609",
+        "scope": "series-level summary, not complete act or installment content"
+      },
+      "appearance_index": {
+        "dataset": "data/wookieepedia-blood-webcomic-appearance-indices.jsonl",
+        "url": "https://starwars.fandom.com/wiki/The_Old_Republic%2C_Blood_of_the_Empire_Act_1:_Shades_of_the_Sith",
+        "revision_id": "15824598",
+        "text_sha256": "0f19b16993e61154fc8ca5395e4ce5db6431396cace0a60e8091c968c4b62ec8",
+        "link_occurrences": 85,
+        "scope": "Secondary editorial index of the webcomic act; print issue and page fidelity unverified."
+      }
+    },
+    {
+      "id": "blood-2",
+      "series": "Blood of the Empire",
+      "act_number": 2,
+      "title": "The Broken World",
+      "numbered_installments": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "print_issue_id": "tor-2010-005",
+      "relationship": "secondary bibliographies identify this act as reprinted in the linked issue; page-level fidelity and edition variants unverified",
+      "evidence": [
+        "series",
+        "blood_bibliography",
+        "blood_independent"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false,
+      "secondary_act_plot_summary": {
+        "dataset": "data/wookieepedia-reviewed-story-plots.jsonl",
+        "url": "https://starwars.fandom.com/wiki/The_Old_Republic%2C_Blood_of_the_Empire_Act_2:_The_Broken_World",
+        "revision_id": "15022353",
+        "text_sha256": "16813f4401a2d9710b45f0431b925875c26235e61a33b41bb8045bdb6d7fe059",
+        "scope": "secondary act-level plot summary; not primary comic pages"
+      },
+      "secondary_series_narrative": {
+        "dataset": "data/wookieepedia-swtor-comic-media-sections.jsonl",
+        "section": "Blood of the Empire",
+        "revision_id": "15803850",
+        "text_sha256": "ed773bf6a81cd6dd46f78cdb4f24b9f420c69edc563ac66a44fc35f4fb8b2609",
+        "scope": "series-level summary, not complete act or installment content"
+      },
+      "appearance_index": {
+        "dataset": "data/wookieepedia-blood-webcomic-appearance-indices.jsonl",
+        "url": "https://starwars.fandom.com/wiki/The_Old_Republic%2C_Blood_of_the_Empire_Act_2:_The_Broken_World",
+        "revision_id": "15022353",
+        "text_sha256": "6e977c3b39e11fe88371e6fdfdccb1c73d1faee480a2e3f356498a11d08d4d4f",
+        "link_occurrences": 60,
+        "scope": "Secondary editorial index of the webcomic act; print issue and page fidelity unverified."
+      }
+    },
+    {
+      "id": "blood-3",
+      "series": "Blood of the Empire",
+      "act_number": 3,
+      "title": "Burn the Future",
+      "numbered_installments": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "print_issue_id": "tor-2010-006",
+      "relationship": "secondary bibliographies identify this act as reprinted in the linked issue; page-level fidelity and edition variants unverified",
+      "evidence": [
+        "series",
+        "blood_bibliography",
+        "blood_independent"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false,
+      "secondary_act_plot_summary": {
+        "dataset": "data/wookieepedia-publication-quote-omitted-plots.jsonl",
+        "url": "https://starwars.fandom.com/wiki/The_Old_Republic%2C_Blood_of_the_Empire_Act_3:_Burn_the_Future",
+        "revision_id": "14747653",
+        "text_sha256": "b2c65469df57f5f0649a066bd3553eaa2d1da40d49e36a9d869373896dfe546e",
+        "scope": "secondary act-level plot summary; not primary comic pages"
+      },
+      "secondary_series_narrative": {
+        "dataset": "data/wookieepedia-swtor-comic-media-sections.jsonl",
+        "section": "Blood of the Empire",
+        "revision_id": "15803850",
+        "text_sha256": "ed773bf6a81cd6dd46f78cdb4f24b9f420c69edc563ac66a44fc35f4fb8b2609",
+        "scope": "series-level summary, not complete act or installment content"
+      },
+      "appearance_index": {
+        "dataset": "data/wookieepedia-blood-webcomic-appearance-indices.jsonl",
+        "url": "https://starwars.fandom.com/wiki/The_Old_Republic%2C_Blood_of_the_Empire_Act_3:_Burn_the_Future",
+        "revision_id": "14747653",
+        "text_sha256": "008139c220f237f910ed739d1d535845813260ceb5acec0f3f94271d5c939142",
+        "link_occurrences": 48,
+        "scope": "Secondary editorial index of the webcomic act; print issue and page fidelity unverified."
+      }
+    }
+  ],
+  "installments": [
+    {
+      "id": "threat-of-peace-web-01",
+      "series": "Threat of Peace",
+      "installment_number": 1,
+      "act_id": "threat-1",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "threat-of-peace-web-02",
+      "series": "Threat of Peace",
+      "installment_number": 2,
+      "act_id": "threat-1",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "threat-of-peace-web-03",
+      "series": "Threat of Peace",
+      "installment_number": 3,
+      "act_id": "threat-1",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "threat-of-peace-web-04",
+      "series": "Threat of Peace",
+      "installment_number": 4,
+      "act_id": "threat-1",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "threat-of-peace-web-05",
+      "series": "Threat of Peace",
+      "installment_number": 5,
+      "act_id": "threat-1",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "threat-of-peace-web-06",
+      "series": "Threat of Peace",
+      "installment_number": 6,
+      "act_id": "threat-1",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "threat-of-peace-web-07",
+      "series": "Threat of Peace",
+      "installment_number": 7,
+      "act_id": "threat-1",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "threat-of-peace-web-08",
+      "series": "Threat of Peace",
+      "installment_number": 8,
+      "act_id": "threat-1",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "threat-of-peace-web-09",
+      "series": "Threat of Peace",
+      "installment_number": 9,
+      "act_id": "threat-1",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "threat-of-peace-web-10",
+      "series": "Threat of Peace",
+      "installment_number": 10,
+      "act_id": "threat-2",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "threat-of-peace-web-11",
+      "series": "Threat of Peace",
+      "installment_number": 11,
+      "act_id": "threat-2",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "threat-of-peace-web-12",
+      "series": "Threat of Peace",
+      "installment_number": 12,
+      "act_id": "threat-2",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "threat-of-peace-web-13",
+      "series": "Threat of Peace",
+      "installment_number": 13,
+      "act_id": "threat-2",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "threat-of-peace-web-14",
+      "series": "Threat of Peace",
+      "installment_number": 14,
+      "act_id": "threat-2",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "threat-of-peace-web-15",
+      "series": "Threat of Peace",
+      "installment_number": 15,
+      "act_id": "threat-2",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "threat-of-peace-web-16",
+      "series": "Threat of Peace",
+      "installment_number": 16,
+      "act_id": "threat-2",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "threat-of-peace-web-17",
+      "series": "Threat of Peace",
+      "installment_number": 17,
+      "act_id": "threat-2",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "threat-of-peace-web-18",
+      "series": "Threat of Peace",
+      "installment_number": 18,
+      "act_id": "threat-2",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "threat-of-peace-web-19",
+      "series": "Threat of Peace",
+      "installment_number": 19,
+      "act_id": "threat-3",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "threat-of-peace-web-20",
+      "series": "Threat of Peace",
+      "installment_number": 20,
+      "act_id": "threat-3",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "threat-of-peace-web-21",
+      "series": "Threat of Peace",
+      "installment_number": 21,
+      "act_id": "threat-3",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "threat-of-peace-web-22",
+      "series": "Threat of Peace",
+      "installment_number": 22,
+      "act_id": "threat-3",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "threat-of-peace-web-23",
+      "series": "Threat of Peace",
+      "installment_number": 23,
+      "act_id": "threat-3",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "threat-of-peace-web-24",
+      "series": "Threat of Peace",
+      "installment_number": 24,
+      "act_id": "threat-3",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "threat-of-peace-web-25",
+      "series": "Threat of Peace",
+      "installment_number": 25,
+      "act_id": "threat-3",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "threat-of-peace-web-26",
+      "series": "Threat of Peace",
+      "installment_number": 26,
+      "act_id": "threat-3",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "threat-of-peace-web-27",
+      "series": "Threat of Peace",
+      "installment_number": 27,
+      "act_id": "threat-3",
+      "evidence": [
+        "threat_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "blood-of-the-empire-web-01",
+      "series": "Blood of the Empire",
+      "installment_number": 1,
+      "act_id": "blood-1",
+      "evidence": [
+        "blood_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "blood-of-the-empire-web-02",
+      "series": "Blood of the Empire",
+      "installment_number": 2,
+      "act_id": "blood-1",
+      "evidence": [
+        "blood_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "blood-of-the-empire-web-03",
+      "series": "Blood of the Empire",
+      "installment_number": 3,
+      "act_id": "blood-1",
+      "evidence": [
+        "blood_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "blood-of-the-empire-web-04",
+      "series": "Blood of the Empire",
+      "installment_number": 4,
+      "act_id": "blood-1",
+      "evidence": [
+        "blood_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "blood-of-the-empire-web-05",
+      "series": "Blood of the Empire",
+      "installment_number": 5,
+      "act_id": "blood-2",
+      "evidence": [
+        "blood_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "blood-of-the-empire-web-06",
+      "series": "Blood of the Empire",
+      "installment_number": 6,
+      "act_id": "blood-2",
+      "evidence": [
+        "blood_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "blood-of-the-empire-web-07",
+      "series": "Blood of the Empire",
+      "installment_number": 7,
+      "act_id": "blood-2",
+      "evidence": [
+        "blood_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "blood-of-the-empire-web-08",
+      "series": "Blood of the Empire",
+      "installment_number": 8,
+      "act_id": "blood-2",
+      "evidence": [
+        "blood_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "blood-of-the-empire-web-09",
+      "series": "Blood of the Empire",
+      "installment_number": 9,
+      "act_id": "blood-3",
+      "evidence": [
+        "blood_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "blood-of-the-empire-web-10",
+      "series": "Blood of the Empire",
+      "installment_number": 10,
+      "act_id": "blood-3",
+      "evidence": [
+        "blood_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "blood-of-the-empire-web-11",
+      "series": "Blood of the Empire",
+      "installment_number": 11,
+      "act_id": "blood-3",
+      "evidence": [
+        "blood_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    },
+    {
+      "id": "blood-of-the-empire-web-12",
+      "series": "Blood of the Empire",
+      "installment_number": 12,
+      "act_id": "blood-3",
+      "evidence": [
+        "blood_bibliography"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "page_count": "unverified",
+      "embedded": false
+    }
+  ],
+  "limitations": [
+    "Page counts and editorial differences between web and print editions are unverified.",
+    "Individual installment URLs, dates, asset and page fidelity, and availability are not independently checked.",
+    "Three Threat of Peace act-specific summaries are not acquired; the linked series narrative is broader and does not prove act completeness.",
+    "Primary text, artwork, redistribution rights and additional-use rights remain unestablished."
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "description": "Work-level map of the four titles currently listed in the publisher’s Old Republic Legends series. Publisher order and dates of individual formats are not chronology, complete edition inventory, or evidence of rights.",
+  "publisher_series_url": "https://www.penguinrandomhouse.com/series/OLD/star-wars-the-old-republic---legends/",
+  "works": [
+    {
+      "title": "The Old Republic: Revan",
+      "author": "Drew Karpyshyn",
+      "publisher_series_order": 1,
+      "publisher_url": "https://www.penguinrandomhouse.com/books/7861/revan-star-wars-legends-the-old-republic-by-drew-karpyshyn/",
+      "observed_publisher_edition": {
+        "format": "ebook",
+        "publication_date": "2011-11-15",
+        "scope": "Date for this format only; not proof of first edition or narrative chronology."
+      },
+      "secondary_plot": {
+        "dataset": "data/wookieepedia-reviewed-story-plots.jsonl",
+        "record_title": "The Old Republic: Revan",
+        "url": "https://starwars.fandom.com/wiki/The_Old_Republic:_Revan",
+        "revision_id": "15731881",
+        "text_sha256": "a843ff8b149dcf856767789137a0b7fbc539279c97bec66b5d07e6a63862b22c",
+        "scope": "Secondary wiki plot only, not original novel or full narrative."
+      },
+      "continuity": "Legends",
+      "primary_content": "not_acquired",
+      "permission_to_redistribute_primary": "not_established",
+      "embedded": false
+    },
+    {
+      "title": "The Old Republic: Deceived",
+      "author": "Paul S. Kemp",
+      "publisher_series_order": 2,
+      "publisher_url": "https://www.penguinrandomhouse.com/books/7874/deceived-star-wars-legends-the-old-republic-by-paul-s-kemp/",
+      "observed_publisher_edition": {
+        "format": "ebook",
+        "publication_date": "2011-03-22",
+        "scope": "Date for this format only; not proof of first edition or narrative chronology."
+      },
+      "secondary_plot": {
+        "dataset": "data/wookieepedia-reviewed-story-plots.jsonl",
+        "record_title": "The Old Republic: Deceived",
+        "url": "https://starwars.fandom.com/wiki/The_Old_Republic:_Deceived",
+        "revision_id": "15695273",
+        "text_sha256": "e32631980d4969fcbb31d735f891a9e9fc72503d9bda26c2caef275a50ab5fa5",
+        "scope": "Secondary wiki plot only, not original novel or full narrative."
+      },
+      "continuity": "Legends",
+      "primary_content": "not_acquired",
+      "permission_to_redistribute_primary": "not_established",
+      "embedded": false
+    },
+    {
+      "title": "The Old Republic: Fatal Alliance",
+      "author": "Sean Williams",
+      "publisher_series_order": 3,
+      "publisher_url": "https://www.penguinrandomhouse.com/books/7860/fatal-alliance-star-wars-legends-the-old-republic-by-sean-williams/",
+      "observed_publisher_edition": {
+        "format": "audiobook",
+        "publication_date": "2010-07-20",
+        "scope": "Date for this format only; not proof of first edition or narrative chronology."
+      },
+      "secondary_plot": {
+        "dataset": "data/wookieepedia-reviewed-novel-plots.jsonl",
+        "record_title": "The Old Republic: Fatal Alliance",
+        "url": "https://starwars.fandom.com/wiki/The_Old_Republic:_Fatal_Alliance",
+        "revision_id": "15762153",
+        "text_sha256": "62323973c886d734b1c1d1a8f8008477719ff5576ebd0a397e7c1c40c3eddcef",
+        "scope": "Secondary wiki plot only, not original novel or full narrative."
+      },
+      "continuity": "Legends",
+      "primary_content": "not_acquired",
+      "permission_to_redistribute_primary": "not_established",
+      "embedded": false
+    },
+    {
+      "title": "The Old Republic: Annihilation",
+      "author": "Drew Karpyshyn",
+      "publisher_series_order": 4,
+      "publisher_url": "https://www.penguinrandomhouse.com/books/212712/annihilation-star-wars-legends-the-old-republic-by-drew-karpyshyn/9780345535672/",
+      "observed_publisher_edition": {
+        "format": "ebook",
+        "publication_date": "2012-11-13",
+        "scope": "Date for this format only; not proof of first edition or narrative chronology."
+      },
+      "secondary_plot": {
+        "dataset": "data/wookieepedia-reviewed-novel-plots.jsonl",
+        "record_title": "The Old Republic: Annihilation",
+        "url": "https://starwars.fandom.com/wiki/The_Old_Republic:_Annihilation",
+        "revision_id": "15733179",
+        "text_sha256": "1e7074cefb7ee54b6d7ab74cace318d69cc1adad17cfa2b18d3dad80d59e2a1d",
+        "scope": "Secondary wiki plot only, not original novel or full narrative."
+      },
+      "continuity": "Legends",
+      "primary_content": "not_acquired",
+      "permission_to_redistribute_primary": "not_established",
+      "embedded": false
+    }
+  ]
+}

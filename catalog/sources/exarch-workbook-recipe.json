@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "title": "Exarch's SWTOR Mission Checklists",
+  "source_url": "https://docs.google.com/spreadsheets/d/1sWpjVbfPw8SD4wQgAmXVAHdTcp9W8-xdzsv3LnZuVaE/edit?usp=sharing",
+  "export_url": "https://docs.google.com/spreadsheets/d/1sWpjVbfPw8SD4wQgAmXVAHdTcp9W8-xdzsv3LnZuVaE/export?format=xlsx",
+  "source_sha256": "00e0cc553221173a0c0d09f60c509da6148acf07f4121d0e8b9e23071e8d3bd8",
+  "attribution": "Exarch and listed contributors; workbook linked and hosted by Swtorista. See workbook credits.",
+  "reuse_notice": {
+    "sheet": "Main Page",
+    "cell": "D5",
+    "sha256": "20e37c912cceef18f0c0c0f4984ee58aa53649b96147898c4def1312113eb657",
+    "excerpt": "IF YOU USE THIS DOC FOR ANYTHING",
+    "interpretation": "The cover invites broad use and requests a reference. This extraction applies that invitation to attributed factual mission-index metadata. A standardized license and rights in original game prose and media remain unestablished."
+  },
+  "sheet_roles": {
+    "Main Page": "administrative",
+    "Change Log": "administrative",
+    "Progress": "administrative",
+    "Special Mentions": "credits",
+    "PTS Missions": "test_server",
+    "PTS 7.7 Dynamic Encounters": "test_server",
+    "Dynamic Encounters": "live",
+    "Search": "derived_search",
+    "Republic Missions": "live",
+    "Republic Origins": "live",
+    "Republic Companions": "live",
+    "Republic Events": "live",
+    "Imperial Missions": "live",
+    "Imperial Origins": "live",
+    "Imperial Companions": "live",
+    "Imperial Events": "live",
+    "Companions & Contacts": "live",
+    "Republic Conquest Objectives": "conquest",
+    "Imperial Conquest Objectives": "conquest",
+    "Old Imperial Missions": "retired",
+    "Old Republic Missions": "retired",
+    "Galactic Seasons": "seasonal",
+    "PVP Seasons": "seasonal",
+    "Combined": "derived_combined",
+    "Commands": "administrative",
+    "quests-backup": "legacy_backup"
+  },
+  "field_aliases": {
+    "mission_name": [
+      "Mission Name",
+      "quest_mission_name"
+    ],
+    "faction": [
+      "Faction",
+      "quest_faction"
+    ],
+    "class": [
+      "Class",
+      "quest_class"
+    ],
+    "game_update": [
+      "Game Update (When Added)",
+      "quest_update"
+    ],
+    "chapter": [
+      "Chapter",
+      "quest_chapter"
+    ],
+    "planet_location": [
+      "Planet/Location",
+      "quest_planet"
+    ],
+    "mission_type": [
+      "Mission Type",
+      "quest_mission_type"
+    ],
+    "mission_giver": [
+      "Mission Giver",
+      "quest_mission_giver"
+    ],
+    "map_coordinates": [
+      "Map Coordinates",
+      "quest_map_coordinates"
+    ],
+    "parent_missions": [
+      "Parent Mission/s",
+      "quest_parent_mission"
+    ],
+    "alignment_points": [
+      "Alignment Points",
+      "quest_dark_light"
+    ],
+    "mission_rewards": [
+      "Mission Rewards",
+      "quest_rewards_list"
+    ],
+    "map_number": [
+      "Map Number",
+      "quest_map_number"
+    ],
+    "video_reference": [
+      "Video Link",
+      "quest_video"
+    ]
+  },
+  "withheld_headers": [
+    "Mission Description",
+    "quest_mission_description",
+    "Notes",
+    "quest_notes"
+  ],
+  "output_data": "staging/exarch-mission-metadata.jsonl",
+  "output_audit": "staging/exarch-workbook-extraction.json"
+}

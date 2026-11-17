@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "subject": "Star Wars Old Republic knowledge",
+  "included_source_roles": [
+    "primary narrative and reference material",
+    "game content and game-authored metadata",
+    "official publication and promotional material",
+    "relevant secondary reference material",
+    "approved historical community discussion"
+  ],
+  "excluded_source_roles": [
+    "software implementation source code",
+    "engine and tool project documentation",
+    "build, installation and contributor documentation for software projects",
+    "project inventories used only to design acquisition machinery"
+  ],
+  "rule": "Acquisition and indexing methods may be implemented in this repository, but the documentation or source code of unrelated software projects is not corpus content."
+}

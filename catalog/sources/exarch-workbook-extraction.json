@@ -1,0 +1,640 @@
+{
+  "schema_version": 1,
+  "scope": "All reviewed source checklist worksheets plus the legacy backup, preserving row occurrences and source roles. Counts describe source entries and title strings.",
+  "source_url": "https://docs.google.com/spreadsheets/d/1sWpjVbfPw8SD4wQgAmXVAHdTcp9W8-xdzsv3LnZuVaE/edit?usp=sharing",
+  "source_workbook_sha256": "00e0cc553221173a0c0d09f60c509da6148acf07f4121d0e8b9e23071e8d3bd8",
+  "recipe_sha256": "a6c590ea46d1868b21ea4aa439e5c062ee4490156598cbacefcda75a223f50f6",
+  "extractor_sha256": "0887f354e0bba9123646f5847365bc9b17e72adaba015279869c5a603ec70196",
+  "sheets": [
+    {
+      "sheet": "Main Page",
+      "role": "administrative",
+      "last_xml_row": 48,
+      "populated_rows": 27,
+      "header_row": null,
+      "included_entries": 0,
+      "distinct_source_titles": 0,
+      "withheld_nonempty_cells": {},
+      "missing_metadata_fields": {},
+      "row_dispositions": {
+        "empty_row": 21,
+        "non_entry_worksheet_row": 27
+      }
+    },
+    {
+      "sheet": "Change Log",
+      "role": "administrative",
+      "last_xml_row": 272,
+      "populated_rows": 266,
+      "header_row": null,
+      "included_entries": 0,
+      "distinct_source_titles": 0,
+      "withheld_nonempty_cells": {},
+      "missing_metadata_fields": {},
+      "row_dispositions": {
+        "empty_row": 6,
+        "non_entry_worksheet_row": 266
+      }
+    },
+    {
+      "sheet": "Progress",
+      "role": "administrative",
+      "last_xml_row": 63,
+      "populated_rows": 52,
+      "header_row": null,
+      "included_entries": 0,
+      "distinct_source_titles": 0,
+      "withheld_nonempty_cells": {},
+      "missing_metadata_fields": {},
+      "row_dispositions": {
+        "non_entry_worksheet_row": 52,
+        "empty_row": 11
+      }
+    },
+    {
+      "sheet": "Special Mentions",
+      "role": "credits",
+      "last_xml_row": 34,
+      "populated_rows": 29,
+      "header_row": null,
+      "included_entries": 0,
+      "distinct_source_titles": 0,
+      "withheld_nonempty_cells": {},
+      "missing_metadata_fields": {},
+      "row_dispositions": {
+        "empty_row": 5,
+        "non_entry_worksheet_row": 29
+      }
+    },
+    {
+      "sheet": "PTS Missions",
+      "role": "test_server",
+      "last_xml_row": 198,
+      "populated_rows": 195,
+      "header_row": 5,
+      "included_entries": 93,
+      "distinct_source_titles": 90,
+      "withheld_nonempty_cells": {
+        "Mission Description": 93,
+        "Notes": 77
+      },
+      "missing_metadata_fields": {
+        "mission_rewards": 1,
+        "map_number": 4
+      },
+      "row_dispositions": {
+        "before_header": 1,
+        "empty_row": 3,
+        "header": 1,
+        "included_entry": 93,
+        "no_mission_name": 100
+      }
+    },
+    {
+      "sheet": "PTS 7.7 Dynamic Encounters",
+      "role": "test_server",
+      "last_xml_row": 116,
+      "populated_rows": 114,
+      "header_row": 5,
+      "included_entries": 94,
+      "distinct_source_titles": 94,
+      "withheld_nonempty_cells": {
+        "Mission Description": 45,
+        "Notes": 55
+      },
+      "missing_metadata_fields": {
+        "mission_giver": 56,
+        "map_coordinates": 56,
+        "parent_missions": 56,
+        "alignment_points": 56,
+        "mission_rewards": 56,
+        "map_number": 56,
+        "video_reference": 56
+      },
+      "row_dispositions": {
+        "before_header": 2,
+        "empty_row": 2,
+        "header": 1,
+        "included_entry": 94,
+        "no_mission_name": 17
+      }
+    },
+    {
+      "sheet": "Dynamic Encounters",
+      "role": "live",
+      "last_xml_row": 110,
+      "populated_rows": 108,
+      "header_row": 5,
+      "included_entries": 105,
+      "distinct_source_titles": 102,
+      "withheld_nonempty_cells": {
+        "Mission Description": 104,
+        "Notes": 101
+      },
+      "missing_metadata_fields": {},
+      "row_dispositions": {
+        "before_header": 2,
+        "empty_row": 2,
+        "header": 1,
+        "included_entry": 105
+      }
+    },
+    {
+      "sheet": "Search",
+      "role": "derived_search",
+      "last_xml_row": 13093,
+      "populated_rows": 4,
+      "header_row": null,
+      "included_entries": 0,
+      "distinct_source_titles": 0,
+      "withheld_nonempty_cells": {},
+      "missing_metadata_fields": {},
+      "row_dispositions": {
+        "non_entry_worksheet_row": 4,
+        "empty_row": 13089
+      }
+    },
+    {
+      "sheet": "Republic Missions",
+      "role": "live",
+      "last_xml_row": 2211,
+      "populated_rows": 2210,
+      "header_row": 8,
+      "included_entries": 1896,
+      "distinct_source_titles": 1689,
+      "withheld_nonempty_cells": {
+        "Mission Description": 1896,
+        "Notes": 714
+      },
+      "missing_metadata_fields": {
+        "mission_rewards": 1355,
+        "map_number": 1890,
+        "video_reference": 1447,
+        "alignment_points": 527,
+        "game_update": 360,
+        "faction": 4,
+        "mission_giver": 2,
+        "map_coordinates": 3,
+        "parent_missions": 16
+      },
+      "row_dispositions": {
+        "before_header": 6,
+        "empty_row": 1,
+        "header": 1,
+        "included_entry": 1896,
+        "no_mission_name": 307
+      }
+    },
+    {
+      "sheet": "Republic Origins",
+      "role": "live",
+      "last_xml_row": 573,
+      "populated_rows": 570,
+      "header_row": 6,
+      "included_entries": 478,
+      "distinct_source_titles": 472,
+      "withheld_nonempty_cells": {
+        "Mission Description": 478,
+        "Notes": 26
+      },
+      "missing_metadata_fields": {
+        "mission_rewards": 224,
+        "map_number": 477,
+        "video_reference": 366
+      },
+      "row_dispositions": {
+        "before_header": 2,
+        "empty_row": 3,
+        "header": 1,
+        "included_entry": 478,
+        "no_mission_name": 89
+      }
+    },
+    {
+      "sheet": "Republic Companions",
+      "role": "live",
+      "last_xml_row": 302,
+      "populated_rows": 301,
+      "header_row": 7,
+      "included_entries": 295,
+      "distinct_source_titles": 295,
+      "withheld_nonempty_cells": {
+        "Mission Description": 295,
+        "Notes": 23
+      },
+      "missing_metadata_fields": {
+        "mission_rewards": 291,
+        "map_number": 294
+      },
+      "row_dispositions": {
+        "before_header": 5,
+        "empty_row": 1,
+        "header": 1,
+        "included_entry": 295
+      }
+    },
+    {
+      "sheet": "Republic Events",
+      "role": "live",
+      "last_xml_row": 152,
+      "populated_rows": 151,
+      "header_row": 6,
+      "included_entries": 134,
+      "distinct_source_titles": 121,
+      "withheld_nonempty_cells": {
+        "Mission Description": 134,
+        "Notes": 67
+      },
+      "missing_metadata_fields": {
+        "alignment_points": 94,
+        "mission_rewards": 123,
+        "map_number": 133,
+        "video_reference": 114
+      },
+      "row_dispositions": {
+        "before_header": 4,
+        "empty_row": 1,
+        "header": 1,
+        "included_entry": 134,
+        "no_mission_name": 12
+      }
+    },
+    {
+      "sheet": "Imperial Missions",
+      "role": "live",
+      "last_xml_row": 3024,
+      "populated_rows": 3024,
+      "header_row": 8,
+      "included_entries": 2006,
+      "distinct_source_titles": 1776,
+      "withheld_nonempty_cells": {
+        "Mission Description": 2003,
+        "Notes": 660
+      },
+      "missing_metadata_fields": {
+        "mission_rewards": 1159,
+        "video_reference": 1909,
+        "map_number": 1933,
+        "alignment_points": 213,
+        "mission_giver": 3,
+        "map_coordinates": 4,
+        "game_update": 7,
+        "chapter": 9,
+        "planet_location": 13,
+        "parent_missions": 3,
+        "mission_type": 8
+      },
+      "row_dispositions": {
+        "before_header": 7,
+        "header": 1,
+        "included_entry": 2006,
+        "no_mission_name": 1010
+      }
+    },
+    {
+      "sheet": "Imperial Origins",
+      "role": "live",
+      "last_xml_row": 519,
+      "populated_rows": 516,
+      "header_row": 6,
+      "included_entries": 428,
+      "distinct_source_titles": 426,
+      "withheld_nonempty_cells": {
+        "Mission Description": 428,
+        "Notes": 21
+      },
+      "missing_metadata_fields": {
+        "mission_rewards": 221,
+        "map_number": 427,
+        "video_reference": 314,
+        "mission_giver": 1,
+        "map_coordinates": 1
+      },
+      "row_dispositions": {
+        "before_header": 2,
+        "empty_row": 3,
+        "header": 1,
+        "included_entry": 428,
+        "no_mission_name": 85
+      }
+    },
+    {
+      "sheet": "Imperial Companions",
+      "role": "live",
+      "last_xml_row": 304,
+      "populated_rows": 303,
+      "header_row": 7,
+      "included_entries": 297,
+      "distinct_source_titles": 294,
+      "withheld_nonempty_cells": {
+        "Mission Description": 297,
+        "Notes": 46
+      },
+      "missing_metadata_fields": {
+        "alignment_points": 227,
+        "mission_rewards": 229,
+        "map_number": 296,
+        "video_reference": 227
+      },
+      "row_dispositions": {
+        "before_header": 5,
+        "empty_row": 1,
+        "header": 1,
+        "included_entry": 297
+      }
+    },
+    {
+      "sheet": "Imperial Events",
+      "role": "live",
+      "last_xml_row": 173,
+      "populated_rows": 172,
+      "header_row": 6,
+      "included_entries": 152,
+      "distinct_source_titles": 139,
+      "withheld_nonempty_cells": {
+        "Mission Description": 149,
+        "Notes": 73
+      },
+      "missing_metadata_fields": {
+        "alignment_points": 94,
+        "mission_rewards": 139,
+        "map_number": 151,
+        "video_reference": 146,
+        "game_update": 1,
+        "mission_giver": 4,
+        "map_coordinates": 4,
+        "parent_missions": 3
+      },
+      "row_dispositions": {
+        "before_header": 4,
+        "empty_row": 1,
+        "header": 1,
+        "included_entry": 152,
+        "no_mission_name": 15
+      }
+    },
+    {
+      "sheet": "Companions & Contacts",
+      "role": "live",
+      "last_xml_row": 103,
+      "populated_rows": 100,
+      "header_row": 6,
+      "included_entries": 74,
+      "distinct_source_titles": 70,
+      "withheld_nonempty_cells": {
+        "Mission Description": 74,
+        "Notes": 63
+      },
+      "missing_metadata_fields": {
+        "mission_rewards": 52,
+        "video_reference": 73,
+        "alignment_points": 36,
+        "game_update": 44
+      },
+      "row_dispositions": {
+        "before_header": 2,
+        "empty_row": 3,
+        "header": 1,
+        "included_entry": 74,
+        "no_mission_name": 23
+      }
+    },
+    {
+      "sheet": "Republic Conquest Objectives",
+      "role": "conquest",
+      "last_xml_row": 2313,
+      "populated_rows": 2309,
+      "header_row": 7,
+      "included_entries": 2269,
+      "distinct_source_titles": 274,
+      "withheld_nonempty_cells": {
+        "Mission Description": 2248,
+        "Notes": 59
+      },
+      "missing_metadata_fields": {
+        "game_update": 2269,
+        "alignment_points": 2269,
+        "chapter": 1
+      },
+      "row_dispositions": {
+        "before_header": 2,
+        "empty_row": 4,
+        "header": 1,
+        "included_entry": 2269,
+        "no_mission_name": 37
+      }
+    },
+    {
+      "sheet": "Imperial Conquest Objectives",
+      "role": "conquest",
+      "last_xml_row": 2326,
+      "populated_rows": 2322,
+      "header_row": 7,
+      "included_entries": 2271,
+      "distinct_source_titles": 275,
+      "withheld_nonempty_cells": {
+        "Mission Description": 2251,
+        "Notes": 70
+      },
+      "missing_metadata_fields": {
+        "game_update": 2271,
+        "mission_rewards": 2,
+        "alignment_points": 2269,
+        "chapter": 1
+      },
+      "row_dispositions": {
+        "before_header": 2,
+        "empty_row": 4,
+        "header": 1,
+        "included_entry": 2271,
+        "no_mission_name": 48
+      }
+    },
+    {
+      "sheet": "Old Imperial Missions",
+      "role": "retired",
+      "last_xml_row": 1957,
+      "populated_rows": 1872,
+      "header_row": 5,
+      "included_entries": 23,
+      "distinct_source_titles": 23,
+      "withheld_nonempty_cells": {
+        "Mission Description": 23,
+        "Notes": 22
+      },
+      "missing_metadata_fields": {
+        "game_update": 12,
+        "mission_rewards": 3,
+        "map_number": 1,
+        "video_reference": 1
+      },
+      "row_dispositions": {
+        "before_header": 1,
+        "empty_row": 85,
+        "header": 1,
+        "included_entry": 23,
+        "no_mission_name": 1847
+      }
+    },
+    {
+      "sheet": "Old Republic Missions",
+      "role": "retired",
+      "last_xml_row": 1957,
+      "populated_rows": 1954,
+      "header_row": 5,
+      "included_entries": 19,
+      "distinct_source_titles": 19,
+      "withheld_nonempty_cells": {
+        "Mission Description": 19,
+        "Notes": 19
+      },
+      "missing_metadata_fields": {
+        "game_update": 12
+      },
+      "row_dispositions": {
+        "before_header": 1,
+        "empty_row": 3,
+        "header": 1,
+        "included_entry": 19,
+        "no_mission_name": 1933
+      }
+    },
+    {
+      "sheet": "Galactic Seasons",
+      "role": "seasonal",
+      "last_xml_row": 1558,
+      "populated_rows": 1556,
+      "header_row": 5,
+      "included_entries": 1456,
+      "distinct_source_titles": 183,
+      "withheld_nonempty_cells": {
+        "Mission Description": 1427,
+        "Notes": 805
+      },
+      "missing_metadata_fields": {
+        "game_update": 440,
+        "video_reference": 33,
+        "mission_rewards": 65,
+        "mission_giver": 29,
+        "map_coordinates": 29,
+        "parent_missions": 29,
+        "alignment_points": 29,
+        "map_number": 29
+      },
+      "row_dispositions": {
+        "before_header": 2,
+        "empty_row": 2,
+        "header": 1,
+        "included_entry": 1456,
+        "no_mission_name": 97
+      }
+    },
+    {
+      "sheet": "PVP Seasons",
+      "role": "seasonal",
+      "last_xml_row": 11,
+      "populated_rows": 8,
+      "header_row": 5,
+      "included_entries": 6,
+      "distinct_source_titles": 6,
+      "withheld_nonempty_cells": {
+        "Mission Description": 6,
+        "Notes": 2
+      },
+      "missing_metadata_fields": {
+        "game_update": 6
+      },
+      "row_dispositions": {
+        "before_header": 1,
+        "empty_row": 3,
+        "header": 1,
+        "included_entry": 6
+      }
+    },
+    {
+      "sheet": "Combined",
+      "role": "derived_combined",
+      "last_xml_row": 7230,
+      "populated_rows": 7230,
+      "header_row": null,
+      "included_entries": 0,
+      "distinct_source_titles": 0,
+      "withheld_nonempty_cells": {},
+      "missing_metadata_fields": {},
+      "row_dispositions": {
+        "non_entry_worksheet_row": 7230
+      }
+    },
+    {
+      "sheet": "Commands",
+      "role": "administrative",
+      "last_xml_row": 8,
+      "populated_rows": 4,
+      "header_row": null,
+      "included_entries": 0,
+      "distinct_source_titles": 0,
+      "withheld_nonempty_cells": {},
+      "missing_metadata_fields": {},
+      "row_dispositions": {
+        "empty_row": 4,
+        "non_entry_worksheet_row": 4
+      }
+    },
+    {
+      "sheet": "quests-backup",
+      "role": "legacy_backup",
+      "last_xml_row": 5491,
+      "populated_rows": 5490,
+      "header_row": 1,
+      "included_entries": 5452,
+      "distinct_source_titles": 4255,
+      "withheld_nonempty_cells": {
+        "quest_mission_description": 5452,
+        "quest_notes": 1650
+      },
+      "missing_metadata_fields": {
+        "mission_rewards": 5452,
+        "video_reference": 5452,
+        "map_number": 2727,
+        "alignment_points": 2966,
+        "game_update": 410,
+        "mission_giver": 3,
+        "map_coordinates": 9
+      },
+      "row_dispositions": {
+        "header": 1,
+        "repeated_header": 1,
+        "included_entry": 5452,
+        "no_mission_name": 36,
+        "empty_row": 1
+      }
+    }
+  ],
+  "source_cell_validation": {
+    "method": "Independent worksheet XML and shared-string value comparison",
+    "rows": 17548,
+    "present_cells_checked": 228659
+  },
+  "counts": {
+    "worksheets": 26,
+    "entry_worksheets": 19,
+    "included_entries": 17548,
+    "unresolved_metadata_cells": 6,
+    "by_role": {
+      "test_server": 187,
+      "live": 5865,
+      "conquest": 4540,
+      "retired": 42,
+      "seasonal": 1462,
+      "legacy_backup": 5452
+    },
+    "exact_repeated_metadata_occurrences": 853
+  },
+  "limitations": [
+    "Source entries can overlap across worksheets, contexts and historical versions. These counts do not establish unique game missions.",
+    "The Combined worksheet has a source formula error and missing mission identities. Its helper reward values require separate reconciliation.",
+    "Narrative descriptions, notes and workbook media remain outside this factual metadata extraction.",
+    "The author reuse invitation is nonstandard. Original game prose and media rights and current game completeness remain unresolved."
+  ],
+  "output_sha256": "c46307dd8e4967e0232d1d222e2471f6f3c0994a49b20a24603b4e9d702dde69"
+}

@@ -1,0 +1,510 @@
+{
+  "unified_sha256": "116eac3613528a3187ac42ba8578f93da3a6ff822d30b5a7c3af43368bfb2351",
+  "partitions": {
+    "data/arqade-swtor-revision-recovery.jsonl": {
+      "path": "unified/configs/arqade-swtor-revision-recovery.parquet",
+      "rows": 3,
+      "sha256": "4304d3f59025653196d71b6c3e73b0db77dd2f2852bd19c7e94b041847ee93be"
+    },
+    "data/arqade-swtor.jsonl": {
+      "path": "unified/configs/arqade-swtor.parquet",
+      "rows": 1083,
+      "sha256": "f65a24634e8457c788c7209a201e829ee9168611d8b51957c7f21690bcafa380"
+    },
+    "data/arqade.jsonl": {
+      "path": "unified/configs/arqade.parquet",
+      "rows": 85,
+      "sha256": "176630274d6b9a7ab98500a6b75cd2348cc006c197ba8b47e584a1498a8d3bd1"
+    },
+    "data/exarch-mission-metadata.jsonl": {
+      "path": "unified/configs/exarch-mission-metadata.parquet",
+      "rows": 17548,
+      "sha256": "cd1d4b41ae4540b08018997245d27072b42b2a34b66b4a540bb80d745227a7dd"
+    },
+    "data/pcgamingwiki-sections.jsonl": {
+      "path": "unified/configs/pcgamingwiki-sections.parquet",
+      "rows": 8,
+      "sha256": "981f3d2577a11ddf0d80cbfbf5da2a8f27964b57c4dd500803553380d4f1aef6"
+    },
+    "data/scifi-old-republic-character-expansion.jsonl": {
+      "path": "unified/configs/scifi-old-republic-character-expansion.parquet",
+      "rows": 39,
+      "sha256": "f5cfb2f90e0ff59e17f8e90f134684758db4a77f8d1a3e63e8c6e4de183a1d00"
+    },
+    "data/scifi-old-republic-character-search.jsonl": {
+      "path": "unified/configs/scifi-old-republic-character-search.parquet",
+      "rows": 100,
+      "sha256": "66d931c7114a2d7d6df6a809670bacfdc77201fa005228f054ba1cea7ebaf221"
+    },
+    "data/scifi-old-republic-comic-search.jsonl": {
+      "path": "unified/configs/scifi-old-republic-comic-search.parquet",
+      "rows": 6,
+      "sha256": "cee3a3ae64e2ec5188d59988d7e6b061738bc92530a88d9bb90838a922b471ee"
+    },
+    "data/scifi-old-republic-comics.jsonl": {
+      "path": "unified/configs/scifi-old-republic-comics.parquet",
+      "rows": 12,
+      "sha256": "311885020cd59833aca52e752d22160dd6f9282294f5e804ef9ddb8012e570fd"
+    },
+    "data/scifi-old-republic-era-expansion.jsonl": {
+      "path": "unified/configs/scifi-old-republic-era-expansion.parquet",
+      "rows": 81,
+      "sha256": "05fefccb50bc9384a8637ceb1c9fab65f8ca1fda8082d8af34497a096ef80823"
+    },
+    "data/scifi-old-republic.jsonl": {
+      "path": "unified/configs/scifi-old-republic.parquet",
+      "rows": 66,
+      "sha256": "51bcbfa49da2eae0ea214a375cec6b3e3954227b342dece48d4257b132812a67"
+    },
+    "data/statsjedi-combat-analysis.jsonl": {
+      "path": "unified/configs/statsjedi-combat-analysis.parquet",
+      "rows": 5,
+      "sha256": "9afe7a6ae42cc1f06dc4f8d44717db0d356fbd0128fa3d073ef5ae784829d656"
+    },
+    "data/statsjedi-combat-conclusions.jsonl": {
+      "path": "unified/configs/statsjedi-combat-conclusions.parquet",
+      "rows": 1,
+      "sha256": "dad00aae130def0c08bb95be50fe6b560382f14525670bc52cd51d6ab0d49c7d"
+    },
+    "data/strategywiki-current-guide-revisions.jsonl": {
+      "path": "unified/configs/strategywiki-current-guide-revisions.parquet",
+      "rows": 9,
+      "sha256": "78c9c1e575ec0c3f34766c565acbbd6a99a10438c2d6ec9b8c15da7d8b763a87"
+    },
+    "data/strategywiki-current-skills.jsonl": {
+      "path": "unified/configs/strategywiki-current-skills.parquet",
+      "rows": 2,
+      "sha256": "5697fb9d2461b8cf3168de4180accdd3c44abf0df76a559a4f28d60761413301"
+    },
+    "data/strategywiki-partial-quote-overlap-recovery.jsonl": {
+      "path": "unified/configs/strategywiki-partial-quote-overlap-recovery.parquet",
+      "rows": 10,
+      "sha256": "bf401599fe9838016e9fe06e488f5754ec65a67ac35a5840093d0c22a1975dc3"
+    },
+    "data/strategywiki-quote-omitted-walkthroughs.jsonl": {
+      "path": "unified/configs/strategywiki-quote-omitted-walkthroughs.parquet",
+      "rows": 28,
+      "sha256": "771ef13d68b96bc9708637c31209bb8f89985d66de1f3d63db32f2dfe64aa96e"
+    },
+    "data/strategywiki-restored-content-overview.jsonl": {
+      "path": "unified/configs/strategywiki-restored-content-overview.parquet",
+      "rows": 1,
+      "sha256": "f588c64702166dd81cbb41d8e871518367f3d411f37c431a93150f6f19b76a6f"
+    },
+    "data/strategywiki.jsonl": {
+      "path": "unified/configs/strategywiki.parquet",
+      "rows": 302,
+      "sha256": "077ef67c1b2775423c2770158d83d21b39b3c44cdfc1a869c314f2a9f589da6a"
+    },
+    "data/wikipedia-bane-legends-sections.jsonl": {
+      "path": "unified/configs/wikipedia-bane-legends-sections.parquet",
+      "rows": 5,
+      "sha256": "8d7523412dea0f3e7c0ee0fa6a6ac6d224343e2fd4f239fd0d22bb49775cf649"
+    },
+    "data/wikipedia-categories.jsonl": {
+      "path": "unified/configs/wikipedia-categories.parquet",
+      "rows": 16,
+      "sha256": "606877d14d2969168f53e535e47fdf571d10ae0f3efe168c7a093cb07b87241f"
+    },
+    "data/wikipedia-dawn-sections.jsonl": {
+      "path": "unified/configs/wikipedia-dawn-sections.parquet",
+      "rows": 3,
+      "sha256": "a537e172a04d0dd02b455896ee2ddd5fc379966fbebb1e961990682d4f808c1d"
+    },
+    "data/wikipedia-knight-errant-sections.jsonl": {
+      "path": "unified/configs/wikipedia-knight-errant-sections.parquet",
+      "rows": 3,
+      "sha256": "93c4282e124d447520d86370269f1006c289c9606fef809cd810553bdeb91919"
+    },
+    "data/wikipedia-kotor-series-introduction.jsonl": {
+      "path": "unified/configs/wikipedia-kotor-series-introduction.parquet",
+      "rows": 1,
+      "sha256": "88921119aaedc32e0a250bbe0a5e03b0fa6d24b01ab50c8e96dd704e7db7be9e"
+    },
+    "data/wikipedia-totj-companion.jsonl": {
+      "path": "unified/configs/wikipedia-totj-companion.parquet",
+      "rows": 2,
+      "sha256": "235d0a950166d135ecfb32e349fe5e41a123db328df220f44db7e786254051d1"
+    },
+    "data/wikipedia.jsonl": {
+      "path": "unified/configs/wikipedia.parquet",
+      "rows": 13,
+      "sha256": "011a7f353dfa6496987ee9ab87bfb0e5f8d206099fddf2b763ddb77f9d4a2883"
+    },
+    "data/wookieepedia-additional-anthology-plots.jsonl": {
+      "path": "unified/configs/wookieepedia-additional-anthology-plots.parquet",
+      "rows": 2,
+      "sha256": "4a477bd2aaadac9944e95673718782c7a6b176159bb2acd67bf0824a06c21f5b"
+    },
+    "data/wookieepedia-anthology-appearance-indices.jsonl": {
+      "path": "unified/configs/wookieepedia-anthology-appearance-indices.parquet",
+      "rows": 5,
+      "sha256": "f865a3b44e8d874c12b8d1d887c44e80f9c11856349899a263b8172fb61ce780"
+    },
+    "data/wookieepedia-anthology-story-plots.jsonl": {
+      "path": "unified/configs/wookieepedia-anthology-story-plots.parquet",
+      "rows": 5,
+      "sha256": "22838c73cb4dd4b14f469000181925a181809293d22e6c5de015361e6d7b7e91"
+    },
+    "data/wookieepedia-anthology-target-introductions.jsonl": {
+      "path": "unified/configs/wookieepedia-anthology-target-introductions.parquet",
+      "rows": 30,
+      "sha256": "e9a54c5c9fe0f92268e7320e069c2178cf64b9770c48e2d30917bda039c380c7"
+    },
+    "data/wookieepedia-bane-novel-plots.jsonl": {
+      "path": "unified/configs/wookieepedia-bane-novel-plots.parquet",
+      "rows": 2,
+      "sha256": "9093933add40d1a9bb69f16939c24e6308e64a017f281f25679d3a42c515a2f0"
+    },
+    "data/wookieepedia-blood-webcomic-appearance-indices.jsonl": {
+      "path": "unified/configs/wookieepedia-blood-webcomic-appearance-indices.parquet",
+      "rows": 3,
+      "sha256": "82d76c46cd5bf970c376903b29f71c3abbc1428198b29bc5e04243df69c0bf53"
+    },
+    "data/wookieepedia-broad-references.jsonl": {
+      "path": "unified/configs/wookieepedia-broad-references.parquet",
+      "rows": 14352,
+      "sha256": "1a1cb25fa33f1183dd7482a9b6c8a1a7632bd2d8754c95495f421bc81f52f0d5"
+    },
+    "data/wookieepedia-comic-appearance-indices.jsonl": {
+      "path": "unified/configs/wookieepedia-comic-appearance-indices.parquet",
+      "rows": 138,
+      "sha256": "cdb91e32104fedffc8ceec26d83e724f6f5e7dd3734158b7435df45f13d02eb2"
+    },
+    "data/wookieepedia-comic-held-long-leads.jsonl": {
+      "path": "unified/configs/wookieepedia-comic-held-long-leads.parquet",
+      "rows": 65,
+      "sha256": "76bc71d3c4d47f822c8e64e0837f225f56029a6786de27e9ca0944b9e40a6b27"
+    },
+    "data/wookieepedia-comic-held-target-leads.jsonl": {
+      "path": "unified/configs/wookieepedia-comic-held-target-leads.parquet",
+      "rows": 77,
+      "sha256": "79ef0878d1aaa22e8e86ea44c9a8d80655d7b9767d8cff1fa8b68010326a0664"
+    },
+    "data/wookieepedia-comic-legends-counterpart-leads.jsonl": {
+      "path": "unified/configs/wookieepedia-comic-legends-counterpart-leads.parquet",
+      "rows": 2,
+      "sha256": "051afcba6ce4526aeec4cf074dfbb868cafd9529935b28b502ae9572c8e6dde8"
+    },
+    "data/wookieepedia-comic-linked-legends.jsonl": {
+      "path": "unified/configs/wookieepedia-comic-linked-legends.parquet",
+      "rows": 349,
+      "sha256": "f72203ae1f82439e76757603d896670e47687f465adf558e47d0092f7d945fb6"
+    },
+    "data/wookieepedia-comic-linked-newer-leads.jsonl": {
+      "path": "unified/configs/wookieepedia-comic-linked-newer-leads.parquet",
+      "rows": 62,
+      "sha256": "8871206d6f556c2194a11235af35660100056123f1cd3f2d84a064f48407fef1"
+    },
+    "data/wookieepedia-comic-summaries.jsonl": {
+      "path": "unified/configs/wookieepedia-comic-summaries.parquet",
+      "rows": 7,
+      "sha256": "2bc1a65e75fbe6eb9f2ae396869f3a72d8785ad448b33721ead8e7f4ca3b1852"
+    },
+    "data/wookieepedia-comic-uncovered-issue-introductions.jsonl": {
+      "path": "unified/configs/wookieepedia-comic-uncovered-issue-introductions.parquet",
+      "rows": 40,
+      "sha256": "4210cb8785ca7d6d04fde0f4709ab4cbd2ee93b9412147143aa91e64ed26c6ce"
+    },
+    "data/wookieepedia-dark-lords-ashcan-lead.jsonl": {
+      "path": "unified/configs/wookieepedia-dark-lords-ashcan-lead.parquet",
+      "rows": 1,
+      "sha256": "e008ed9d7204537e7f0e891b7eb79ca67604bbeb19d04a8baad954986d43976e"
+    },
+    "data/wookieepedia-dawn-character-biographies.jsonl": {
+      "path": "unified/configs/wookieepedia-dawn-character-biographies.parquet",
+      "rows": 35,
+      "sha256": "7f501c1ef96718e57d20846ec5dce67cc35bbd5e0353bbab62d0dcf19469c0df"
+    },
+    "data/wookieepedia-dawn-series-sections.jsonl": {
+      "path": "unified/configs/wookieepedia-dawn-series-sections.parquet",
+      "rows": 10,
+      "sha256": "59f10783f7cc83488c5e6ea2c14e1d200b7f8ac798e92be106531116f27e4dc7"
+    },
+    "data/wookieepedia-era-held-leads.jsonl": {
+      "path": "unified/configs/wookieepedia-era-held-leads.parquet",
+      "rows": 3,
+      "sha256": "5b09eb53d283e60cbde36b12357dc151901924ceb6bd684ce8d7e8defeeafa66"
+    },
+    "data/wookieepedia-fate-game-leads.jsonl": {
+      "path": "unified/configs/wookieepedia-fate-game-leads.parquet",
+      "rows": 2,
+      "sha256": "c5affb0c185c6557690eb2adb99619ba5848f3757780ab5b53ec615d2b0217c6"
+    },
+    "data/wookieepedia-hk47-quote-omitted.jsonl": {
+      "path": "unified/configs/wookieepedia-hk47-quote-omitted.parquet",
+      "rows": 8,
+      "sha256": "c7fa759b3852b306625827980780f9dc554770d95e984e2c7bc5f209e96fab78"
+    },
+    "data/wookieepedia-jedi-vs-sith-character-biographies.jsonl": {
+      "path": "unified/configs/wookieepedia-jedi-vs-sith-character-biographies.parquet",
+      "rows": 9,
+      "sha256": "4ab681c6f7febc0521ce98f09d0c348ebc313e7a15d9afb754b32f974574d2b6"
+    },
+    "data/wookieepedia-jedi-vs-sith-introductions.jsonl": {
+      "path": "unified/configs/wookieepedia-jedi-vs-sith-introductions.parquet",
+      "rows": 6,
+      "sha256": "2ba20dd06eedbdb040709eafa42c5623337a321782e32dcd303eaa1735a13908"
+    },
+    "data/wookieepedia-jedi-vs-sith-more-biographies.jsonl": {
+      "path": "unified/configs/wookieepedia-jedi-vs-sith-more-biographies.parquet",
+      "rows": 13,
+      "sha256": "210e47800600a83c2f14e5f133c98cf2d7dfb5028bff469cdedd56e5d92d3c29"
+    },
+    "data/wookieepedia-kotor-adventure-summaries.jsonl": {
+      "path": "unified/configs/wookieepedia-kotor-adventure-summaries.parquet",
+      "rows": 2,
+      "sha256": "971647207ae7dc7753c5746edf9669bd2267ae6020d07415f22992bdbbef203b"
+    },
+    "data/wookieepedia-kotor-core-replacements.jsonl": {
+      "path": "unified/configs/wookieepedia-kotor-core-replacements.parquet",
+      "rows": 29,
+      "sha256": "3db64860469ea141920a264daad8ad710e4d5af9cd01e0d8bd9da6df0cee39cf"
+    },
+    "data/wookieepedia-kotor-era-category-gaps.jsonl": {
+      "path": "unified/configs/wookieepedia-kotor-era-category-gaps.parquet",
+      "rows": 19,
+      "sha256": "3ab93e908f97149f44d7f3f8a324e443a5c1b9263c5b2fa070443a89963e8887"
+    },
+    "data/wookieepedia-kotor-game-plots.jsonl": {
+      "path": "unified/configs/wookieepedia-kotor-game-plots.parquet",
+      "rows": 2,
+      "sha256": "ba9776c28ffc8bc06d48e8216e6186465fa617a6534b1046695e42fc1fa5400b"
+    },
+    "data/wookieepedia-kotor-news-appearance-indices.jsonl": {
+      "path": "unified/configs/wookieepedia-kotor-news-appearance-indices.parquet",
+      "rows": 8,
+      "sha256": "3051a2e3a7c36c40cc5c5bb03bb234db4254f26faee6b7f93e9eb9aaa7a2afa9"
+    },
+    "data/wookieepedia-kotor-news-remaining-appearance-indices.jsonl": {
+      "path": "unified/configs/wookieepedia-kotor-news-remaining-appearance-indices.parquet",
+      "rows": 5,
+      "sha256": "8b22b33e5edb8078300268d8897fb6bcb87338c514cf9257be6cb5e3dec0e594"
+    },
+    "data/wookieepedia-kotor-news-remaining-target-leads.jsonl": {
+      "path": "unified/configs/wookieepedia-kotor-news-remaining-target-leads.parquet",
+      "rows": 2,
+      "sha256": "697ce222b97f359db3322109ae01b0ba88bbc815eb110bcece0e4b387e19e41d"
+    },
+    "data/wookieepedia-kotor-news-target-leads.jsonl": {
+      "path": "unified/configs/wookieepedia-kotor-news-target-leads.parquet",
+      "rows": 5,
+      "sha256": "47c21a6d553ecde959bcc72df22787772e10da83b3db41ae31bd77e73c7f8f75"
+    },
+    "data/wookieepedia-kotor-quote-followup-replacements.jsonl": {
+      "path": "unified/configs/wookieepedia-kotor-quote-followup-replacements.parquet",
+      "rows": 39,
+      "sha256": "731934ba0a50b11a23cb4695412ccfc44ae68c633115d89cd3b0abe3f561ec74"
+    },
+    "data/wookieepedia-kotor-series-arc-sections.jsonl": {
+      "path": "unified/configs/wookieepedia-kotor-series-arc-sections.parquet",
+      "rows": 18,
+      "sha256": "b3ee755d346d73f5e7f695e11d939fcf5e909e56bd66b53c04829d72e25bb147"
+    },
+    "data/wookieepedia-kotor-zero-plot.jsonl": {
+      "path": "unified/configs/wookieepedia-kotor-zero-plot.parquet",
+      "rows": 1,
+      "sha256": "953fec1f2ffab977490bb62577146d6e6aba8ca191438b769bcd190b32ea9467"
+    },
+    "data/wookieepedia-lana-talay-context.jsonl": {
+      "path": "unified/configs/wookieepedia-lana-talay-context.parquet",
+      "rows": 2,
+      "sha256": "a4f825b5cad1103ffa602997fdcbd02fd1102ade5b1e75908817f0fdd7dcdf70"
+    },
+    "data/wookieepedia-lost-tribe-held-leads.jsonl": {
+      "path": "unified/configs/wookieepedia-lost-tribe-held-leads.parquet",
+      "rows": 6,
+      "sha256": "5fd2b8db34990ba14027d393cf0a9827c5fa0a126abb459465c14c1fb4d17753"
+    },
+    "data/wookieepedia-miniatures-quote-omitted.jsonl": {
+      "path": "unified/configs/wookieepedia-miniatures-quote-omitted.parquet",
+      "rows": 9,
+      "sha256": "0008254adef8dbd0f0749702c9e5040d3546b155f76da0869ac86260d1be71b4"
+    },
+    "data/wookieepedia-old-republic-batch2-replacements.jsonl": {
+      "path": "unified/configs/wookieepedia-old-republic-batch2-replacements.parquet",
+      "rows": 90,
+      "sha256": "94e21ba1f77d6354d3cb3f39f164d20b8862464875f2c449130362dbf7d5ea61"
+    },
+    "data/wookieepedia-old-republic-category-leads.jsonl": {
+      "path": "unified/configs/wookieepedia-old-republic-category-leads.parquet",
+      "rows": 50,
+      "sha256": "20ee414c5963203b2a3dcc29f9189f503409c2a956df31fc8b31f9ec0baac7aa"
+    },
+    "data/wookieepedia-old-republic-quote-replacements.jsonl": {
+      "path": "unified/configs/wookieepedia-old-republic-quote-replacements.parquet",
+      "rows": 109,
+      "sha256": "bb71c17755c02edaffd24147dd2fc88fa65e8c3f5c31bf994ad5342afd389258"
+    },
+    "data/wookieepedia-pandemonium-plot.jsonl": {
+      "path": "unified/configs/wookieepedia-pandemonium-plot.parquet",
+      "rows": 1,
+      "sha256": "1a1d8affeef2b4db59784fa1dc7891e5523c8f1bd543064d55d74c53479666e4"
+    },
+    "data/wookieepedia-prototypes-appearance-index.jsonl": {
+      "path": "unified/configs/wookieepedia-prototypes-appearance-index.parquet",
+      "rows": 1,
+      "sha256": "c6089fb3c99de9403a3f63310069881bf38493251fb34a90292e7884daaa3a7e"
+    },
+    "data/wookieepedia-publication-quote-omitted-plots.jsonl": {
+      "path": "unified/configs/wookieepedia-publication-quote-omitted-plots.parquet",
+      "rows": 9,
+      "sha256": "e9116cd2715ffc9dd3d4d7eba7d4f57b781d0bad15d336a436460e0c7e676112"
+    },
+    "data/wookieepedia-publication-summaries.jsonl": {
+      "path": "unified/configs/wookieepedia-publication-summaries.parquet",
+      "rows": 83,
+      "sha256": "6289089444b4a008384eb9a5c93c6f13707d6592b3de1da8456dc4ef842bdbf6"
+    },
+    "data/wookieepedia-related-quote-omitted-plots.jsonl": {
+      "path": "unified/configs/wookieepedia-related-quote-omitted-plots.parquet",
+      "rows": 10,
+      "sha256": "d5b52fb4a6b8edd89970af77adaba2a04d109379d830a8f5244f6b7ca37322c7"
+    },
+    "data/wookieepedia-remaining-quote-replacements.jsonl": {
+      "path": "unified/configs/wookieepedia-remaining-quote-replacements.parquet",
+      "rows": 20,
+      "sha256": "6f5127df32164170534cafccd8e8bf1c659cb110f0197fb66342de1693e15eab"
+    },
+    "data/wookieepedia-reviewed-comic-plots.jsonl": {
+      "path": "unified/configs/wookieepedia-reviewed-comic-plots.parquet",
+      "rows": 49,
+      "sha256": "37a6b425962af44cf3ca8896279a440b405bd68b3de949034c9ee21171923b30"
+    },
+    "data/wookieepedia-reviewed-dawn-plots.jsonl": {
+      "path": "unified/configs/wookieepedia-reviewed-dawn-plots.parquet",
+      "rows": 2,
+      "sha256": "e743b99966c8d5f06b6f99b3f34485c6711c655617d4cb3811718584cf0af962"
+    },
+    "data/wookieepedia-reviewed-kotor-arc.jsonl": {
+      "path": "unified/configs/wookieepedia-reviewed-kotor-arc.parquet",
+      "rows": 1,
+      "sha256": "0e93b461d37036ec0b6079a82a9286e8c397da2d3849477314798f06a4e12d2a"
+    },
+    "data/wookieepedia-reviewed-kotor-issue-plots.jsonl": {
+      "path": "unified/configs/wookieepedia-reviewed-kotor-issue-plots.parquet",
+      "rows": 5,
+      "sha256": "2c664dd9f3fdfbb3a2e50319af429f704edff23b9bc49ce6c7001ac17b869946"
+    },
+    "data/wookieepedia-reviewed-novel-plots.jsonl": {
+      "path": "unified/configs/wookieepedia-reviewed-novel-plots.parquet",
+      "rows": 4,
+      "sha256": "b52760adea894e468819ab942bebd033fbd557d9db4d1bb572d3b69237fceb03"
+    },
+    "data/wookieepedia-reviewed-story-plots.jsonl": {
+      "path": "unified/configs/wookieepedia-reviewed-story-plots.parquet",
+      "rows": 13,
+      "sha256": "ddbc3a837923beb9e28a19725a4276c1a2d6020417d98690e1768098a68a7b83"
+    },
+    "data/wookieepedia-swtor-blog-citing-leads.jsonl": {
+      "path": "unified/configs/wookieepedia-swtor-blog-citing-leads.parquet",
+      "rows": 36,
+      "sha256": "d16735afa8edceb57289f400fc376719001e599333bb9ffb747c7af6919dd01c"
+    },
+    "data/wookieepedia-swtor-blog-held-leads.jsonl": {
+      "path": "unified/configs/wookieepedia-swtor-blog-held-leads.parquet",
+      "rows": 10,
+      "sha256": "5a5c87a264d039770ad86c88eab8a2723055a70b4561546cac082876d497e770"
+    },
+    "data/wookieepedia-swtor-chapter-plots.jsonl": {
+      "path": "unified/configs/wookieepedia-swtor-chapter-plots.parquet",
+      "rows": 9,
+      "sha256": "cca9687c0055ebde8ade9bd51226911e15c9f5def806430b44d816f01de710f0"
+    },
+    "data/wookieepedia-swtor-class-biographies.jsonl": {
+      "path": "unified/configs/wookieepedia-swtor-class-biographies.parquet",
+      "rows": 34,
+      "sha256": "5edbe99c0c89f5c19dc5f5121c6751dbec66aa9ad19c26e9e0e0f6fecbcfbfb3"
+    },
+    "data/wookieepedia-swtor-comic-media-sections.jsonl": {
+      "path": "unified/configs/wookieepedia-swtor-comic-media-sections.parquet",
+      "rows": 3,
+      "sha256": "bffe2d83697aa31042b80ecc414e1e2b19a0d961428b6213e2f3a0230cee3c02"
+    },
+    "data/wookieepedia-swtor-expansion-battle-sections.jsonl": {
+      "path": "unified/configs/wookieepedia-swtor-expansion-battle-sections.parquet",
+      "rows": 18,
+      "sha256": "2fa3cbecf901fc90fb4b24f3ab1009651c6c2681d78cae37f2b7e2ba993484db"
+    },
+    "data/wookieepedia-swtor-expansion-character-sections.jsonl": {
+      "path": "unified/configs/wookieepedia-swtor-expansion-character-sections.parquet",
+      "rows": 18,
+      "sha256": "fbedbefc0a31c8bc5fd7dc647af1fdf318f10815fd8629a86f4623dc30975db3"
+    },
+    "data/wookieepedia-swtor-expansion-event-sections.jsonl": {
+      "path": "unified/configs/wookieepedia-swtor-expansion-event-sections.parquet",
+      "rows": 51,
+      "sha256": "ce1ff0490251fc768ae4ed40a6030e0afaee6b6f37c7b4c00b7bfe086ccb7337"
+    },
+    "data/wookieepedia-swtor-expansion-new-introductions.jsonl": {
+      "path": "unified/configs/wookieepedia-swtor-expansion-new-introductions.parquet",
+      "rows": 6,
+      "sha256": "27ccb327d266af0dded6d65aa3c91564edc3c477e648201fc67318e84b659b90"
+    },
+    "data/wookieepedia-swtor-expansion-sections.jsonl": {
+      "path": "unified/configs/wookieepedia-swtor-expansion-sections.parquet",
+      "rows": 35,
+      "sha256": "1b30910ef03a6067e3c9dc05a71cee345ef5e85038c7da089e1d5b4f58d808b5"
+    },
+    "data/wookieepedia-swtor-expansion-world-sections.jsonl": {
+      "path": "unified/configs/wookieepedia-swtor-expansion-world-sections.parquet",
+      "rows": 24,
+      "sha256": "86b06b73d823a57682ba22a2d34ab7672b188854fda8905b0262afd833eee088"
+    },
+    "data/wookieepedia-swtor-last-road-summary.jsonl": {
+      "path": "unified/configs/wookieepedia-swtor-last-road-summary.parquet",
+      "rows": 1,
+      "sha256": "a172723316ea952519f99aa058a2812ef6cac29e55bd3e3958dbf8024861cf72"
+    },
+    "data/wookieepedia-swtor-multimedia-sections.jsonl": {
+      "path": "unified/configs/wookieepedia-swtor-multimedia-sections.parquet",
+      "rows": 15,
+      "sha256": "41b1df3acd97962b9df454de7a237ca748759dd78afc8a09ad2c0bbe1d5fe93d"
+    },
+    "data/wookieepedia-swtor-remaining-class-biographies.jsonl": {
+      "path": "unified/configs/wookieepedia-swtor-remaining-class-biographies.parquet",
+      "rows": 35,
+      "sha256": "fb60967f9ee81a025643b5adf73e9193bf337c46a4abd25c914c50daf36a988e"
+    },
+    "data/wookieepedia-swtor-story-plots.jsonl": {
+      "path": "unified/configs/wookieepedia-swtor-story-plots.parquet",
+      "rows": 6,
+      "sha256": "fe22ef7cf0008b18ad7e04c9d185a24454630e6ccf46a0d42fb80883637593ac"
+    },
+    "data/wookieepedia-threat-webcomic-appearance-indices.jsonl": {
+      "path": "unified/configs/wookieepedia-threat-webcomic-appearance-indices.parquet",
+      "rows": 3,
+      "sha256": "81e234bea5f799583a8f5883af0711c65baf7ef3623222e1b0d6bdbcb0a2c6b9"
+    },
+    "data/wookieepedia-totj-quote-omitted-plots.jsonl": {
+      "path": "unified/configs/wookieepedia-totj-quote-omitted-plots.parquet",
+      "rows": 17,
+      "sha256": "7f82cf25a1c4f63762b637e42bbfa9fa64fc64c953a8cfbaaba56c7b975ce63b"
+    },
+    "data/wookieepedia-unmatched-swtor-story-leads.jsonl": {
+      "path": "unified/configs/wookieepedia-unmatched-swtor-story-leads.parquet",
+      "rows": 2,
+      "sha256": "df78fd5b46462dc3ff08202971244921759100543a97234f09145ae3f2727194"
+    },
+    "data/wookieepedia-war-character-biographies.jsonl": {
+      "path": "unified/configs/wookieepedia-war-character-biographies.parquet",
+      "rows": 6,
+      "sha256": "a95f70bf2161d2769963353b566e9130891a9be42c76775be4d2fda3dffdae93"
+    },
+    "data/wookieepedia-war-essien-island.jsonl": {
+      "path": "unified/configs/wookieepedia-war-essien-island.parquet",
+      "rows": 1,
+      "sha256": "7845dbfbecee55970bf2b07f45d94d30c8bb5c8df4be7f049f2ef7bc0116ebdf"
+    },
+    "data/wookieepedia-war-zayne-summary.jsonl": {
+      "path": "unified/configs/wookieepedia-war-zayne-summary.parquet",
+      "rows": 1,
+      "sha256": "ed6ad441050053ee303e606088a02939f26788d6bd81368e1d2c6e303ca0da97"
+    },
+    "data/wookieepedia-webcomic-target-introductions.jsonl": {
+      "path": "unified/configs/wookieepedia-webcomic-target-introductions.parquet",
+      "rows": 5,
+      "sha256": "f397d565e69c0b6c026b5992de32a79fe9541cd0656f4a04fb7e4fb496d3a501"
+    }
+  }
+}

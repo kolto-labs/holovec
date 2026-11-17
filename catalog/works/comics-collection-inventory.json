@@ -1,0 +1,834 @@
+{
+  "schema_version": 1,
+  "description": "Partial bibliography of selected collected editions and issue-to-collection assertions; does not contain comics or establish acquisition, rights, page-level completeness, or exhaustive editions.",
+  "collections": [
+    {
+      "id": "old-republic-epic-1-2024",
+      "isbn": "9781302957865",
+      "source": "https://prhcomics.com/wp-content/uploads/2024/01/PREVIEWS2021029_APRIL_2024_FINAL.pdf",
+      "contents": [
+        {
+          "series": "Knights of the Old Republic",
+          "issues": "1-18",
+          "work_ids": [
+            "kotor-2006-001",
+            "kotor-2006-002",
+            "kotor-2006-003",
+            "kotor-2006-004",
+            "kotor-2006-005",
+            "kotor-2006-006",
+            "kotor-2006-007",
+            "kotor-2006-008",
+            "kotor-2006-009",
+            "kotor-2006-010",
+            "kotor-2006-011",
+            "kotor-2006-012",
+            "kotor-2006-013",
+            "kotor-2006-014",
+            "kotor-2006-015",
+            "kotor-2006-016",
+            "kotor-2006-017",
+            "kotor-2006-018"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "work": "Knights of the Old Republic/Rebellion #0",
+          "coverage": "material only; specific story and pages not yet verified",
+          "work_ids": []
+        }
+      ],
+      "qualification": "2024 printing; original 2015 printing is a distinct edition.",
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established"
+    },
+    {
+      "id": "old-republic-epic-2-2017",
+      "isbn": "9781302903770",
+      "source": "https://farawaypress.com/shop/star-wars-legends-epic-collection-the-old-republic-vol-2/",
+      "contents": [
+        {
+          "series": "Knights of the Old Republic",
+          "issues": "19-37",
+          "work_ids": [
+            "kotor-2006-019",
+            "kotor-2006-020",
+            "kotor-2006-021",
+            "kotor-2006-022",
+            "kotor-2006-023",
+            "kotor-2006-024",
+            "kotor-2006-025",
+            "kotor-2006-026",
+            "kotor-2006-027",
+            "kotor-2006-028",
+            "kotor-2006-029",
+            "kotor-2006-030",
+            "kotor-2006-031",
+            "kotor-2006-032",
+            "kotor-2006-033",
+            "kotor-2006-034",
+            "kotor-2006-035",
+            "kotor-2006-036",
+            "kotor-2006-037"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "work": "Knights of the Old Republic Handbook",
+          "coverage": "Handbook listed in Marvel solicitation reproduced by SuperHeroHype; physical contents and edition fidelity unverified",
+          "work_ids": [
+            "kotor-handbook-2007-001"
+          ],
+          "evidence_url": "https://www.superherohype.com/news/386209-marvel-february-2017"
+        }
+      ],
+      "qualification": "Creator listing; edition not physically inspected.",
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established"
+    },
+    {
+      "id": "old-republic-epic-3-2019",
+      "isbn": "9781302916466",
+      "source": "https://starwars.fandom.com/wiki/Star_Wars_Legends_Epic_Collection%3A_The_Old_Republic_Vol._3",
+      "contents": [
+        {
+          "series": "Knights of the Old Republic",
+          "issues": "38-50",
+          "work_ids": [
+            "kotor-2006-038",
+            "kotor-2006-039",
+            "kotor-2006-040",
+            "kotor-2006-041",
+            "kotor-2006-042",
+            "kotor-2006-043",
+            "kotor-2006-044",
+            "kotor-2006-045",
+            "kotor-2006-046",
+            "kotor-2006-047",
+            "kotor-2006-048",
+            "kotor-2006-049",
+            "kotor-2006-050"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "series": "Knights of the Old Republic: War",
+          "issues": "1-5",
+          "work_ids": [
+            "kotor-war-001",
+            "kotor-war-002",
+            "kotor-war-003",
+            "kotor-war-004",
+            "kotor-war-005"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "work": "Star Wars Tales #24",
+          "coverage": "material only; specific story and pages not yet verified",
+          "work_ids": []
+        }
+      ],
+      "qualification": "Creator overview lists #37-50; Marvel digital edition listing and an ISBN-specific secondary index list #38-50. #37 remains disputed and is not assigned to this print edition without physical verification.",
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "additional_bibliographic_evidence": [
+        {
+          "url": "https://books.google.com/books/about/Star_Wars_Legends_Epic_Collection.html?id=R3eBDwAAQBAJ",
+          "kind": "Marvel Entertainment digital listing via Google Books",
+          "isbn13": "9781302510299",
+          "claim": "collects Knights of the Old Republic issues 38-50, War issues 1-5 and material from Tales 24",
+          "qualification": "Digital edition; not a physical inspection of ISBN 9781302916466."
+        },
+        {
+          "url": "https://www.comics.org/issue/1939007/",
+          "kind": "Grand Comics Database edition index",
+          "isbn13": "9781302916466",
+          "claim": "indexes issues 38-50, War 1-5 and material from Tales 24",
+          "qualification": "Secondary index; underlying physical contents not independently inspected."
+        }
+      ]
+    },
+    {
+      "id": "old-republic-epic-4-2021",
+      "isbn": "9781302930875",
+      "source": "https://media.dcbservice.com/downloads/Marvel%20Previews%2003-2021.pdf",
+      "contents": [
+        {
+          "series": "The Old Republic",
+          "issues": "1-6",
+          "work_ids": [
+            "tor-2010-001",
+            "tor-2010-002",
+            "tor-2010-003",
+            "tor-2010-004",
+            "tor-2010-005",
+            "tor-2010-006"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "series": "The Old Republic: The Lost Suns",
+          "issues": "1-5",
+          "work_ids": [
+            "tor-lost-suns-001",
+            "tor-lost-suns-002",
+            "tor-lost-suns-003",
+            "tor-lost-suns-004",
+            "tor-lost-suns-005"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "series": "Lost Tribe of the Sith: Spiral",
+          "issues": "1-5",
+          "work_ids": [
+            "lost-tribe-spiral-001",
+            "lost-tribe-spiral-002",
+            "lost-tribe-spiral-003",
+            "lost-tribe-spiral-004",
+            "lost-tribe-spiral-005"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "work": "Star Wars Tales #17",
+          "coverage": "material only; specific story and pages not yet verified",
+          "work_ids": []
+        },
+        {
+          "work": "Star Wars Visionaries",
+          "coverage": "material only; specific story and pages not yet verified",
+          "work_ids": []
+        }
+      ],
+      "qualification": "Publisher solicitation identifies partial anthology material without story names.",
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established"
+    },
+    {
+      "id": "old-republic-epic-5-2023",
+      "isbn": "9781302950699",
+      "source": "https://prhcomics.com/wp-content/uploads/2022/10/PREVIEWS2021014_JAN_2023_FINAL.pdf",
+      "contents": [
+        {
+          "series": "Knight Errant",
+          "issues": "1-5",
+          "work_ids": [
+            "knight-errant-001",
+            "knight-errant-002",
+            "knight-errant-003",
+            "knight-errant-004",
+            "knight-errant-005"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "series": "Knight Errant: Deluge",
+          "issues": "1-5",
+          "work_ids": [
+            "knight-errant-deluge-001",
+            "knight-errant-deluge-002",
+            "knight-errant-deluge-003",
+            "knight-errant-deluge-004",
+            "knight-errant-deluge-005"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "series": "Knight Errant: Escape",
+          "issues": "1-5",
+          "work_ids": [
+            "knight-errant-escape-001",
+            "knight-errant-escape-002",
+            "knight-errant-escape-003",
+            "knight-errant-escape-004",
+            "knight-errant-escape-005"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "series": "Jedi vs. Sith",
+          "issues": "1-6",
+          "work_ids": [
+            "jedi-vs-sith-001",
+            "jedi-vs-sith-002",
+            "jedi-vs-sith-003",
+            "jedi-vs-sith-004",
+            "jedi-vs-sith-005",
+            "jedi-vs-sith-006"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "work": "Star Wars Tales #16",
+          "coverage": "material only; specific story and pages not yet verified",
+          "work_ids": []
+        }
+      ],
+      "qualification": "",
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established"
+    },
+    {
+      "id": "tales-of-the-jedi-epic-2-2022",
+      "isbn": "9781302945985",
+      "source": "https://starwars.fandom.com/wiki/Star_Wars_Legends_Epic_Collection%3A_Tales_of_the_Jedi_Vol._2",
+      "contents": [
+        {
+          "series": "Tales of the Jedi: The Golden Age of the Sith",
+          "issues": "0-5",
+          "work_ids": [
+            "totj-golden-000",
+            "totj-golden-001",
+            "totj-golden-002",
+            "totj-golden-003",
+            "totj-golden-004",
+            "totj-golden-005"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "series": "Tales of the Jedi: The Fall of the Sith Empire",
+          "issues": "1-5",
+          "work_ids": [
+            "totj-fall-001",
+            "totj-fall-002",
+            "totj-fall-003",
+            "totj-fall-004",
+            "totj-fall-005"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "series": "Tales of the Jedi",
+          "issues": "1-5",
+          "work_ids": [
+            "totj-1993-001",
+            "totj-1993-002",
+            "totj-1993-003",
+            "totj-1993-004",
+            "totj-1993-005"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "series": "Tales of the Jedi: The Freedon Nadd Uprising",
+          "issues": "1-2",
+          "work_ids": [
+            "totj-freedon-001",
+            "totj-freedon-002"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        }
+      ],
+      "qualification": "Secondary bibliography; edition not physically inspected.",
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "corroborating_source": "https://www.midtowncomics.com/p/2076552-star-wars-legends-epic-collection-tales-of-the-jedi-vol-2-tp/"
+    },
+    {
+      "id": "tales-of-the-jedi-epic-3-2023",
+      "isbn": "9781302951887",
+      "source": "https://www.marvel.com/comics/collection/106562/star_wars_legends_epic_collection_tales_of_the_jedi_vol_3_trade_paperback",
+      "contents": [
+        {
+          "series": "Tales of the Jedi: Dark Lords of the Sith",
+          "issues": "1-6",
+          "work_ids": [
+            "totj-dark-001",
+            "totj-dark-002",
+            "totj-dark-003",
+            "totj-dark-004",
+            "totj-dark-005",
+            "totj-dark-006"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "series": "Tales of the Jedi: The Sith War",
+          "issues": "1-6",
+          "work_ids": [
+            "totj-sith-war-001",
+            "totj-sith-war-002",
+            "totj-sith-war-003",
+            "totj-sith-war-004",
+            "totj-sith-war-005",
+            "totj-sith-war-006"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "series": "Tales of the Jedi: Redemption",
+          "issues": "1-5",
+          "work_ids": [
+            "totj-redemption-001",
+            "totj-redemption-002",
+            "totj-redemption-003",
+            "totj-redemption-004",
+            "totj-redemption-005"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "work": "Star Wars Tales #23",
+          "coverage": "material only; specific story and pages not yet verified",
+          "work_ids": []
+        },
+        {
+          "work": "Dark Horse Comics #7-9",
+          "coverage": "material only; specific story and pages not yet verified",
+          "work_ids": [],
+          "note": "Grand Comics Database associates material from these issues with Tales of the Jedi (1993) #3; verify exact contents and whether it duplicates the volume 2 printing."
+        }
+      ],
+      "qualification": "Publisher listing; individual anthology stories not resolved.",
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "corroborating_source": "https://my.comics.org/issue/2554038/"
+    },
+    {
+      "id": "tales-of-the-jedi-epic-1-2020",
+      "isbn": "9781302926977",
+      "source": "https://static1.squarespace.com/static/54f238e7e4b0a83375017edf/t/5ee24bfa3dba006e9beb8521/1591888904824/Marvel%2BSeptember%2B-%2BDecember%2B2020.pdf",
+      "contents": [
+        {
+          "series": "Dawn of the Jedi: Force Storm",
+          "issues": "1-5",
+          "work_ids": [
+            "dawn-force-storm-001",
+            "dawn-force-storm-002",
+            "dawn-force-storm-003",
+            "dawn-force-storm-004",
+            "dawn-force-storm-005"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "series": "Dawn of the Jedi: The Prisoner of Bogan",
+          "issues": "1-5",
+          "work_ids": [
+            "dawn-prisoner-001",
+            "dawn-prisoner-002",
+            "dawn-prisoner-003",
+            "dawn-prisoner-004",
+            "dawn-prisoner-005"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "series": "Dawn of the Jedi: Force War",
+          "issues": "1-5",
+          "work_ids": [
+            "dawn-force-war-001",
+            "dawn-force-war-002",
+            "dawn-force-war-003",
+            "dawn-force-war-004",
+            "dawn-force-war-005"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "series": "Dawn of the Jedi",
+          "issues": "0-0",
+          "work_ids": [
+            "dawn-2012-000"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        }
+      ],
+      "qualification": "Adjacent pre-Republic works; publisher solicitation, edition not physically inspected.",
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established"
+    },
+    {
+      "id": "tales-of-the-jedi-omnibus-hutt-cover-2024",
+      "isbn": "9781302953959",
+      "source": "https://alternateworlds.com.au/wp-content/uploads/2023/12/0124_Marvel_Previews-1.pdf",
+      "contents": [
+        {
+          "series": "Dawn of the Jedi: Force Storm",
+          "issues": "1-5",
+          "work_ids": [
+            "dawn-force-storm-001",
+            "dawn-force-storm-002",
+            "dawn-force-storm-003",
+            "dawn-force-storm-004",
+            "dawn-force-storm-005"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "series": "Dawn of the Jedi: The Prisoner of Bogan",
+          "issues": "1-5",
+          "work_ids": [
+            "dawn-prisoner-001",
+            "dawn-prisoner-002",
+            "dawn-prisoner-003",
+            "dawn-prisoner-004",
+            "dawn-prisoner-005"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "series": "Dawn of the Jedi: Force War",
+          "issues": "1-5",
+          "work_ids": [
+            "dawn-force-war-001",
+            "dawn-force-war-002",
+            "dawn-force-war-003",
+            "dawn-force-war-004",
+            "dawn-force-war-005"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "series": "Dawn of the Jedi",
+          "issues": "0-0",
+          "work_ids": [
+            "dawn-2012-000"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "series": "Tales of the Jedi: The Golden Age of the Sith",
+          "issues": "0-5",
+          "work_ids": [
+            "totj-golden-000",
+            "totj-golden-001",
+            "totj-golden-002",
+            "totj-golden-003",
+            "totj-golden-004",
+            "totj-golden-005"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "series": "Tales of the Jedi: The Fall of the Sith Empire",
+          "issues": "1-5",
+          "work_ids": [
+            "totj-fall-001",
+            "totj-fall-002",
+            "totj-fall-003",
+            "totj-fall-004",
+            "totj-fall-005"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "series": "Tales of the Jedi",
+          "issues": "1-5",
+          "work_ids": [
+            "totj-1993-001",
+            "totj-1993-002",
+            "totj-1993-003",
+            "totj-1993-004",
+            "totj-1993-005"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "series": "Tales of the Jedi: The Freedon Nadd Uprising",
+          "issues": "1-2",
+          "work_ids": [
+            "totj-freedon-001",
+            "totj-freedon-002"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "series": "Tales of the Jedi: Dark Lords of the Sith",
+          "issues": "1-6",
+          "work_ids": [
+            "totj-dark-001",
+            "totj-dark-002",
+            "totj-dark-003",
+            "totj-dark-004",
+            "totj-dark-005",
+            "totj-dark-006"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "series": "Tales of the Jedi: The Sith War",
+          "issues": "1-6",
+          "work_ids": [
+            "totj-sith-war-001",
+            "totj-sith-war-002",
+            "totj-sith-war-003",
+            "totj-sith-war-004",
+            "totj-sith-war-005",
+            "totj-sith-war-006"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "series": "Tales of the Jedi: Redemption",
+          "issues": "1-5",
+          "work_ids": [
+            "totj-redemption-001",
+            "totj-redemption-002",
+            "totj-redemption-003",
+            "totj-redemption-004",
+            "totj-redemption-005"
+          ],
+          "coverage": "whole issue as listed; content and edition fidelity unverified"
+        },
+        {
+          "work": "Star Wars Tales #23",
+          "coverage": "material only; specific story and pages not yet verified",
+          "work_ids": []
+        },
+        {
+          "work": "Dark Horse Comics #7-9",
+          "coverage": "material only; specific story and pages not yet verified",
+          "work_ids": []
+        }
+      ],
+      "qualification": "Publisher solicitation; alternative Dorman Jedi cover ISBN 9781302953966 is a distinct cover edition not independently mapped here.",
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established"
+    },
+    {
+      "id": "old-republic-omnibus-1-2025-reprint",
+      "isbn": "9781302961282",
+      "variant_isbn": "9781302961299",
+      "source": "https://alternateworlds.com.au/wp-content/uploads/2024/07/0924-Marvel.pdf",
+      "source_page": 79,
+      "contents": [
+        {
+          "series": "Knights of the Old Republic",
+          "issues": "1-50",
+          "work_ids": [
+            "kotor-2006-001",
+            "kotor-2006-002",
+            "kotor-2006-003",
+            "kotor-2006-004",
+            "kotor-2006-005",
+            "kotor-2006-006",
+            "kotor-2006-007",
+            "kotor-2006-008",
+            "kotor-2006-009",
+            "kotor-2006-010",
+            "kotor-2006-011",
+            "kotor-2006-012",
+            "kotor-2006-013",
+            "kotor-2006-014",
+            "kotor-2006-015",
+            "kotor-2006-016",
+            "kotor-2006-017",
+            "kotor-2006-018",
+            "kotor-2006-019",
+            "kotor-2006-020",
+            "kotor-2006-021",
+            "kotor-2006-022",
+            "kotor-2006-023",
+            "kotor-2006-024",
+            "kotor-2006-025",
+            "kotor-2006-026",
+            "kotor-2006-027",
+            "kotor-2006-028",
+            "kotor-2006-029",
+            "kotor-2006-030",
+            "kotor-2006-031",
+            "kotor-2006-032",
+            "kotor-2006-033",
+            "kotor-2006-034",
+            "kotor-2006-035",
+            "kotor-2006-036",
+            "kotor-2006-037",
+            "kotor-2006-038",
+            "kotor-2006-039",
+            "kotor-2006-040",
+            "kotor-2006-041",
+            "kotor-2006-042",
+            "kotor-2006-043",
+            "kotor-2006-044",
+            "kotor-2006-045",
+            "kotor-2006-046",
+            "kotor-2006-047",
+            "kotor-2006-048",
+            "kotor-2006-049",
+            "kotor-2006-050"
+          ],
+          "coverage": "Publisher solicitation lists these issues; page and edition fidelity unverified."
+        },
+        {
+          "series": "Knights of the Old Republic: War",
+          "issues": "1-5",
+          "work_ids": [
+            "kotor-war-001",
+            "kotor-war-002",
+            "kotor-war-003",
+            "kotor-war-004",
+            "kotor-war-005"
+          ],
+          "coverage": "Publisher solicitation lists these issues; page and edition fidelity unverified."
+        },
+        {
+          "series": "Knights of the Old Republic Handbook",
+          "issues": "1",
+          "work_ids": [
+            "kotor-handbook-2007-001"
+          ],
+          "coverage": "Publisher solicitation lists these issues; page and edition fidelity unverified."
+        },
+        {
+          "work": "Knights of the Old Republic/Rebellion #0",
+          "coverage": "Material only; included stories and pages not established by this listing.",
+          "work_ids": []
+        }
+      ],
+      "qualification": "Publisher solicitation for 2025 reprint; catalog states material only from the flipbook. Both ISBNs represent advertised covers; original 2021 editions are distinct. Physical copy not examined.",
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established"
+    },
+    {
+      "id": "old-republic-omnibus-2-2025",
+      "isbn": "9781302965969",
+      "variant_isbn": "9781302966027",
+      "source": "https://prhcomics.com/wp-content/uploads/2025/03/2025_April_PRH-Panels-Catalog-PDF.pdf",
+      "source_page": 106,
+      "contents": [
+        {
+          "series": "The Old Republic",
+          "issues": "1-6",
+          "work_ids": [
+            "tor-2010-001",
+            "tor-2010-002",
+            "tor-2010-003",
+            "tor-2010-004",
+            "tor-2010-005",
+            "tor-2010-006"
+          ],
+          "coverage": "Publisher solicitation lists these issues; page and edition fidelity unverified."
+        },
+        {
+          "series": "The Old Republic: The Lost Suns",
+          "issues": "1-5",
+          "work_ids": [
+            "tor-lost-suns-001",
+            "tor-lost-suns-002",
+            "tor-lost-suns-003",
+            "tor-lost-suns-004",
+            "tor-lost-suns-005"
+          ],
+          "coverage": "Publisher solicitation lists these issues; page and edition fidelity unverified."
+        },
+        {
+          "series": "Lost Tribe of the Sith: Spiral",
+          "issues": "1-5",
+          "work_ids": [
+            "lost-tribe-spiral-001",
+            "lost-tribe-spiral-002",
+            "lost-tribe-spiral-003",
+            "lost-tribe-spiral-004",
+            "lost-tribe-spiral-005"
+          ],
+          "coverage": "Publisher solicitation lists these issues; page and edition fidelity unverified."
+        },
+        {
+          "series": "Knight Errant",
+          "issues": "1-5",
+          "work_ids": [
+            "knight-errant-001",
+            "knight-errant-002",
+            "knight-errant-003",
+            "knight-errant-004",
+            "knight-errant-005"
+          ],
+          "coverage": "Publisher solicitation lists these issues; page and edition fidelity unverified."
+        },
+        {
+          "series": "Knight Errant: Deluge",
+          "issues": "1-5",
+          "work_ids": [
+            "knight-errant-deluge-001",
+            "knight-errant-deluge-002",
+            "knight-errant-deluge-003",
+            "knight-errant-deluge-004",
+            "knight-errant-deluge-005"
+          ],
+          "coverage": "Publisher solicitation lists these issues; page and edition fidelity unverified."
+        },
+        {
+          "series": "Knight Errant: Escape",
+          "issues": "1-5",
+          "work_ids": [
+            "knight-errant-escape-001",
+            "knight-errant-escape-002",
+            "knight-errant-escape-003",
+            "knight-errant-escape-004",
+            "knight-errant-escape-005"
+          ],
+          "coverage": "Publisher solicitation lists these issues; page and edition fidelity unverified."
+        },
+        {
+          "series": "Jedi vs. Sith",
+          "issues": "1-6",
+          "work_ids": [
+            "jedi-vs-sith-001",
+            "jedi-vs-sith-002",
+            "jedi-vs-sith-003",
+            "jedi-vs-sith-004",
+            "jedi-vs-sith-005",
+            "jedi-vs-sith-006"
+          ],
+          "coverage": "Publisher solicitation lists these issues; page and edition fidelity unverified."
+        },
+        {
+          "work": "Star Wars Tales #16",
+          "coverage": "Material only; included stories and pages not established by this listing.",
+          "work_ids": []
+        },
+        {
+          "work": "Star Wars Tales #17",
+          "coverage": "Material only; included stories and pages not established by this listing.",
+          "work_ids": []
+        },
+        {
+          "work": "Star Wars Tales #24",
+          "coverage": "Material only; included stories and pages not established by this listing.",
+          "work_ids": []
+        },
+        {
+          "work": "Star Wars Visionaries",
+          "coverage": "Material only; included stories and pages not established by this listing.",
+          "work_ids": []
+        }
+      ],
+      "qualification": "Publisher solicitation for 2025 hardcover, not an examination of the volume. Anthology listings are partial and do not establish which stories were printed.",
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established"
+    }
+  ],
+  "unresolved_conflicts": [
+    {
+      "work_id": "kotor-2006-037",
+      "collection": "old-republic-epic-3-2019",
+      "creator_claim": "Included in issue range 37-50",
+      "creator_url": "https://farawaypress.com/comics/starwarsknightsoftheoldrepublic/",
+      "secondary_claim": "Volume 3 begins with issue 38; issue 37 appears in volume 2",
+      "secondary_url": "https://starwars.fandom.com/wiki/Star_Wars_Legends_Epic_Collection%3A_The_Old_Republic_Vol._3",
+      "resolution": "Evidence favors #38-50 for the indexed 2019 print edition but conflicts with creator overview. Digital and print ISBNs differ; actual print contents have not been independently inspected.",
+      "additional_evidence": [
+        {
+          "url": "https://books.google.com/books/about/Star_Wars_Legends_Epic_Collection.html?id=R3eBDwAAQBAJ",
+          "kind": "Marvel Entertainment digital listing via Google Books",
+          "isbn13": "9781302510299",
+          "claim": "collects Knights of the Old Republic issues 38-50, War issues 1-5 and material from Tales 24",
+          "qualification": "Digital edition; not a physical inspection of ISBN 9781302916466."
+        },
+        {
+          "url": "https://www.comics.org/issue/1939007/",
+          "kind": "Grand Comics Database edition index",
+          "isbn13": "9781302916466",
+          "claim": "indexes issues 38-50, War 1-5 and material from Tales 24",
+          "qualification": "Secondary index; underlying physical contents not independently inspected."
+        }
+      ]
+    }
+  ],
+  "anthology_warning": "Material from an anthology does not imply inclusion of the entire source issue.",
+  "embedded": false
+}

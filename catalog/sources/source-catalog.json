@@ -1,0 +1,416 @@
+[
+  {
+    "id": "old-republic-book-revan",
+    "name": "Old Republic bibliography — Revan",
+    "kind": "website",
+    "url": "https://www.penguinrandomhouse.com/books/7861/revan-star-wars-legends-the-old-republic/"
+  },
+  {
+    "id": "old-republic-book-deceived",
+    "name": "Old Republic bibliography — Deceived",
+    "kind": "website",
+    "url": "https://www.penguinrandomhouse.com/books/7874/deceived-star-wars-legends-the-old-republic/"
+  },
+  {
+    "id": "old-republic-book-fatal-alliance",
+    "name": "Old Republic bibliography — Fatal Alliance",
+    "kind": "website",
+    "url": "https://www.penguinrandomhouse.com/books/7860/fatal-alliance-star-wars-legends-the-old-republic/"
+  },
+  {
+    "id": "old-republic-book-annihilation",
+    "name": "Old Republic bibliography — Annihilation",
+    "kind": "website",
+    "url": "https://www.penguinrandomhouse.com/books/212712/annihilation-star-wars-legends-the-old-republic-by-drew-karpyshyn/paperback/"
+  },
+  {
+    "id": "old-republic-book-knight-errant",
+    "name": "Old Republic bibliography — Knight Errant novel",
+    "kind": "website",
+    "url": "https://www.penguinrandomhouse.com/books/203232/knight-errant-star-wars-legends-by-john-jackson-miller/"
+  },
+  {
+    "id": "old-republic-book-lost-tribe-collected-stories",
+    "name": "Old Republic bibliography — Lost Tribe of the Sith: The Collected Stories",
+    "kind": "website",
+    "url": "https://www.penguinrandomhouse.com/books/7867/lost-tribe-of-the-sith-star-wars-legends-the-collected-stories-by-john-jackson-miller/9780345541321/"
+  },
+  {
+    "id": "old-republic-book-dawn-of-the-jedi-into-the-void",
+    "name": "Old Republic bibliography — Dawn of the Jedi: Into the Void",
+    "kind": "website",
+    "url": "https://www.penguinrandomhouse.com/books/222802/into-the-void-star-wars-legends-dawn-of-the-jedi-by-tim-lebbon/"
+  },
+  {
+    "id": "old-republic-book-essential-readers-companion",
+    "name": "Old Republic bibliography — The Essential Reader's Companion",
+    "kind": "website",
+    "url": "https://www.penguinrandomhouse.com/books/7825/the-essential-readers-companion-star-wars-by-pablo-hidalgo/"
+  },
+  {
+    "id": "old-republic-book-kotor-campaign-guide",
+    "name": "Old Republic bibliography — Knights of the Old Republic Campaign Guide",
+    "kind": "website",
+    "url": "https://farawaypress.com/games/swkotorguide/"
+  },
+  {
+    "id": "old-republic-fiction-labor-pains",
+    "name": "KotOR short fiction — Labor Pains",
+    "kind": "website",
+    "url": "https://farawaypress.com/fiction/starwars-laborpains/"
+  },
+  {
+    "id": "old-republic-fiction-interference",
+    "name": "KotOR short fiction — Interference",
+    "kind": "website",
+    "url": "https://farawaypress.com/fiction/starwars-interference/"
+  },
+  {
+    "id": "old-republic-fiction-secret-journal-demagol",
+    "name": "KotOR comic companion — The Secret Journal of Doctor Demagol",
+    "kind": "website",
+    "url": "https://farawaypress.com/fiction/starwars-secretjournalofdoctordemagol/"
+  },
+  {
+    "id": "old-republic-magazine-story-third-lesson",
+    "name": "Secondary bibliography — The Old Republic: The Third Lesson",
+    "kind": "website",
+    "url": "https://starwars.fandom.com/wiki/The_Old_Republic%3A_The_Third_Lesson"
+  },
+  {
+    "id": "old-republic-magazine-story-last-battle-jace-malcom",
+    "name": "Secondary bibliography — The Last Battle of Colonel Jace Malcom",
+    "kind": "website",
+    "url": "https://starwars.fandom.com/wiki/The_Last_Battle_of_Colonel_Jace_Malcom"
+  },
+  {
+    "id": "swtor-short-story-search-oricon",
+    "name": "SWTOR — Short story: The Search for Oricon",
+    "kind": "website",
+    "url": "https://www.swtor.com/blog/search-oricon"
+  },
+  {
+    "id": "swtor-short-story-lana-journal-arkous",
+    "name": "SWTOR — Short story: Lana Beniko's Journal: Darth Arkous",
+    "kind": "website",
+    "url": "https://www.swtor.com/blog/lana-beniko%E2%80%99s-journal-darth-arkous"
+  },
+  {
+    "id": "swtor-short-story-surface-details",
+    "name": "SWTOR — Short story: Surface Details",
+    "kind": "website",
+    "url": "https://www.swtor.com/blog/surface-details"
+  },
+  {
+    "id": "swtor-short-story-wanted-dead-dismantled",
+    "name": "SWTOR — Short story: Wanted: Dead and Dismantled",
+    "kind": "website",
+    "url": "https://www.swtor.com/blog/wanted-dead-and-dismantled"
+  },
+  {
+    "id": "swtor-short-story-remnants",
+    "name": "SWTOR — Short story: Remnants",
+    "kind": "website",
+    "url": "https://www.swtor.com/blog/remnants"
+  },
+  {
+    "id": "swtor-short-story-bedtime-concordia",
+    "name": "SWTOR — Short story: Bedtime on Concordia",
+    "kind": "website",
+    "url": "https://www.swtor.com/blog/bedtime-concordia"
+  },
+  {
+    "id": "swtor-short-story-price-of-power",
+    "name": "SWTOR — Short story: The Price of Power",
+    "kind": "website",
+    "url": "https://www.swtor.com/blog/price-power"
+  },
+  {
+    "id": "swtor-short-story-dealer-den",
+    "name": "SWTOR — Short story: One Night in the Dealer's Den",
+    "kind": "website",
+    "url": "https://www.swtor.com/blog/one-night-dealer%E2%80%99s-den"
+  },
+  {
+    "id": "swtor-short-story-final-trial",
+    "name": "SWTOR — Short story: The Final Trial",
+    "kind": "website",
+    "url": "https://www.swtor.com/blog/final-trial"
+  },
+  {
+    "id": "swtor-short-story-regrets",
+    "name": "SWTOR — Short story: Regrets",
+    "kind": "website",
+    "url": "https://www.swtor.com/blog/regrets"
+  },
+  {
+    "id": "swtor-short-story-sixth-line-one",
+    "name": "SWTOR — Short story: The Sixth Line: Part One",
+    "kind": "website",
+    "url": "https://www.swtor.com/blog/sixth-line-part-one"
+  },
+  {
+    "id": "swtor-short-story-sixth-line-two",
+    "name": "SWTOR — Short story: The Sixth Line: Part Two",
+    "kind": "website",
+    "url": "https://www.swtor.com/blog/sixth-line-part-two"
+  },
+  {
+    "id": "swtor-short-story-vacation",
+    "name": "SWTOR — Short story: Vacation",
+    "kind": "website",
+    "url": "https://www.swtor.com/blog/vacation"
+  },
+  {
+    "id": "swtor-short-story-brothers",
+    "name": "SWTOR — Short story: Brothers",
+    "kind": "website",
+    "url": "https://www.swtor.com/blog/brothers"
+  },
+  {
+    "id": "swtor-short-story-a-mothers-hope",
+    "name": "SWTOR — Short story: A Mother's Hope",
+    "kind": "website",
+    "url": "https://www.swtor.com/info/news/blog/20161117"
+  },
+  {
+    "id": "swtor-short-story-trading-scars",
+    "name": "SWTOR — Short story: Trading Scars",
+    "kind": "website",
+    "url": "https://www.swtor.com/info/news/news-article/20170817"
+  },
+  {
+    "id": "swtor-short-story-chasing-copero",
+    "name": "SWTOR — Short story: Chasing Copero",
+    "kind": "website",
+    "url": "https://www.swtor.com/info/news/news-article/20171116"
+  },
+  {
+    "id": "swtor-short-story-quite-a-story-to-tell",
+    "name": "SWTOR — Short story: Quite A Story To Tell",
+    "kind": "website",
+    "url": "https://www.swtor.com/info/news/article/20210413"
+  },
+  {
+    "id": "swtor-short-story-seeing-red",
+    "name": "SWTOR — Short story: Seeing Red",
+    "kind": "website",
+    "url": "https://www.swtor.com/info/news/news-article/20210714"
+  },
+  {
+    "id": "swtor-short-story-all-thats-left",
+    "name": "SWTOR — Short story: All That's Left",
+    "kind": "website",
+    "url": "https://www.swtor.com/info/news/article/20220804"
+  },
+  {
+    "id": "swtor-short-story-bottled-fury",
+    "name": "SWTOR — Short story: Bottled Fury",
+    "kind": "website",
+    "url": "https://www.swtor.com/info/news/article/20221117"
+  },
+  {
+    "id": "swtor-short-story-snare",
+    "name": "SWTOR — Short story: Snare",
+    "kind": "website",
+    "url": "https://www.swtor.com/info/news/article/20221209-0"
+  },
+  {
+    "id": "swtor-short-story-last-road-khar-shian",
+    "name": "SWTOR — Short story: Last Road to Khar Shian",
+    "kind": "website",
+    "url": "https://www.swtor.com/info/news/%5Bnews-category%5D/20260528"
+  },
+  {
+    "id": "starwars-demagol-editorial-context",
+    "name": "StarWars.com — The Secret Journal of Doctor Demagol editorial context",
+    "kind": "website",
+    "url": "https://www.starwars.com/news/the-essential-readers-companion-making-the-cut"
+  },
+  {
+    "id": "deadlystream",
+    "name": "Deadly Stream",
+    "kind": "website",
+    "url": "https://deadlystream.com"
+  },
+  {
+    "id": "lucasforums-archive",
+    "name": "LucasForums Archive",
+    "kind": "website",
+    "url": "https://lucasforumsarchive.org"
+  },
+  {
+    "id": "pcgamingwiki-kotor",
+    "name": "PCGamingWiki",
+    "kind": "website",
+    "url": "https://www.pcgamingwiki.com"
+  },
+  {
+    "id": "kotor-neocities",
+    "name": "KOTOR Neocities",
+    "kind": "website",
+    "url": "https://kotor.neocities.org"
+  },
+  {
+    "id": "swtor-manaan-official",
+    "name": "SWTOR — Manaan and kolto",
+    "kind": "website",
+    "url": "https://www.swtor.com/info/news/blog/20140718"
+  },
+  {
+    "id": "swtor-galactic-history-official",
+    "name": "SWTOR — Galactic History archive",
+    "kind": "website",
+    "url": "https://www.swtor.com/holonet/galactic-history"
+  },
+  {
+    "id": "swtor-setting-official",
+    "name": "SWTOR — Official game setting",
+    "kind": "website",
+    "url": "https://www.swtor.com/info/story/setting"
+  },
+  {
+    "id": "swtor-story-so-far-official",
+    "name": "SWTOR — Story So Far",
+    "kind": "website",
+    "url": "https://www.swtor.com/info/news/article/20211104"
+  },
+  {
+    "id": "torcommunity-database-secondary",
+    "name": "TORCommunity — game-data database (secondary lead)",
+    "kind": "website",
+    "url": "https://torcommunity.com/database"
+  },
+  {
+    "id": "jedipedia-swtor-codex-secondary",
+    "name": "Jedipedia — SWTOR codex index (secondary lead)",
+    "kind": "website",
+    "url": "https://swtor.jedipedia.net/en/cdx"
+  },
+  {
+    "id": "swtor-patch-notes-official",
+    "name": "SWTOR — Patch note archive",
+    "kind": "website",
+    "url": "https://www.swtor.com/patchnotes"
+  },
+  {
+    "id": "swtor-codex-design-official",
+    "name": "SWTOR — Codex design context",
+    "kind": "website",
+    "url": "https://www.swtor.com/info/news/blog/20110506"
+  },
+  {
+    "id": "swtor-lost-suns-official",
+    "name": "SWTOR — The Lost Suns announcement",
+    "kind": "website",
+    "url": "https://www.swtor.com/info/news/news-article/20110603-0"
+  },
+  {
+    "id": "swtor-webcomic-archive",
+    "name": "SWTOR — Official webcomic archive",
+    "kind": "website",
+    "url": "https://www.swtor.com/flux/multimedia/webcomic"
+  },
+  {
+    "id": "swtor-threat-of-peace-archive",
+    "name": "SWTOR — Threat of Peace archive",
+    "kind": "website",
+    "url": "https://www.swtor.com/flux/multimedia/tout"
+  },
+  {
+    "id": "marvel-kotor-comics",
+    "name": "Marvel — Knights of the Old Republic comics catalog",
+    "kind": "website",
+    "url": "https://www.marvel.com/comics/series/20196/star_wars%3A_knights_of_the_old_republic_%282006_-_2010%29"
+  },
+  {
+    "id": "kotor-comic-issue-index-secondary",
+    "name": "KotOR comic issue contents — secondary research lead",
+    "kind": "website",
+    "url": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic_(comic_series)"
+  },
+  {
+    "id": "marvel-kotor-omnibus-contents",
+    "name": "Marvel — KotOR omnibus contents",
+    "kind": "website",
+    "url": "https://www.marvel.com/comics/collection/120279/star_wars_legends_the_old_republic_omnibus_vol_1_brian_ching_cover_new_printing_hardcover"
+  },
+  {
+    "id": "marvel-dawn-of-the-jedi-series",
+    "name": "Marvel — Dawn of the Jedi series catalog",
+    "kind": "website",
+    "url": "https://www.marvel.com/comics/series/20152/star_wars%3A_dawn_of_the_jedi_%282012%29"
+  },
+  {
+    "id": "marvel-tales-of-the-jedi-collection",
+    "name": "Marvel — Tales of the Jedi omnibus catalog",
+    "kind": "website",
+    "url": "https://www.marvel.com/comics/collection/108624/"
+  },
+  {
+    "id": "marvel-old-republic-vol4",
+    "name": "Marvel — Legends Epic Collection: The Old Republic Vol. 4",
+    "kind": "website",
+    "url": "https://www.marvel.com/comics/collection/93818/"
+  },
+  {
+    "id": "marvel-jedi-vs-sith-comics",
+    "name": "Marvel — Jedi Vs. Sith comics catalog",
+    "kind": "website",
+    "url": "https://www.marvel.com/comics/series/20192/star_wars%3A_jedi_vs._sith_%282001%29"
+  },
+  {
+    "id": "marvel-lost-tribe-spiral-comics",
+    "name": "Marvel — Lost Tribe of the Sith: Spiral catalog",
+    "kind": "website",
+    "url": "https://www.marvel.com/comics/series/20203/star_wars%3A_lost_tribe_of_the_sith_-_spiral_%282012%29"
+  },
+  {
+    "id": "marvel-knight-errant-comics",
+    "name": "Marvel — Knight Errant comics catalog",
+    "kind": "website",
+    "url": "https://www.marvel.com/comics/series/20193/star_wars_knight_errant_2010_2011"
+  },
+  {
+    "id": "marvel-old-republic-comics",
+    "name": "Marvel — The Old Republic comics catalog",
+    "kind": "website",
+    "url": "https://www.marvel.com/comics/series/20242/star_wars%3A_the_old_republic_%282010%29"
+  },
+  {
+    "id": "marvel-old-republic-omnibus-vol2",
+    "name": "Marvel/PRH — The Old Republic Omnibus Vol. 2 contents",
+    "kind": "website",
+    "url": "https://prhcomics.com/wp-content/uploads/2025/03/PREVIEWS2021043_June_2025_FINAL.pdf"
+  },
+  {
+    "id": "starwars-legends-continuity",
+    "name": "StarWars.com — Expanded Universe continuity announcement",
+    "kind": "website",
+    "url": "https://www.starwars.com/news/the-legendary-star-wars-expanded-universe-turns-a-new-page"
+  },
+  {
+    "id": "wikipedia-kotor",
+    "name": "Wikipedia — Star Wars KOTOR",
+    "kind": "website",
+    "url": "https://en.wikipedia.org/wiki/Star_Wars:_Knights_of_the_Old_Republic"
+  },
+  {
+    "id": "strategywiki-kotor",
+    "name": "StrategyWiki KOTOR",
+    "kind": "website",
+    "url": "https://strategywiki.org/wiki/Star_Wars:_Knights_of_the_Old_Republic"
+  },
+  {
+    "id": "steam-community-guides-kotor",
+    "name": "Steam Community Guides",
+    "kind": "website",
+    "url": "https://steamcommunity.com"
+  },
+  {
+    "id": "approved-discord-knowledge",
+    "name": "Approved Discord Knowledge",
+    "kind": "discord",
+    "url": "discord://approved-channels"
+  }
+]

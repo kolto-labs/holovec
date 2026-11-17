@@ -1,0 +1,1107 @@
+[
+  {
+    "id": "kotor-comic-issue-index-secondary",
+    "name": "KotOR comic issue contents (secondary research lead)",
+    "url": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic_(comic_series)",
+    "status": "partially_ingested",
+    "reuse_basis": "Wookieepedia contributor text under CC BY-SA 3.0; quotation-screened derivative only; third-party excerpts and rights remain unverified",
+    "ingested": true,
+    "dataset": "data/wookieepedia-kotor-series-arc-sections.jsonl"
+  },
+  {
+    "id": "deadlystream",
+    "name": "Deadly Stream",
+    "url": "https://deadlystream.com",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "lucasforums-archive",
+    "name": "LucasForums Archive",
+    "url": "https://lucasforumsarchive.org",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "pcgamingwiki-kotor",
+    "name": "PCGamingWiki",
+    "url": "https://www.pcgamingwiki.com",
+    "status": "partially_ingested",
+    "reuse_basis": "Selected contributor text under CC BY-NC-SA 3.0; noncommercial share-alike conditions; third-party transclusions excluded",
+    "ingested": true
+  },
+  {
+    "id": "kotor-neocities",
+    "name": "KOTOR Neocities",
+    "url": "https://kotor.neocities.org",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "wikipedia-kotor",
+    "name": "Wikipedia — Star Wars KOTOR",
+    "url": "https://en.wikipedia.org/wiki/Star_Wars:_Knights_of_the_Old_Republic",
+    "status": "partially_ingested",
+    "reuse_basis": "Wikipedia contributor text, CC BY-SA 4.0; third-party material not independently cleared",
+    "ingested": true,
+    "dataset": "data/wikipedia-kotor-series-introduction.jsonl"
+  },
+  {
+    "id": "strategywiki-kotor",
+    "name": "StrategyWiki KOTOR",
+    "url": "https://strategywiki.org/wiki/Star_Wars:_Knights_of_the_Old_Republic",
+    "status": "partially_ingested",
+    "reuse_basis": "StrategyWiki contributor text under CC BY-SA 4.0; historical contributions and third-party excerpts may have different terms; review remains open",
+    "ingested": true,
+    "dataset": "data/strategywiki.jsonl",
+    "additional_dataset": "data/strategywiki-restored-content-overview.jsonl",
+    "current_alternative_dataset": "data/strategywiki-current-skills.jsonl",
+    "current_guide_dataset": "data/strategywiki-current-guide-revisions.jsonl",
+    "quote_omitted_dataset": "data/strategywiki-quote-omitted-walkthroughs.jsonl",
+    "partial_quote_recovery_dataset": "data/strategywiki-partial-quote-overlap-recovery.jsonl"
+  },
+  {
+    "id": "swtor-manaan-official",
+    "name": "SWTOR — Manaan and kolto",
+    "url": "https://www.swtor.com/info/news/blog/20140718",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-lost-suns-official",
+    "name": "SWTOR — The Lost Suns announcement",
+    "url": "https://www.swtor.com/info/news/news-article/20110603-0",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-webcomic-archive",
+    "name": "SWTOR — Official webcomic archive",
+    "url": "https://www.swtor.com/flux/multimedia/webcomic",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "marvel-kotor-comics",
+    "name": "Marvel — Knights of the Old Republic comics catalog",
+    "url": "https://www.marvel.com/comics/series/20196/star_wars%3A_knights_of_the_old_republic_%282006_-_2010%29",
+    "status": "discovery_only",
+    "reuse_basis": "Working publisher bibliography and edition facts only. Primary comic reuse is subject to source-specific permission.",
+    "ingested": false
+  },
+  {
+    "id": "marvel-kotor-omnibus-contents",
+    "name": "Marvel — KotOR omnibus contents",
+    "url": "https://www.marvel.com/comics/collection/120279/star_wars_legends_the_old_republic_omnibus_vol_1_brian_ching_cover_new_printing_hardcover",
+    "status": "discovery_only",
+    "reuse_basis": "Working publisher bibliography and edition facts only. Primary comic reuse is subject to source-specific permission.",
+    "ingested": false
+  },
+  {
+    "id": "marvel-dawn-of-the-jedi-series",
+    "name": "Marvel — Dawn of the Jedi series catalog",
+    "url": "https://www.marvel.com/comics/series/20152/star_wars%3A_dawn_of_the_jedi_%282012%29",
+    "status": "discovery_only",
+    "reuse_basis": "Working publisher bibliography and edition facts only. Primary comic reuse is subject to source-specific permission.",
+    "ingested": false,
+    "related_character_perspectives": "data/wookieepedia-dawn-character-biographies.jsonl"
+  },
+  {
+    "id": "marvel-old-republic-comics",
+    "name": "Marvel — The Old Republic comics catalog",
+    "url": "https://www.marvel.com/comics/series/20242/star_wars%3A_the_old_republic_%282010%29",
+    "status": "discovery_only",
+    "reuse_basis": "Working publisher bibliography and edition facts only. Primary comic reuse is subject to source-specific permission.",
+    "ingested": false
+  },
+  {
+    "id": "marvel-old-republic-omnibus-vol2",
+    "name": "Marvel/PRH — The Old Republic Omnibus Vol. 2 contents",
+    "url": "https://prhcomics.com/wp-content/uploads/2025/03/PREVIEWS2021043_June_2025_FINAL.pdf",
+    "status": "discovery_only",
+    "reuse_basis": "Working publisher bibliography and edition facts only. Primary comic reuse is subject to source-specific permission.",
+    "ingested": false
+  },
+  {
+    "id": "steam-community-guides-kotor",
+    "name": "Steam Community Guides",
+    "url": "https://steamcommunity.com",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "marvel-tales-of-the-jedi-collection",
+    "name": "Marvel — Tales of the Jedi omnibus catalog",
+    "url": "https://www.marvel.com/comics/collection/108624/",
+    "status": "discovery_only",
+    "reuse_basis": "Working publisher bibliography and edition facts only. Primary comic reuse is subject to source-specific permission.",
+    "ingested": false
+  },
+  {
+    "id": "marvel-old-republic-vol4",
+    "name": "Marvel — Legends Epic Collection: The Old Republic Vol. 4",
+    "url": "https://www.marvel.com/comics/collection/93818/",
+    "status": "discovery_only",
+    "reuse_basis": "Working publisher bibliography and edition facts only. Primary comic reuse is subject to source-specific permission.",
+    "ingested": false
+  },
+  {
+    "id": "marvel-jedi-vs-sith-comics",
+    "name": "Marvel — Jedi Vs. Sith comics catalog",
+    "url": "https://www.marvel.com/comics/series/20192/star_wars%3A_jedi_vs._sith_%282001%29",
+    "status": "discovery_only",
+    "reuse_basis": "Working publisher bibliography and edition facts only. Primary comic reuse is subject to source-specific permission.",
+    "ingested": false,
+    "related_character_perspectives": "data/wookieepedia-jedi-vs-sith-character-biographies.jsonl",
+    "additional_character_perspectives": "data/wookieepedia-jedi-vs-sith-more-biographies.jsonl"
+  },
+  {
+    "id": "marvel-lost-tribe-spiral-comics",
+    "name": "Marvel — Lost Tribe of the Sith: Spiral catalog",
+    "url": "https://www.marvel.com/comics/series/20203/star_wars%3A_lost_tribe_of_the_sith_-_spiral_%282012%29",
+    "status": "discovery_only",
+    "reuse_basis": "Working publisher bibliography and edition facts only. Primary comic reuse is subject to source-specific permission.",
+    "ingested": false
+  },
+  {
+    "id": "marvel-knight-errant-comics",
+    "name": "Marvel — Knight Errant comics catalog",
+    "url": "https://www.marvel.com/comics/series/20193/star_wars_knight_errant_2010_2011",
+    "status": "discovery_only",
+    "reuse_basis": "Working publisher bibliography and edition facts only. Primary comic reuse is subject to source-specific permission.",
+    "ingested": false
+  },
+  {
+    "id": "starwars-legends-continuity",
+    "name": "StarWars.com — Expanded Universe continuity announcement",
+    "url": "https://www.starwars.com/news/the-legendary-star-wars-expanded-universe-turns-a-new-page",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-threat-of-peace-archive",
+    "name": "SWTOR — Threat of Peace archive",
+    "url": "https://www.swtor.com/flux/multimedia/tout",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-short-story-search-oricon",
+    "name": "SWTOR — Short story: The Search for Oricon",
+    "url": "https://www.swtor.com/blog/search-oricon",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false,
+    "publisher_metadata": {
+      "publication_date": "2013-10-01",
+      "narrator": "Jonas Balkar",
+      "subjects": [
+        "Dread Masters",
+        "Oricon",
+        "The Dread War"
+      ],
+      "evidence_url": "https://www.swtor.com/blog/search-oricon",
+      "basis": "Date, log attribution and publisher tags observed on the publisher page; metadata only, not the story text."
+    }
+  },
+  {
+    "id": "swtor-short-story-lana-journal-arkous",
+    "name": "SWTOR — Short story: Lana Beniko's Journal: Darth Arkous",
+    "url": "https://www.swtor.com/blog/lana-beniko%E2%80%99s-journal-darth-arkous",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false,
+    "related_secondary_context": [
+      {
+        "dataset": "data/wookieepedia-lana-talay-context.jsonl",
+        "subject": "Lana Beniko",
+        "section": "Advisor to Darth Arkous",
+        "revision_id": "15802812",
+        "text_sha256": "3458567960cbe937c11c3721cf875b2d7a3449496979bbcb6b90f8fcc634d520",
+        "source_revision_url": "https://starwars.fandom.com/wiki/Lana_Beniko?oldid=15802812",
+        "scope": "Related character or event context; not a direct story-title match or full story."
+      },
+      {
+        "dataset": "data/wookieepedia-lana-talay-context.jsonl",
+        "subject": "Invasion of Talay",
+        "section": "introduction",
+        "revision_id": "13924927",
+        "text_sha256": "e00bc25d4ee01a59b97d1a5b14e8faf195ea5cfedd0c8ff21d97007b61165587",
+        "source_revision_url": "https://starwars.fandom.com/wiki/Invasion_of_Talay?oldid=13924927",
+        "scope": "Related character or event context; not a direct story-title match or full story."
+      }
+    ]
+  },
+  {
+    "id": "swtor-short-story-surface-details",
+    "name": "SWTOR — Short story: Surface Details",
+    "url": "https://www.swtor.com/blog/surface-details",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-short-story-wanted-dead-dismantled",
+    "name": "SWTOR — Short story: Wanted: Dead and Dismantled",
+    "url": "https://www.swtor.com/blog/wanted-dead-and-dismantled",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-short-story-remnants",
+    "name": "SWTOR — Short story: Remnants",
+    "url": "https://www.swtor.com/blog/remnants",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-short-story-bedtime-concordia",
+    "name": "SWTOR — Short story: Bedtime on Concordia",
+    "url": "https://www.swtor.com/blog/bedtime-concordia",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-short-story-price-of-power",
+    "name": "SWTOR — Short story: The Price of Power",
+    "url": "https://www.swtor.com/blog/price-power",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-short-story-dealer-den",
+    "name": "SWTOR — Short story: One Night in the Dealer's Den",
+    "url": "https://www.swtor.com/blog/one-night-dealer%E2%80%99s-den",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-short-story-final-trial",
+    "name": "SWTOR — Short story: The Final Trial",
+    "url": "https://www.swtor.com/blog/final-trial",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-short-story-regrets",
+    "name": "SWTOR — Short story: Regrets",
+    "url": "https://www.swtor.com/blog/regrets",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-short-story-sixth-line-one",
+    "name": "SWTOR — Short story: The Sixth Line: Part One",
+    "url": "https://www.swtor.com/blog/sixth-line-part-one",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-short-story-sixth-line-two",
+    "name": "SWTOR — Short story: The Sixth Line: Part Two",
+    "url": "https://www.swtor.com/blog/sixth-line-part-two",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-short-story-vacation",
+    "name": "SWTOR — Short story: Vacation",
+    "url": "https://www.swtor.com/blog/vacation",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-short-story-brothers",
+    "name": "SWTOR — Short story: Brothers",
+    "url": "https://www.swtor.com/blog/brothers",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-short-story-a-mothers-hope",
+    "name": "SWTOR — Short story: A Mother's Hope",
+    "url": "https://www.swtor.com/info/news/blog/20161117",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-short-story-trading-scars",
+    "name": "SWTOR — Short story: Trading Scars",
+    "url": "https://www.swtor.com/info/news/news-article/20170817",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-short-story-chasing-copero",
+    "name": "SWTOR — Short story: Chasing Copero",
+    "url": "https://www.swtor.com/info/news/news-article/20171116",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-short-story-quite-a-story-to-tell",
+    "name": "SWTOR — Short story: Quite A Story To Tell",
+    "url": "https://www.swtor.com/info/news/article/20210413",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-short-story-seeing-red",
+    "name": "SWTOR — Short story: Seeing Red",
+    "url": "https://www.swtor.com/info/news/news-article/20210714",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-short-story-all-thats-left",
+    "name": "SWTOR — Short story: All That's Left",
+    "url": "https://www.swtor.com/info/news/article/20220804",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-short-story-bottled-fury",
+    "name": "SWTOR — Short story: Bottled Fury",
+    "url": "https://www.swtor.com/info/news/article/20221117",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-short-story-snare",
+    "name": "SWTOR — Short story: Snare",
+    "url": "https://www.swtor.com/info/news/article/20221209-0",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-short-story-last-road-khar-shian",
+    "name": "SWTOR — Short story: Last Road to Khar Shian",
+    "url": "https://www.swtor.com/info/news/%5Bnews-category%5D/20260528",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-galactic-history-official",
+    "name": "SWTOR — Galactic History archive",
+    "url": "https://www.swtor.com/holonet/galactic-history",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-setting-official",
+    "name": "SWTOR — Official game setting",
+    "url": "https://www.swtor.com/info/story/setting",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-story-so-far-official",
+    "name": "SWTOR — Story So Far",
+    "url": "https://www.swtor.com/info/news/article/20211104",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "swtor-patch-notes-official",
+    "name": "SWTOR — Patch note archive",
+    "url": "https://www.swtor.com/patchnotes",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false,
+    "discovery_snapshot": {
+      "path": "catalog/works/swtor-patchnote-index.json",
+      "publisher_links": 373,
+      "dated_labels": 355,
+      "scope": "English publisher index links only; patch bodies and game content not acquired."
+    }
+  },
+  {
+    "id": "swtor-codex-design-official",
+    "name": "SWTOR — Codex design context",
+    "url": "https://www.swtor.com/info/news/blog/20110506",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "old-republic-book-revan",
+    "name": "Old Republic bibliography — Revan",
+    "url": "https://www.penguinrandomhouse.com/books/7861/revan-star-wars-legends-the-old-republic/",
+    "status": "discovery_only",
+    "reuse_basis": "Publisher bibliographic facts. Original materials retain their respective rights.",
+    "ingested": false,
+    "work_kind": "novel"
+  },
+  {
+    "id": "old-republic-book-deceived",
+    "name": "Old Republic bibliography — Deceived",
+    "url": "https://www.penguinrandomhouse.com/books/7874/deceived-star-wars-legends-the-old-republic/",
+    "status": "discovery_only",
+    "reuse_basis": "Publisher bibliographic facts. Original materials retain their respective rights.",
+    "ingested": false,
+    "work_kind": "novel"
+  },
+  {
+    "id": "old-republic-book-fatal-alliance",
+    "name": "Old Republic bibliography — Fatal Alliance",
+    "url": "https://www.penguinrandomhouse.com/books/7860/fatal-alliance-star-wars-legends-the-old-republic/",
+    "status": "discovery_only",
+    "reuse_basis": "Publisher bibliographic facts. Original materials retain their respective rights.",
+    "ingested": false,
+    "work_kind": "novel"
+  },
+  {
+    "id": "old-republic-book-annihilation",
+    "name": "Old Republic bibliography — Annihilation",
+    "url": "https://www.penguinrandomhouse.com/books/212712/annihilation-star-wars-legends-the-old-republic-by-drew-karpyshyn/paperback/",
+    "status": "discovery_only",
+    "reuse_basis": "Publisher bibliographic facts. Original materials retain their respective rights.",
+    "ingested": false,
+    "work_kind": "novel"
+  },
+  {
+    "id": "old-republic-book-knight-errant",
+    "name": "Old Republic bibliography — Knight Errant novel",
+    "url": "https://www.penguinrandomhouse.com/books/203232/knight-errant-star-wars-legends-by-john-jackson-miller/",
+    "status": "discovery_only",
+    "reuse_basis": "Publisher bibliographic facts. Original materials retain their respective rights.",
+    "ingested": false,
+    "work_kind": "novel"
+  },
+  {
+    "id": "old-republic-book-lost-tribe-collected-stories",
+    "name": "Old Republic bibliography — Lost Tribe of the Sith: The Collected Stories",
+    "url": "https://www.penguinrandomhouse.com/books/7867/lost-tribe-of-the-sith-star-wars-legends-the-collected-stories-by-john-jackson-miller/9780345541321/",
+    "status": "discovery_only",
+    "reuse_basis": "Publisher bibliographic facts. Original materials retain their respective rights.",
+    "ingested": false,
+    "work_kind": "story_collection"
+  },
+  {
+    "id": "old-republic-book-dawn-of-the-jedi-into-the-void",
+    "name": "Old Republic bibliography — Dawn of the Jedi: Into the Void",
+    "url": "https://www.penguinrandomhouse.com/books/222802/into-the-void-star-wars-legends-dawn-of-the-jedi-by-tim-lebbon/",
+    "status": "discovery_only",
+    "reuse_basis": "Publisher bibliographic facts. Original materials retain their respective rights.",
+    "ingested": false,
+    "work_kind": "novel"
+  },
+  {
+    "id": "old-republic-book-essential-readers-companion",
+    "name": "Old Republic bibliography — The Essential Reader's Companion",
+    "url": "https://www.penguinrandomhouse.com/books/7825/the-essential-readers-companion-star-wars-by-pablo-hidalgo/",
+    "status": "discovery_only",
+    "reuse_basis": "Publisher bibliographic facts. Original materials retain their respective rights.",
+    "ingested": false,
+    "work_kind": "reference"
+  },
+  {
+    "id": "old-republic-book-kotor-campaign-guide",
+    "name": "Old Republic bibliography — Knights of the Old Republic Campaign Guide",
+    "url": "https://farawaypress.com/games/swkotorguide/",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "torcommunity-database-secondary",
+    "name": "TORCommunity — game-data database (secondary lead)",
+    "url": "https://torcommunity.com/database",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "jedipedia-swtor-codex-secondary",
+    "name": "Jedipedia — SWTOR codex index (secondary lead)",
+    "url": "https://swtor.jedipedia.net/en/cdx",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "old-republic-fiction-labor-pains",
+    "name": "KotOR short fiction — Labor Pains",
+    "url": "https://farawaypress.com/fiction/starwars-laborpains/",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "old-republic-fiction-interference",
+    "name": "KotOR short fiction — Interference",
+    "url": "https://farawaypress.com/fiction/starwars-interference/",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "old-republic-fiction-secret-journal-demagol",
+    "name": "KotOR comic companion — The Secret Journal of Doctor Demagol",
+    "url": "https://farawaypress.com/fiction/starwars-secretjournalofdoctordemagol/",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "starwars-demagol-editorial-context",
+    "name": "StarWars.com — The Secret Journal of Doctor Demagol editorial context",
+    "url": "https://www.starwars.com/news/the-essential-readers-companion-making-the-cut",
+    "status": "discovery_only",
+    "reuse_basis": "unreviewed",
+    "ingested": false
+  },
+  {
+    "id": "old-republic-magazine-story-third-lesson",
+    "name": "Secondary bibliography — The Old Republic: The Third Lesson",
+    "url": "https://starwars.fandom.com/wiki/The_Old_Republic%3A_The_Third_Lesson",
+    "status": "partially_ingested",
+    "reuse_basis": "Attributed CC BY-SA secondary wiki records retain source-specific provenance. Original magazine story content and its reuse rights remain unacquired.",
+    "ingested": true,
+    "secondary_text_layers": [
+      "data/wookieepedia-publication-summaries.jsonl"
+    ]
+  },
+  {
+    "id": "old-republic-magazine-story-last-battle-jace-malcom",
+    "name": "Secondary bibliography — The Last Battle of Colonel Jace Malcom",
+    "url": "https://starwars.fandom.com/wiki/The_Last_Battle_of_Colonel_Jace_Malcom",
+    "status": "partially_ingested",
+    "reuse_basis": "Attributed CC BY-SA secondary wiki records retain source-specific provenance. Original magazine story content and its reuse rights remain unacquired.",
+    "ingested": true,
+    "secondary_text_layers": [
+      "data/wookieepedia-broad-references.jsonl",
+      "data/wookieepedia-swtor-story-plots.jsonl"
+    ]
+  },
+  {
+    "id": "kolto-labs-technical-projects",
+    "name": "Kolto Labs technical project documentation",
+    "url": "https://github.com/kolto-labs",
+    "status": "partially_ingested",
+    "ingested": true,
+    "reuse_basis": "Selected project documentation with pinned root license and Git blob provenance; MIT, AGPL-3.0-or-later, GPL-3.0-or-later, GPL-3.0 version scope unspecified, and CC0-1.0 depending on repository; third-party rights separate"
+  },
+  {
+    "id": "fate-old-republic-official-announcement",
+    "name": "Star Wars: Fate of the Old Republic — official announcement, interview and teaser",
+    "url": "https://www.starwars.com/news/star-wars-fate-of-the-old-republic-trailer",
+    "additional_urls": [
+      "https://www.youtube.com/watch?v=lAmkl1jL0fo",
+      "https://www.starwars.com/games-apps"
+    ],
+    "status": "discovery_only",
+    "ingested": false,
+    "reuse_basis": "Official announcement and teaser; reuse rights not established"
+  },
+  {
+    "id": "kotor-research-dialogue-corpus",
+    "name": "KOTOR research dialogue corpus — dataset and extraction methodology",
+    "url": "https://github.com/hmi-utwente/video-game-text-corpora",
+    "status": "discovery_only",
+    "ingested": false,
+    "reuse_basis": "Repository has no root license in the checked snapshot and states game assets belong to game publishers and developers; reuse permission not established."
+  },
+  {
+    "id": "swtorista-exarch-mission-list",
+    "name": "SWTOR mission list and checklist by Exarch on Swtorista",
+    "url": "https://swtorista.com/quests/",
+    "status": "discovery_only",
+    "ingested": false,
+    "reuse_basis": "No redistribution or additional-use license established for the authored list or the underlying game content. Site invitation to make a personal checklist copy does not establish those rights.",
+    "related_source_ids": [
+      "exarch-swtor-mission-workbook"
+    ]
+  },
+  {
+    "id": "arqade-swtor",
+    "name": "Arqade SWTOR questions and answers",
+    "url": "https://gaming.stackexchange.com/questions/tagged/star-wars-the-old-republic",
+    "status": "partial_screened",
+    "ingested": true,
+    "reuse_basis": "API-reported individual post licenses CC BY-SA 2.5, 3.0 or 4.0, with author and original-post attribution. Marked quotes, code and images omitted; unmarked third-party content is not independently cleared."
+  },
+  {
+    "id": "scifi-old-republic",
+    "name": "Science Fiction & Fantasy Old Republic and Darth Bane questions",
+    "url": "https://scifi.stackexchange.com/questions/tagged/star-wars-the-old-republic",
+    "status": "partial_screened",
+    "ingested": true,
+    "reuse_basis": "Individual API-reported CC BY-SA licenses and author/post attribution; marked quote, code and image blocks omitted. Unmarked third-party content is not independently cleared.",
+    "comic_character_search_dataset": "data/scifi-old-republic-comic-search.jsonl"
+  },
+  {
+    "id": "kotor-rpg-web-enhancements",
+    "name": "KOTOR Campaign Guide web enhancements",
+    "url": "https://www.jedipedia.net/wiki/KotOR_Campaign_Guide_Web_Enhancement",
+    "status": "discovery_only",
+    "ingested": false,
+    "reuse_basis": "Archived publisher pages include an all-rights-reserved notice. Permission to redistribute or submit primary text and images for hosted processing not established."
+  },
+  {
+    "id": "kotor-rpg-adventures-secondary",
+    "name": "KotOR tabletop adventure secondary summaries",
+    "url": "https://starwars.fandom.com/wiki/The_Betrayal_of_Darth_Revan",
+    "status": "partially_ingested",
+    "reuse_basis": "Screened Wookieepedia contributor text under CC BY-SA 3.0; unmarked excerpts remain unverified; primary works and their rights not acquired",
+    "ingested": true,
+    "dataset": "data/wookieepedia-kotor-adventure-summaries.jsonl"
+  },
+  {
+    "id": "kotor-rpg-creatures-supplements",
+    "name": "Creatures of KOTOR tabletop supplements",
+    "url": "https://jedipedia.fandom.com/wiki/Creatures_of_KotOR",
+    "status": "discovery_only",
+    "reuse_basis": "Primary article rights and additional-use permission not established",
+    "ingested": false
+  },
+  {
+    "id": "kotor-miniatures-scenario-inventory",
+    "name": "KotOR-era miniatures scenarios",
+    "url": "https://starwarstimelinealmanac.com/StarWars_Files/PDFs/Legends/SW_LegendsDigital_Checklist_9.0.pdf",
+    "status": "partially_ingested",
+    "ingested": true,
+    "reuse_basis": "Selected previously acquired secondary wiki contributor records; primary scenarios and rights remain unestablished",
+    "inventory": "catalog/works/kotor-miniatures-scenario-inventory.json"
+  },
+  {
+    "id": "kotor-miniatures-secondary-sections",
+    "name": "Old Republic miniatures related wiki sections",
+    "url": "https://starwars.fandom.com/wiki/Knights_of_the_Old_Republic:_Opportunities",
+    "status": "partially_ingested",
+    "ingested": true,
+    "reuse_basis": "Wookieepedia contributor text CC BY-SA 3.0; marked quotations and overlaps screened, unmarked excerpts not cleared; primary works not acquired",
+    "dataset": "data/wookieepedia-miniatures-quote-omitted.jsonl"
+  },
+  {
+    "id": "kotor-creator-issue-pages",
+    "name": "John Jackson Miller Knights of the Old Republic issue pages",
+    "url": "https://farawaypress.com/comics/starwarsknightsoftheoldrepublic/",
+    "status": "discovery_only",
+    "ingested": false,
+    "reuse_basis": "Creator commentary and publisher excerpts have not been separately cleared for reuse",
+    "inventory": "catalog/works/comics-issue-inventory.json"
+  },
+  {
+    "id": "wikipedia-knight-errant-sections",
+    "name": "Wikipedia Knight Errant publication and plot sections",
+    "url": "https://en.wikipedia.org/wiki/Star_Wars:_Knight_Errant",
+    "status": "partially_ingested",
+    "ingested": true,
+    "reuse_basis": "Wikipedia contributor material CC BY-SA 4.0; quote-free selected sections; unmarked excerpts remain unverified",
+    "dataset": "data/wikipedia-knight-errant-sections.jsonl"
+  },
+  {
+    "id": "wikipedia-dawn-secondary-sections",
+    "name": "Wikipedia Dawn of the Jedi character and novel sections",
+    "url": "https://en.wikipedia.org/wiki/Star_Wars:_Dawn_of_the_Jedi",
+    "status": "partially_ingested",
+    "ingested": true,
+    "reuse_basis": "Wikipedia contributor material CC BY-SA 4.0; selected sections contain no visible quotes, unmarked third-party excerpts remain unverified",
+    "dataset": "data/wikipedia-dawn-sections.jsonl"
+  },
+  {
+    "id": "wikipedia-comic-era-reconciliation",
+    "name": "Wikipedia Legends comic era bibliography reconciliation",
+    "url": "https://en.wikipedia.org/w/index.php?oldid=1379066095",
+    "status": "metadata_only",
+    "ingested": false,
+    "reuse_basis": "Wikipedia CC BY-SA 4.0 attributed bibliography metadata; primary comics not acquired"
+  },
+  {
+    "id": "kotor-war-creator-issue-pages",
+    "name": "John Jackson Miller War issue pages",
+    "url": "https://farawaypress.com/comics/starwarsknightsoftheoldrepublicwar/",
+    "status": "discovery_only",
+    "ingested": false,
+    "reuse_basis": "Creator commentary and publisher excerpts are not separately cleared for reuse",
+    "inventory": "catalog/works/comics-issue-inventory.json"
+  },
+  {
+    "id": "old-republic-book-red-harvest",
+    "name": "Red Harvest: Star Wars Legends",
+    "url": "https://www.penguinrandomhouse.com/books/7865/red-harvest-star-wars-legends-by-joe-schreiber/",
+    "status": "partially_ingested",
+    "ingested": true,
+    "reuse_basis": "Revision-pinned Wookieepedia contributor plot under CC BY-SA 3.0; unmarked third-party excerpts remain unverified. Publisher metadata does not grant primary text or additional-use rights.",
+    "dataset": "data/wookieepedia-reviewed-story-plots.jsonl",
+    "work_kind": "novel"
+  },
+  {
+    "id": "swtor-lana-talay-context",
+    "name": "Lana Beniko and Talay secondary context",
+    "url": "https://starwars.fandom.com/wiki/Invasion_of_Talay",
+    "status": "partially_ingested",
+    "ingested": true,
+    "reuse_basis": "Wookieepedia contributor text CC BY-SA 3.0; marked quotations screened, unmarked third-party excerpts remain unverified",
+    "dataset": "data/wookieepedia-lana-talay-context.jsonl"
+  },
+  {
+    "id": "statsjedi-kotor-combat-guide",
+    "name": "StatsJedi — Star Wars: Knights of the Old Republic Combat Guide",
+    "url": "https://faqs.neoseeker.com/Games/PC/star_wars_kotor_combat.pdf",
+    "status": "ingested",
+    "reuse_basis": "Author licenses guide CC BY-SA 4.0; underlying game and third-party rights are separate",
+    "ingested": true,
+    "datasets": [
+      "data/statsjedi-combat-analysis.jsonl",
+      "data/statsjedi-combat-conclusions.jsonl"
+    ],
+    "original_document": "data/originals/statsjedi-kotor-combat-guide.pdf",
+    "document_catalog": "catalog/sources/original-documents.json"
+  },
+  {
+    "id": "fan-galaxy-guide-16-old-republic",
+    "name": "Galaxy Guide 16: The Old Republic",
+    "url": "https://www.rancorpit.com/forums/downloads/Other%20Fan-Made%20Supplements/GG16%20-%20The%20Old%20Republic.pdf",
+    "status": "rights_held",
+    "reuse_basis": "Unspecified Creative Commons notice accompanied by non-distribution language; document states that it incorporates third-party sources and game codex text; permission and individual content rights are unresolved",
+    "ingested": false,
+    "observed_pdf_sha256": "e46ed169a36feb2ec96e644420e62263af5f46f9f7561bc90014c25f4b6addc5"
+  },
+  {
+    "id": "academic-death-language-kreia-2020",
+    "name": "The Death of Language: Listening to the Echoes (of Georges Bataille) in Star Wars: Knights of the Old Republic II—The Sith Lords",
+    "url": "https://czasopisma.uni.lodz.pl/textmatters/article/view/8675",
+    "status": "original_document_only",
+    "reuse_basis": "Original scholarly article under CC BY-NC-ND 4.0, with author and license notices retained. Other uses may require additional rights.",
+    "ingested": true,
+    "original_document": "data/originals/academic-death-language-kreia-2020.pdf",
+    "document_catalog": "catalog/sources/original-documents.json",
+    "text_ingested": false
+  },
+  {
+    "id": "totj-companion-1996",
+    "name": "Tales of the Jedi Companion (1996)",
+    "url": "https://www.torontopubliclibrary.ca/content/merril/pdfs/finding-aids/rpg-finding-aid-for-merril-collection-may-2024.pdf",
+    "publisher": "West End Games",
+    "isbn_13": "9780874312898",
+    "status": "discovery_only",
+    "reuse_basis": "Original sourcebook access and redistribution rights not established",
+    "ingested": false,
+    "related_secondary_dataset": "data/wikipedia-totj-companion.jsonl",
+    "related_adventure_inventory": "catalog/works/totj-companion-adventure-inventory.json"
+  },
+  {
+    "id": "swtor-encyclopedia-2012",
+    "name": "Star Wars: The Old Republic Encyclopedia (2012)",
+    "url": "https://www.swtor.com/info/news/news-article/20121015",
+    "publisher": "DK Publishing",
+    "isbn_13": "9780756698393",
+    "status": "discovery_only",
+    "reuse_basis": "Original book access and redistribution rights not established",
+    "ingested": false
+  },
+  {
+    "id": "approved-discord-knowledge",
+    "name": "Approved Discord Knowledge",
+    "url": "discord://approved-channels",
+    "status": "discovery_only",
+    "ingested": false,
+    "reuse_basis": "Source-specific content rights and acquisition coverage require review."
+  },
+  {
+    "id": "k1-observed-resource-metadata",
+    "name": "K1 observed local resource metadata",
+    "url": "game://k1/observed-local-assets",
+    "status": "metadata_only",
+    "ingested": true,
+    "reuse_basis": "HoloVec-authored factual resource-index, static conversation-graph and journal metadata is released under CC0-1.0. Underlying game rights remain with their owners.",
+    "build_provenance": "Observed local harness asset tree; distribution, build and modification provenance unverified",
+    "metadata_catalog": {
+      "path": "catalog/games/resources.parquet",
+      "inventory_id": "9b3989b60c17f48b4400ee468947a6e1395198072bfa90b0d4fc1660f844212b",
+      "records": 78006,
+      "receipt": "catalog/games/resource-census.json"
+    },
+    "distribution_comparison": {
+      "report": "catalog/games/distribution-verification.json",
+      "data": "catalog/games/distribution-files.parquet",
+      "installation": "k1-harness",
+      "resource_inventory_id": "9b3989b60c17f48b4400ee468947a6e1395198072bfa90b0d4fc1660f844212b",
+      "matching_indexed_containers": 399,
+      "matching_indexed_resources": 78006,
+      "critical_files": {
+        "chitin.key": "matches_reference",
+        "dialog.tlk": "matches_reference",
+        "swkotor.exe": "different"
+      },
+      "scope": "The 399 indexed packed resource containers match the locally cached depot reference by file size and SHA-1. The cached manifest signature is unverified. Other builds, platforms, languages and narrative completeness remain unresolved."
+    },
+    "dialogue_metadata": {
+      "receipt": "catalog/games/dialogue-census.json",
+      "tables": [
+        "catalog/games/dialogues.parquet",
+        "catalog/games/dialogue-nodes.parquet",
+        "catalog/games/dialogue-edges.parquet"
+      ],
+      "counts": {
+        "dialogues": 1167,
+        "dialogue-nodes": 51804,
+        "dialogue-edges": 72337,
+        "invalid_edges": 0,
+        "unreachable_nodes": 0
+      },
+      "scope": "Packed and observed standalone DLG occurrences with static reachability ignoring conditions. Source strings and inline localized prose have hashes. Override and module precedence remain unresolved.",
+      "loose_resources": 0,
+      "loose_resource_catalog": "catalog/games/loose-dialogue-resources.parquet"
+    },
+    "journal_metadata": {
+      "receipt": "catalog/games/journal-census.json",
+      "tables": [
+        "catalog/games/journals.parquet",
+        "catalog/games/journal-dialogue-references.parquet"
+      ],
+      "counts": {
+        "packed_resources": 4,
+        "loose_resources": 0,
+        "categories": 103,
+        "entries": 649
+      },
+      "scope": "Every indexed and observed standalone JRL occurrence. Typed metadata and fingerprints for prose, with all exact direct dialogue quest-reference candidates. Resource precedence, script-generated updates and runtime behavior remain unresolved."
+    }
+  },
+  {
+    "id": "k2-observed-resource-metadata",
+    "name": "K2 observed local resource metadata",
+    "url": "game://k2/observed-local-assets",
+    "status": "metadata_only",
+    "ingested": true,
+    "reuse_basis": "HoloVec-authored factual resource-index, static conversation-graph and journal metadata is released under CC0-1.0. Underlying game rights remain with their owners.",
+    "build_provenance": "Observed local harness asset tree; distribution, build and modification provenance unverified",
+    "metadata_catalog": {
+      "path": "catalog/games/resources.parquet",
+      "inventory_id": "a4b22510875bd82143633a3e1e685f14ba85934cba5597f3fb0bc3827041a603",
+      "records": 82356,
+      "receipt": "catalog/games/resource-census.json"
+    },
+    "distribution_provenance": {
+      "observed_date": "2026-11-16",
+      "source_kind": "Local Steam client declaration and installed port version file",
+      "app_id": 208580,
+      "build_id": "817494",
+      "installed_depots": {
+        "383207": {
+          "manifest_id": "4516302155192894829",
+          "declared_bytes": 3820520314
+        },
+        "383208": {
+          "manifest_id": "8787354934479674151",
+          "declared_bytes": 17971862
+        },
+        "383209": {
+          "manifest_id": "8293901328702244966",
+          "declared_bytes": 971173035
+        }
+      },
+      "port_version": {
+        "VERSION": "1.0.2",
+        "ASPYRCHANGELIST": "133780"
+      },
+      "source_file_sha256": {
+        "appmanifest_208580.acf": "a346fe58c97c7c67e575206b66b600603bc94f597eba3b12c60b0adb9adce1c3",
+        "com.aspyr.kotor2.version.json": "cc0a1abc938514e6b1d78b53560b67da72201496a768f9afb6fdb1b7d44ad8b7"
+      },
+      "scope": "Client-declared installation metadata. Critical KEY and talk-table hashes match the observed harness copies. Depot-content correspondence and modification provenance require further verification."
+    },
+    "dialogue_metadata": {
+      "receipt": "catalog/games/dialogue-census.json",
+      "tables": [
+        "catalog/games/dialogues.parquet",
+        "catalog/games/dialogue-nodes.parquet",
+        "catalog/games/dialogue-edges.parquet"
+      ],
+      "counts": {
+        "dialogues": 2424,
+        "dialogue-nodes": 112781,
+        "dialogue-edges": 169533,
+        "invalid_edges": 0,
+        "unreachable_nodes": 871
+      },
+      "scope": "Packed and observed standalone DLG occurrences with static reachability ignoring conditions. Source strings and inline localized prose have hashes. Override and module precedence remain unresolved.",
+      "loose_resources": 32,
+      "loose_resource_catalog": "catalog/games/loose-dialogue-resources.parquet"
+    },
+    "journal_metadata": {
+      "receipt": "catalog/games/journal-census.json",
+      "tables": [
+        "catalog/games/journals.parquet",
+        "catalog/games/journal-dialogue-references.parquet"
+      ],
+      "counts": {
+        "packed_resources": 1,
+        "loose_resources": 1,
+        "categories": 237,
+        "entries": 1498
+      },
+      "scope": "Every indexed and observed standalone JRL occurrence. Typed metadata and fingerprints for prose, with all exact direct dialogue quest-reference candidates. Resource precedence, script-generated updates and runtime behavior remain unresolved."
+    }
+  },
+  {
+    "id": "k1-cached-steam-depot-reference",
+    "name": "KOTOR I cached Steam depot reference and local file comparisons",
+    "url": "https://store.steampowered.com/app/32370/",
+    "status": "metadata_only",
+    "ingested": true,
+    "reuse_basis": "HoloVec-authored factual file-index observations under CC0-1.0. Underlying game content rights remain separate.",
+    "client_declaration": {
+      "app_id": 32370,
+      "build_id": "4143502",
+      "installed_depot_id": 32371,
+      "installed_manifest_id": "4122010938027300909",
+      "declared_depot_bytes": 3603240375
+    },
+    "reference": {
+      "depot_id": 32371,
+      "manifest_id": "4122010938027300909",
+      "cached_manifest_sha256": "5abf7bf8144a737ee90efbe1904a3e55b11dce3af883913a94bb374fa8c08836",
+      "manifest_entries": 16044,
+      "signature_cryptographically_verified": false
+    },
+    "metadata_catalog": {
+      "path": "catalog/games/distribution-files.parquet",
+      "records": 32088,
+      "receipt": "catalog/games/distribution-verification.json"
+    }
+  },
+  {
+    "id": "exarch-swtor-mission-workbook",
+    "name": "Exarch's SWTOR Mission Checklists factual metadata",
+    "url": "https://docs.google.com/spreadsheets/d/1sWpjVbfPw8SD4wQgAmXVAHdTcp9W8-xdzsv3LnZuVaE/edit?usp=sharing",
+    "status": "partially_ingested",
+    "ingested": true,
+    "reuse_basis": "The workbook cover invites use for anything and requests a reference. HoloVec interprets that invitation as supporting attributed factual mission metadata. This is a nonstandard permission statement. Original game prose and media rights remain unresolved.",
+    "corpus_layers": [
+      {
+        "source_layer": "data/exarch-mission-metadata.jsonl",
+        "records": 17548,
+        "recipe": "catalog/sources/exarch-workbook-recipe.json",
+        "audit": "catalog/sources/exarch-workbook-extraction.json"
+      }
+    ],
+    "source_snapshot_sha256": "00e0cc553221173a0c0d09f60c509da6148acf07f4121d0e8b9e23071e8d3bd8"
+  },
+  {
+    "id": "old-republic-book-darth-bane-path-of-destruction",
+    "name": "Path of Destruction",
+    "url": "https://www.penguinrandomhouse.com/books/89891/path-of-destruction-by-drew-karpyshyn/",
+    "status": "discovery_only",
+    "ingested": false,
+    "reuse_basis": "Publisher bibliographic facts. Original materials retain their respective rights.",
+    "work_kind": "novel",
+    "relevance_scope": "Adjacent Darth Bane era; separate from KOTOR game-era stories."
+  },
+  {
+    "id": "old-republic-book-darth-bane-rule-of-two",
+    "name": "Rule of Two",
+    "url": "https://www.penguinrandomhouse.com/books/89892/rule-of-two-star-wars-legends-darth-bane-by-drew-karpyshyn/paperback/",
+    "status": "discovery_only",
+    "ingested": false,
+    "reuse_basis": "Publisher bibliographic facts. Original materials retain their respective rights.",
+    "work_kind": "novel",
+    "relevance_scope": "Adjacent Darth Bane era; separate from KOTOR game-era stories."
+  },
+  {
+    "id": "old-republic-book-darth-bane-dynasty-of-evil",
+    "name": "Dynasty of Evil",
+    "url": "https://www.penguinrandomhouse.com/books/89893/dynasty-of-evil-star-wars-legends-darth-bane-by-drew-karpyshyn/paperback/",
+    "status": "discovery_only",
+    "ingested": false,
+    "reuse_basis": "Publisher bibliographic facts. Original materials retain their respective rights.",
+    "work_kind": "novel",
+    "relevance_scope": "Adjacent Darth Bane era; separate from KOTOR game-era stories."
+  },
+  {
+    "id": "old-republic-book-crosscurrent",
+    "name": "Crosscurrent",
+    "url": "https://www.penguinrandomhouse.com/books/91407/crosscurrent-star-wars-legends-by-paul-s-kemp/",
+    "status": "discovery_only",
+    "ingested": false,
+    "reuse_basis": "Publisher bibliographic facts. Original materials retain their respective rights.",
+    "work_kind": "novel",
+    "relevance_scope": "Cross-era lead involving an ancient Sith vessel reaching the later Galactic Alliance era. Whole-work relevance and chapter mapping require review."
+  },
+  {
+    "id": "old-republic-book-riptide",
+    "name": "Riptide",
+    "url": "https://www.penguinrandomhouse.com/books/202866/riptide-star-wars-legends-by-paul-s-kemp/9780345522467/",
+    "status": "discovery_only",
+    "ingested": false,
+    "reuse_basis": "Publisher bibliographic facts. Original materials retain their respective rights.",
+    "work_kind": "novel",
+    "relevance_scope": "Crosscurrent follow-up in the later Galactic Alliance era. Related narrative lead; Old Republic-specific chapter coverage requires review."
+  },
+  {
+    "id": "old-republic-book-darth-bane-bundle",
+    "name": "Darth Bane 3-Book Bundle",
+    "url": "https://www.penguinrandomhouse.com/books/223096/darth-bane-star-wars-legends-3-book-bundle-by-drew-karpyshyn/",
+    "status": "discovery_only",
+    "ingested": false,
+    "reuse_basis": "Publisher bibliographic facts. Original materials retain their respective rights.",
+    "work_kind": "bundle",
+    "relevance_scope": "Collected edition of three separately inventoried Darth Bane novels; adds an edition lead."
+  },
+  {
+    "id": "old-republic-book-old-republic-bundle",
+    "name": "The Old Republic 4-Book Bundle",
+    "url": "https://www.penguinrandomhouse.com/books/537868/the-old-republic-series-star-wars-legends-4-book-bundle-by-sean-williams-paul-s-kemp-drew-karphyshyn/9781101968765/",
+    "status": "discovery_only",
+    "ingested": false,
+    "reuse_basis": "Publisher bibliographic facts. Original materials retain their respective rights.",
+    "work_kind": "bundle",
+    "relevance_scope": "Collected edition of the four separately inventoried SWTOR tie-in novels; adds an edition lead."
+  },
+  {
+    "id": "academic-fantastic-strings-2020",
+    "name": "Fantastic Strings and Where to Find Them: The Quest for High-Quality Video Game Text Corpora",
+    "url": "https://theune.personalweb.utwente.nl/PUBS/vStegeren-Theune-INT2020.pdf",
+    "status": "original_document_only",
+    "ingested": true,
+    "reuse_basis": "Author copyright and explicit CC BY 4.0 grant on the paper’s first page. Original scholarly PDF retained with examples in their original context. The grant for the paper is separate from the commercial game-text datasets.",
+    "original_document": "data/originals/academic-fantastic-strings-2020.pdf",
+    "document_catalog": "catalog/sources/original-documents.json",
+    "text_ingested": false
+  },
+  {
+    "id": "research-kotor-dialogue-corpus-2020",
+    "name": "University of Twente KOTOR I research dialogue corpus (2020)",
+    "url": "https://github.com/hmi-utwente/video-game-text-corpora/tree/d79e94dc666420d9fbb5dfbfa9cb2f4ee0b47b49/Star%20Wars%3A%20Knights%20of%20the%20Old%20Republic",
+    "status": "rights_held",
+    "ingested": false,
+    "reuse_basis": "Citation-based research-use invitation in the repository README. Underlying materials retain their respective rights.",
+    "related_paper_source_id": "academic-fantastic-strings-2020",
+    "source_commit": "d79e94dc666420d9fbb5dfbfa9cb2f4ee0b47b49"
+  }
+]

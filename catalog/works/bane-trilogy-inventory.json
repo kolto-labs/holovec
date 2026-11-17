@@ -1,0 +1,51 @@
+{
+  "series": "Star Wars: Darth Bane Trilogy",
+  "publisher_series_url": "https://www.penguinrandomhouse.com/series/BNE/star-wars-darth-bane-trilogy---legends/",
+  "note": "Work-level inventory and secondary descriptions only; not full novels. Automated filtering cannot establish rights for unmarked excerpts.",
+  "works": [
+    {
+      "order": 1,
+      "title": "Darth Bane: Path of Destruction",
+      "secondary_source": "data/wookieepedia-reviewed-novel-plots.jsonl",
+      "secondary_record_title": "Darth Bane: Path of Destruction",
+      "revision_id": "15826666",
+      "author": "Drew Karpyshyn",
+      "continuity": "Legends",
+      "scope": "adjacent Old Republic era, not KOTOR game-era",
+      "primary_content": "not acquired",
+      "permission_to_redistribute_primary": "not established",
+      "embedded": false
+    },
+    {
+      "order": 2,
+      "title": "Darth Bane: Rule of Two",
+      "secondary_source": "data/wookieepedia-bane-novel-plots.jsonl",
+      "secondary_record_title": "Darth Bane: Rule of Two",
+      "revision_id": "15799894",
+      "author": "Drew Karpyshyn",
+      "continuity": "Legends",
+      "scope": "adjacent Old Republic era, not KOTOR game-era",
+      "primary_content": "not acquired",
+      "permission_to_redistribute_primary": "not established",
+      "embedded": false
+    },
+    {
+      "order": 3,
+      "title": "Darth Bane: Dynasty of Evil",
+      "secondary_source": "data/wikipedia-bane-legends-sections.jsonl",
+      "secondary_record_title": "Darth Bane — Darth Bane: Dynasty of Evil (2010)",
+      "revision_id": "1384323675",
+      "secondary_scope": "Wikipedia character article section; not a full work summary",
+      "wookieepedia_plot_disposition": "partial derivative: two sentences with publisher-summary overlap omitted; unmarked excerpts remain unverified",
+      "author": "Drew Karpyshyn",
+      "continuity": "Legends",
+      "scope": "adjacent Old Republic era, not KOTOR game-era",
+      "primary_content": "not acquired",
+      "permission_to_redistribute_primary": "not established",
+      "embedded": false,
+      "additional_secondary_source": "data/wookieepedia-bane-novel-plots.jsonl",
+      "additional_secondary_record_title": "Darth Bane: Dynasty of Evil",
+      "additional_secondary_revision_id": "15621652"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+huggingface-hub>=0.30
+numpy>=1.26
+pyarrow>=18
+requests>=2.31
+ijson>=3.3
+lxml>=5
+mwparserfromhell>=0.6
+beautifulsoup4>=4.12
+PyYAML>=6
+openpyxl>=3.1

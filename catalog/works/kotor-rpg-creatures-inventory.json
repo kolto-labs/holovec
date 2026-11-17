@@ -1,0 +1,39 @@
+{
+  "description": "Three Wizards of the Coast KOTOR creature articles identified from a secondary bibliography. The linked PDF is a third-party mirror and does not establish reuse permission. No primary article text is included.",
+  "bibliography": "https://jedipedia.fandom.com/wiki/Creatures_of_KotOR",
+  "items": [
+    {
+      "number": 1,
+      "title": "Creatures of KOTOR 1",
+      "subjects": "Firaxa and Gizka",
+      "publication_date": "2008-12-16",
+      "publisher": "Wizards of the Coast",
+      "evidence": "https://jedipedia.fandom.com/wiki/Creatures_of_KotOR",
+      "third_party_mirror": "https://swse.xphilesrealm.com/Creatures%20of%20KOTOR/Creatures%20of%20KOTOR%201.pdf",
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established"
+    },
+    {
+      "number": 2,
+      "title": "Creatures of KOTOR 2",
+      "subjects": "Horned Kath Hound and Iriaz",
+      "publication_date": "2009-01-15",
+      "publisher": "Wizards of the Coast",
+      "evidence": "https://jedipedia.fandom.com/wiki/Creatures_of_KotOR",
+      "third_party_mirror": "https://swse.xphilesrealm.com/Creatures%20of%20KOTOR/Creatures%20of%20KOTOR%202.pdf",
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established"
+    },
+    {
+      "number": 3,
+      "title": "Creatures of KOTOR 3",
+      "subjects": "Viper Kinrath and Mykal",
+      "publication_date": "2009-01-28",
+      "publisher": "Wizards of the Coast",
+      "evidence": "https://jedipedia.fandom.com/wiki/Creatures_of_KotOR",
+      "third_party_mirror": "https://swse.xphilesrealm.com/Creatures%20of%20KOTOR/Creatures%20of%20KOTOR%203.pdf",
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established"
+    }
+  ]
+}

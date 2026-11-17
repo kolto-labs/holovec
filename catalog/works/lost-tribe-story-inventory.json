@@ -1,0 +1,138 @@
+{
+  "description": "Story-level inventory of the eight ebook installments and Pandemonium, not primary works or complete edition coverage.",
+  "publisher_collection": "https://www.penguinrandomhouse.com/books/7867/lost-tribe-of-the-sith-star-wars-legends-the-collected-stories-by-john-jackson-miller/9780345541321/",
+  "creator_bibliography": "https://farawaypress.com/fiction/starwarslosttribeofthesith/",
+  "stories": [
+    {
+      "order": 1,
+      "title": "Lost Tribe of the Sith: Precipice",
+      "secondary_plot": {
+        "dataset": "data/wookieepedia-reviewed-story-plots.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Lost_Tribe_of_the_Sith:_Precipice",
+        "revision_id": "15770241",
+        "text_sha256": "35b2f9ea07392d30a92fa512e444428d4e4be79ac23ac7a23e4e3d732c783a11",
+        "scope": "Secondary plot section; not original story or proof of full narrative."
+      },
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false
+    },
+    {
+      "order": 2,
+      "title": "Lost Tribe of the Sith: Skyborn",
+      "secondary_plot": {
+        "dataset": "data/wookieepedia-publication-quote-omitted-plots.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Lost_Tribe_of_the_Sith:_Skyborn",
+        "revision_id": "15770242",
+        "text_sha256": "857a230064c3e7964d3173cc816507436d112cf10945c5acc2834b45a74abd06",
+        "scope": "Secondary plot section; not original story or proof of full narrative."
+      },
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false
+    },
+    {
+      "order": 3,
+      "title": "Lost Tribe of the Sith: Paragon",
+      "secondary_plot": {
+        "dataset": "data/wookieepedia-publication-quote-omitted-plots.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Lost_Tribe_of_the_Sith:_Paragon",
+        "revision_id": "15770246",
+        "text_sha256": "78af9644edc32cbe91d24a31c00d5d5417fbf532b7ba452eaa4b67b570af7ac5",
+        "scope": "Secondary plot section; not original story or proof of full narrative."
+      },
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false
+    },
+    {
+      "order": 4,
+      "title": "Lost Tribe of the Sith: Savior",
+      "secondary_plot": {
+        "dataset": "data/wookieepedia-publication-quote-omitted-plots.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Lost_Tribe_of_the_Sith:_Savior",
+        "revision_id": "15770247",
+        "text_sha256": "f526141767f928b3f946bc36007cb929f3866ab925e84e67d67b06a3c6d253f1",
+        "scope": "Secondary plot section; not original story or proof of full narrative."
+      },
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false
+    },
+    {
+      "order": 5,
+      "title": "Lost Tribe of the Sith: Purgatory",
+      "secondary_plot": {
+        "dataset": "data/wookieepedia-publication-quote-omitted-plots.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Lost_Tribe_of_the_Sith:_Purgatory",
+        "revision_id": "15770248",
+        "text_sha256": "55a7163be723d2cdb15aaaf364b193d176e7e4db0dfc42d1a36252c14010e6ca",
+        "scope": "Secondary plot section; not original story or proof of full narrative."
+      },
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false
+    },
+    {
+      "order": 6,
+      "title": "Lost Tribe of the Sith: Sentinel",
+      "secondary_plot": {
+        "dataset": "data/wookieepedia-publication-quote-omitted-plots.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Lost_Tribe_of_the_Sith:_Sentinel",
+        "revision_id": "15770249",
+        "text_sha256": "664c61918230ddf89f7e9bde1b934b0913bece818509d852372223e2dd0b15b1",
+        "scope": "Secondary plot section; not original story or proof of full narrative."
+      },
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false
+    },
+    {
+      "order": 7,
+      "title": "Lost Tribe of the Sith: Pantheon",
+      "secondary_plot": {
+        "dataset": "data/wookieepedia-publication-quote-omitted-plots.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Lost_Tribe_of_the_Sith:_Pantheon",
+        "revision_id": "15770250",
+        "text_sha256": "ca731f5c8fab017a8d817ec8bc42d2a693d2808dfc8f24986cab0f01ae40a0fc",
+        "scope": "Secondary plot section; not original story or proof of full narrative."
+      },
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false
+    },
+    {
+      "order": 8,
+      "title": "Lost Tribe of the Sith: Secrets",
+      "secondary_plot": {
+        "dataset": "data/wookieepedia-publication-quote-omitted-plots.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Lost_Tribe_of_the_Sith:_Secrets",
+        "revision_id": "15770251",
+        "text_sha256": "1313fc7056d8eb17e8333653fe23c218aec06c8bbb2e8c70b058aececf08e14f",
+        "scope": "Secondary plot section; not original story or proof of full narrative."
+      },
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false
+    },
+    {
+      "order": 9,
+      "title": "Lost Tribe of the Sith: Pandemonium",
+      "secondary_plot": {
+        "dataset": "data/wookieepedia-pandemonium-plot.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Lost_Tribe_of_the_Sith:_Pandemonium",
+        "revision_id": "15577015",
+        "text_sha256": "4396c2c0b2ba0a08158f5299c22cdee20a14101dabc4de5871597dcacae49d0a",
+        "scope": "Secondary plot section; not original story or proof of full narrative."
+      },
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false
+    }
+  ],
+  "limitations": [
+    "Secondary plot summaries may omit narrative, conflict, characters, images or editions.",
+    "Original story text and processing or redistribution permissions remain unestablished."
+  ],
+  "embedded": false
+}

@@ -1,0 +1,478 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-11-16",
+  "description": "Partial source and coverage checklist; linked publisher descriptions are evidence for existence, not a grant to redistribute game text or media. Not a mission or version census.",
+  "sources": {
+    "classes": "https://www.swtor.com/holonet/classes",
+    "missions": "https://www.swtor.com/holonet/story-missions",
+    "revan": "https://www.swtor.com/shadow-of-revan",
+    "fallen": "https://www.swtor.com/fallen-empire/overview",
+    "eternal": "https://www.swtor.com/eternal-throne/overview",
+    "onslaught": "https://www.swtor.com/onslaught/home",
+    "legacy": "https://www.swtor.com/legacyofthesith",
+    "codex": "https://www.swtor.com/info/news/blog/20110506",
+    "eras": "https://www.swtor.com/patchnotes/05282025/game-update-7.7-dynamic-worlds",
+    "legacy_reborn": "https://www.swtor.com/patchnotes/06022026/game-update-7.9-legacy-reborn",
+    "future": "https://www.swtor.com/info/news/%5Bnews-category%5D/20260930",
+    "community_mission_list": "https://swtorista.com/quests/",
+    "community_mission_checklist": "https://docs.google.com/spreadsheets/d/1sWpjVbfPw8SD4wQgAmXVAHdTcp9W8-xdzsv3LnZuVaE/edit?usp=sharing"
+  },
+  "items": [
+    {
+      "id": "class-jedi-knight",
+      "kind": "class_story",
+      "name": "Jedi Knight",
+      "faction": "Republic",
+      "evidence": [
+        "classes",
+        "missions"
+      ],
+      "content_acquired": false,
+      "rights": "unresolved",
+      "coverage": "One secondary player-character narrative remains public; mission, branch, alignment, language, update and source-rights coverage not established",
+      "secondary_character_source": {
+        "dataset": "data/wookieepedia-legends.parquet",
+        "title": "Hero of Tython",
+        "url": "https://starwars.fandom.com/wiki/Hero_of_Tython",
+        "text_sha256": "17c289bc6d434a10ea2911f602e166f37e973f482eb568cfc5e49f028fe44e90",
+        "article_revision_id": null,
+        "vector_passages": 126,
+        "quotation_marker_vector_passages": 26,
+        "status": "source_and_vectors_public_rights_review_required"
+      },
+      "secondary_alternative_sections": {
+        "dataset": "data/wookieepedia-swtor-remaining-class-biographies.jsonl",
+        "revision_id": "15769665",
+        "section_count": 7,
+        "source_choice_assumption": "source biography uses light-side game-mechanics template",
+        "qualification": "quote-omitted partial secondary biography from a newer snapshot; overlaps prior article, limited screening does not clear unmarked excerpts"
+      }
+    },
+    {
+      "id": "class-jedi-consular",
+      "kind": "class_story",
+      "name": "Jedi Consular",
+      "faction": "Republic",
+      "evidence": [
+        "classes",
+        "missions"
+      ],
+      "content_acquired": false,
+      "rights": "unresolved",
+      "coverage": "One secondary player-character narrative remains public; mission, branch, alignment, language, update and source-rights coverage not established",
+      "secondary_character_source": {
+        "dataset": "data/wookieepedia-legends.parquet",
+        "title": "The Barsen'thor",
+        "url": "https://starwars.fandom.com/wiki/The_Barsen'thor",
+        "text_sha256": "5410bf2b63dcdbf87075e856bb0ee697fc0b320900712c23fd129ddd9471e880",
+        "article_revision_id": null,
+        "vector_passages": 104,
+        "quotation_marker_vector_passages": 32,
+        "status": "source_and_vectors_public_rights_review_required"
+      },
+      "secondary_alternative_sections": {
+        "dataset": "data/wookieepedia-swtor-remaining-class-biographies.jsonl",
+        "revision_id": "15806931",
+        "section_count": 3,
+        "source_choice_assumption": "source biography uses light-side game-mechanics template",
+        "qualification": "quote-omitted partial secondary biography from a newer snapshot; overlaps prior article, limited screening does not clear unmarked excerpts"
+      }
+    },
+    {
+      "id": "class-trooper",
+      "kind": "class_story",
+      "name": "Trooper",
+      "faction": "Republic",
+      "evidence": [
+        "classes",
+        "missions"
+      ],
+      "content_acquired": false,
+      "rights": "unresolved",
+      "coverage": "Current legacy article and its vectors held for rights review; no complete mission, branch or language coverage",
+      "secondary_character_source": {
+        "dataset": "data/wookieepedia-legends.parquet",
+        "title": "Meteor (Havoc Squad)",
+        "url": "https://starwars.fandom.com/wiki/Meteor_(Havoc_Squad)",
+        "text_sha256": "65a73379a97fa8f0065a42b543bdcc0d0baff85ecf8fd6c11c887b160cde6d99",
+        "article_revision_id": null,
+        "vector_passages": 0,
+        "quotation_marker_vector_passages": 0,
+        "status": "held_from_current_release"
+      },
+      "secondary_replacement_sections": {
+        "dataset": "data/wookieepedia-swtor-class-biographies.jsonl",
+        "revision_id": "15807890",
+        "section_count": 9,
+        "source_choice_assumption": "source biography uses light-side game-mechanics template",
+        "qualification": "quote-omitted partial secondary biography; original article and vector passages remain held"
+      }
+    },
+    {
+      "id": "class-smuggler",
+      "kind": "class_story",
+      "name": "Smuggler",
+      "faction": "Republic",
+      "evidence": [
+        "classes",
+        "missions"
+      ],
+      "content_acquired": false,
+      "rights": "unresolved",
+      "coverage": "One secondary player-character narrative remains public; mission, branch, alignment, language, update and source-rights coverage not established",
+      "secondary_character_source": {
+        "dataset": "data/wookieepedia-legends.parquet",
+        "title": "Voidhound",
+        "url": "https://starwars.fandom.com/wiki/Voidhound",
+        "text_sha256": "3a3042382f25940f09f7d90cae3bd24318f3dbdd7387f88adc4c8423c9d9199b",
+        "article_revision_id": null,
+        "vector_passages": 22,
+        "quotation_marker_vector_passages": 5,
+        "status": "source_and_vectors_public_rights_review_required"
+      },
+      "secondary_alternative_sections": {
+        "dataset": "data/wookieepedia-swtor-remaining-class-biographies.jsonl",
+        "revision_id": "15779295",
+        "section_count": 5,
+        "source_choice_assumption": "source biography uses light-side game-mechanics template",
+        "qualification": "quote-omitted partial secondary biography from a newer snapshot; overlaps prior article, limited screening does not clear unmarked excerpts"
+      }
+    },
+    {
+      "id": "class-sith-warrior",
+      "kind": "class_story",
+      "name": "Sith Warrior",
+      "faction": "Empire",
+      "evidence": [
+        "classes",
+        "missions"
+      ],
+      "content_acquired": false,
+      "rights": "unresolved",
+      "coverage": "One secondary player-character narrative remains public; mission, branch, alignment, language, update and source-rights coverage not established",
+      "secondary_character_source": {
+        "dataset": "data/wookieepedia-legends.parquet",
+        "title": "Empire's Wrath",
+        "url": "https://starwars.fandom.com/wiki/Empire's_Wrath",
+        "text_sha256": "1f2a9ce44da367193a07dfbf8a12864cfd9d0c59d76cecae329ea2485460c56b",
+        "article_revision_id": null,
+        "vector_passages": 31,
+        "quotation_marker_vector_passages": 4,
+        "status": "source_and_vectors_public_rights_review_required"
+      },
+      "secondary_alternative_sections": {
+        "dataset": "data/wookieepedia-swtor-remaining-class-biographies.jsonl",
+        "revision_id": "15766025",
+        "section_count": 5,
+        "source_choice_assumption": "source biography uses dark-side game-mechanics template",
+        "qualification": "quote-omitted partial secondary biography from a newer snapshot; overlaps prior article, limited screening does not clear unmarked excerpts"
+      }
+    },
+    {
+      "id": "class-sith-inquisitor",
+      "kind": "class_story",
+      "name": "Sith Inquisitor",
+      "faction": "Empire",
+      "evidence": [
+        "classes",
+        "missions"
+      ],
+      "content_acquired": false,
+      "rights": "unresolved",
+      "coverage": "Current legacy article and its vectors held for rights review; no complete mission, branch or language coverage",
+      "secondary_character_source": {
+        "dataset": "data/wookieepedia-legends.parquet",
+        "title": "Darth Nox",
+        "url": "https://starwars.fandom.com/wiki/Darth_Nox",
+        "text_sha256": "ffd5766b6f1bb979fc0bbbee20d8482a3635ff39df87efb07c77890f3d75806b",
+        "article_revision_id": null,
+        "vector_passages": 0,
+        "quotation_marker_vector_passages": 0,
+        "status": "held_from_current_release"
+      },
+      "secondary_replacement_sections": {
+        "dataset": "data/wookieepedia-swtor-class-biographies.jsonl",
+        "revision_id": "15764225",
+        "section_count": 25,
+        "source_choice_assumption": "source biography uses dark-side game-mechanics template",
+        "qualification": "quote-omitted partial secondary biography; original article and vector passages remain held"
+      }
+    },
+    {
+      "id": "class-bounty-hunter",
+      "kind": "class_story",
+      "name": "Bounty Hunter",
+      "faction": "Empire",
+      "evidence": [
+        "classes",
+        "missions"
+      ],
+      "content_acquired": false,
+      "rights": "unresolved",
+      "coverage": "One secondary player-character narrative remains public; mission, branch, alignment, language, update and source-rights coverage not established",
+      "secondary_character_source": {
+        "dataset": "data/wookieepedia-legends.parquet",
+        "title": "Hunter (individual)",
+        "url": "https://starwars.fandom.com/wiki/Hunter_(individual)",
+        "text_sha256": "7b87aa4594bb0ad0a07ff7331f4bf59535c5e103e5050dc026a76bed43a03b39",
+        "article_revision_id": null,
+        "vector_passages": 24,
+        "quotation_marker_vector_passages": 3,
+        "status": "source_and_vectors_public_rights_review_required"
+      },
+      "secondary_alternative_sections": {
+        "dataset": "data/wookieepedia-swtor-remaining-class-biographies.jsonl",
+        "revision_id": "15803857",
+        "section_count": 8,
+        "source_choice_assumption": "source biography uses dark-side game-mechanics template",
+        "qualification": "quote-omitted partial secondary biography from a newer snapshot; overlaps prior article, limited screening does not clear unmarked excerpts"
+      }
+    },
+    {
+      "id": "class-imperial-agent",
+      "kind": "class_story",
+      "name": "Imperial Agent",
+      "faction": "Empire",
+      "evidence": [
+        "classes",
+        "missions"
+      ],
+      "content_acquired": false,
+      "rights": "unresolved",
+      "coverage": "One secondary player-character narrative remains public; mission, branch, alignment, language, update and source-rights coverage not established",
+      "secondary_character_source": {
+        "dataset": "data/wookieepedia-legends.parquet",
+        "title": "Cipher Nine",
+        "url": "https://starwars.fandom.com/wiki/Cipher_Nine",
+        "text_sha256": "5f7a5bd69e136ecd4fb580315be237ae5dfc09f0d344d790051a758abc346488",
+        "article_revision_id": null,
+        "vector_passages": 34,
+        "quotation_marker_vector_passages": 24,
+        "status": "source_and_vectors_public_rights_review_required"
+      },
+      "secondary_alternative_sections": {
+        "dataset": "data/wookieepedia-swtor-remaining-class-biographies.jsonl",
+        "revision_id": "15797331",
+        "section_count": 7,
+        "source_choice_assumption": "source biography uses dark-side game-mechanics template",
+        "qualification": "quote-omitted partial secondary biography from a newer snapshot; overlaps prior article, limited screening does not clear unmarked excerpts"
+      }
+    },
+    {
+      "id": "expansion-rise-of-the-hutt-cartel",
+      "kind": "expansion",
+      "name": "Rise of the Hutt Cartel",
+      "evidence": [
+        "missions"
+      ],
+      "content_acquired": false,
+      "rights": "unresolved",
+      "coverage": "missions, branch states, patches and languages not reconciled",
+      "secondary_summary": {
+        "dataset": "data/wookieepedia-swtor-chapter-plots.jsonl",
+        "title": "Star Wars: The Old Republic — Chapter 4: Rise of the Hutt Cartel",
+        "url": "https://starwars.fandom.com/wiki/Star_Wars:_The_Old_Republic",
+        "revision_id": "15803850",
+        "sha256": "c96e219cbc99a93f7e1019ec02d82b410ab487191d80e12d5c59949a3844415a",
+        "qualification": "partial chapter-level secondary summary, not complete missions or branches"
+      }
+    },
+    {
+      "id": "expansion-shadow-of-revan",
+      "kind": "expansion",
+      "name": "Shadow of Revan",
+      "evidence": [
+        "revan"
+      ],
+      "content_acquired": false,
+      "rights": "unresolved",
+      "coverage": "missions, branch states, patches and languages not reconciled",
+      "secondary_summary": {
+        "dataset": "data/wookieepedia-swtor-chapter-plots.jsonl",
+        "title": "Star Wars: The Old Republic — Chapter 5: Shadow of Revan",
+        "url": "https://starwars.fandom.com/wiki/Star_Wars:_The_Old_Republic",
+        "revision_id": "15803850",
+        "sha256": "96cc33e8042d09b124adad0a421e0c5bafd90aa37e7f4eed30cb06af621776a3",
+        "qualification": "partial chapter-level secondary summary, not complete missions or branches"
+      }
+    },
+    {
+      "id": "expansion-knights-of-the-fallen-empire",
+      "kind": "expansion",
+      "name": "Knights of the Fallen Empire",
+      "evidence": [
+        "fallen"
+      ],
+      "content_acquired": false,
+      "rights": "unresolved",
+      "coverage": "missions, branch states, patches and languages not reconciled",
+      "secondary_sections": {
+        "dataset": "data/wookieepedia-swtor-expansion-sections.jsonl",
+        "revision_id": "15795291",
+        "section_count": 16,
+        "section_names": [
+          "Chapter I: The Hunt",
+          "Chapter II: A Dream of Empire",
+          "Chapter III: Outlander",
+          "Chapter IV: The Gravestone",
+          "Chapter V: From The Grave",
+          "Chapter VI: Asylum",
+          "Chapter VII: The Lady of Sorrows",
+          "Chapter VIII: Taking Flight",
+          "Chapter IX: The Alliance",
+          "Chapter X: Anarchy in Paradise",
+          "Chapter XI: Disavowed",
+          "Chapter XII: Visions in the Dark",
+          "Chapter XIII: Profit and Plunder",
+          "Chapter XIV: Mandalore's Revenge",
+          "Chapter XV: The GEMINI Deception",
+          "Chapter XVI: The Battle of Odessen"
+        ],
+        "qualification": "partial contributor summaries; no primary missions, all branches or complete update history"
+      }
+    },
+    {
+      "id": "expansion-knights-of-the-eternal-throne",
+      "kind": "expansion",
+      "name": "Knights of the Eternal Throne",
+      "evidence": [
+        "eternal"
+      ],
+      "content_acquired": false,
+      "rights": "unresolved",
+      "coverage": "missions, branch states, patches and languages not reconciled",
+      "secondary_sections": {
+        "dataset": "data/wookieepedia-swtor-expansion-sections.jsonl",
+        "revision_id": "15697019",
+        "section_count": 6,
+        "section_names": [
+          "Knights of the Eternal Throne",
+          "The War for Iokath",
+          "Crisis on Umbara",
+          "A Traitor Among the Chiss",
+          "The Nathema Conspiracy",
+          "Jedi Under Siege"
+        ],
+        "qualification": "partial contributor summaries; no primary missions, all branches or complete update history"
+      }
+    },
+    {
+      "id": "expansion-onslaught",
+      "kind": "expansion",
+      "name": "Onslaught",
+      "evidence": [
+        "onslaught"
+      ],
+      "content_acquired": false,
+      "rights": "unresolved",
+      "coverage": "missions, branch states, patches and languages not reconciled",
+      "secondary_sections": {
+        "dataset": "data/wookieepedia-swtor-expansion-sections.jsonl",
+        "revision_id": "15738421",
+        "section_count": 4,
+        "section_names": [
+          "Onslaught",
+          "Pinnacles of Power",
+          "Echoes of Vengeance",
+          "The Dark Descent"
+        ],
+        "qualification": "partial contributor summaries; no primary missions, all branches or complete update history"
+      }
+    },
+    {
+      "id": "expansion-legacy-of-the-sith",
+      "kind": "expansion",
+      "name": "Legacy of the Sith",
+      "evidence": [
+        "legacy"
+      ],
+      "content_acquired": false,
+      "rights": "unresolved",
+      "coverage": "missions, branch states, patches and languages not reconciled",
+      "secondary_sections": {
+        "dataset": "data/wookieepedia-swtor-expansion-sections.jsonl",
+        "revision_id": "15753559",
+        "section_count": 9,
+        "section_names": [
+          "Legacy of the Sith",
+          "Digging Deeper",
+          "Showdown on Ruhnuk",
+          "Old Wounds",
+          "Chains in the Dark",
+          "Desperate Defiance",
+          "Galactic Threads",
+          "Master's Enigma",
+          "Legacy Reborn"
+        ],
+        "qualification": "partial contributor summaries; no primary missions, all branches or complete update history"
+      }
+    },
+    {
+      "id": "codex",
+      "kind": "story_resource_or_update",
+      "name": "In-game codex and datacrons",
+      "evidence": [
+        "codex"
+      ],
+      "content_acquired": false,
+      "rights": "unresolved",
+      "coverage": "content inventory and revision history incomplete; release and current availability require separate verification"
+    },
+    {
+      "id": "eras",
+      "kind": "story_resource_or_update",
+      "name": "In-game Eras window and trailers",
+      "evidence": [
+        "eras"
+      ],
+      "content_acquired": false,
+      "rights": "unresolved",
+      "coverage": "content inventory and revision history incomplete; release and current availability require separate verification"
+    },
+    {
+      "id": "legacy-reborn",
+      "kind": "story_resource_or_update",
+      "name": "Game Update 7.9 Legacy Reborn",
+      "evidence": [
+        "legacy_reborn"
+      ],
+      "content_acquired": false,
+      "rights": "unresolved",
+      "coverage": "content inventory and revision history incomplete; release and current availability require separate verification"
+    },
+    {
+      "id": "galaxy-in-chaos",
+      "kind": "story_resource_or_update",
+      "name": "Galaxy in Chaos storyline",
+      "evidence": [
+        "future"
+      ],
+      "content_acquired": false,
+      "rights": "unresolved",
+      "coverage": "content inventory and revision history incomplete; release and current availability require separate verification"
+    }
+  ],
+  "outstanding": [
+    "Enumerate all class and planet missions, side quests, flashpoints, operations, codex entries, datacrons, seasonal and retired stories, cinematics, dialogue, companions and branch choices.",
+    "Reconcile builds and patch-specific changes, localized variants, unavailable or removed content, metadata and source provenance.",
+    "Document permission for acquisition, processing, redistribution and hosted embedding of primary game content; distinguish independently licensed commentary from copyrighted in-game material.",
+    "Recheck official patch notes and release status as this live game changes; do not infer that the listed expansions or updates are complete."
+  ],
+  "patch_index_snapshot": {
+    "path": "catalog/works/swtor-patchnote-index.json",
+    "source_url": "https://www.swtor.com/patchnotes",
+    "publisher_links": 373,
+    "dated_labels": 355,
+    "scope": "Publisher index metadata only; no patch-note bodies, game files, missions or branches acquired.",
+    "secondary_story_section_links": {
+      "exact_label_matches": 16,
+      "scope": "Exact section-name links plus one publisher-confirmed story link. Galactic Threads update name 7.6 must not be treated as the story release in 7.8.",
+      "publisher_confirmed_storyline_links": 1
+    },
+    "additional_date_evidence": {
+      "entries_with_publisher_date_evidence": 13,
+      "remaining_without_date_evidence": 5,
+      "scope": "One date is subscriber early access; original index labels remain unchanged."
+    }
+  }
+}

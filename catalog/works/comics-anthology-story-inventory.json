@@ -1,0 +1,317 @@
+{
+  "description": "Partial story-level discovery of anthology contributions. A story in an issue does not make every story in that issue relevant; existence or collection does not establish rights to the primary work.",
+  "stories": [
+    {
+      "work_id": "tales-23-shadows-and-light",
+      "title": "Shadows and Light",
+      "anthology": "Star Wars Tales",
+      "issue_number": 23,
+      "scope_status": "core KOTOR tie-in",
+      "evidence": [
+        {
+          "kind": "secondary_bibliography",
+          "url": "https://historyofcomics2.com/2025/01/03/star-wars-the-old-republic-legends/"
+        },
+        {
+          "kind": "wiki_article",
+          "url": "https://starwars.fandom.com/wiki/Shadows_and_Light"
+        }
+      ],
+      "secondary_record": {
+        "dataset": "data/wookieepedia-broad-references.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Shadows_and_Light",
+        "text_sha256": "d4bfcea5e3190d2adf6be190472a4613f5211cbcbce8e41ebc100637b9be4553",
+        "source_revision_id": null,
+        "coverage": "Older contributor-authored article; original revision and unmarked third-party excerpts are unverified."
+      },
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false,
+      "reviewed_plot_section": {
+        "dataset": "data/wookieepedia-anthology-story-plots.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Shadows_and_Light",
+        "revision_id": "15611457",
+        "text_sha256": "1199b469fbbb7559f3e7422e18064d7838bc3348c1d003e2cdd0e2a5a5170655",
+        "scope": "Quote-omitted wiki plot section; not comic pages or complete story."
+      },
+      "appearance_index": {
+        "dataset": "data/wookieepedia-anthology-appearance-indices.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Shadows_and_Light",
+        "revision_id": "15611457",
+        "text_sha256": "bd0d2c26accb0e8f1e95cbcadfd04ad945b00701d389e038c483044c5ca72662",
+        "link_occurrences": 82,
+        "scope": "Secondary editorial story appearance index; anthology edition and page fidelity unverified."
+      }
+    },
+    {
+      "work_id": "tales-24-unseen-unheard",
+      "title": "Unseen, Unheard",
+      "anthology": "Star Wars Tales",
+      "issue_number": 24,
+      "scope_status": "core KOTOR II tie-in",
+      "evidence": [
+        {
+          "kind": "secondary_bibliography",
+          "url": "https://historyofcomics2.com/2025/01/03/star-wars-the-old-republic-legends/"
+        },
+        {
+          "kind": "wiki_article",
+          "url": "https://starwars.fandom.com/wiki/Unseen,_Unheard"
+        }
+      ],
+      "secondary_record": {
+        "dataset": "data/wookieepedia-broad-references.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Unseen,_Unheard",
+        "text_sha256": "677f753b879a10331dfce72f473944ddb645203ac1c51a96b94c554270254855",
+        "source_revision_id": null,
+        "coverage": "Older contributor-authored article; original revision and unmarked third-party excerpts are unverified."
+      },
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false,
+      "reviewed_plot_section": {
+        "dataset": "data/wookieepedia-anthology-story-plots.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Unseen%2C_Unheard",
+        "revision_id": "15609189",
+        "text_sha256": "3d46d5d655328cc0bcfdeee662dc6c890cc8da098eb4833f0f1a83fd0b04a3e7",
+        "scope": "Quote-omitted wiki plot section; not comic pages or complete story."
+      },
+      "appearance_index": {
+        "dataset": "data/wookieepedia-anthology-appearance-indices.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Unseen%2C_Unheard",
+        "revision_id": "15609189",
+        "text_sha256": "b7bb79e92d82687e2ab97ed68aa84d1a0b895d048d3a724f9f9987b626b1a28d",
+        "link_occurrences": 15,
+        "scope": "Secondary editorial story appearance index; anthology edition and page fidelity unverified."
+      }
+    },
+    {
+      "work_id": "tales-16-heart-of-darkness",
+      "title": "Heart of Darkness",
+      "anthology": "Star Wars Tales",
+      "issue_number": 16,
+      "scope_status": "adjacent; chronology and relevance require review",
+      "evidence": [
+        {
+          "kind": "secondary_bibliography",
+          "url": "https://historyofcomics2.com/2025/01/03/star-wars-the-old-republic-legends/"
+        },
+        {
+          "kind": "wiki_article",
+          "url": "https://starwars.fandom.com/wiki/Heart_of_Darkness"
+        }
+      ],
+      "secondary_record": {
+        "dataset": "data/wookieepedia-broad-references.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Heart_of_Darkness",
+        "text_sha256": "3a733351f12c4eae6415399334d9c6396d0c1730a444826ae0250b07ba1ecc57",
+        "source_revision_id": null,
+        "coverage": "Older contributor-authored article; original revision and unmarked third-party excerpts are unverified."
+      },
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false,
+      "chronology_qualification": "Wookieepedia article places story at 700 BBY; included for adjacent-collection and completeness review, not asserted as Old Republic-era.",
+      "reviewed_plot_section": {
+        "dataset": "data/wookieepedia-anthology-story-plots.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Heart_of_Darkness",
+        "revision_id": "15611361",
+        "text_sha256": "410a9ef835349d81281e2c12d2d3f2a3f93394f7e61646ef634ac6b1f3b61712",
+        "scope": "Quote-omitted wiki plot section; not comic pages or complete story."
+      },
+      "appearance_index": {
+        "dataset": "data/wookieepedia-anthology-appearance-indices.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Heart_of_Darkness",
+        "revision_id": "15611361",
+        "text_sha256": "145be3cd454cf5058f7ec168953696ac7c0ddf0ed259e4ca86c1b9f1d0142fdb",
+        "link_occurrences": 31,
+        "scope": "Secondary editorial story appearance index; anthology edition and page fidelity unverified."
+      }
+    },
+    {
+      "work_id": "tales-17-all-for-you",
+      "title": "All for You",
+      "anthology": "Star Wars Tales",
+      "issue_number": 17,
+      "scope_status": "candidate; chronology and relevance require review",
+      "evidence": [
+        {
+          "kind": "secondary_bibliography",
+          "url": "https://historyofcomics2.com/2025/01/03/star-wars-the-old-republic-legends/"
+        },
+        {
+          "kind": "wiki_article",
+          "url": "https://starwars.fandom.com/wiki/All_for_You"
+        }
+      ],
+      "secondary_record": {
+        "dataset": "data/wookieepedia-broad-references.jsonl",
+        "url": "https://starwars.fandom.com/wiki/All_for_You",
+        "text_sha256": "fc7b4813f084358d22becd82689ee4b00be8a82c8e429ec3fb718a5a4de059a7",
+        "source_revision_id": null,
+        "coverage": "Older contributor-authored article; original revision and unmarked third-party excerpts are unverified."
+      },
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false,
+      "reviewed_plot_section": {
+        "dataset": "data/wookieepedia-anthology-story-plots.jsonl",
+        "url": "https://starwars.fandom.com/wiki/All_for_You",
+        "revision_id": "15611406",
+        "text_sha256": "093ad8da1a7e5dab2c2746186f6d73f8a61e41c80e6fd638a047220683258281",
+        "scope": "Quote-omitted wiki plot section; not comic pages or complete story."
+      },
+      "appearance_index": {
+        "dataset": "data/wookieepedia-anthology-appearance-indices.jsonl",
+        "url": "https://starwars.fandom.com/wiki/All_for_You",
+        "revision_id": "15611406",
+        "text_sha256": "8ebd6259302cc98bba5fb4d96ffa05a82fe68c143610908902f2e7b3ff72e823",
+        "link_occurrences": 22,
+        "scope": "Secondary editorial story appearance index; anthology edition and page fidelity unverified."
+      }
+    },
+    {
+      "work_id": "tales-17-the-apprentice-comic-story",
+      "title": "The Apprentice (comic story)",
+      "anthology": "Star Wars Tales",
+      "issue_number": 17,
+      "scope_status": "candidate; chronology sources conflict and relevance requires review",
+      "evidence": [
+        {
+          "kind": "secondary_bibliography",
+          "url": "https://historyofcomics2.com/2025/01/03/star-wars-the-old-republic-legends/"
+        },
+        {
+          "kind": "wiki_article",
+          "url": "https://starwars.fandom.com/wiki/The_Apprentice_(comic_story)"
+        }
+      ],
+      "secondary_record": {
+        "dataset": "data/wookieepedia-broad-references.jsonl",
+        "url": "https://starwars.fandom.com/wiki/The_Apprentice_(comic_story)",
+        "text_sha256": "045e2ccd9eacbd67450f8a1dc43ecd84f368622b3412ccfcf3a2bb3bf4f18060",
+        "source_revision_id": null,
+        "coverage": "Older contributor-authored article; original revision and unmarked third-party excerpts are unverified."
+      },
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false,
+      "chronology_conflict": {
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Star_Wars_comic_books",
+            "claim": "1000 BBY in listing"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Star_Wars_Tales",
+            "claim": "90–100 BBY in issue contents"
+          }
+        ],
+        "status": "unresolved; do not infer definitive era placement"
+      },
+      "reviewed_plot_section": {
+        "dataset": "data/wookieepedia-anthology-story-plots.jsonl",
+        "url": "https://starwars.fandom.com/wiki/The_Apprentice_(comic_story)",
+        "revision_id": "15597086",
+        "text_sha256": "4e78860e96e3583d9cfcc3b9221fdf142c7f5665f50da9d5284f1edc544f1874",
+        "scope": "Quote-omitted wiki plot section; not comic pages or complete story."
+      },
+      "appearance_index": {
+        "dataset": "data/wookieepedia-anthology-appearance-indices.jsonl",
+        "url": "https://starwars.fandom.com/wiki/The_Apprentice_(comic_story)",
+        "revision_id": "15597086",
+        "text_sha256": "7fb5f4e790649834c4d8a9a6171a3f2bf37fcb3b8cabbf7235554086a81e9673",
+        "link_occurrences": 16,
+        "scope": "Secondary editorial story appearance index; anthology edition and page fidelity unverified."
+      }
+    },
+    {
+      "work_id": "visionaries-prototypes",
+      "title": "Prototypes",
+      "anthology": "Star Wars: Visionaries",
+      "issue_number": null,
+      "scope_status": "KOTOR-related candidate; timing and continuity require review",
+      "evidence": [
+        {
+          "kind": "secondary_bibliography",
+          "url": "https://historyofcomics2.com/2025/01/03/star-wars-the-old-republic-legends/"
+        },
+        {
+          "kind": "wiki_article",
+          "url": "https://starwars.fandom.com/wiki/Prototypes"
+        }
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false,
+      "reviewed_plot_section": {
+        "dataset": "data/wookieepedia-additional-anthology-plots.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Prototypes",
+        "revision_id": "14740158",
+        "text_sha256": "80e27d8960079ca06b004ed6966f3a33fb600cdb11bda486f2f21be3d44a270f",
+        "scope": "Secondary story plot; not original comic pages."
+      },
+      "appearance_index": {
+        "dataset": "data/wookieepedia-prototypes-appearance-index.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Prototypes",
+        "revision_id": "14740158",
+        "text_sha256": "99811f31d54e21476baabf9d5c60ac4cc002e5a3671c76b81cb30e913686406b",
+        "link_occurrences": 27,
+        "scope": "Secondary editorial story appearance list; timing, continuity and page fidelity unverified."
+      }
+    },
+    {
+      "work_id": "dark-horse-comics-007-009-nomi-preview",
+      "title": "Tales of the Jedi: Nomi Sunrider early preview",
+      "anthology": "Dark Horse Comics",
+      "issue_numbers": [
+        7,
+        8,
+        9
+      ],
+      "scope_status": "Old Republic serial published in three issues and revised for Tales of the Jedi #3; exact page and variant fidelity remains unverified",
+      "evidence": [
+        {
+          "kind": "secondary_bibliography",
+          "url": "https://jedi-bibliothek.de/datenbank/werk/tales-of-the-jedi-dark-horse-comics-preview/"
+        },
+        {
+          "kind": "publisher_catalog",
+          "url": "https://prhcomics.com/wp-content/uploads/2023/12/PREVIEWS2021028_MARCH_2024_FINALeiuoajr-1.pdf"
+        },
+        {
+          "kind": "secondary_bibliography",
+          "url": "https://www.comics.org/issue/238396/"
+        },
+        {
+          "kind": "contemporaneous_secondary_bibliography",
+          "url": "https://groups.google.com/g/rec.arts.sf.starwars/c/mdJyWQ3fOzE"
+        }
+      ],
+      "related_issue_work_ids": [
+        "totj-1993-003"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "embedded": false,
+      "reviewed_plot_section": {
+        "dataset": "data/wookieepedia-additional-anthology-plots.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Star_Wars:_Tales_of_the_Jedi_%E2%80%93_The_Saga_of_Nomi_Sunrider",
+        "revision_id": "14895369",
+        "text_sha256": "3f76e9c14d920f0ca29b13870ae42b576402c32f5602ee71d4b6822818ffd580",
+        "scope": "Secondary plot for related later arc; not proof of preview content or edition fidelity."
+      },
+      "publication_work_ids": [
+        "dark-horse-comics-1992-007",
+        "dark-horse-comics-1992-008",
+        "dark-horse-comics-1992-009"
+      ]
+    }
+  ],
+  "limitations": [
+    "Partial list; other anthologies, stories, editions and variants remain unreviewed.",
+    "Source dates and chronology may conflict.",
+    "Primary art, dialogue, original story text, reuse rights are not established."
+  ],
+  "embedded": false
+}

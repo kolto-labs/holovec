@@ -1,0 +1,363 @@
+{
+  "acquire_war_character_biographies": {
+    "sources": {
+      "Dorjander Kace": [
+        "15765191",
+        "12502097c3e0ca37586edd38117b56b9a1b0e9816c4849f94868fbd1db2331a5",
+        [
+          "Prisoner of the ''Mando'ade''",
+          "The Mandalorian Knights",
+          "Final moves",
+          "Downfall"
+        ]
+      ],
+      "Dallan Morvis": [
+        "15732743",
+        "d95e49de1de48957e17f83988883898004188ea1de40716efdba8f119cef201e",
+        [
+          "Biography"
+        ]
+      ],
+      "Koblus Sornell": [
+        "14400278",
+        "0d29377c10018a31055bbbae8518716abd862e5f89f2e8dd73ed34989d445502",
+        [
+          "Biography"
+        ]
+      ]
+    },
+    "constants": {
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "Wookieepedia contributors; see linked revision history",
+      "continuity": "Legends",
+      "evidence_class": "secondary",
+      "extraction": "References, images, templates and quoted words omitted; paragraphs with residual markers or exact eight-word overlap with marked quotation bodies held.",
+      "issue_context": [
+        "kotor-war-001",
+        "kotor-war-002",
+        "kotor-war-003",
+        "kotor-war-004",
+        "kotor-war-005"
+      ],
+      "coverage": "Partial character perspective on KOTOR War; Morvis biography also describes earlier events. Not an issue transcript or comprehensive coverage; unmarked excerpts and primary content rights remain unverified.",
+      "embedded": false
+    },
+    "data_path": "data/wookieepedia-war-character-biographies.jsonl",
+    "wrapped_source": false,
+    "include_subsections": true
+  },
+  "acquire_jedi_sith_character_biographies": {
+    "sources": {
+      "Skere Kaan": [
+        "15806448",
+        "a7e90dde9e05a82de0d18d60b6c04851d0a5eb43e82f430933b778312ba15221",
+        [
+          "Nearing the end",
+          "The thought bomb"
+        ]
+      ],
+      "Valenthyne Farfalla": [
+        "15825484",
+        "3d7bceb709bdcf5f309a7e38b72e39235d61bc0840b0c13c1e2e265fbda88929",
+        [
+          "Ruusan campaign",
+          "Rift with Hoth",
+          "Reconciliation and the thought bomb"
+        ]
+      ],
+      "Githany": [
+        "15810764",
+        "3c20fdcd9fed4128137df89fb8940b49f584245697f820e49a1fada63e256bff",
+        [
+          "Defection",
+          "Dark Lord of the Sith",
+          "The end of the war"
+        ]
+      ],
+      "Darovit": [
+        "15810727",
+        "e540cbf70823f848fdda89cd64b654d14065d3eedada414931c33184b0554bad",
+        [
+          "Biography"
+        ]
+      ]
+    },
+    "constants": {
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "Wookieepedia contributors; see linked revision history",
+      "continuity": "Legends",
+      "evidence_class": "secondary",
+      "extraction": "References, images, templates and quoted words omitted; paragraphs with residual markers or exact eight-word overlap with marked quotation bodies held.",
+      "related_comic_series_issue_ids": [
+        "jedi-vs-sith-001",
+        "jedi-vs-sith-002",
+        "jedi-vs-sith-003",
+        "jedi-vs-sith-004",
+        "jedi-vs-sith-005",
+        "jedi-vs-sith-006"
+      ],
+      "coverage": "Partial character perspectives on the Ruusan campaign across multiple works, including comics and novels. Not an individual issue transcript or comprehensive coverage; unmarked excerpts and primary content rights remain unverified.",
+      "embedded": false
+    },
+    "data_path": "data/wookieepedia-jedi-vs-sith-character-biographies.jsonl",
+    "wrapped_source": false,
+    "include_subsections": false
+  },
+  "acquire_jedi_sith_more_biographies": {
+    "sources": {
+      "Hoth (Jedi Lord)": [
+        "15825706",
+        "05aa5d6c8a6e1d0c2bb53e97685e6f8b094249415f8449ce7dcb4affb7838004",
+        [
+          "The Ruusan campaign",
+          "The Seventh Battle of Ruusan"
+        ]
+      ],
+      "Darth Zannah/Legends": [
+        "15767815",
+        "ed25af38b8f48f2dc86930dd737f940055449e5b76c3dca7d38df8de0be70562",
+        [
+          "Jedi recruit",
+          "Touch of the dark side",
+          "First test"
+        ]
+      ],
+      "Kiel Charny": [
+        "15105634",
+        "5029b5f81374879454fb99a78a40fa85b3ccae67b60a09d36ffce941ac09e968",
+        [
+          "Biography"
+        ]
+      ],
+      "Pernicar": [
+        "15786814",
+        "df792e21fe8740969ecd60d0142e772a26870826bb2cae25c324823eb379cb6c",
+        [
+          "Life as a Jedi",
+          "Death and legacy"
+        ]
+      ],
+      "Kopecz": [
+        "15775007",
+        "1553a6e5e12662fa3466032b524aefd2b5a7462fcead4aa8465a623ff7f86344",
+        [
+          "The Ruusan campaign",
+          "Escaping the thought bomb"
+        ]
+      ],
+      "Hardin": [
+        "15362099",
+        "a6cd59ef423698b4003c3f81758003d7769089d7d2cc566bbc9f29fdc2e2855c",
+        [
+          "Childhood",
+          "Recruitment",
+          "Confrontation"
+        ]
+      ]
+    },
+    "constants": {
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "Wookieepedia contributors; see linked revision history",
+      "continuity": "Legends",
+      "evidence_class": "secondary",
+      "extraction": "References, images, templates and quoted words omitted; paragraphs with residual markers or exact eight-word overlap with marked quotation bodies held.",
+      "related_comic_series_issue_ids": [
+        "jedi-vs-sith-001",
+        "jedi-vs-sith-002",
+        "jedi-vs-sith-003",
+        "jedi-vs-sith-004",
+        "jedi-vs-sith-005",
+        "jedi-vs-sith-006"
+      ],
+      "coverage": "Partial character perspectives on the Ruusan campaign across multiple works, including comics and novels. Not an individual issue transcript or comprehensive coverage; unmarked excerpts and primary content rights remain unverified.",
+      "embedded": false
+    },
+    "data_path": "data/wookieepedia-jedi-vs-sith-more-biographies.jsonl",
+    "wrapped_source": false,
+    "include_subsections": false
+  },
+  "acquire_remaining_quote_replacements": {
+    "sources": {
+      "Sith (language)": [
+        "15806415",
+        "bb38452a85794ba12558b37923748ea16cffcb2e7bdc3381bc5cd4a85d58d82d",
+        [
+          "Usage",
+          "Written forms"
+        ]
+      ],
+      "XoXaan": [
+        "15809392",
+        "0a6546ad4794c76b9bf8406a9c7b150be657e3a51a3a7198ed94536bfa785e6f",
+        [
+          "Dissension and warfare",
+          "Conquerors of darkness",
+          "Documentation and death",
+          "Succeeding Sith",
+          "Legacy"
+        ]
+      ],
+      "Rakatan revolt": [
+        "15789174",
+        "713a1aef5bd7b23113a69a576cc0d2a828c0521327d3c9ffebbb7eec42520564",
+        [
+          "Prelude",
+          "The revolt",
+          "Aftermath",
+          "Legacy"
+        ]
+      ],
+      "Ziost/Legends": [
+        "15781760",
+        "c9367f9485dc4622a8e37b5be5d6d064a34f42a9eff549f55148d00c0d841747",
+        [
+          "Astrography",
+          "Geography",
+          "Flora and fauna",
+          "A new homeworld",
+          "Exiles",
+          "Golden Age of the Sith",
+          "Great Hyperspace War",
+          "Post-Great Hyperspace War",
+          "A world lost",
+          "The New Empire"
+        ]
+      ]
+    },
+    "constants": {
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "Wookieepedia contributors; see linked revision history",
+      "continuity": "Legends",
+      "evidence_class": "secondary",
+      "extraction": "References, images, templates and quoted words omitted; paragraphs with residual markers or exact eight-word overlap with marked quotation bodies held.",
+      "coverage": "Partial secondary wiki sections, some spanning eras beyond the Old Republic. Not original works or complete subject coverage; unmarked excerpts and primary content rights remain unverified.",
+      "embedded": false
+    },
+    "data_path": "data/wookieepedia-remaining-quote-replacements.jsonl",
+    "wrapped_source": true,
+    "include_subsections": false
+  },
+  "acquire_dawn_character_biographies": {
+    "sources": {
+      "Sek'nos Rath": [
+        "15818870",
+        "72e88ddcc43dd81b0c19fb3d329d8072814310b56584f1acc31778d6bc672e33",
+        [
+          "Early Life",
+          "A Dark stranger arrives",
+          "Tracking down Xesh and Daegen Lok",
+          "Encounter with another Force Hound",
+          "Becoming a great warrior"
+        ]
+      ],
+      "Tasha Ryo": [
+        "15806791",
+        "a83cb1ef4c1d7b8e9673268aaee96a72a7d0676d7e039bba8ae3ef4aff36b227",
+        [
+          "Early life",
+          "A Dark stranger arrives",
+          "Deciphering a mystery",
+          "A new threat discovered",
+          "Seer Tasha"
+        ]
+      ],
+      "Shae Koda": [
+        "15806302",
+        "17561f71b6310e77824ab71278375bb34c5ebe609928bcf3eb029df517aac2bb",
+        [
+          "Early life and training",
+          "Meeting Xesh",
+          "Tracking The Exiles",
+          "A new enemy"
+        ]
+      ],
+      "Daegen Lok": [
+        "15798138",
+        "81dd4506a91385bf4d088d9da8498428b5b4e6aa32dd0b6ae952ff146606e01b",
+        [
+          "Early life and the war",
+          "Visions in the darkness and exile",
+          "Building weapons and an army",
+          "Battle on Shikaakwa and imprisonment",
+          "Leading the Je'daii"
+        ]
+      ],
+      "Tau (individual)": [
+        "15649755",
+        "8b40755158b281c2cb0ff2645c611b9d1678d12b70574d8268a91813719c4f90",
+        [
+          "Childhood and training",
+          "Tul'kar's Hound",
+          "Time on Tython",
+          "Exile on Bogan",
+          "Fugitives",
+          "Becoming a Je'daii"
+        ]
+      ],
+      "Hawk Ryo": [
+        "15804790",
+        "1cddb3e89127a16745917b012608c6628896cfe22b08c0d3c6fee661a98efa09",
+        [
+          "Early life",
+          "Mission with Lanoree",
+          "Arrival of the Force Hound",
+          "Hunting the prisoners of Bogan",
+          "The vision comes to pass"
+        ]
+      ],
+      "Ketu": [
+        "15347073",
+        "dbc150768c34ae8073af8fcfa0bcc93f4e7ff53dc8e9a6d837b2039aa36fde4e",
+        [
+          "The approaching storm",
+          "The Force Wars"
+        ]
+      ],
+      "Tem Madog": [
+        "15805200",
+        "19b06fb1d0d6e01de6355e5acfc462625dce8ec9aeb0e5f4882005757ba2ca08",
+        [
+          "Master of the Forge",
+          "Force Wars"
+        ]
+      ],
+      "Skal'nas": [
+        "15581884",
+        "d73a054c1a028c104e90bc95cb7bb1f80ef9b8284db511005dc2c9c4c74a4db4",
+        [
+          "Biography"
+        ]
+      ]
+    },
+    "constants": {
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "Wookieepedia contributors; see linked revision history",
+      "continuity": "Legends",
+      "evidence_class": "secondary",
+      "extraction": "References, images, templates and quoted words omitted; paragraphs with residual markers or exact eight-word overlap with marked quotation bodies held.",
+      "related_series": "Dawn of the Jedi",
+      "coverage": "Partial character accounts for Dawn of the Jedi. Individual issue attribution, comprehensive coverage and unmarked excerpt rights require further review.",
+      "embedded": false
+    },
+    "data_path": "staging/wookieepedia-dawn-character-biographies.jsonl",
+    "audit_path": "staging/dawn-character-biography-screen.json",
+    "wrapped_source": false,
+    "include_subsections": false,
+    "source_metadata": {
+      "Tau (individual)": {
+        "aliases": [
+          "Xesh"
+        ],
+        "coverage": "Partial Dawn of the Jedi character account. The pinned wiki revision requests expansion and updates for the Force War arc. Issue-level completeness and unmarked excerpt rights remain under review."
+      },
+      "Hawk Ryo": {
+        "coverage": "Partial character account spanning Dawn of the Jedi comics and Into the Void novel. Work and issue attribution, complete coverage and unmarked excerpt rights remain under review."
+      }
+    }
+  }
+}

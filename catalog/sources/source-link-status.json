@@ -1,0 +1,686 @@
+{
+  "checked_at": "2026-11-16T02:18:29.869338+00:00",
+  "note": "HEAD status is only a connectivity hint; it does not prove permission or content availability.",
+  "sources": [
+    {
+      "id": "kotor-comic-issue-index-secondary",
+      "name": "KotOR comic issue contents (secondary research lead)",
+      "url": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic_(comic_series)",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 403,
+      "resolved_url": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic_(comic_series)"
+    },
+    {
+      "id": "deadlystream",
+      "name": "Deadly Stream",
+      "url": "https://deadlystream.com",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://deadlystream.com/"
+    },
+    {
+      "id": "lucasforums-archive",
+      "name": "LucasForums Archive",
+      "url": "https://lucasforumsarchive.org",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": null,
+      "error_type": "ConnectionError"
+    },
+    {
+      "id": "pcgamingwiki-kotor",
+      "name": "PCGamingWiki",
+      "url": "https://www.pcgamingwiki.com",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.pcgamingwiki.com/wiki/Home"
+    },
+    {
+      "id": "kotor-neocities",
+      "name": "KOTOR Neocities",
+      "url": "https://kotor.neocities.org",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://kotor.neocities.org/"
+    },
+    {
+      "id": "wikipedia-kotor",
+      "name": "Wikipedia \u2014 Star Wars KOTOR",
+      "url": "https://en.wikipedia.org/wiki/Star_Wars:_Knights_of_the_Old_Republic",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://en.wikipedia.org/wiki/Star_Wars:_Knights_of_the_Old_Republic"
+    },
+    {
+      "id": "strategywiki-kotor",
+      "name": "StrategyWiki KOTOR",
+      "url": "https://strategywiki.org/wiki/Star_Wars:_Knights_of_the_Old_Republic",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 403,
+      "resolved_url": "https://strategywiki.org/wiki/Star_Wars:_Knights_of_the_Old_Republic"
+    },
+    {
+      "id": "swtor-manaan-official",
+      "name": "SWTOR \u2014 Manaan and kolto",
+      "url": "https://www.swtor.com/info/news/blog/20140718",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/info/news/blog/20140718"
+    },
+    {
+      "id": "swtor-lost-suns-official",
+      "name": "SWTOR \u2014 The Lost Suns announcement",
+      "url": "https://www.swtor.com/info/news/news-article/20110603-0",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/info/news/news-article/20110603-0"
+    },
+    {
+      "id": "swtor-webcomic-archive",
+      "name": "SWTOR \u2014 Official webcomic archive",
+      "url": "https://www.swtor.com/flux/multimedia/webcomic",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/flux/multimedia/webcomic"
+    },
+    {
+      "id": "marvel-kotor-comics",
+      "name": "Marvel \u2014 Knights of the Old Republic comics catalog",
+      "url": "https://www.marvel.com/comics/series/20196/star_wars%3A_knights_of_the_old_republic_%282006_-_2010%29",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 403,
+      "resolved_url": "https://www.marvel.com/comics/series/20196/star_wars%3A_knights_of_the_old_republic_%282006_-_2010%29"
+    },
+    {
+      "id": "marvel-kotor-omnibus-contents",
+      "name": "Marvel \u2014 KotOR omnibus contents",
+      "url": "https://www.marvel.com/comics/collection/120279/star_wars_legends_the_old_republic_omnibus_vol_1_brian_ching_cover_new_printing_hardcover",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 403,
+      "resolved_url": "https://www.marvel.com/comics/collection/120279/star_wars_legends_the_old_republic_omnibus_vol_1_brian_ching_cover_new_printing_hardcover"
+    },
+    {
+      "id": "marvel-dawn-of-the-jedi-series",
+      "name": "Marvel \u2014 Dawn of the Jedi series catalog",
+      "url": "https://www.marvel.com/comics/series/20152/star_wars%3A_dawn_of_the_jedi_%282012%29",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 403,
+      "resolved_url": "https://www.marvel.com/comics/series/20152/star_wars%3A_dawn_of_the_jedi_%282012%29"
+    },
+    {
+      "id": "marvel-old-republic-comics",
+      "name": "Marvel \u2014 The Old Republic comics catalog",
+      "url": "https://www.marvel.com/comics/series/20242/star_wars%3A_the_old_republic_%282010%29",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 403,
+      "resolved_url": "https://www.marvel.com/comics/series/20242/star_wars%3A_the_old_republic_%282010%29"
+    },
+    {
+      "id": "marvel-old-republic-omnibus-vol2",
+      "name": "Marvel/PRH \u2014 The Old Republic Omnibus Vol. 2 contents",
+      "url": "https://prhcomics.com/wp-content/uploads/2025/03/PREVIEWS2021043_June_2025_FINAL.pdf",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://prhcomics.com/wp-content/uploads/2025/03/PREVIEWS2021043_June_2025_FINAL.pdf"
+    },
+    {
+      "id": "steam-community-guides-kotor",
+      "name": "Steam Community Guides",
+      "url": "https://steamcommunity.com",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://steamcommunity.com/"
+    },
+    {
+      "id": "marvel-tales-of-the-jedi-collection",
+      "name": "Marvel \u2014 Tales of the Jedi omnibus catalog",
+      "url": "https://www.marvel.com/comics/collection/108624/",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 403,
+      "resolved_url": "https://www.marvel.com/comics/collection/108624/"
+    },
+    {
+      "id": "marvel-old-republic-vol4",
+      "name": "Marvel \u2014 Legends Epic Collection: The Old Republic Vol. 4",
+      "url": "https://www.marvel.com/comics/collection/93818/",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 403,
+      "resolved_url": "https://www.marvel.com/comics/collection/93818/"
+    },
+    {
+      "id": "marvel-jedi-vs-sith-comics",
+      "name": "Marvel \u2014 Jedi Vs. Sith comics catalog",
+      "url": "https://www.marvel.com/comics/series/20192/star_wars%3A_jedi_vs._sith_%282001%29",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 403,
+      "resolved_url": "https://www.marvel.com/comics/series/20192/star_wars%3A_jedi_vs._sith_%282001%29"
+    },
+    {
+      "id": "marvel-lost-tribe-spiral-comics",
+      "name": "Marvel \u2014 Lost Tribe of the Sith: Spiral catalog",
+      "url": "https://www.marvel.com/comics/series/20203/star_wars%3A_lost_tribe_of_the_sith_-_spiral_%282012%29",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 403,
+      "resolved_url": "https://www.marvel.com/comics/series/20203/star_wars%3A_lost_tribe_of_the_sith_-_spiral_%282012%29"
+    },
+    {
+      "id": "marvel-knight-errant-comics",
+      "name": "Marvel \u2014 Knight Errant comics catalog",
+      "url": "https://www.marvel.com/comics/series/20193/star_wars_knight_errant_2010_2011",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 403,
+      "resolved_url": "https://www.marvel.com/comics/series/20193/star_wars_knight_errant_2010_2011"
+    },
+    {
+      "id": "starwars-legends-continuity",
+      "name": "StarWars.com \u2014 Expanded Universe continuity announcement",
+      "url": "https://www.starwars.com/news/the-legendary-star-wars-expanded-universe-turns-a-new-page",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.starwars.com/news/the-legendary-star-wars-expanded-universe-turns-a-new-page"
+    },
+    {
+      "id": "swtor-threat-of-peace-archive",
+      "name": "SWTOR \u2014 Threat of Peace archive",
+      "url": "https://www.swtor.com/flux/multimedia/tout",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/flux/multimedia/tout"
+    },
+    {
+      "id": "swtor-short-story-search-oricon",
+      "name": "SWTOR \u2014 Short story: The Search for Oricon",
+      "url": "https://www.swtor.com/blog/search-oricon",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/blog/search-oricon"
+    },
+    {
+      "id": "swtor-short-story-lana-journal-arkous",
+      "name": "SWTOR \u2014 Short story: Lana Beniko's Journal: Darth Arkous",
+      "url": "https://www.swtor.com/blog/lana-beniko%E2%80%99s-journal-darth-arkous",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/blog/lana-beniko%E2%80%99s-journal-darth-arkous"
+    },
+    {
+      "id": "swtor-short-story-surface-details",
+      "name": "SWTOR \u2014 Short story: Surface Details",
+      "url": "https://www.swtor.com/blog/surface-details",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/blog/surface-details"
+    },
+    {
+      "id": "swtor-short-story-wanted-dead-dismantled",
+      "name": "SWTOR \u2014 Short story: Wanted: Dead and Dismantled",
+      "url": "https://www.swtor.com/blog/wanted-dead-and-dismantled",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/blog/wanted-dead-and-dismantled"
+    },
+    {
+      "id": "swtor-short-story-remnants",
+      "name": "SWTOR \u2014 Short story: Remnants",
+      "url": "https://www.swtor.com/blog/remnants",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/blog/remnants"
+    },
+    {
+      "id": "swtor-short-story-bedtime-concordia",
+      "name": "SWTOR \u2014 Short story: Bedtime on Concordia",
+      "url": "https://www.swtor.com/blog/bedtime-concordia",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/blog/bedtime-concordia"
+    },
+    {
+      "id": "swtor-short-story-price-of-power",
+      "name": "SWTOR \u2014 Short story: The Price of Power",
+      "url": "https://www.swtor.com/blog/price-power",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/blog/price-power"
+    },
+    {
+      "id": "swtor-short-story-dealer-den",
+      "name": "SWTOR \u2014 Short story: One Night in the Dealer's Den",
+      "url": "https://www.swtor.com/blog/one-night-dealer%E2%80%99s-den",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/blog/one-night-dealer%E2%80%99s-den"
+    },
+    {
+      "id": "swtor-short-story-final-trial",
+      "name": "SWTOR \u2014 Short story: The Final Trial",
+      "url": "https://www.swtor.com/blog/final-trial",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/blog/final-trial"
+    },
+    {
+      "id": "swtor-short-story-regrets",
+      "name": "SWTOR \u2014 Short story: Regrets",
+      "url": "https://www.swtor.com/blog/regrets",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/blog/regrets"
+    },
+    {
+      "id": "swtor-short-story-sixth-line-one",
+      "name": "SWTOR \u2014 Short story: The Sixth Line: Part One",
+      "url": "https://www.swtor.com/blog/sixth-line-part-one",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/blog/sixth-line-part-one"
+    },
+    {
+      "id": "swtor-short-story-sixth-line-two",
+      "name": "SWTOR \u2014 Short story: The Sixth Line: Part Two",
+      "url": "https://www.swtor.com/blog/sixth-line-part-two",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/blog/sixth-line-part-two"
+    },
+    {
+      "id": "swtor-short-story-vacation",
+      "name": "SWTOR \u2014 Short story: Vacation",
+      "url": "https://www.swtor.com/blog/vacation",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/blog/vacation"
+    },
+    {
+      "id": "swtor-short-story-brothers",
+      "name": "SWTOR \u2014 Short story: Brothers",
+      "url": "https://www.swtor.com/blog/brothers",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/blog/brothers"
+    },
+    {
+      "id": "swtor-short-story-a-mothers-hope",
+      "name": "SWTOR \u2014 Short story: A Mother's Hope",
+      "url": "https://www.swtor.com/info/news/blog/20161117",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/info/news/blog/20161117"
+    },
+    {
+      "id": "swtor-short-story-trading-scars",
+      "name": "SWTOR \u2014 Short story: Trading Scars",
+      "url": "https://www.swtor.com/info/news/news-article/20170817",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/info/news/news-article/20170817"
+    },
+    {
+      "id": "swtor-short-story-chasing-copero",
+      "name": "SWTOR \u2014 Short story: Chasing Copero",
+      "url": "https://www.swtor.com/info/news/news-article/20171116",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/info/news/news-article/20171116"
+    },
+    {
+      "id": "swtor-short-story-quite-a-story-to-tell",
+      "name": "SWTOR \u2014 Short story: Quite A Story To Tell",
+      "url": "https://www.swtor.com/info/news/article/20210413",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/info/news/article/20210413"
+    },
+    {
+      "id": "swtor-short-story-seeing-red",
+      "name": "SWTOR \u2014 Short story: Seeing Red",
+      "url": "https://www.swtor.com/info/news/news-article/20210714",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/info/news/news-article/20210714"
+    },
+    {
+      "id": "swtor-short-story-all-thats-left",
+      "name": "SWTOR \u2014 Short story: All That's Left",
+      "url": "https://www.swtor.com/info/news/article/20220804",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/info/news/article/20220804"
+    },
+    {
+      "id": "swtor-short-story-bottled-fury",
+      "name": "SWTOR \u2014 Short story: Bottled Fury",
+      "url": "https://www.swtor.com/info/news/article/20221117",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/info/news/article/20221117"
+    },
+    {
+      "id": "swtor-short-story-snare",
+      "name": "SWTOR \u2014 Short story: Snare",
+      "url": "https://www.swtor.com/info/news/article/20221209-0",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/info/news/article/20221209-0"
+    },
+    {
+      "id": "swtor-short-story-last-road-khar-shian",
+      "name": "SWTOR \u2014 Short story: Last Road to Khar Shian",
+      "url": "https://www.swtor.com/info/news/%5Bnews-category%5D/20260528",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/info/news/%5Bnews-category%5D/20260528"
+    },
+    {
+      "id": "swtor-galactic-history-official",
+      "name": "SWTOR \u2014 Galactic History archive",
+      "url": "https://www.swtor.com/holonet/galactic-history",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/holonet/galactic-history"
+    },
+    {
+      "id": "swtor-setting-official",
+      "name": "SWTOR \u2014 Official game setting",
+      "url": "https://www.swtor.com/info/story/setting",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/info/story/setting"
+    },
+    {
+      "id": "swtor-story-so-far-official",
+      "name": "SWTOR \u2014 Story So Far",
+      "url": "https://www.swtor.com/info/news/article/20211104",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/info/news/article/20211104"
+    },
+    {
+      "id": "swtor-patch-notes-official",
+      "name": "SWTOR \u2014 Patch note archive",
+      "url": "https://www.swtor.com/patchnotes",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/patchnotes"
+    },
+    {
+      "id": "swtor-codex-design-official",
+      "name": "SWTOR \u2014 Codex design context",
+      "url": "https://www.swtor.com/info/news/blog/20110506",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.swtor.com/info/news/blog/20110506"
+    },
+    {
+      "id": "old-republic-book-revan",
+      "name": "Old Republic bibliography \u2014 Revan",
+      "url": "https://www.penguinrandomhouse.com/books/7861/revan-star-wars-legends-the-old-republic/",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.penguinrandomhouse.com/books/7861/revan-star-wars-legends-the-old-republic/"
+    },
+    {
+      "id": "old-republic-book-deceived",
+      "name": "Old Republic bibliography \u2014 Deceived",
+      "url": "https://www.penguinrandomhouse.com/books/7874/deceived-star-wars-legends-the-old-republic/",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.penguinrandomhouse.com/books/7874/deceived-star-wars-legends-the-old-republic/"
+    },
+    {
+      "id": "old-republic-book-fatal-alliance",
+      "name": "Old Republic bibliography \u2014 Fatal Alliance",
+      "url": "https://www.penguinrandomhouse.com/books/7860/fatal-alliance-star-wars-legends-the-old-republic/",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.penguinrandomhouse.com/books/7860/fatal-alliance-star-wars-legends-the-old-republic/"
+    },
+    {
+      "id": "old-republic-book-annihilation",
+      "name": "Old Republic bibliography \u2014 Annihilation",
+      "url": "https://www.penguinrandomhouse.com/books/212712/annihilation-star-wars-legends-the-old-republic-by-drew-karpyshyn/paperback/",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.penguinrandomhouse.com/books/212712/annihilation-star-wars-legends-the-old-republic-by-drew-karpyshyn/paperback/"
+    },
+    {
+      "id": "old-republic-book-knight-errant",
+      "name": "Old Republic bibliography \u2014 Knight Errant novel",
+      "url": "https://www.penguinrandomhouse.com/books/203232/knight-errant-star-wars-legends-by-john-jackson-miller/",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.penguinrandomhouse.com/books/203232/knight-errant-star-wars-legends-by-john-jackson-miller/"
+    },
+    {
+      "id": "old-republic-book-lost-tribe-collected-stories",
+      "name": "Old Republic bibliography \u2014 Lost Tribe of the Sith: The Collected Stories",
+      "url": "https://www.penguinrandomhouse.com/books/7867/lost-tribe-of-the-sith-star-wars-legends-the-collected-stories-by-john-jackson-miller/9780345541321/",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.penguinrandomhouse.com/books/7867/lost-tribe-of-the-sith-star-wars-legends-the-collected-stories-by-john-jackson-miller/9780345541321/"
+    },
+    {
+      "id": "old-republic-book-dawn-of-the-jedi-into-the-void",
+      "name": "Old Republic bibliography \u2014 Dawn of the Jedi: Into the Void",
+      "url": "https://www.penguinrandomhouse.com/books/222802/into-the-void-star-wars-legends-dawn-of-the-jedi-by-tim-lebbon/",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.penguinrandomhouse.com/books/222802/into-the-void-star-wars-legends-dawn-of-the-jedi-by-tim-lebbon/"
+    },
+    {
+      "id": "old-republic-book-essential-readers-companion",
+      "name": "Old Republic bibliography \u2014 The Essential Reader's Companion",
+      "url": "https://www.penguinrandomhouse.com/books/7825/the-essential-readers-companion-star-wars-by-pablo-hidalgo/",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.penguinrandomhouse.com/books/7825/the-essential-readers-companion-star-wars-by-pablo-hidalgo/"
+    },
+    {
+      "id": "old-republic-book-kotor-campaign-guide",
+      "name": "Old Republic bibliography \u2014 Knights of the Old Republic Campaign Guide",
+      "url": "https://farawaypress.com/games/swkotorguide/",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://farawaypress.com/games/swkotorguide/"
+    },
+    {
+      "id": "torcommunity-database-secondary",
+      "name": "TORCommunity \u2014 game-data database (secondary lead)",
+      "url": "https://torcommunity.com/database",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://torcommunity.com/database"
+    },
+    {
+      "id": "jedipedia-swtor-codex-secondary",
+      "name": "Jedipedia \u2014 SWTOR codex index (secondary lead)",
+      "url": "https://swtor.jedipedia.net/en/cdx",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://swtor.jedipedia.net/en/cdx"
+    },
+    {
+      "id": "old-republic-fiction-labor-pains",
+      "name": "KotOR short fiction \u2014 Labor Pains",
+      "url": "https://farawaypress.com/fiction/starwars-laborpains/",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://farawaypress.com/fiction/starwars-laborpains/"
+    },
+    {
+      "id": "old-republic-fiction-interference",
+      "name": "KotOR short fiction \u2014 Interference",
+      "url": "https://farawaypress.com/fiction/starwars-interference/",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://farawaypress.com/fiction/starwars-interference/"
+    },
+    {
+      "id": "old-republic-fiction-secret-journal-demagol",
+      "name": "KotOR comic companion \u2014 The Secret Journal of Doctor Demagol",
+      "url": "https://farawaypress.com/fiction/starwars-secretjournalofdoctordemagol/",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://farawaypress.com/fiction/starwars-secretjournalofdoctordemagol/"
+    },
+    {
+      "id": "starwars-demagol-editorial-context",
+      "name": "StarWars.com \u2014 The Secret Journal of Doctor Demagol editorial context",
+      "url": "https://www.starwars.com/news/the-essential-readers-companion-making-the-cut",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 200,
+      "resolved_url": "https://www.starwars.com/news/the-essential-readers-companion-making-the-cut"
+    },
+    {
+      "id": "old-republic-magazine-story-third-lesson",
+      "name": "Secondary bibliography \u2014 The Old Republic: The Third Lesson",
+      "url": "https://starwars.fandom.com/wiki/The_Old_Republic%3A_The_Third_Lesson",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 403,
+      "resolved_url": "https://starwars.fandom.com/wiki/The_Old_Republic%3A_The_Third_Lesson"
+    },
+    {
+      "id": "old-republic-magazine-story-last-battle-jace-malcom",
+      "name": "Secondary bibliography \u2014 The Last Battle of Colonel Jace Malcom",
+      "url": "https://starwars.fandom.com/wiki/The_Last_Battle_of_Colonel_Jace_Malcom",
+      "status": "discovery_only",
+      "reuse_basis": "unreviewed",
+      "ingested": false,
+      "head_status": 403,
+      "resolved_url": "https://starwars.fandom.com/wiki/The_Last_Battle_of_Colonel_Jace_Malcom"
+    }
+  ]
+}

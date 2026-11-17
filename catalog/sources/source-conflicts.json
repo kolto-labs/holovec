@@ -1,0 +1,22 @@
+{
+  "description": "Source-specific factual conflicts affecting retrieval; evidence does not change or supersede the attributed source text.",
+  "conflicts": [
+    {
+      "id": "lost-suns-issue-numbering",
+      "source_url": "https://en.wikipedia.org/wiki/Star_Wars:_The_Old_Republic_(comics)",
+      "source_title": "Star Wars: The Old Republic (comics)",
+      "source_revision": 1295390215,
+      "source_text_sha256": "497f62116632a8240db30fd537c456b3eff914a852987072ac86b61058ba4c34",
+      "warning": "This Wikipedia revision labels The Lost Suns as The Old Republic issues 7–11; Marvel separately lists The Lost Suns as issues 1–5. The relationship to original issue numbering needs physical-edition verification.",
+      "contrasting_source": "https://www.marvel.com/comics/creators/12657/alexander_freed",
+      "inventory_work_ids": [
+        "tor-lost-suns-001",
+        "tor-lost-suns-002",
+        "tor-lost-suns-003",
+        "tor-lost-suns-004",
+        "tor-lost-suns-005"
+      ],
+      "status": "conflict_recorded_not_physically_verified"
+    }
+  ]
+}

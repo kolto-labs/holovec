@@ -1,0 +1,211 @@
+{
+  "description": "Eight Old Republic tabletop miniature scenario leads from secondary bibliographies; metadata does not reproduce the primary works. Dataset links do not prove complete work coverage or rights clearance. Chronology, primary source access and branching remain to be reviewed.",
+  "items": [
+    {
+      "title": "Onderon Cutoff",
+      "medium": "Star Wars Miniatures scenario",
+      "author": "Sterling Hershey",
+      "bibliographic_evidence": [
+        "https://theforce.net/timeline/pdf/SWEUC-p1_TFN_OLD_REPUBLIC.pdf",
+        "https://starwarstimelinealmanac.com/StarWars_Files/PDFs/Legends/SW_LegendsDigital_Checklist_9.0.pdf"
+      ],
+      "secondary_records": [
+        {
+          "source_layer": "data/wookieepedia-broad-references.jsonl",
+          "title": "Onderon Cutoff",
+          "source_url": "https://starwars.fandom.com/wiki/Onderon_Cutoff",
+          "text_sha256": "d0091348516c9368daba32f542596f0f069b3751bd9650cc62dae4934d7e9f62"
+        }
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established"
+    },
+    {
+      "title": "Czerka 431 (scenario)",
+      "medium": "Star Wars Miniatures scenario",
+      "author": "Sterling Hershey",
+      "bibliographic_evidence": [
+        "https://theforce.net/timeline/pdf/SWEUC-p1_TFN_OLD_REPUBLIC.pdf",
+        "https://starwarstimelinealmanac.com/StarWars_Files/PDFs/Legends/SW_LegendsDigital_Checklist_9.0.pdf"
+      ],
+      "secondary_records": [
+        {
+          "source_layer": "data/wookieepedia-broad-references.jsonl",
+          "title": "Czerka 431 (scenario)",
+          "source_url": "https://starwars.fandom.com/wiki/Czerka_431_(scenario)",
+          "text_sha256": "9c97a4dcb68e033a73b4875933b250c13861ae161370f02e95f4f8b3a3397a9d"
+        }
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "revision_pinned_secondary_sections": [
+        {
+          "dataset": "data/wookieepedia-miniatures-quote-omitted.jsonl",
+          "section": "Plot summary",
+          "revision_id": "15402575",
+          "text_sha256": "c11a9b73063570de5651018f81483b30e1767fcc83da0fd72f31edd7f920859b",
+          "scope": "secondary partial"
+        }
+      ]
+    },
+    {
+      "title": "Permanent Demotion",
+      "medium": "Star Wars Miniatures scenario",
+      "author": "Sterling Hershey",
+      "bibliographic_evidence": [
+        "https://theforce.net/timeline/pdf/SWEUC-p1_TFN_OLD_REPUBLIC.pdf",
+        "https://starwarstimelinealmanac.com/StarWars_Files/PDFs/Legends/SW_LegendsDigital_Checklist_9.0.pdf"
+      ],
+      "secondary_records": [
+        {
+          "source_layer": "data/wookieepedia-broad-references.jsonl",
+          "title": "Permanent Demotion",
+          "source_url": "https://starwars.fandom.com/wiki/Permanent_Demotion",
+          "text_sha256": "8ed577c8ecdadf5c5bd1d6a46218269fb063467f489b33c548a30a65c5ceb9e2"
+        }
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "revision_pinned_secondary_sections": [
+        {
+          "dataset": "data/wookieepedia-miniatures-quote-omitted.jsonl",
+          "section": "Continuity",
+          "revision_id": "14756984",
+          "text_sha256": "d50bba77481327629191dada596a8a2a054409a3d46c67dcd51bd8f8addaba75",
+          "scope": "secondary partial"
+        },
+        {
+          "dataset": "data/wookieepedia-miniatures-quote-omitted.jsonl",
+          "section": "Plot summary",
+          "revision_id": "14756984",
+          "text_sha256": "249f6f8ee8bfe7208d9d1e7cc13b3aaccb9371528e0a8e991ce1767081a282b7",
+          "scope": "secondary partial"
+        }
+      ]
+    },
+    {
+      "title": "Korriban Creatures",
+      "medium": "Star Wars Miniatures scenario",
+      "author": "Sterling Hershey",
+      "bibliographic_evidence": [
+        "https://theforce.net/timeline/pdf/SWEUC-p1_TFN_OLD_REPUBLIC.pdf",
+        "https://starwarstimelinealmanac.com/StarWars_Files/PDFs/Legends/SW_LegendsDigital_Checklist_9.0.pdf"
+      ],
+      "secondary_records": [],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established"
+    },
+    {
+      "title": "Payback (scenario)",
+      "medium": "Star Wars Miniatures scenario",
+      "author": "Sterling Hershey",
+      "bibliographic_evidence": [
+        "https://theforce.net/timeline/pdf/SWEUC-p1_TFN_OLD_REPUBLIC.pdf",
+        "https://starwarstimelinealmanac.com/StarWars_Files/PDFs/Legends/SW_LegendsDigital_Checklist_9.0.pdf"
+      ],
+      "secondary_records": [
+        {
+          "source_layer": "data/wookieepedia-broad-references.jsonl",
+          "title": "Payback (scenario)",
+          "source_url": "https://starwars.fandom.com/wiki/Payback_(scenario)",
+          "text_sha256": "ea9f1ff1a82019768346475c74cc62147c3fec122528124d24b0866ed01b45b5"
+        }
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established"
+    },
+    {
+      "title": "Crossing Paths",
+      "series": "Knights of the Old Republic: Opportunities",
+      "part": 1,
+      "medium": "Star Wars Miniatures scenario",
+      "author": "unverified in these sources",
+      "bibliographic_evidence": [
+        "https://thestarwarschronologyproject.blogspot.com/2010/02/3959-3956-bby-opportunities-part-one.html",
+        "https://starwarstimelinealmanac.com/StarWars_Files/PDFs/Legends/SW_LegendsDigital_Checklist_9.0.pdf"
+      ],
+      "secondary_series_records": [
+        {
+          "source_layer": "data/wookieepedia-publication-summaries.jsonl",
+          "title": "Knights of the Old Republic: Opportunities",
+          "source_url": "https://starwars.fandom.com/wiki/Knights_of_the_Old_Republic:_Opportunities",
+          "text_sha256": "165012cabef8759b74796b55740f7ce560029a6be11f8a5a5bcd14a8f2482d26"
+        }
+      ],
+      "secondary_record_scope": "series-level only; not evidence of part-level coverage",
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "revision_pinned_secondary_sections": [
+        {
+          "dataset": "data/wookieepedia-miniatures-quote-omitted.jsonl",
+          "section": "Plot summary",
+          "revision_id": "15435145",
+          "text_sha256": "172a729a059d961986483725c5a828fd273f5562d7a4a049bed864d73f32c70f",
+          "scope": "series-level"
+        }
+      ]
+    },
+    {
+      "title": "Misinformed",
+      "series": "Knights of the Old Republic: Opportunities",
+      "part": 2,
+      "medium": "Star Wars Miniatures scenario",
+      "author": "unverified in these sources",
+      "bibliographic_evidence": [
+        "https://thestarwarschronologyproject.blogspot.com/2010/02/3959-3956-bby-opportunities-part-one.html",
+        "https://starwarstimelinealmanac.com/StarWars_Files/PDFs/Legends/SW_LegendsDigital_Checklist_9.0.pdf"
+      ],
+      "secondary_series_records": [
+        {
+          "source_layer": "data/wookieepedia-publication-summaries.jsonl",
+          "title": "Knights of the Old Republic: Opportunities",
+          "source_url": "https://starwars.fandom.com/wiki/Knights_of_the_Old_Republic:_Opportunities",
+          "text_sha256": "165012cabef8759b74796b55740f7ce560029a6be11f8a5a5bcd14a8f2482d26"
+        }
+      ],
+      "secondary_record_scope": "series-level only; not evidence of part-level coverage",
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "revision_pinned_secondary_sections": [
+        {
+          "dataset": "data/wookieepedia-miniatures-quote-omitted.jsonl",
+          "section": "Plot summary",
+          "revision_id": "15435145",
+          "text_sha256": "172a729a059d961986483725c5a828fd273f5562d7a4a049bed864d73f32c70f",
+          "scope": "series-level"
+        }
+      ]
+    },
+    {
+      "title": "Destiny Awaits",
+      "series": "Knights of the Old Republic: Opportunities",
+      "part": 3,
+      "medium": "Star Wars Miniatures scenario",
+      "author": "unverified in these sources",
+      "bibliographic_evidence": [
+        "https://thestarwarschronologyproject.blogspot.com/2010/02/3959-3956-bby-opportunities-part-one.html",
+        "https://starwarstimelinealmanac.com/StarWars_Files/PDFs/Legends/SW_LegendsDigital_Checklist_9.0.pdf"
+      ],
+      "secondary_series_records": [
+        {
+          "source_layer": "data/wookieepedia-publication-summaries.jsonl",
+          "title": "Knights of the Old Republic: Opportunities",
+          "source_url": "https://starwars.fandom.com/wiki/Knights_of_the_Old_Republic:_Opportunities",
+          "text_sha256": "165012cabef8759b74796b55740f7ce560029a6be11f8a5a5bcd14a8f2482d26"
+        }
+      ],
+      "secondary_record_scope": "series-level only; not evidence of part-level coverage",
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "revision_pinned_secondary_sections": [
+        {
+          "dataset": "data/wookieepedia-miniatures-quote-omitted.jsonl",
+          "section": "Plot summary",
+          "revision_id": "15435145",
+          "text_sha256": "172a729a059d961986483725c5a828fd273f5562d7a4a049bed864d73f32c70f",
+          "scope": "series-level"
+        }
+      ]
+    }
+  ]
+}
