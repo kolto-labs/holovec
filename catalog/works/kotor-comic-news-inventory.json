@@ -1,0 +1,400 @@
+{
+  "description": "Thirteen issue-linked KOTOR news insert leads. Title-and-issue associations come from a secondary series bibliography; primary pages are not acquired and rights are not established. URL matching does not resolve redirects or establish coverage.",
+  "sources": [
+    "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic_(comic_series)",
+    "https://www.jedipedia.net/wiki/Jedipedia:Projekte/Knights_of_the_Old_Republic/KotOR-Comic_Liste"
+  ],
+  "text_layer_sha256": {
+    "data/arqade-swtor-revision-recovery.jsonl": "c742d958700b90bdb62baee15b05341b632eda2b12c5d6fa30bfcf3364167288",
+    "data/arqade-swtor.jsonl": "12e27c80763e754aeb12f6ce5b4f4163c606b611f6ed4da1142ac0e812d5edf1",
+    "data/arqade.jsonl": "8e71073c130d349b48bf084e78d9a358e1089f15465fe3d52c7e6f6350639b0d",
+    "data/github-project-docs.jsonl": "3f783994a4e0efb5713102002d3380887193c744f829330dcca9811edf583e33",
+    "data/github-readmes-extra.jsonl": "0b89774f7c69ec14a228f5ca3bfe8ab6844b348d2f7b692c00b269e4f255ee31",
+    "data/github-readmes.jsonl": "38f78e4744c64e59beca4cc3cf4c71cd1c94e39e02c22ee9007ffc6b65ae9681",
+    "data/kolto-additional-project-docs.jsonl": "e59f19d9e9e9de62281ec9ac130bafe7a87a3e5fc5e0441c65c5ed88c44c6b6b",
+    "data/kolto-project-docs.jsonl": "5c4dcf597b62f8b01d825e9a124a66d495855eca51719891be2719e1e1004bde",
+    "data/kotor-coop-additional-docs.jsonl": "28a877adcf57a770a54aaa1de8c33389d4b68cad9992a5562d2420eda45e0c9d",
+    "data/kotor-coop-technical-docs.jsonl": "2a23723a1fb28b608288c4a2faf734a172d18cccb730ebd71975f03b3af8170f",
+    "data/openkotor-wiki-formats.jsonl": "72d2af667852b34e0e51355b5681a46c782c0bf0456992c84edd7a6193882d2b",
+    "data/pcgamingwiki-sections.jsonl": "9ce68d975654bcf03c566ba4a251744abe6e41f55f55cbc609e13efee98919cd",
+    "data/scifi-old-republic-character-expansion.jsonl": "8e08f2c1ee20318c335d7a1f82dad1ab63b0c5057d6976528efd8e945fe1472a",
+    "data/scifi-old-republic-character-search.jsonl": "0c030c3a1c4808e292f6e3cb8acb6b5ac844f326c93ae8a767784b63d200376e",
+    "data/scifi-old-republic-comics.jsonl": "4149a9bfac0e737945079701ff8d3e4835e62ed3dd901b77c0674b418c039be5",
+    "data/scifi-old-republic-era-expansion.jsonl": "7e19865c3e5f2fe65c92d8b215fd16f55148ee2adf4d3ddf65d6dc10ce48825b",
+    "data/scifi-old-republic.jsonl": "ae9a5b513850253f967f6bad120a79251bcad26b077e2b75a29fd72c3f8d6f18",
+    "data/strategywiki-current-guide-revisions.jsonl": "2c9ddc54e10d973c582b499a2a25b5f12be33f5b1476165d56821017a50c333d",
+    "data/strategywiki-current-skills.jsonl": "714af9617a31750f0a458a94bab898eef254e79bda68c464cc49e7a6141d2407",
+    "data/strategywiki-partial-quote-overlap-recovery.jsonl": "8b5e6da404f56fdd790c2ce152f3cbab098460db8e27fee3fbb8fe3715070cf2",
+    "data/strategywiki-quote-omitted-walkthroughs.jsonl": "ace2024b2bba4b8d3f794dd4369095b00f3f3a22faef5fe5bd2cd9b0d87c0651",
+    "data/strategywiki-restored-content-overview.jsonl": "8a0561dd0b965044c60f2b28ea50dc53d671d891db0e721be51be067b835373f",
+    "data/strategywiki.jsonl": "372d42c899851b2e7545497c74dc4f95cb517a75ab41d518b62733f39b536bfc",
+    "data/wikipedia-bane-legends-sections.jsonl": "94a7270bf579e96328a13a2b06979a81ac375ef2e22f69c15b50961850cd2963",
+    "data/wikipedia-categories.jsonl": "add4248376ad8c1c65ad72c410d68d7616d5ef88e69e79a095e644d5a144fed5",
+    "data/wikipedia-kotor-series-introduction.jsonl": "834e7a27f5362e9518fc0f9c53d134e64ebdbcd3f286a221f9dfd6f3a284bc57",
+    "data/wikipedia.jsonl": "072ab94cb950149cbf98b326a8d5e1b98344951ae10d7427da2d87c96845cb27",
+    "data/wookieepedia-additional-anthology-plots.jsonl": "12f1a1071ac71dd56dfdec02d8eebe8113c4a5a9d779d34c9d918a3d6b927cce",
+    "data/wookieepedia-anthology-appearance-indices.jsonl": "bc7669c5bd11820898d510ae103c958ed3cc8f119e03b0fdcb38de2f1d22de4c",
+    "data/wookieepedia-anthology-story-plots.jsonl": "323f71835f0c2344591004e666d50962a5b6e81c651df5c7c0e7dead50f37632",
+    "data/wookieepedia-anthology-target-introductions.jsonl": "63c47c54976c95b74040542ce69a58cf6fe24c21f5fcd4977d268e4c85809e55",
+    "data/wookieepedia-bane-novel-plots.jsonl": "f29be746a0d2127f8a9c3b01b52c16c82b15333ea9416076da966fb8d1831bca",
+    "data/wookieepedia-blood-webcomic-appearance-indices.jsonl": "3e9d0e3f6982886cfa77eb36a9baf9b01c59564c341346fb8b365f1e94ca5fb4",
+    "data/wookieepedia-broad-references.jsonl": "e9e3d3efa1fb443d5c258fc470a166f0b427b6ab8deeb6f454a52296df417ad5",
+    "data/wookieepedia-comic-appearance-indices.jsonl": "efc7f82c9f5c9ddc069824b4b45d2ca13785d9ae46d4a583ccba2a8b5fc56fc0",
+    "data/wookieepedia-comic-held-long-leads.jsonl": "28ddd8b5f736cf23c04462f81bb5e0bfad44d9fb9db0ebb3957f73ed20ede987",
+    "data/wookieepedia-comic-held-target-leads.jsonl": "3f57f9e60e80fd170dacc3c960a0aebdc60645b334ef5ef04a3afe17a197f4bf",
+    "data/wookieepedia-comic-legends-counterpart-leads.jsonl": "6659af786172bcc86caa8ffb8b56fa060ab5f49fcebd421733e7fd21024da819",
+    "data/wookieepedia-comic-linked-legends.jsonl": "37819f80f00023384d78a8f2c0bd81398b579d7e55ac5bd2b80fc994af8d42b3",
+    "data/wookieepedia-comic-linked-newer-leads.jsonl": "c5db6faa4bab6f9dea36f4cebedac65ebb3041e3c844760f3e313ab453f32ec4",
+    "data/wookieepedia-comic-summaries.jsonl": "81f112b3e63800c97141b591401035774070927f5e9526c31f5bf85c54229cbe",
+    "data/wookieepedia-comic-uncovered-issue-introductions.jsonl": "314e5af94074b844c259a6ad350f01cc429204f4947afbb7b4b7c542a4986e7c",
+    "data/wookieepedia-dark-lords-ashcan-lead.jsonl": "31139fd1d711e36ac8066232734410c777c8171459bccd56a3cf7189fe64fd91",
+    "data/wookieepedia-dawn-series-sections.jsonl": "209aee288064df5b1dca99889dc8cfab5f4e26826522bb733acdd111076cbe02",
+    "data/wookieepedia-era-date-supplement.parquet": "2e8578e8c18ee31df9776e5ce5986e157c6afb1eccab33ce3c264f70a1177fee",
+    "data/wookieepedia-era-held-leads.jsonl": "0e746ead1f37eb0a23314c5daa918c08361c8002032ec7b21ec1459eb1ffdc5d",
+    "data/wookieepedia-era-marker-reviewed.parquet": "d1f1fe19b7bc36b2b19a19f7e22e1f74e8b2458263cec9eb91bb8a0d14522da4",
+    "data/wookieepedia-era-rounded-reviewed.parquet": "03b8e4523b7cf5ae96b1b39bb9bc19cd5e75426dc95d4e51de2a567a530363ab",
+    "data/wookieepedia-era-supplement.parquet": "8d0604da9c3009b1c24d79a152a37f031407fdf090a1696a1627ff56bec76279",
+    "data/wookieepedia-fate-game-leads.jsonl": "dd122c25793a253f41981ffa184cef6ec10f446865611cabe66ec6c0e7e2e607",
+    "data/wookieepedia-jedi-vs-sith-introductions.jsonl": "5a2003698969d38c5fad98c3730148f23a7d23ff2bdce3e6851adbcd5a998bef",
+    "data/wookieepedia-kotor-core-replacements.jsonl": "51fa324ed5bebca240c5d3368a319a2237fa3e4da0dd41a426045e5c0eb8c24d",
+    "data/wookieepedia-kotor-era-category-gaps.jsonl": "87d0c185ecbb375614ad764d4b75dc2f813f1ecb51b19798b2f0e77c7e169ce4",
+    "data/wookieepedia-kotor-game-plots.jsonl": "1842fc5267ba48268da4aa199fec80af01601159bcdb7d6c83d3938eb3dd5620",
+    "data/wookieepedia-kotor-news-appearance-indices.jsonl": "14156cfda5bacd99a75b1af9c9322ddeb9531c8c2dc466b0570c313e91acebdd",
+    "data/wookieepedia-kotor-news-remaining-appearance-indices.jsonl": "701d50918b8e990e1104d132bfd70df85463b997f1f01a4b47d36010fab2bbbb",
+    "data/wookieepedia-kotor-news-target-leads.jsonl": "d63beab540274b2bb9616ade61d2ff80c81626d51a1f29b67572a06c12cc12e4",
+    "data/wookieepedia-kotor-quote-followup-replacements.jsonl": "3b8ef66e8086cffc025f47a22450cbd223c11c91b7567c68da30da88d6e58040",
+    "data/wookieepedia-kotor-series-arc-sections.jsonl": "ddb109e933ac92c3d097e371da1d784185a409bb96b81901be10feb7c463b2b5",
+    "data/wookieepedia-kotor-zero-plot.jsonl": "fb33c2a63d06628ea3c8b053280788f9ca025547904aa6c84b5412daa8ee637d",
+    "data/wookieepedia-legends.parquet": "8e7478380b273edb2061c369ed5fec4ef72e21ac9f09c99ac7a29e7b287c09a7",
+    "data/wookieepedia-lost-tribe-held-leads.jsonl": "422c01c0c0060bf8152f999d8f77ce268db27207a735c124dda6e02a827dd874",
+    "data/wookieepedia-old-republic-batch2-replacements.jsonl": "b0cbcca8520234409ea282d4d372287d420bffb07be9093c3bafdfc94f0b00f0",
+    "data/wookieepedia-old-republic-category-leads.jsonl": "3cb743c83844b474a92d34115e0fd198eea301c97bf481c4ea75156dcfcc42e2",
+    "data/wookieepedia-old-republic-quote-replacements.jsonl": "243f98c27f9d9f4ff75273313f1d60f546b6ab338c2f4ea5335425ebd3ffdcd3",
+    "data/wookieepedia-pandemonium-plot.jsonl": "d95b646cbe8b4cca45c5f99569d8cbd983c94ea7ad5c3e314c6fc1c831dfebba",
+    "data/wookieepedia-prototypes-appearance-index.jsonl": "1ef77ba4148ca1ca43d326606121d8ee6c34d7b39e5132dd1987a954e8f21a0d",
+    "data/wookieepedia-publication-quote-omitted-plots.jsonl": "36c9c9ed797b3bbe59e122c6122352b15e136fe0dfa08af03f36a7e7800acb96",
+    "data/wookieepedia-publication-summaries.jsonl": "e8e8caf9948d4620756b54971a38bf9efd1d66061c6d45a366fb18818060783b",
+    "data/wookieepedia-reference-supplement.parquet": "54495416dff71a0f530ec61e657c59f9d4606099dc252f6bbbaa4f976be61dd3",
+    "data/wookieepedia-related-quote-omitted-plots.jsonl": "8e3bed3020c1aadbf2ea8f4839a78ca47255bad3f232a4dec6a9ad2a63c7c01e",
+    "data/wookieepedia-reviewed-comic-plots.jsonl": "c9d5ef16f1e6d3541603edbb9fd3e9b891cf07b86378790f40a6537f084ed516",
+    "data/wookieepedia-reviewed-dawn-plots.jsonl": "85d66242759f7e68e32f24d99bbde505c1298b4b798e4693432c6e391277532d",
+    "data/wookieepedia-reviewed-kotor-arc.jsonl": "e1a374198f6c5f67fe2179a363ae9e4d802912e15d61221a5658f7af30d04e71",
+    "data/wookieepedia-reviewed-kotor-issue-plots.jsonl": "a50a9f6814d9520e542ee73937a3ee2a6cd5454802290089f0926f16ede39f6c",
+    "data/wookieepedia-reviewed-novel-plots.jsonl": "dd733c2fb189ff34d9d41ff70ae2b39f5ae4e2b21077f199a9e56629ab0b5596",
+    "data/wookieepedia-reviewed-story-plots.jsonl": "c5ded9956a5d3b4be13d7fd09fde012e6f9b9ca921b3d29306d1458defb0a82f",
+    "data/wookieepedia-sith-category.parquet": "af7f72c419c006c2e76f7b4d2784b2cb2b43392ac9ea88dbb9336157969847db",
+    "data/wookieepedia-sith-marker-reviewed.parquet": "4b8992a22d2f193b21d5b2ccd6a27a75275759b828d34136ffef0186331364d9",
+    "data/wookieepedia-swtor-blog-citing-leads.jsonl": "a14bb527d83a1be00359a07fa74631f6222e8d4d22311986c56af690e8c41c5c",
+    "data/wookieepedia-swtor-blog-held-leads.jsonl": "0e5e6c78a7a3c613ec58ce52ad8d843bfcbcca005c524e0e8c6e0130ceb640f4",
+    "data/wookieepedia-swtor-chapter-plots.jsonl": "1e2d1acd104e1d4d03c5c3860f3aef16652d091886bcb013e0dc05a85bcd0184",
+    "data/wookieepedia-swtor-character-linked.parquet": "bc87a963b33786dc9b0b46049ecaf95452e740f754d564ef3eef59cbaf2a2923",
+    "data/wookieepedia-swtor-class-biographies.jsonl": "897dd99daa5b74cb64ea65ab4d090b3507e9b06c629eb7e929abc5f47eea298c",
+    "data/wookieepedia-swtor-comic-media-sections.jsonl": "1f66002acd4125c4027c3e81e56c0047c84ca86133072984d88db025c2743284",
+    "data/wookieepedia-swtor-expansion-battle-sections.jsonl": "173c0af7148e04bd717c020aa017ec9f88798a48d590314de5f3ef5b74b4b39b",
+    "data/wookieepedia-swtor-expansion-character-sections.jsonl": "8283ad22fad20a37b374856f5046363eec6aaa08963604bf8a82b6106335b82f",
+    "data/wookieepedia-swtor-expansion-event-sections.jsonl": "0f541eb9b4855671d0c6779d9913248fdd57628c3d4c5c4b49a5393c4fade0c6",
+    "data/wookieepedia-swtor-expansion-new-introductions.jsonl": "36f19782021b0db71ef14b708209487ab3cdb1265e6f013946e54956be652f78",
+    "data/wookieepedia-swtor-expansion-sections.jsonl": "29f819d47ae5bcb36eac8301cab78250bc1dd4a546820aa403eb5968c9ba9175",
+    "data/wookieepedia-swtor-expansion-world-sections.jsonl": "8f34f7638b6528fda365aa686ee10897492f3126b3acf68f8ef81081e42c778e",
+    "data/wookieepedia-swtor-last-road-summary.jsonl": "cd370ceb925f2468d61f1839f9597fdd8b58bbcb18a9ce5c1d08d39ae387e034",
+    "data/wookieepedia-swtor-multimedia-sections.jsonl": "0be4d1f28a9e83f0da4e41c819061e79ee8bb41fb849f99c2c73b5a5e605229b",
+    "data/wookieepedia-swtor-remaining-class-biographies.jsonl": "2d265c82455d7c95fa2f95397adf4602d55bc9d79d4d25793ee4026afd4cc2b5",
+    "data/wookieepedia-swtor-story-plots.jsonl": "aff5b6344b5d657dd7af4d3f51d563d623beba46db1a2c87643e7ec09a19ce8e",
+    "data/wookieepedia-threat-webcomic-appearance-indices.jsonl": "3e726bdae4d898b7de96e6a073f2dbd52611db8ea4071db3f5b07032c5465f4b",
+    "data/wookieepedia-totj-quote-omitted-plots.jsonl": "20a7e8a8c3df5226d26a97cdb4f6ea58ae4fdcc6c3e5c73c94162ce980976803",
+    "data/wookieepedia-unmatched-swtor-story-leads.jsonl": "9d8c62af1ee8e8b05ef274d4470c559f09466cce0e20805057d48ee9df96bb1c",
+    "data/wookieepedia-webcomic-target-introductions.jsonl": "d442cd224ead22a3e40545046f3783d428134b0827e8f44b3a618fd0274e07c4"
+  },
+  "items": [
+    {
+      "id": "holofeed-prime",
+      "title": "The Taris Holofeed: Prime Edition",
+      "parent_issue_work_id": "kotor-2006-000",
+      "parent_issue_number": 0,
+      "bibliographic_source": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic_(comic_series)",
+      "secondary_article_url": "https://starwars.fandom.com/wiki/The_Taris_Holofeed%3A_Prime_Edition",
+      "matching_text_records": [
+        {
+          "layer": "data/wookieepedia-broad-references.jsonl",
+          "url": "https://starwars.fandom.com/wiki/The_Taris_Holofeed:_Prime_Edition",
+          "revision_id": null,
+          "text_sha256": "bfc674d2beefcc5816e7b604fb5bf848a771b7755a9da08b234e0705dd182b4e"
+        },
+        {
+          "layer": "data/wookieepedia-kotor-news-remaining-appearance-indices.jsonl",
+          "url": "https://starwars.fandom.com/wiki/The_Taris_Holofeed%3A_Prime_Edition",
+          "revision_id": "15355966",
+          "text_sha256": "f217ab228c0c4aef35c5249ce154f06b3b6fba97713e676b2ff27ed528593148"
+        }
+      ],
+      "primary_content": "not_acquired",
+      "permission_to_redistribute_primary": "not_established",
+      "embedded": false,
+      "qualification": "Issue and title from secondary bibliography; original page, edition and reprint fidelity not checked. A matching text record is secondary and does not establish coverage of the insert."
+    },
+    {
+      "id": "admirals-list-jimas",
+      "title": "The Admiral's List: Jimas Veltraa Memorial Edition",
+      "parent_issue_work_id": "kotor-2006-013",
+      "parent_issue_number": 13,
+      "bibliographic_source": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic_(comic_series)",
+      "secondary_article_url": "https://starwars.fandom.com/wiki/The_Admiral%27s_List%3A_Jimas_Veltraa_Memorial_Edition",
+      "matching_text_records": [
+        {
+          "layer": "data/wookieepedia-broad-references.jsonl",
+          "url": "https://starwars.fandom.com/wiki/The_Admiral%27s_List:_Jimas_Veltraa_Memorial_Edition",
+          "revision_id": null,
+          "text_sha256": "297d7cc6669ce2d460df1b11a51aff8e831f7e9b1cad4731a6b0050d60d9e46a"
+        },
+        {
+          "layer": "data/wookieepedia-kotor-news-remaining-appearance-indices.jsonl",
+          "url": "https://starwars.fandom.com/wiki/The_Admiral%27s_List%3A_Jimas_Veltraa_Memorial_Edition",
+          "revision_id": "15366707",
+          "text_sha256": "fae5fbeeb0ff2c0c5ba9353b16dbdc30bc02d72b74ca39874f3f36a0f01a6186"
+        }
+      ],
+      "primary_content": "not_acquired",
+      "permission_to_redistribute_primary": "not_established",
+      "embedded": false,
+      "qualification": "Issue and title from secondary bibliography; original page, edition and reprint fidelity not checked. A matching text record is secondary and does not establish coverage of the insert."
+    },
+    {
+      "id": "adjudicator-outer-rim",
+      "title": "The Adjudicator Special Report: The Outer Rim",
+      "parent_issue_work_id": "kotor-2006-014",
+      "parent_issue_number": 14,
+      "bibliographic_source": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic_(comic_series)",
+      "secondary_article_url": "https://starwars.fandom.com/wiki/The_Adjudicator_Special_Report%3A_The_Outer_Rim",
+      "matching_text_records": [
+        {
+          "layer": "data/wookieepedia-kotor-news-appearance-indices.jsonl",
+          "url": "https://starwars.fandom.com/wiki/The_Adjudicator_Special_Report%3A_The_Outer_Rim",
+          "revision_id": "15538656",
+          "text_sha256": "3f04c2ea0cedcd39e124494083cb2d2b8ac53385e7630284cfd18225d25e0eaf"
+        }
+      ],
+      "primary_content": "not_acquired",
+      "permission_to_redistribute_primary": "not_established",
+      "embedded": false,
+      "qualification": "Issue and title from secondary bibliography; original page, edition and reprint fidelity not checked. A matching text record is secondary and does not establish coverage of the insert."
+    },
+    {
+      "id": "holofeed-siege",
+      "title": "The Taris Holofeed: Siege Edition",
+      "parent_issue_work_id": "kotor-2006-015",
+      "parent_issue_number": 15,
+      "bibliographic_source": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic_(comic_series)",
+      "secondary_article_url": "https://starwars.fandom.com/wiki/The_Taris_Holofeed%3A_Siege_Edition",
+      "matching_text_records": [
+        {
+          "layer": "data/wookieepedia-kotor-news-appearance-indices.jsonl",
+          "url": "https://starwars.fandom.com/wiki/The_Taris_Holofeed%3A_Siege_Edition",
+          "revision_id": "15366714",
+          "text_sha256": "1954ce1eda601a9b374e63415e5d5f4cf75eb10902d54f02acb702d7c7de6748"
+        }
+      ],
+      "primary_content": "not_acquired",
+      "permission_to_redistribute_primary": "not_established",
+      "embedded": false,
+      "qualification": "Issue and title from secondary bibliography; original page, edition and reprint fidelity not checked. A matching text record is secondary and does not establish coverage of the insert."
+    },
+    {
+      "id": "admirals-list-serroco",
+      "title": "The Admiral's List: Remember Serroco! Edition",
+      "parent_issue_work_id": "kotor-2006-016",
+      "parent_issue_number": 16,
+      "bibliographic_source": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic_(comic_series)",
+      "secondary_article_url": "https://starwars.fandom.com/wiki/The_Admiral%27s_List%3A_Remember_Serroco%21_Edition",
+      "matching_text_records": [
+        {
+          "layer": "data/wookieepedia-kotor-news-appearance-indices.jsonl",
+          "url": "https://starwars.fandom.com/wiki/The_Admiral%27s_List%3A_Remember_Serroco%21_Edition",
+          "revision_id": "15366751",
+          "text_sha256": "f677845824d12e8cdcc2984948f3a84e4c4f9a4cbca3e94d8b936e29e224202d"
+        }
+      ],
+      "primary_content": "not_acquired",
+      "permission_to_redistribute_primary": "not_established",
+      "embedded": false,
+      "qualification": "Issue and title from secondary bibliography; original page, edition and reprint fidelity not checked. A matching text record is secondary and does not establish coverage of the insert."
+    },
+    {
+      "id": "adascorp-chief-executive",
+      "title": "Adascorp Fiscal Period Financial Report and Outlook: Message from the Chief Executive",
+      "parent_issue_work_id": "kotor-2006-017",
+      "parent_issue_number": 17,
+      "bibliographic_source": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic_(comic_series)",
+      "secondary_article_url": "https://starwars.fandom.com/wiki/Adascorp_Fiscal_Period_Financial_Report_and_Outlook%3A_Message_from_the_Chief_Executive",
+      "matching_text_records": [
+        {
+          "layer": "data/wookieepedia-broad-references.jsonl",
+          "url": "https://starwars.fandom.com/wiki/Adascorp_Fiscal_Period_Financial_Report_and_Outlook:_Message_from_the_Chief_Executive",
+          "revision_id": null,
+          "text_sha256": "6d2ecf6f051fb258fab915aee0ec715add014fef9be1bfcfa65af58d42d68c46"
+        },
+        {
+          "layer": "data/wookieepedia-kotor-news-remaining-appearance-indices.jsonl",
+          "url": "https://starwars.fandom.com/wiki/Adascorp_Fiscal_Period_Financial_Report_and_Outlook%3A_Message_from_the_Chief_Executive",
+          "revision_id": "15366755",
+          "text_sha256": "775ec0fcf16381d395b22d69de15052118a394dbf1f87e8c2de9bccee4d81bc7"
+        }
+      ],
+      "primary_content": "not_acquired",
+      "permission_to_redistribute_primary": "not_established",
+      "embedded": false,
+      "qualification": "Issue and title from secondary bibliography; original page, edition and reprint fidelity not checked. A matching text record is secondary and does not establish coverage of the insert."
+    },
+    {
+      "id": "holofeed-invasion",
+      "title": "The Taris Holofeed: Invasion Edition",
+      "parent_issue_work_id": "kotor-2006-018",
+      "parent_issue_number": 18,
+      "bibliographic_source": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic_(comic_series)",
+      "secondary_article_url": "https://starwars.fandom.com/wiki/The_Taris_Holofeed%3A_Invasion_Edition",
+      "matching_text_records": [
+        {
+          "layer": "data/wookieepedia-kotor-news-appearance-indices.jsonl",
+          "url": "https://starwars.fandom.com/wiki/The_Taris_Holofeed%3A_Invasion_Edition",
+          "revision_id": "15366754",
+          "text_sha256": "5922863c835f72c45725cac59289808c8451dd2be2a662cb904e5f51deb11056"
+        }
+      ],
+      "primary_content": "not_acquired",
+      "permission_to_redistribute_primary": "not_established",
+      "embedded": false,
+      "qualification": "Issue and title from secondary bibliography; original page, edition and reprint fidelity not checked. A matching text record is secondary and does not establish coverage of the insert."
+    },
+    {
+      "id": "adascorp-black-harvest",
+      "title": "Adascorp Fiscal Period Financial Report and Outlook: Field Report: Project Black Harvest",
+      "parent_issue_work_id": "kotor-2006-019",
+      "parent_issue_number": 19,
+      "bibliographic_source": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic_(comic_series)",
+      "secondary_article_url": "https://starwars.fandom.com/wiki/Adascorp_Fiscal_Period_Financial_Report_and_Outlook%3A_Field_Report%3A_Project_Black_Harvest",
+      "matching_text_records": [
+        {
+          "layer": "data/wookieepedia-broad-references.jsonl",
+          "url": "https://starwars.fandom.com/wiki/Adascorp_Fiscal_Period_Financial_Report_and_Outlook:_Field_Report:_Project_Black_Harvest",
+          "revision_id": null,
+          "text_sha256": "b16a91c12db0ae08113cb64882ad16c906eac16c8e3cf9af523f8434255ccca3"
+        },
+        {
+          "layer": "data/wookieepedia-kotor-news-remaining-appearance-indices.jsonl",
+          "url": "https://starwars.fandom.com/wiki/Adascorp_Fiscal_Period_Financial_Report_and_Outlook%3A_Field_Report%3A_Project_Black_Harvest",
+          "revision_id": "15366766",
+          "text_sha256": "e4809786b9e3810270bae210a5451fdcd6595773e0bb1ea2c4689e2d60f7b165"
+        }
+      ],
+      "primary_content": "not_acquired",
+      "permission_to_redistribute_primary": "not_established",
+      "embedded": false,
+      "qualification": "Issue and title from secondary bibliography; original page, edition and reprint fidelity not checked. A matching text record is secondary and does not establish coverage of the insert."
+    },
+    {
+      "id": "adjudicator-tools",
+      "title": "The Adjudicator Special Report: Tools of the Trade",
+      "parent_issue_work_id": "kotor-2006-020",
+      "parent_issue_number": 20,
+      "bibliographic_source": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic_(comic_series)",
+      "secondary_article_url": "https://starwars.fandom.com/wiki/The_Adjudicator_Special_Report%3A_Tools_of_the_Trade",
+      "matching_text_records": [
+        {
+          "layer": "data/wookieepedia-broad-references.jsonl",
+          "url": "https://starwars.fandom.com/wiki/The_Adjudicator_Special_Report:_Tools_of_the_Trade",
+          "revision_id": null,
+          "text_sha256": "1ea2ac04df7c7e62f5a4476797e18b8d150b35d5cdd3f752ed3310132737048a"
+        },
+        {
+          "layer": "data/wookieepedia-kotor-news-remaining-appearance-indices.jsonl",
+          "url": "https://starwars.fandom.com/wiki/The_Adjudicator_Special_Report%3A_Tools_of_the_Trade",
+          "revision_id": "15609882",
+          "text_sha256": "f59143165111ecfc78e9fbab73beaac9386738999f760589bc14b64f513c694d"
+        }
+      ],
+      "primary_content": "not_acquired",
+      "permission_to_redistribute_primary": "not_established",
+      "embedded": false,
+      "qualification": "Issue and title from secondary bibliography; original page, edition and reprint fidelity not checked. A matching text record is secondary and does not establish coverage of the insert."
+    },
+    {
+      "id": "holofeed-proclamation",
+      "title": "The Taris Holofeed Special Proclamation",
+      "parent_issue_work_id": "kotor-2006-021",
+      "parent_issue_number": 21,
+      "bibliographic_source": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic_(comic_series)",
+      "secondary_article_url": "https://starwars.fandom.com/wiki/The_Taris_Holofeed_Special_Proclamation",
+      "matching_text_records": [
+        {
+          "layer": "data/wookieepedia-kotor-news-appearance-indices.jsonl",
+          "url": "https://starwars.fandom.com/wiki/The_Taris_Holofeed_Special_Proclamation",
+          "revision_id": "15366778",
+          "text_sha256": "89a0cba1b97b444a83a6d08b74cd8e89d019ea6e3f2b2a98e9da009418097eae"
+        }
+      ],
+      "primary_content": "not_acquired",
+      "permission_to_redistribute_primary": "not_established",
+      "embedded": false,
+      "qualification": "Issue and title from secondary bibliography; original page, edition and reprint fidelity not checked. A matching text record is secondary and does not establish coverage of the insert."
+    },
+    {
+      "id": "admirals-list-karath",
+      "title": "The Admiral's List: Karath Home Safely",
+      "parent_issue_work_id": "kotor-2006-022",
+      "parent_issue_number": 22,
+      "bibliographic_source": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic_(comic_series)",
+      "secondary_article_url": "https://starwars.fandom.com/wiki/The_Admiral%27s_List%3A_Karath_Home_Safely",
+      "matching_text_records": [
+        {
+          "layer": "data/wookieepedia-kotor-news-appearance-indices.jsonl",
+          "url": "https://starwars.fandom.com/wiki/The_Admiral%27s_List%3A_Karath_Home_Safely",
+          "revision_id": "15491749",
+          "text_sha256": "4db2dd3a66d51d8328c3234617aa1fea818f2b5589802a25afaddc9de1df8faa"
+        }
+      ],
+      "primary_content": "not_acquired",
+      "permission_to_redistribute_primary": "not_established",
+      "embedded": false,
+      "qualification": "Issue and title from secondary bibliography; original page, edition and reprint fidelity not checked. A matching text record is secondary and does not establish coverage of the insert."
+    },
+    {
+      "id": "adjudicator-colonies",
+      "title": "The Adjudicator Special Report: The Colonies",
+      "parent_issue_work_id": "kotor-2006-023",
+      "parent_issue_number": 23,
+      "bibliographic_source": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic_(comic_series)",
+      "secondary_article_url": "https://starwars.fandom.com/wiki/The_Adjudicator_Special_Report%3A_The_Colonies",
+      "matching_text_records": [
+        {
+          "layer": "data/wookieepedia-kotor-news-appearance-indices.jsonl",
+          "url": "https://starwars.fandom.com/wiki/The_Adjudicator_Special_Report%3A_The_Colonies",
+          "revision_id": "15692236",
+          "text_sha256": "3454fd3914456b0d82ff0c7af49f87c82d20fb6a45446561668100107709dd8d"
+        }
+      ],
+      "primary_content": "not_acquired",
+      "permission_to_redistribute_primary": "not_established",
+      "embedded": false,
+      "qualification": "Issue and title from secondary bibliography; original page, edition and reprint fidelity not checked. A matching text record is secondary and does not establish coverage of the insert."
+    },
+    {
+      "id": "ministry-daily-brief",
+      "title": "Galactic Republic Defense Ministry Daily Brief KD0092",
+      "parent_issue_work_id": "kotor-2006-024",
+      "parent_issue_number": 24,
+      "bibliographic_source": "https://starwars.fandom.com/wiki/Star_Wars:_Knights_of_the_Old_Republic_(comic_series)",
+      "secondary_article_url": "https://starwars.fandom.com/wiki/Galactic_Republic_Defense_Ministry_Daily_Brief_KD0092",
+      "matching_text_records": [
+        {
+          "layer": "data/wookieepedia-kotor-news-appearance-indices.jsonl",
+          "url": "https://starwars.fandom.com/wiki/Galactic_Republic_Defense_Ministry_Daily_Brief_KD0092",
+          "revision_id": "15241111",
+          "text_sha256": "9e2e0caa9c85a47a8235f955a12460ea1b8f5053b41a0b3212f86e05faaa547b"
+        }
+      ],
+      "primary_content": "not_acquired",
+      "permission_to_redistribute_primary": "not_established",
+      "embedded": false,
+      "qualification": "Issue and title from secondary bibliography; original page, edition and reprint fidelity not checked. A matching text record is secondary and does not establish coverage of the insert."
+    }
+  ]
+}

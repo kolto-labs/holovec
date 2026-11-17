@@ -1,0 +1,3420 @@
+{
+  "schema_version": 1,
+  "repositories": {
+    "ndixUR/mdlops": {
+      "commit": "7e40846d36acb5118e2e9feb2fd53620c29be540",
+      "license": "GPL-3.0-or-later",
+      "license_path": "LICENSE",
+      "license_blob": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "license_copy": "data/licenses/mdlops-GPL-3.0-or-later.txt",
+      "license_evidence": "Pinned root LICENSE and README license declaration. readme_MDLOps.txt identifies contributors including bneezy and Svosh for the included tutorials.",
+      "documents": {
+        "KotOR_Tutorial.txt": {
+          "blob_sha": "653b024cb162dd932c84cd4c4c6de363d65aaf91",
+          "encoding": "cp1252"
+        },
+        "Quick_tutorial.txt": {
+          "blob_sha": "485d9b69b6fa919ef7082f854e9efd7fe3f3452c",
+          "encoding": "cp1252"
+        },
+        "readme_MDLOps.txt": {
+          "blob_sha": "1eb4676a10b095b1a805f0cf9b4204ba8a934334",
+          "encoding": "utf-8"
+        },
+        "replacer_tutorial.txt": {
+          "blob_sha": "9e8201d51f10286d536ad9b89e112e1e7aec7ac1",
+          "encoding": "utf-8"
+        },
+        "MDLOpsM.pm": {
+          "blob_sha": "cd96d8c45271012aa57b23bb0005ef5be82fcce7",
+          "encoding": "utf-8",
+          "evidence_class": "technical_source_code",
+          "coverage": "Complete pinned Perl source file from the MDLOps repository, retaining original notices. Game assets and implementation accuracy remain unverified.",
+          "license_evidence": "The original file header grants GPL-2.0-or-later. This distributed copy uses the GPL-3.0-or-later option, consistent with the pinned repository GPL-3.0 LICENSE. Original notices are retained."
+        },
+        "mdlops.pl": {
+          "blob_sha": "c8795de7de0d1dd514cc31b46d461cf7b5fac5f5",
+          "encoding": "utf-8",
+          "evidence_class": "technical_source_code",
+          "coverage": "Complete pinned Perl source file from the MDLOps repository, retaining original notices. Game assets and implementation accuracy remain unverified.",
+          "license_evidence": "The original file header grants GPL-2.0-or-later. This distributed copy uses the GPL-3.0-or-later option, consistent with the pinned repository GPL-3.0 LICENSE. Original notices are retained."
+        }
+      },
+      "coverage": "Four bundled historical MDLOps tutorials and manual at the pinned repository revision. Described game assets are excluded. Technical correctness and other repository content remain unverified."
+    },
+    "xoreos/xoreos": {
+      "commit": "6774724d5c05e09ce0d01e00b8b62f956ddcb74b",
+      "tree_sha": "6774724d5c05e09ce0d01e00b8b62f956ddcb74b",
+      "complete_prefixes": [
+        "src/engines/kotor/",
+        "src/engines/kotor2/",
+        "src/engines/kotorbase/"
+      ],
+      "additional_paths": [
+        "AUTHORS"
+      ],
+      "license": "GPL-3.0-or-later",
+      "license_path": "COPYING",
+      "license_blob": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "license_copy": "data/licenses/xoreos-GPL-3.0-or-later.txt",
+      "license_evidence": "Pinned root COPYING and original source copyright/GPL headers retained in full. AUTHORS identifies repository contributors.",
+      "evidence_class": "technical_source_code",
+      "coverage": "Every Git blob in the pinned KOTOR I, KOTOR II and shared KOTOR engine directories, plus AUTHORS. This scope excludes shared engine libraries outside those directories, dependencies, game data and narrative assets. Source implementation behavior is historical and is not an independently verified description of the games.",
+      "documents": {
+        "AUTHORS": {
+          "blob_sha": "554d764bd4e6dff80563ff079b57338aafe39d37",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/console.cpp": {
+          "blob_sha": "a4f44cb9242c40e7cb27964f8df3b8c14d2f6010",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/console.h": {
+          "blob_sha": "2e9274d4abe92ab1c3d8dfae1813753025a55955",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/creature.cpp": {
+          "blob_sha": "eaaf1caebdd40c69b5d584e000c25572d86860a6",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/creature.h": {
+          "blob_sha": "bdbe5c1a83401953db0ddbe792c22f903af221f4",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/game.cpp": {
+          "blob_sha": "18ae465bf5f084627c7a7aaccdf88a375130ac74",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/game.h": {
+          "blob_sha": "30a2b0583eb01cf199320ba68c1fb276f87502a5",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/chargen/charactergeneration.cpp": {
+          "blob_sha": "d7a79553f78fd707c66b6762455deeb01dd83c50",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/chargen/charactergeneration.h": {
+          "blob_sha": "6f4f080dc5f16f2aded8db753fba73b6e4809937",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/chargen/chargenbase.cpp": {
+          "blob_sha": "0072263e21efcd39261ebc3136ae6dd0dca45e09",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/chargen/chargenbase.h": {
+          "blob_sha": "5d05dbefec3e88a5650350e1e4376f2dae2b8452",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/chargen/chargeninfo.cpp": {
+          "blob_sha": "cab6ab65c5446ba6b4e013156b20c46c0c8fc452",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/chargen/chargeninfo.h": {
+          "blob_sha": "eee62bb86ab0f652bbe38f68845dfde481d51664",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/chargen/chargenname.cpp": {
+          "blob_sha": "ea081bdaecb6456c3177e06404ef0abcf0fdfff7",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/chargen/chargenname.h": {
+          "blob_sha": "a2dca68199e20723df86dfbb988dbddee8aaffab",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/chargen/chargenportrait.cpp": {
+          "blob_sha": "4ed0a3d32d16514fcd9a8f0103b0dd5e1dfa984b",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/chargen/chargenportrait.h": {
+          "blob_sha": "8f36e78be0ac3fcd9397a795486d6a61e5363eed",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/chargen/classselection.cpp": {
+          "blob_sha": "eabb71967755ccea816baad9e0faf4062aa6dac5",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/chargen/classselection.h": {
+          "blob_sha": "06c1234a0b700bc5b9a9b58b284cd8fd31618513",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/chargen/customchar.cpp": {
+          "blob_sha": "6eeb2289b114c20fbff00c963314f460805c087d",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/chargen/customchar.h": {
+          "blob_sha": "1060da604ea0b5f6bfbada11c39d1b0f59718d7e",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/chargen/quickchar.cpp": {
+          "blob_sha": "81ceccb678d56b021a231851ab23fe9774241826",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/chargen/quickchar.h": {
+          "blob_sha": "85ed74913d90a912b5afe255eba83cf0d8bf0e79",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/chargen/quickorcustom.cpp": {
+          "blob_sha": "172bfe3d8e37ee49272f8adccf13cd2858d6863e",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/chargen/quickorcustom.h": {
+          "blob_sha": "68c2468921e5cb5194fd0af0bfd24be1df35de72",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/chargen/rules.mk": {
+          "blob_sha": "5815627f1d5e30868238abc82eb04792b59d033d",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/dialog.cpp": {
+          "blob_sha": "1dcfb27e6dae8a64e1a526e5f6782122f054f2af",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/dialog.h": {
+          "blob_sha": "13030cc57714d868904f86f9a639828beee79dba",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/dialogs/confirm.cpp": {
+          "blob_sha": "26a14d05b64ba25b3aefccc0827d87de6288316e",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/dialogs/confirm.h": {
+          "blob_sha": "bb1d686e02668fd49e6ca962b290fdb5d34d1583",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/dialogs/rules.mk": {
+          "blob_sha": "53499eaf3a456ae1ef572b3e718153aa87479648",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/container.cpp": {
+          "blob_sha": "edb141450ea6c7491fd083f856de59965d8544f0",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/container.h": {
+          "blob_sha": "2fe5614df4c5c140062da060d4b516a8a9369aac",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/hud.cpp": {
+          "blob_sha": "1e4a79d0106bb863c8acd2ec4308a43a5439319c",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/hud.h": {
+          "blob_sha": "582c7821fb5d646dfed493010bf592bc19f1c462",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/ingame.cpp": {
+          "blob_sha": "bfd980202472ef8da7dd6fad78f1b9c5c757fd42",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/ingame.h": {
+          "blob_sha": "cce1d37c4dcc7ed09624b09d65261d2615a627f2",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/menu.cpp": {
+          "blob_sha": "9cdcb801490f73d735eafe6e6610305360ac53f9",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/menu.h": {
+          "blob_sha": "d5449372658d0629be4edd084d4f2a29373d69b1",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/menu_abi.cpp": {
+          "blob_sha": "da4bd866dadac9fff114ea913e781c7ec8da00ea",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/menu_abi.h": {
+          "blob_sha": "28dec922cdcf231e4fbaef93687ba1331cab2bc2",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/menu_char.cpp": {
+          "blob_sha": "984ec42c77cfc1dcf133633961f194301f8e8520",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/menu_char.h": {
+          "blob_sha": "a41559692090b395ed3f4d5dc77ee9a49a00ea10",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/menu_equ.cpp": {
+          "blob_sha": "e82d9608527746609c0a111a3ef52d89ddb4c94b",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/menu_equ.h": {
+          "blob_sha": "5de9851b63d6e489851b27211f315f9d1c9f7b75",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/menu_inv.cpp": {
+          "blob_sha": "58b8c2f100ca7790cbcf6343749435332c4becae",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/menu_inv.h": {
+          "blob_sha": "dbbf3f658a11e9389ec507743bb2e833ab13e5db",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/menu_jou.cpp": {
+          "blob_sha": "79d511a094b34b06040e9c4130ddc07cfa3144f3",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/menu_jou.h": {
+          "blob_sha": "2e969976d06489c5e3d44042617c87e0eac10f05",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/menu_map.cpp": {
+          "blob_sha": "fed94b1c5cb8200eb7ef94b76e721e2ef2ca316a",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/menu_map.h": {
+          "blob_sha": "8df8d4205594d8244ba13af134f5b8c05488f74c",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/menu_msg.cpp": {
+          "blob_sha": "c787919621aa4f976cb47f21e11c80f1ac784383",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/menu_msg.h": {
+          "blob_sha": "08fa7a53b77875c7396382796b7a80c8444183bb",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/menu_opt.cpp": {
+          "blob_sha": "70cae5512d1a86df67b83282361f234209dcba99",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/menu_opt.h": {
+          "blob_sha": "90c8fa2d5930b545f0b78bb30e4c9d3a3d3fcb02",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/minimap.cpp": {
+          "blob_sha": "35faa02d6f2efc0c82816b033ff76181927d97b1",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/minimap.h": {
+          "blob_sha": "4a218e8238805111430c93fea2b006f2347887b4",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/partyselection.cpp": {
+          "blob_sha": "db82431b2bb9df2c94cb4811e7e751a080d204e9",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/partyselection.h": {
+          "blob_sha": "dca9705ebdc440745ca463d2e7b1220a6e618cda",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/ingame/rules.mk": {
+          "blob_sha": "bceb306d465251be820f713d20a534b53c7495a0",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/loadscreen/loadscreen.cpp": {
+          "blob_sha": "87dd4d0c289bc56680f2d7c19d76caefd66c414a",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/loadscreen/loadscreen.h": {
+          "blob_sha": "95d77e2d4683983a758a007482c0f57d9f91b41d",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/loadscreen/rules.mk": {
+          "blob_sha": "c4658e993f7c0fba6f1638731fdf497d696d0689",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/main/main.cpp": {
+          "blob_sha": "f0bb08d73290856029c44b6f597989461aed75e9",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/main/main.h": {
+          "blob_sha": "ca28f6a13a98d36f3da006c0b581173ff2a6cec3",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/main/movies.cpp": {
+          "blob_sha": "592fbf6e89907a70ed565d173c6618b8a974b593",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/main/movies.h": {
+          "blob_sha": "2b017f4d5ebb33f334a3bf9918bfe7bb366405a3",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/main/options.cpp": {
+          "blob_sha": "7a984331bd8ccd7ca8895518fd7e076fcc4410b7",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/main/options.h": {
+          "blob_sha": "709d507fb91d6a7c05f6ba704e1d70eb71d95203",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/main/rules.mk": {
+          "blob_sha": "d163d4e59b6f0435810901772fb0027d0cbc973f",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/options/autopause.cpp": {
+          "blob_sha": "dc1dffaa7a6f4c5e8eb3a7c15ca3ebecafb98391",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/options/autopause.h": {
+          "blob_sha": "98ff13224d46f84f3642cff9ec65e24ca29e5eb3",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/options/feedback.cpp": {
+          "blob_sha": "b3a2b2dd0121f771a2c540e585b4c1d34fb14e7d",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/options/feedback.h": {
+          "blob_sha": "c68f3e89e60b3f317ad7452ff00ecba2f6c71cae",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/options/gameplay.cpp": {
+          "blob_sha": "8a0320e8599bb9940b34c00814320cf57874d4e5",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/options/gameplay.h": {
+          "blob_sha": "550903b0462dba228148ae48a3c5ec308aa48e2d",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/options/graphics.cpp": {
+          "blob_sha": "563926e09b654cfa31daaf910c974ae32c05088c",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/options/graphics.h": {
+          "blob_sha": "1bfed110ca92d07c5a4b1913f30e9ede1c39ed25",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/options/graphicsadv.cpp": {
+          "blob_sha": "765a1f5baa8f77619777364ce8b5773912849b60",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/options/graphicsadv.h": {
+          "blob_sha": "6300af4c12a51a7911836a9846f034343b5146d8",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/options/keyboardconfig.cpp": {
+          "blob_sha": "6a9a993df30849fe360428874217dd378150ea84",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/options/keyboardconfig.h": {
+          "blob_sha": "982b0d391955bf9b00e7da63cb9e04e953f3a475",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/options/mousesettings.cpp": {
+          "blob_sha": "1a6ae4b6ebdb9e1bb5cd5ef7d2f9c381444e3746",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/options/mousesettings.h": {
+          "blob_sha": "a45baf02429ba1828f74b4dcd9773b6c6ce950c4",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/options/resolution.cpp": {
+          "blob_sha": "bbe82d883e4b1599e2254f6acc88c73c26304820",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/options/resolution.h": {
+          "blob_sha": "4220ba856241446ee345e22074bb320454873d3b",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/options/rules.mk": {
+          "blob_sha": "c10a2b9b14cd25526f2ea28ffd12e53d0cc89147",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/options/sound.cpp": {
+          "blob_sha": "1f9fe44e7fcdc53896a0e98f074186b28a2638f0",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/options/sound.h": {
+          "blob_sha": "79310250e6aafdecc85ce81d60e6ef7e8ba5a63b",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/options/soundadv.cpp": {
+          "blob_sha": "5d2a52307c85e9c9ff959489899b5210517e7bac",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/options/soundadv.h": {
+          "blob_sha": "f1ab10c0b94aca7e966526e211c4ee8cbea167a7",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/rules.mk": {
+          "blob_sha": "cab84eb29085c515a9fee4e65ab1e2eed8950e48",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/saveload.cpp": {
+          "blob_sha": "6b37e97e6de3819ed441dceb1e7bf9eb6fd0413b",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/gui/saveload.h": {
+          "blob_sha": "cd777af1316cd889cea3d2f04e462f734831e5c3",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/kotor.cpp": {
+          "blob_sha": "f10492ca8a2e228e3e5c0c29b012ac25b3dbc59e",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/kotor.h": {
+          "blob_sha": "e790e8238450103b356e4d7b70c625387a5050ab",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/modelloader.cpp": {
+          "blob_sha": "dd5b996d841912c8e06db50f6ec087b8dbb62e42",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/modelloader.h": {
+          "blob_sha": "63629708a1b51244742c91ee6bfa4c127cca400b",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/module.cpp": {
+          "blob_sha": "3eb86e42e6b8218c14fbe4666ef96edb849220f1",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/module.h": {
+          "blob_sha": "50c9d94a08593bc27d8a55a922a4db544d70e165",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/probes.cpp": {
+          "blob_sha": "8012112f5e3e7fe4cc086bbcf6123816019f5aac",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/probes.h": {
+          "blob_sha": "57ad1dbc328bea38cd41f871c2ef237aeddca79c",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/rules.mk": {
+          "blob_sha": "92933b36df7d91375350d4de49bdf0fc5d94d8ab",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/savedgame.cpp": {
+          "blob_sha": "4eb810a831f9b1cb32def56ceb66f197b2d95ac0",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/savedgame.h": {
+          "blob_sha": "20b36c12d217fb7e5240755e2b2bc2e6f7434365",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/script/function_tables.h": {
+          "blob_sha": "8fac01dc03d17ea3df1771c63952504bc6f64a4f",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/script/functions.cpp": {
+          "blob_sha": "1518b0feb43a6142f6a6eca10a6ec2c47e290031",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/script/functions.h": {
+          "blob_sha": "b6a2336ac1631ffad2f091bc8f6fdea5a6b74d7f",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/script/rules.mk": {
+          "blob_sha": "c934410f99f9a83ea96a9bd404cdaa9901b93805",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/version.cpp": {
+          "blob_sha": "e2dfd156785d24679c6748a976edaee3a9d874d6",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor/version.h": {
+          "blob_sha": "8196d4fc65e1007c7ed466332c87dfda235fbdf2",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/console.cpp": {
+          "blob_sha": "5a764a50ff5c218994f9437a04c36b0a787ac224",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/console.h": {
+          "blob_sha": "566dd611a00beab8dec41644f76fc729325ccc83",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/creature.cpp": {
+          "blob_sha": "b622ddcc3cb29ba3104f570cddcc4d18ce932ec2",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/creature.h": {
+          "blob_sha": "0bfba1b601f18320f1003613223fd04803cff797",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/game.cpp": {
+          "blob_sha": "4a03f13095da83696e3c4b7edd69ffa75f7f1fc8",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/game.h": {
+          "blob_sha": "1f4c63d9cdf17eec32fc41f9ca5944be8886dd65",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/chargen/charactergeneration.cpp": {
+          "blob_sha": "a01c642f7bed23d9f308655833a2872b5b76e6dc",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/chargen/charactergeneration.h": {
+          "blob_sha": "b593669d08bcb4f9c32ec6fdb4d80cf0308f9409",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/chargen/chargenbase.cpp": {
+          "blob_sha": "f0d606944e70f978b00ac0cbedfd2d9c253e8bad",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/chargen/chargenbase.h": {
+          "blob_sha": "a1ea6f693c852d225015a0d3f0ab22d401bd66d4",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/chargen/chargeninfo.cpp": {
+          "blob_sha": "6bfe2872443f713fd3fa1e2041d24a7693a0da39",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/chargen/chargeninfo.h": {
+          "blob_sha": "cb91516d138c0c589f23d5dd8f6abc8144508d5a",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/chargen/chargenname.cpp": {
+          "blob_sha": "246e8eaac580ca5c68bb672b6309f37473cebfce",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/chargen/chargenname.h": {
+          "blob_sha": "065bb8dd5538468d6086331a2ab56851eae0046c",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/chargen/chargenportrait.cpp": {
+          "blob_sha": "d5e1bfb065a7e14f137844f752cbd3c69633264f",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/chargen/chargenportrait.h": {
+          "blob_sha": "9bd2f56c79fde7b0620c15bec341c9c4c720b340",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/chargen/classselection.cpp": {
+          "blob_sha": "871e063f65e26ddfb5d09cb19c65d209c86ce429",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/chargen/classselection.h": {
+          "blob_sha": "6eb962b242561cd7dd09b5b068415592aeac9541",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/chargen/customchar.cpp": {
+          "blob_sha": "f204a982f062bf8f9a8261ec4b630d8d9507a7fd",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/chargen/customchar.h": {
+          "blob_sha": "7bcbb23fbe4646ff52388592538ff143b84ec9cc",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/chargen/quickchar.cpp": {
+          "blob_sha": "a9c11e8f0d99bc786d001b991c70fb13d24ba384",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/chargen/quickchar.h": {
+          "blob_sha": "6bcf427bfd03c81e128e2dbe2276420a7a7c57b9",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/chargen/quickorcustom.cpp": {
+          "blob_sha": "b77ad333cd05d5cf0d683f86b43d437db1511a78",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/chargen/quickorcustom.h": {
+          "blob_sha": "1c2fc9249289cf6fe89e146a1e6142dfb05d5001",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/chargen/rules.mk": {
+          "blob_sha": "fe4031f5c03f895bac1d71eab8b23beeeb4fcac1",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/dialog.cpp": {
+          "blob_sha": "5a01824b38043247cd012ee50524950d0c63c56d",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/dialog.h": {
+          "blob_sha": "f91cfea5e7a74bd6d191606bf2aadd3a54370195",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/gui.cpp": {
+          "blob_sha": "02a9b72ab6d49d029f52250f6351b1df9982950b",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/gui.h": {
+          "blob_sha": "2da51d53e769d9a65d2267d2ef84dbda2338036a",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/ingame/hud.cpp": {
+          "blob_sha": "939ff184e839bc916e235fcfcdd59d4217eb870c",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/ingame/hud.h": {
+          "blob_sha": "a278758e0f3a8fd7509e35862857049728a86de2",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/ingame/ingame.cpp": {
+          "blob_sha": "0640e583ec8950d3dceb82e2abfbc185710c811a",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/ingame/ingame.h": {
+          "blob_sha": "017ae6b11abbaab0b5145c8f0f0029bf6b924fc8",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/ingame/partyselection.cpp": {
+          "blob_sha": "e21e0c46f1ab1cfee68fba7d047d19c71a52da7c",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/ingame/partyselection.h": {
+          "blob_sha": "97c410a045f45439a545251d6b1c84452c5851ee",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/ingame/rules.mk": {
+          "blob_sha": "7a2f5c32d0497aff6feae6513a18d9eef956ca82",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/main/main.cpp": {
+          "blob_sha": "68039553dbfff5fa70da3307e5ef9e2a07ecd99e",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/main/main.h": {
+          "blob_sha": "9e40e7840a5b12601948821bdfa28d7151a37796",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/main/rules.mk": {
+          "blob_sha": "6fd3f5101b012e6fa159dcdf2fc5e27b4ef9ba65",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/gui/rules.mk": {
+          "blob_sha": "8d96f9734b8d6d4f684c4bb1d50d4a38f5cffd49",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/kotor2.cpp": {
+          "blob_sha": "8339255e9efc5c506e4d801e43cac5c8579f2641",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/kotor2.h": {
+          "blob_sha": "92abba63141c0cd4c9c1d24a957e11dd27b2235d",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/modelloader.cpp": {
+          "blob_sha": "fc262c5e8795ce78e24e95ae53b5bad82ab5b4de",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/modelloader.h": {
+          "blob_sha": "2d46bd91ef7b43b295bf0bd49e9d6b3c6be137aa",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/module.cpp": {
+          "blob_sha": "36b59d6ae7dfca9335816d2ba995d25ee1641444",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/module.h": {
+          "blob_sha": "9c556934a3e3e8a2a88317ae8a2ea5ebad53738e",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/probes.cpp": {
+          "blob_sha": "832f18b015ebbc6fc58e798d35b06fc6adbdda42",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/probes.h": {
+          "blob_sha": "15d7edfde9f77fb8aad0ed6e36d12b8252d2352c",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/rules.mk": {
+          "blob_sha": "983ab1985a29a8001dfd93307e1bbb67795ca7ea",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/script/function_tables.h": {
+          "blob_sha": "47dcba27b98ef8c39444872d17ed07877ccf0f0f",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/script/functions.cpp": {
+          "blob_sha": "540d686ec493dcf0058c896bc45b0aa1f01da0ee",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/script/functions.h": {
+          "blob_sha": "6d1c0758d5fab896153aeb4b44be0badbae70681",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotor2/script/rules.mk": {
+          "blob_sha": "52fb9b86e19f75a289246e3aa32d1634c6523161",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/action.cpp": {
+          "blob_sha": "fc0a52d9e47d052f3db696ea717e66124040a1a2",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/action.h": {
+          "blob_sha": "77e3e5e8d3199d63db9176da82bf2f093c82b503",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/actionexecutor.cpp": {
+          "blob_sha": "b2a2eb6671251652e97ee36457c9ef2b115cde9b",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/actionexecutor.h": {
+          "blob_sha": "52b09b0135e8673c4eceeb1fc8bf4d9c422ebde1",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/actionqueue.cpp": {
+          "blob_sha": "d1f90b008c8aeea2e6b2d36c8d8dbe5999e48f08",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/actionqueue.h": {
+          "blob_sha": "9b0dd4c809d3b17534d380004111f40ce97abc20",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/area.cpp": {
+          "blob_sha": "3877d3b66524724e63801a65abba6bbbcc620e8d",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/area.h": {
+          "blob_sha": "55c1fd34413b765feaf8d3b6049a37972c4cd1e1",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/cameracontroller.cpp": {
+          "blob_sha": "2386b4c4cad639fe1d444b3e93bb6572e7b98c45",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/cameracontroller.h": {
+          "blob_sha": "fe19d8816354c40addcd7426b756c0ace7e21532",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/console.cpp": {
+          "blob_sha": "433f05f4b44510849c9da69904d07108232e564c",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/console.h": {
+          "blob_sha": "744f657e6c693d92ae551c82ea21cd3107c7f8bf",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/creature.cpp": {
+          "blob_sha": "b2edbc7fbee24cd2ae99f0a552daf566aa93f25a",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/creature.h": {
+          "blob_sha": "9410a8b34bf1f9d588d72fc350118130c9343a37",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/creatureinfo.cpp": {
+          "blob_sha": "fcc5fb95e426ab97099b76cd512d2beb3b1e22b2",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/creatureinfo.h": {
+          "blob_sha": "c8e036cb34cc3b16606d93b58570ab2c4a35e8ea",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/creaturesearch.cpp": {
+          "blob_sha": "65b13bfae95e64e1aa8c75b33e96a91128c09216",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/creaturesearch.h": {
+          "blob_sha": "efa8f1a1997e317498c5a6ef6addb3f11ef6eaa6",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/door.cpp": {
+          "blob_sha": "2e707a6994cefdfbe27e65bf314f76c919a9c01b",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/door.h": {
+          "blob_sha": "629050a3fb4cb9b90f7f0b7fb11e3e42ef24bb90",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/engine.cpp": {
+          "blob_sha": "84c090167e596e7b926ec70ca748bf8c69c08032",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/engine.h": {
+          "blob_sha": "219de74904ffba9be26ed69f61de4275acdb5138",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/game.cpp": {
+          "blob_sha": "0a93ff97fa13272c6a70c7bd56a910092d7a7d67",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/game.h": {
+          "blob_sha": "4b3df52fcc71183f815a92d1c577b55e6ebaf3ea",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/gui/chargeninfo.cpp": {
+          "blob_sha": "ea08c19fc0bbd31d85640a1f6d0bfe87758e198b",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/gui/chargeninfo.h": {
+          "blob_sha": "9732b9f64598d4af0fa1060459d4c561b39409c0",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/gui/dialog.cpp": {
+          "blob_sha": "3fa2d9ec124a3196f3715c0154cd713514932137",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/gui/dialog.h": {
+          "blob_sha": "8cf81180c9c778c720262e2b92e3ff684bd4651b",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/gui/gui.cpp": {
+          "blob_sha": "8b5c1e05680a2e29fda4312f6946b261cefae6ce",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/gui/gui.h": {
+          "blob_sha": "63d68244d1f11abfb0785bd370323f58531fc211",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/gui/guibackground.cpp": {
+          "blob_sha": "d3b691bcfc70626dd4e0af97e6718927abb37670",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/gui/guibackground.h": {
+          "blob_sha": "d57f207b09b6f150ab1ab014781b3be85ed3fe2a",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/gui/hud.cpp": {
+          "blob_sha": "5c29ec38cf4f1700736f7341244899aa720943b6",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/gui/hud.h": {
+          "blob_sha": "1c155f057a9e9d848cfd00c7931e13bbed318e13",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/gui/ingame.cpp": {
+          "blob_sha": "faf82ef0c0834734fdda41ef7bdb077cf2727589",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/gui/ingame.h": {
+          "blob_sha": "e85fe58711fa2563a583a957c6aca7bb357ba89a",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/gui/inventoryitem.cpp": {
+          "blob_sha": "cb200d2d827396d96a0fc22237f2c374c46d6d52",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/gui/inventoryitem.h": {
+          "blob_sha": "e4f6217a529433cc20a61b7a0065bcc7e48bfc9c",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/gui/loadscreen.cpp": {
+          "blob_sha": "dd324c8ff8847171933d0845e0d524c6f9abbfc4",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/gui/loadscreen.h": {
+          "blob_sha": "f7e724690781bf8c00e19e1a4c5696c4d2d8b55f",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/gui/menubase.cpp": {
+          "blob_sha": "4f0afb6069eb2b500ef663b5949086e1e36dcef7",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/gui/menubase.h": {
+          "blob_sha": "cfed140e4c11ccf52c19d2ee718939b88deb7a5f",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/gui/partyselection.cpp": {
+          "blob_sha": "8e05c390690acc3012af56d4e30153d20fa7f3d7",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/gui/partyselection.h": {
+          "blob_sha": "774fa025f9a923dedb0aae55cf453119103a7026",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/gui/rules.mk": {
+          "blob_sha": "ea4e4dac886a053a7f7550472c7ece57d14198c3",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/gui/selectioncircle.cpp": {
+          "blob_sha": "19266760d93c009e9f5189990e9c206ed88e7e01",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/gui/selectioncircle.h": {
+          "blob_sha": "706c89f6f6111d2e0f566abdb5d31302e39e9107",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/inventory.cpp": {
+          "blob_sha": "9873607e2466310418d1665c1d7b33c8488eb873",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/inventory.h": {
+          "blob_sha": "4cb6f80a59b78a2b35a8f78ff7463a7091c3e3d7",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/item.cpp": {
+          "blob_sha": "e8743ea84ae4ab5443c1730be93d976f1cc306da",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/item.h": {
+          "blob_sha": "c50b0494c437af5108a7505494bb687980c4faba",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/location.cpp": {
+          "blob_sha": "48a111d62e62852b28c61ff758dfa6f04f0354d4",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/location.h": {
+          "blob_sha": "a36a0b90059ec59a67dc522a9cee361c8e84f3ef",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/module.cpp": {
+          "blob_sha": "191b8622dd76f475d6a58dc7d0436ca64b5674c7",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/module.h": {
+          "blob_sha": "aade43db0f4342ca112e55528fd8e165c6cddb52",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/object.cpp": {
+          "blob_sha": "49bd11090b652c277b498228c9346546bb8ab443",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/object.h": {
+          "blob_sha": "dba1cb0b6efe8bc1572852bb038f94504047a60e",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/objectcontainer.cpp": {
+          "blob_sha": "1c214e9357dd6ad9c72cf733f1c261362e3f9b95",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/objectcontainer.h": {
+          "blob_sha": "b3958d7464377185d062e4a007f6b8021fa4398c",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/partyconfig.h": {
+          "blob_sha": "ab0050bce5d78afb9048609d0f05546fdb78ff08",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/partycontroller.cpp": {
+          "blob_sha": "bd61d8bf3de07059051169afd10c796794d16e21",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/partycontroller.h": {
+          "blob_sha": "1528a5425df1fdb77a48cf3ec2ccf9e17c99f0ef",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/partyleader.cpp": {
+          "blob_sha": "55d6f40ff18d48e0b920d3af8fd5685caf83beb5",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/partyleader.h": {
+          "blob_sha": "d437f7f1331fd4febd930088dc6350eb415e3c23",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/path/doorwalkmesh.cpp": {
+          "blob_sha": "c6e3fb28e82e8b7afa6f092eb3dc20d6bd6b0813",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/path/doorwalkmesh.h": {
+          "blob_sha": "dba96e5d22bfea118fb73a84d9885616a4c88313",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/path/objectwalkmesh.cpp": {
+          "blob_sha": "9dd70f138da683f4e2353071edee133d565f139c",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/path/objectwalkmesh.h": {
+          "blob_sha": "2cc186e91defbc287a2061c8f581ad582600c3ca",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/path/pathfinding.cpp": {
+          "blob_sha": "b69e45695100a52080cd900319e074f06392bd46",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/path/pathfinding.h": {
+          "blob_sha": "745fc532f924e764ccf64cd7450146dc504703ee",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/path/rules.mk": {
+          "blob_sha": "acca1608a81c5308b6204daf26fcf1405dfbd0cb",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/path/walkmeshloader.cpp": {
+          "blob_sha": "90aa0c1f14c6e653ad96ff93df9cea1749310ac3",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/path/walkmeshloader.h": {
+          "blob_sha": "94fa30e51bb70966314a0d63b2c81096cdddbb7a",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/placeable.cpp": {
+          "blob_sha": "3c71b179ef52fa7f1127a5ba9a9fdb6f3a21bdb4",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/placeable.h": {
+          "blob_sha": "ed2795be299f0b7b07034c9ec7b92cba38d814eb",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/room.cpp": {
+          "blob_sha": "d0d82272e38bb644a4548abaf7f2e56de5e91b0f",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/room.h": {
+          "blob_sha": "707d9774727fd7706b97624f302fbdf9d885e32a",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/round.cpp": {
+          "blob_sha": "a92f1c939401a55689a7bb70f2ebfd7d86038429",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/round.h": {
+          "blob_sha": "2e0e0709075c870c8cedcfabec7da9f22aa01195",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/rules.mk": {
+          "blob_sha": "132a69ac28a61568ba8f5b1f11e9555927fc1448",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/savedgame.cpp": {
+          "blob_sha": "75ca2af59261504e2b2a471412aa6f053708300d",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/savedgame.h": {
+          "blob_sha": "2be5a288926fd94a5c1b2eab688495f046e9e581",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/script/container.cpp": {
+          "blob_sha": "e0879b7d7eae0c0d33c499befa0d0679289d991c",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/script/container.h": {
+          "blob_sha": "809cbdf62c16ad7ae57a08afebb6922fc720ceb5",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/script/event.cpp": {
+          "blob_sha": "2240112f6b10d739e3fac09bd60579fa7c7a76ef",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/script/event.h": {
+          "blob_sha": "7440619e17eb884ff4859dfe8f0e04e1e5097fff",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/script/functions.cpp": {
+          "blob_sha": "7711e94708519b3b9c781b9de706c65dc868e3db",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/script/functions.h": {
+          "blob_sha": "9312790647f637a8853b4b78bd4e9c5a32320df0",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/script/functions_action.cpp": {
+          "blob_sha": "f579eb6d6c0e7da694a4e251b6e5d6f72e41fe32",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/script/functions_creatures.cpp": {
+          "blob_sha": "3b8bb28195fe8edd324343fc1551d760e2cd02c5",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/script/functions_events.cpp": {
+          "blob_sha": "4feca6c41df37d1ae693b812f4621ab68e76db6c",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/script/functions_global.cpp": {
+          "blob_sha": "2ad56ae0cac9996a35808106afae51db25d9fb7e",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/script/functions_local.cpp": {
+          "blob_sha": "257456a0af9c4c669d68ebd82ae33b690af75521",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/script/functions_math.cpp": {
+          "blob_sha": "43cc07b1d8c3ff155c23330414a034843207174b",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/script/functions_module.cpp": {
+          "blob_sha": "700aa616482b8df0920305dfdd455d13e07e967d",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/script/functions_movie.cpp": {
+          "blob_sha": "56c7dfc60894637b3ec0c9105e119df05c180e31",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/script/functions_object.cpp": {
+          "blob_sha": "0976eb1bf5c77be80506514d1658fad2ab531846",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/script/functions_parameters.cpp": {
+          "blob_sha": "1af082056c05618115d96e5370e1d9bacb73db27",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/script/functions_party.cpp": {
+          "blob_sha": "cd2ad4dca077adb79481181717601c1c01bd2de8",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/script/functions_situated.cpp": {
+          "blob_sha": "306b83ed927f25b8f6f2a2067c716c79a6b04640",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/script/functions_sound.cpp": {
+          "blob_sha": "b21eed9bbca4db258e1d8f4b8e55d111e3a4f25f",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/script/functions_string.cpp": {
+          "blob_sha": "bdb07178ac4275f2f6711436ab350a5ea50bd06d",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/script/functions_time.cpp": {
+          "blob_sha": "19f90694c6b4b9ed43e01b44ee8c7e6a43ac2657",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/script/rules.mk": {
+          "blob_sha": "7adfeea58a290cfd42ebc83b4bb571d0d15c31cb",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/situated.cpp": {
+          "blob_sha": "9891e5cc643b9ffda237d5a0f1d394b87a9c5db6",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/situated.h": {
+          "blob_sha": "965e649ec5deec5af8f0d5a8051ac7c01d5d07cd",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/sound.cpp": {
+          "blob_sha": "06b222333408328976c770d2a4271e96cbb81699",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/sound.h": {
+          "blob_sha": "208d2faa51e634e02d877a91e44ba27cfb718f77",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/trigger.cpp": {
+          "blob_sha": "4861f2c5156e81f044742abb09ede1882befc7f7",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/trigger.h": {
+          "blob_sha": "d8bffa0d6ec73b2abdce543c4a3b5e809ebe37ed",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/types.h": {
+          "blob_sha": "0ff376bc39e6382df9fdd4b6500378e32b0224aa",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/waypoint.cpp": {
+          "blob_sha": "d168481649896ab2a43e860e7771ddd47f377e40",
+          "encoding": "utf-8"
+        },
+        "src/engines/kotorbase/waypoint.h": {
+          "blob_sha": "e466c2dd9ba78cf66e8f3e5ae07eb45a9af20a6c",
+          "encoding": "utf-8"
+        }
+      }
+    },
+    "seedhartha/reone": {
+      "commit": "0666aee0e25fc8a6dbf77b7a186350f3b5857711",
+      "tree_sha": "0666aee0e25fc8a6dbf77b7a186350f3b5857711",
+      "complete_prefixes": [
+        "src/libs/game/",
+        "include/reone/game/"
+      ],
+      "license": "GPL-3.0-or-later",
+      "license_path": "COPYING",
+      "license_blob": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "license_copy": "data/licenses/reone-GPL-3.0-or-later.txt",
+      "license_evidence": "Pinned root COPYING and original file copyright/GPL notices retained in full.",
+      "evidence_class": "technical_source_code",
+      "coverage": "Every file in the pinned reone game implementation and game include directories. Shared libraries, other repository content and game assets remain outside this selection. Historical implementation behavior is not independently verified.",
+      "documents": {
+        "include/reone/game/action.h": {
+          "blob_sha": "1670c2a9bff65e33d4144118af0d193e7cdc5e64",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/attackobject.h": {
+          "blob_sha": "bb48d7a67329523da1b951858ed4567d156da7ab",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/barkstring.h": {
+          "blob_sha": "3ca4f8f0c0eebceb1014779a1b5a6b7373f6d965",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/castfakespellatlocation.h": {
+          "blob_sha": "5afb54f10d1d48430f26139add023ba3dd09ba2e",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/castfakespellatobject.h": {
+          "blob_sha": "6ab1ff0ce8ead63aee57203ac815387d7923b0c6",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/castspellatlocation.h": {
+          "blob_sha": "5a27488cf2b35c3eea6c2506c254f530186d0a24",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/castspellatobject.h": {
+          "blob_sha": "46f4d9adaad194b6e8a334a0b9296bb7b75e59ef",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/closedoor.h": {
+          "blob_sha": "6464740ee5f8303f15073b454a539cbdf2e820b1",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/docommand.h": {
+          "blob_sha": "064630a485b3764dbd7b70b9051084850fab394a",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/equipitem.h": {
+          "blob_sha": "108f7a5b923723f579b69a00c4d3cd152489e45c",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/equipmostdamagingmelee.h": {
+          "blob_sha": "b01182d9c351efb6d96b616a1d0ba010f180528c",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/equipmostdamagingranged.h": {
+          "blob_sha": "50947a0981a2661a7ccb4e7fb7261962c293bc67",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/equipmosteffectivearmor.h": {
+          "blob_sha": "64eba4785811287427436d8cc576535265991192",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/follow.h": {
+          "blob_sha": "73bcfda64ba84b2a11fc05d3d354e41e3946b805",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/followleader.h": {
+          "blob_sha": "dabc0f18a85fee8fce4f8d6fc7f20d005b2bfe2f",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/followowner.h": {
+          "blob_sha": "6e4b8c868f6de45c6f6cab314c9ad4c4a1be49d7",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/giveitem.h": {
+          "blob_sha": "f2ec5a67b7c4e03bd722bede1ae74c42e6cfb1ed",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/interactobject.h": {
+          "blob_sha": "ebac9b9afa70f720917d3615364695092e0e259d",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/jumptolocation.h": {
+          "blob_sha": "d488ceabf895e3c74444e52ea7e47bf421ff6d55",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/jumptoobject.h": {
+          "blob_sha": "a78785719e7a849c3450ce8f6647734ca92aa01b",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/lockobject.h": {
+          "blob_sha": "19b74e158c4348109e9c66382303ad4820d3d10b",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/moveawayfromlocation.h": {
+          "blob_sha": "97469728a2cea28b6a4f59a958d12bd7cc1f4309",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/moveawayfromobject.h": {
+          "blob_sha": "d5356c39b4d41f28e2bfb36ca84a9c7280035869",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/movetolocation.h": {
+          "blob_sha": "d1d6ce7ea112698472e649e762ee680ae4414e8c",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/movetoobject.h": {
+          "blob_sha": "02f5b59d1b0f6046b8c21ff0f1c4bd15444ed2bc",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/movetopoint.h": {
+          "blob_sha": "3e8424af2df38b46719eb929df72c91d150dc300",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/opencontainer.h": {
+          "blob_sha": "12404decc82115e5faa9cdd8367dd573b295555f",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/opendoor.h": {
+          "blob_sha": "7df234b0e48499d6c0f747321b4be41ed3aed6c5",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/openlock.h": {
+          "blob_sha": "4ad776a00ee21b7959059f04fd346bd7fb5d12e0",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/pauseconversation.h": {
+          "blob_sha": "ece31ecce2adf4f260586fac6388cbdbaa64f51d",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/pickupitem.h": {
+          "blob_sha": "0be47eee3d549e19f0a44d0fef9f1aa2d0816936",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/playanimation.h": {
+          "blob_sha": "5a21d9b6b61e05c8ca0d5382db863c3aee0e4e90",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/putdownitem.h": {
+          "blob_sha": "a8045591592f2e8c221901be4c551524e3218512",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/randomwalk.h": {
+          "blob_sha": "a1e803f9b71ad935bd05aa89dd07b078eddfe2d0",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/resumeconversation.h": {
+          "blob_sha": "3ec837f9a2ccfea4e8caa6262271a1553a6ed0fa",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/speakstring.h": {
+          "blob_sha": "2551f612aee159efc80e024f9394188d7c3813b4",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/speakstringbystrref.h": {
+          "blob_sha": "71ba1dc87b30b0f036089a01cae5c20240649722",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/startconversation.h": {
+          "blob_sha": "f4f31c35e748a3741a9bbba60d933e7ad2ce3850",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/surrendertoenemies.h": {
+          "blob_sha": "d650aa4ba49c2060e88db092ed0f5e0b2cec6b72",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/switchweapons.h": {
+          "blob_sha": "3d18a153de874be3eb1ffe6d1a0822094b3f19e6",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/takeitem.h": {
+          "blob_sha": "098d522ad852caabc9839d1894a5ef95a891d81a",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/unequipitem.h": {
+          "blob_sha": "167ff816561968964f35bbe53034f6b5d7eaa7a1",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/unlockobject.h": {
+          "blob_sha": "b2790ca43070d2f59cede1c2d2cbec2707324d16",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/usefeat.h": {
+          "blob_sha": "38e50af5d3cdcc8c0a307dbc5a4dd3a06f678c94",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/useskill.h": {
+          "blob_sha": "3b511028113cc44e662ca006cf7a9dfef44d0319",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/usetalentatlocation.h": {
+          "blob_sha": "077146d61aaa37f09d4065c69475e7b377b3c572",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/usetalentonobject.h": {
+          "blob_sha": "c6307eb412fd81a9a2fc306351def5b740d91188",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/action/wait.h": {
+          "blob_sha": "038951605c35fe85eb185846813a9a3155385d25",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/animationutil.h": {
+          "blob_sha": "dcf66d80640c2529a6bc5dc273623c31fd69519e",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/camerastyle.h": {
+          "blob_sha": "6fd1ec339860851e56739e9e8e7cb0a0847410e4",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/camerastyles.h": {
+          "blob_sha": "37d00f6a90a78fc31e2d3e55cad6d2db4186c798",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/character.h": {
+          "blob_sha": "576b27f9633a344df44ef69ec53ff2ecf5849ae6",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/combat.h": {
+          "blob_sha": "f65cceb134c9c5bd48b1859415d117cf7b9574a9",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/console.h": {
+          "blob_sha": "9d6c92464693be7e7080516e2094c0defc0407d3",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/contextaction.h": {
+          "blob_sha": "e4149538118f11fc030bf300326a6cf625e67f7e",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/d20/attributes.h": {
+          "blob_sha": "c01a32326a1ebc19bf638b6ea71631bcaeefb941",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/d20/class.h": {
+          "blob_sha": "1bfff174468a5cb3799bcc81ac7f568fbb6e5498",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/d20/classes.h": {
+          "blob_sha": "434bfe22e162910d6f54a751608d5804559b9376",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/d20/feat.h": {
+          "blob_sha": "ab56ba2720114f71da9c630709646f9df776f53f",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/d20/feats.h": {
+          "blob_sha": "8fdaad52990a046704f2b9ecad9b692ba551bdb7",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/d20/savingthrows.h": {
+          "blob_sha": "a59b21c216f337de00e02291e0fd561166a25a63",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/d20/skill.h": {
+          "blob_sha": "ca953cf438291d2101de55a49b989c2f83c80e42",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/d20/skills.h": {
+          "blob_sha": "e068b5984e0e8dc5d1249c85b86e5531e050cbe5",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/d20/spell.h": {
+          "blob_sha": "48e472983534a0e894fec51fef24e4eec12170cb",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/d20/spells.h": {
+          "blob_sha": "7ec9f3e735810e90463ed4fe6ca8785f115a7a4e",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/debug.h": {
+          "blob_sha": "6a3645d91a1561eca0a80cec566366bedf6fb32a",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/di/module.h": {
+          "blob_sha": "2f02227392835b301af713146a09c0b7bd68b898",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/di/services.h": {
+          "blob_sha": "ddf7cb92ea0f10f113174e19f1627d05a370d728",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect.h": {
+          "blob_sha": "dd29a7c52d45955f8317d4fe8146a202d5adda83",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/abilitydecrease.h": {
+          "blob_sha": "3c12b3f61b1b67e322ea75a3425cf999d103d4be",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/abilityincrease.h": {
+          "blob_sha": "795446e43bb0d27bf46212b1f3da41fb4af6d38f",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/acdecrease.h": {
+          "blob_sha": "e03499c08ee196a36f498c156e2eb939375a3bd5",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/acincrease.h": {
+          "blob_sha": "f3248abeed72b5785ebaec35b43330997218c33d",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/areaofeffect.h": {
+          "blob_sha": "d46fa3515f96db9137384d18eaf71ebd99c52ca8",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/assureddeflection.h": {
+          "blob_sha": "465732e1ebd1c4d7f9f9e54800e5052e599bd214",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/assuredhit.h": {
+          "blob_sha": "1afb48469f7376daa4f2b924963af70fb2db1595",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/attackdecrease.h": {
+          "blob_sha": "9bdfa62dc7ae91163838832d77ad11dbaa29719f",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/attackincrease.h": {
+          "blob_sha": "623c55676d2f14256ab8403325e0e25c11e29b48",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/beam.h": {
+          "blob_sha": "bc285060a6e4b7e3061abf106f6ba2bc40b3100a",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/blasterdeflectiondecrease.h": {
+          "blob_sha": "3beed6a1e7c282e8a26c0fe7a65e1ea2d4c12486",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/blasterdeflectionincrease.h": {
+          "blob_sha": "9c9d521bde41419f249fe3f326bedc8a8e22c4ae",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/blind.h": {
+          "blob_sha": "b3828145658a70cd3729b060693482a2113c81fc",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/bodyfuel.h": {
+          "blob_sha": "6434ccb2a6fb0aaa3489e123df0169b6927e1653",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/choke.h": {
+          "blob_sha": "5add619afea2386fc135ca76661b9729c0a94e9a",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/concealment.h": {
+          "blob_sha": "d7466ccb8fcbbf1388041baf5ea68ab8fc39d14b",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/confused.h": {
+          "blob_sha": "6c4a29cdc5326b58355c57f4b12ddd38f3cfb85d",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/crush.h": {
+          "blob_sha": "f9de0dfac24810dbaa5ead1c97ab85c7c8a14bbf",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/cutscenehorrified.h": {
+          "blob_sha": "00b127f2d438c1563003e7f0ca9bf33e21c8fa07",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/cutsceneparalyze.h": {
+          "blob_sha": "372c75631a2b97a62fed89692e2c567f389801c3",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/cutscenestunned.h": {
+          "blob_sha": "aad12f07e788ba2d910fbb4042a46a871089cb66",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/damage.h": {
+          "blob_sha": "d6fcba18f3b84bb95ee7507275bae916c8dc6a42",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/damagedecrease.h": {
+          "blob_sha": "8acd5e4903ad3f5e9ff1eb4164dd4cd44ac1d693",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/damageforcepoints.h": {
+          "blob_sha": "f3c66c4ba2aa3575c4cd3283edd857092e63fd58",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/damageimmunitydecrease.h": {
+          "blob_sha": "a4812ac63003ff0f5f88004015fa63d4998690ca",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/damageimmunityincrease.h": {
+          "blob_sha": "876d7a5dcc9c6cce4f787bd40428a319df8d7a85",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/damageincrease.h": {
+          "blob_sha": "d853fd9849813e3dd43b5e0063fe41b81bcf44c8",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/damagereduction.h": {
+          "blob_sha": "ab69618f12a13ee56642e82366d25c58e53b8870",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/damageresistance.h": {
+          "blob_sha": "7b971c10702ba9b68dee2468b8c1feea50589796",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/damageshield.h": {
+          "blob_sha": "359fcab9553e6ccf5aa7ca85ca215ad6ddbf21a6",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/death.h": {
+          "blob_sha": "eae508979402cf86a681b26fd364da00c6dec86f",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/disguise.h": {
+          "blob_sha": "2450aa8eaa2db870d98403ad49f7214e91215206",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/dispelmagicall.h": {
+          "blob_sha": "fbe58541ca1f26a864ec3c9ed2e96334c9e4d94e",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/dispelmagicbest.h": {
+          "blob_sha": "a00ecf40602d3046fc9b5ec629ccf28262438173",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/droidconfused.h": {
+          "blob_sha": "279a8c4a5a424fe27f25a720f1c93ed84392265f",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/droidscramble.h": {
+          "blob_sha": "e0417dfef233ea8c7a0ea9e973405354d16e9bd0",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/droidstun.h": {
+          "blob_sha": "fe8ae22fdb90a8c5f6551b821bcc3b49bed7bd65",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/entangle.h": {
+          "blob_sha": "15dbb9918d3a0adb0fd984975abf8f2809019d0c",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/factionmodifier.h": {
+          "blob_sha": "e2f75670b0c4c4f179ae3f49f847ea51a1f4e220",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/forcebody.h": {
+          "blob_sha": "475fa1a8e2b6d7e4d86a8d29a855c9af60721461",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/forcedrain.h": {
+          "blob_sha": "c7ed629f6b315b17c840c15bb0d4a4554b6a311b",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/forcefizzle.h": {
+          "blob_sha": "c386e89d86d69f00700e8e437814a20630b96a26",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/forcejump.h": {
+          "blob_sha": "1b703ed00b41b0d9b0931d9003e9be53d8b9ab5c",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/forcepushed.h": {
+          "blob_sha": "508317e9651a4575f9c57e37faded4c071b37237",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/forcepushtargeted.h": {
+          "blob_sha": "3f778a0c31a1d13ccc591c65c2c6e5e769332b53",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/forceresistancedecrease.h": {
+          "blob_sha": "3668302a5948ed6cc4f3fc3922146b295b99a8df",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/forceresistanceincrease.h": {
+          "blob_sha": "e666a11c590ea285e748638e859dccc2fb06fd36",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/forceresisted.h": {
+          "blob_sha": "9efd79bafa394fd95ff5ef1a264056548b98c541",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/forceshield.h": {
+          "blob_sha": "8cce37b14659860510c327ba2f5d0e4ad0008b35",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/forcesight.h": {
+          "blob_sha": "9d7901b5c0d44866759fe18eed61b8f6bb26e48d",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/fpregenmodifier.h": {
+          "blob_sha": "18640e5ada2f9aa130ee80c90e21b1adaed9fb2a",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/frightened.h": {
+          "blob_sha": "5cc9b74f3ed5c89350b2983efabaf3a975e8f145",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/fury.h": {
+          "blob_sha": "9649c6c99274adf3f95d59f642507cb24c8cb974",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/haste.h": {
+          "blob_sha": "6af328bb2212cf698cd6a60a5b3a3bde35c82326",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/heal.h": {
+          "blob_sha": "7f88449217315aca8789cf9909cce3b7434415ce",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/healforcepoints.h": {
+          "blob_sha": "b407a6a311c82bb735e6f522585184c4353199c5",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/hitpointchangewhendying.h": {
+          "blob_sha": "3e067fb8877a5dafcfc61ba72215c54659019246",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/horrified.h": {
+          "blob_sha": "87ec8c089ed3fb0ceb103524cce53ae66cfba435",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/immunity.h": {
+          "blob_sha": "8c2316a68a61a4bf2430bd19771a40aeedf10847",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/invisibility.h": {
+          "blob_sha": "a813e81953e44cc8f6fe6d3c53c660a5d8659e84",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/knockdown.h": {
+          "blob_sha": "3853e84d38798219309490b9c77763510d6c0e44",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/lightsaberthrow.h": {
+          "blob_sha": "6ec396916dd317b38ce1e7a87c2261f0cc5a869f",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/linkeffects.h": {
+          "blob_sha": "d007123c565eb00792cae185ea372123dbd56990",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/mindtrick.h": {
+          "blob_sha": "accd0f175716eabd23e36c7cd65c564ddcf4c4ad",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/misschance.h": {
+          "blob_sha": "6f579e82575b7a0ece989e96e9f1613c78bbf2a5",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/modifyattacks.h": {
+          "blob_sha": "b181f4277fbe7d66bcc44a5222e473126fafaf5b",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/movementspeeddecrease.h": {
+          "blob_sha": "a53794b5da79411b65f109cc495f04effbdeffb4",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/movementspeedincrease.h": {
+          "blob_sha": "a7beb7500cdac757fc7efe311a8d3c4196329148",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/paralyze.h": {
+          "blob_sha": "6a163d2724709868024fea64b2ab637ee808e119",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/poison.h": {
+          "blob_sha": "1416cb0ff1e32e6cccbe5c350e804644339512f1",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/psychicstatic.h": {
+          "blob_sha": "7d97e80bc8b7509098e6d940094c1c134fcd7a30",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/regenerate.h": {
+          "blob_sha": "aab9963105e3216b16c8b8d73a79c520baafbf4c",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/resurrection.h": {
+          "blob_sha": "c7fc8c1c4d7ccb90516c1b7589ca3b8bf1ae1dd6",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/savingthrowdecrease.h": {
+          "blob_sha": "d92b8f61cb25884cb4b96ce655c24915f9a6e95b",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/savingthrowincrease.h": {
+          "blob_sha": "4735b0e7c0f36cc189d630b4192571b5f85e33ae",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/seeinvisible.h": {
+          "blob_sha": "83f83b96894cf4c9e14698254f29a500c5a2a78a",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/skilldecrease.h": {
+          "blob_sha": "82df9d2d50d9b74f6db94c95ae6abbdbf004fb84",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/skillincrease.h": {
+          "blob_sha": "93b8938c444eb232584fe17e0d85a631fe4929f6",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/sleep.h": {
+          "blob_sha": "d447bb695a324271824731feab87ec329e51d265",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/spellimmunity.h": {
+          "blob_sha": "588138fd0e1b89f810689eef3001c4054b7e2875",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/spelllevelabsorption.h": {
+          "blob_sha": "ba2f1507417571d953169037801bb0a04229b5e6",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/stunned.h": {
+          "blob_sha": "8d5612d0e757cd4fd7c78dcc5daef511e301e6fc",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/temporaryforcepoints.h": {
+          "blob_sha": "32d4b75f7ad5359968f0177ee5f822dd4cc09280",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/temporaryhitpoints.h": {
+          "blob_sha": "38867c301a1d616348291cf721bbdb7a0848a121",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/timestop.h": {
+          "blob_sha": "92090904e0755162c1eb1d3e985699fce82d2d90",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/trueseeing.h": {
+          "blob_sha": "0d7aa674dc5c5f22945d894cb80a8a2edfa1fc20",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/visual.h": {
+          "blob_sha": "25d46ee1192b33bfbe0bd374535a35784bc8d2b0",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/vpregenmodifier.h": {
+          "blob_sha": "0a8aab2103f1bdf18c6268a0d5030632f0542f9c",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/effect/whirlwind.h": {
+          "blob_sha": "3127b4cc187995ff91198801e2c0afe742f67ee7",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/event.h": {
+          "blob_sha": "7db2982f3aa2aa5c26837598b9e13479778fdd8a",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/footstepsounds.h": {
+          "blob_sha": "43708f12c364ae09b61eb93ff1328c4fc668488f",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/game.h": {
+          "blob_sha": "0da8f0bccef76f67c447e5bf7d0887a5e7948648",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui.h": {
+          "blob_sha": "4fc4c9e1119aad1621497a7db6d960ddb21d9581",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/barkbubble.h": {
+          "blob_sha": "9c076bf0eb1daebdd80030a3658fac8980e53813",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/chargen.h": {
+          "blob_sha": "ca3c4f83046e26bd0eefc28f0aec6827406b3e90",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/chargen/abilities.h": {
+          "blob_sha": "e95669d12e2f2a5a0f19699315f47c6e4102b7ec",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/chargen/classselect.h": {
+          "blob_sha": "503351e5ec039dbf25cfaf744defad9210b2ecf5",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/chargen/custom.h": {
+          "blob_sha": "e095d2bc298adbc98ca184144c5858511a98f7cc",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/chargen/feats.h": {
+          "blob_sha": "2f1a233e6bec6a87112b2cda15072120cb255f61",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/chargen/levelup.h": {
+          "blob_sha": "4f196cb38de1792dcd9be92ae7ff2706ff89439c",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/chargen/nameentry.h": {
+          "blob_sha": "caf50de729ff2aaee6b8172d1595d76da08c5cb5",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/chargen/portraitselect.h": {
+          "blob_sha": "3e51c6ccb15b2d6272215043c7cd97378297afe9",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/chargen/quick.h": {
+          "blob_sha": "fde12ffa57f03c7f92195275c3beeecde0407c3d",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/chargen/quickorcustom.h": {
+          "blob_sha": "4aca9a2818f28b922201cdb12a1e361169d3d318",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/chargen/skills.h": {
+          "blob_sha": "cd99f8dd33dc64d0eff45b121138a651ffcfb0f3",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/computer.h": {
+          "blob_sha": "75b1a65e28582a33dcc07469840113eed748303c",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/container.h": {
+          "blob_sha": "f51f5317848634e87f4f1e8a621b11b3b4330f2c",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/conversation.h": {
+          "blob_sha": "86d64315e872616ad1f3b63a6de786575a50a96a",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/dialog.h": {
+          "blob_sha": "d8099d635e0abeb2b1159da4b7f42d1fad4dca65",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/areatrans.h": {
+          "blob_sha": "2b0faad40297f03218d3ea7abe6f6f2c9e2aa08f",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/areatransition.h": {
+          "blob_sha": "0883eed7595bacc49d1d8e13d4fb60a93caecbf7",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/chemical.h": {
+          "blob_sha": "d2e29072aea3ed70d9c798bc0d2c4f717bc70fe9",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/component.h": {
+          "blob_sha": "78feaa21e85dc81489cfb5e11afe893395bbc7b7",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/computercam.h": {
+          "blob_sha": "53387beebecd5a78d9d97f433546c755c847ee78",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/confirm.h": {
+          "blob_sha": "bda39d7fb72ea0a0e381da97ad4bfb1ca8fe7190",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/credits.h": {
+          "blob_sha": "99ee55e93443328565d09f68c6892bf135c23864",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/datapad.h": {
+          "blob_sha": "7013be0cada434d42e4d47e4a22e6ed8245461b3",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/debug.h": {
+          "blob_sha": "5fbd770fc15516f1f20a31c6753617b229959ae3",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/fade.h": {
+          "blob_sha": "2dd35402aa6fff3a6b1a88eef3dd375fbb238181",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/galaxymap.h": {
+          "blob_sha": "1813ee6856f4150597b9781c6c3cd564fcd66fa0",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/gameover.h": {
+          "blob_sha": "5dbc45b91a3b7dd83774b59de565c7860a607f0c",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/maininterface.h": {
+          "blob_sha": "442eff4d18b5dfdbf8035910cdc55a03ec1aa8f8",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/mainmenu.h": {
+          "blob_sha": "955f7ae5812abb6a5e1465c1a23ee1aa07e877f9",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/mainmenu10x7.h": {
+          "blob_sha": "b5946d5a25981e65a0faa79cfcc25dd8aed7e95e",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/mainmenu12x9.h": {
+          "blob_sha": "642f7c9c2e258600f487500ada366ebf68289240",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/mainmenu16x12.h": {
+          "blob_sha": "770a62f7f71f240bd2b56fa05be8088df0cfd168",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/mainmenu8x6.h": {
+          "blob_sha": "ab95f6539e57ac5b5b515c25b37b85d887b33fc9",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/mi8x6.h": {
+          "blob_sha": "cfa2369aea46823718dc6e0a2dae52a16b6c5a19",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/mipc10x7.h": {
+          "blob_sha": "d128c61dcb44a964380de5847a25c72ef2679017",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/mipc12x9.h": {
+          "blob_sha": "f4c40e7bde6af585be5bec4e30c70151db06dfcd",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/mipc16x12.h": {
+          "blob_sha": "dfe6578a5f9555d56c250352fd1624092479be14",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/mipc210x7.h": {
+          "blob_sha": "e3810674637f8e1c4a13ac48f3a6a2b50830e5d1",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/mipc212x9.h": {
+          "blob_sha": "641cfc638197961febc3634b26a6bc23071c0e44",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/mipc216x12.h": {
+          "blob_sha": "17ebcc52c213792f7ba37c09812ba1bbfea1b65e",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/mipc28x6.h": {
+          "blob_sha": "c70dc817bd63774cc7709c838798f91d7c9e48da",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/mipc8x6.h": {
+          "blob_sha": "267e630e696f100f338a1644147a1f06f0f5d1fc",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/ntscpat.h": {
+          "blob_sha": "6d66bb868a04d3c49f90f5ef22dcaab41c9e2958",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/optautopause.h": {
+          "blob_sha": "c92c3ffa5d6641a70f7defbe80cbea58488caf06",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/optfeedback.h": {
+          "blob_sha": "8cd4701950a9d47c83655ddfbba857292bc787f5",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/optgameplay.h": {
+          "blob_sha": "188f0db81dbacbb8a5146e8d496a31eff0ad0823",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/optgraphicadv.h": {
+          "blob_sha": "4d5bcc0f08e08d3c062e403cb676298fa9ff55c4",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/optgraphics.h": {
+          "blob_sha": "b292d212dfcd57622f6c39ece1042d427fad270e",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/optgraphicsadv.h": {
+          "blob_sha": "a4a38a7d26415e872efeb1384c61582854fbbb58",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/optionsmain.h": {
+          "blob_sha": "c4565184ff5a932e3fd30ac58efaef1d71cc7b45",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/optkeyentry.h": {
+          "blob_sha": "d25e2b6032fd7e288198b5ec4f1cc8dafa6c6ac5",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/optkeymapping.h": {
+          "blob_sha": "8262643411a47be2cdd6e39be95bd3b32521734b",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/optmouse.h": {
+          "blob_sha": "00330f1cf4c7685b8eb7b87a8207b73fcc7c5444",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/optresolution.h": {
+          "blob_sha": "8046d49fc696f5737947a00f439c1d372f5f8373",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/optsound.h": {
+          "blob_sha": "943c82a0dbfef430a6184c9843992e0a5cce4dc2",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/optsoundadv.h": {
+          "blob_sha": "822a11017df06acbebbb31de07a80c8fe624004a",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/pause.h": {
+          "blob_sha": "52697a631fef6989fb628f01f1c2c04022d05ce7",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/pazaakgame.h": {
+          "blob_sha": "1315d3c5be04d5a4bbf1a0e61d3831f7ec0d8ed8",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/pazaaksetup.h": {
+          "blob_sha": "b6d7a393b07aed1d428b4841ffaa71c2ef8f7014",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/pazaakwager.h": {
+          "blob_sha": "b36a28a54c6ad9da61051979458bd71502c96f36",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/pwrlvlup.h": {
+          "blob_sha": "5c445dff0e40280ab102a257e56eee8fa33ed00d",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/questitem.h": {
+          "blob_sha": "9381046b681e99d38e6a5075bd61938bd3993a42",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/savename.h": {
+          "blob_sha": "3048dd4b3ee86dacd08b7aeaa28a80a8bf767d15",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/scriptselect.h": {
+          "blob_sha": "525a99a37fdca1bb18260d3dd6ff9dc374c081da",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/skillinfo.h": {
+          "blob_sha": "45a315396a75dcbf13ab6104bd78e34f41e99ef2",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/splashscreen.h": {
+          "blob_sha": "2eeb200687050018d4f8796c65bb5641c3b54dc9",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/startscreen.h": {
+          "blob_sha": "69e2719fb1dab62512bbed72a9ffe8ca3e386e77",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/statussummary.h": {
+          "blob_sha": "0bc3736712f242e177df4eb52c06561af133dbff",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/store.h": {
+          "blob_sha": "fb8df732c30ea55108d7e50fdb37ca84bfb8300e",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/swoopup.h": {
+          "blob_sha": "eeff0e7e5e7f04553ce008b124d323eeb20e720a",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/titlemovie.h": {
+          "blob_sha": "878e65ad1ec56aa5a034728981af8db8bc55afc7",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/titlemusic.h": {
+          "blob_sha": "b8b414d3184bb4ad6888cabe104278031b7e2b17",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/tooltip10x8.h": {
+          "blob_sha": "83b2fcd8a0b09f7276585b92f35b41f08e8b38c3",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/tooltip12x9.h": {
+          "blob_sha": "2a505b5fbd63fc3e0bbd09251859afad2f0ec65d",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/tooltip16x12.h": {
+          "blob_sha": "7878076b8e63ecfb72306c24faf7f199d063d825",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/tooltip6x4.h": {
+          "blob_sha": "928992fc0920004c473aa8e0c1bcf6f3999ef35f",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/tooltip8x6.h": {
+          "blob_sha": "9999b9be6c626a6955f14af0818adc3e0ad43c30",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/upgrade.h": {
+          "blob_sha": "f69cefd4eadc0c4a125fc2ac34e61f703bf46ff1",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/upgradeitems.h": {
+          "blob_sha": "84cd8b97a9b76cf62df3b82c0399fb83fafff856",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/generated/upgradesel.h": {
+          "blob_sha": "8a4f3750ae2c2ff2fa62a87056bef1e43d7d6665",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/hud.h": {
+          "blob_sha": "a3fc726f527326ceb18774a680e77b2a2c25bc20",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/ingame.h": {
+          "blob_sha": "df5de24fe6437b555848102b8ebc270177f31cc0",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/ingame/abilities.h": {
+          "blob_sha": "edd92e8076bfb77ebcb7c059444e64b9478f662b",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/ingame/character.h": {
+          "blob_sha": "28f45002ab7a2f7ae49fdb96475231e613280609",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/ingame/equip.h": {
+          "blob_sha": "8561fcc0e03f40c6d517a5d05b3bd5d033326442",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/ingame/inventory.h": {
+          "blob_sha": "680485394e1997525ba167b7d87e4e0f333b5315",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/ingame/journal.h": {
+          "blob_sha": "d5c0b7f6a3899768a4abb19a7c557f90dcf03a8c",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/ingame/map.h": {
+          "blob_sha": "b0ba9a911efae54c9418ccb4d51354ecea158ac9",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/ingame/messages.h": {
+          "blob_sha": "717784181bee64986ad967f74d8fd7117bca1393",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/ingame/options.h": {
+          "blob_sha": "130ca511f0e2890bc8015a4931f44f5e1664ee91",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/loadscreen.h": {
+          "blob_sha": "03b17bfcf1d7e113c0d25f27a3ef9b96b16de50f",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/mainmenu.h": {
+          "blob_sha": "3fbe499b6c92fa2b4608bb9a90932f76d0e46ac6",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/map.h": {
+          "blob_sha": "293e984345f29ba9bf19b3c77b1f78c26a20412c",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/partyselect.h": {
+          "blob_sha": "fa69f3da00e831c2725a402d60660ee37f507c07",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/saveload.h": {
+          "blob_sha": "edc906f61e4734156374a15f38af64baedc353e0",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/selectoverlay.h": {
+          "blob_sha": "75d788d77e1ff84ef2c853785cc951994126516e",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/gui/sounds.h": {
+          "blob_sha": "ad3570781c10b1b62142650017330bf06629d8b9",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/location.h": {
+          "blob_sha": "9aed358585245d3bd464493670d4ab8758043725",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/object.h": {
+          "blob_sha": "d90d83776a673a47963b8707fca3d72f3b3453f4",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/object/area.h": {
+          "blob_sha": "50a29c77803397b276f4305595e558d12be6555f",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/object/camera.h": {
+          "blob_sha": "3afc5bd1187017d885d5a08ced1e05f5c40251d9",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/object/camera/animated.h": {
+          "blob_sha": "6ff3107bc882e89887976fd4b49ae243ce22a3f5",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/object/camera/dialog.h": {
+          "blob_sha": "3d668444e6d0f4c1c7b98a152554f0f2d6f3b3b2",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/object/camera/firstperson.h": {
+          "blob_sha": "ba0ee59d1102493246a90608215fb58ca8f13687",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/object/camera/static.h": {
+          "blob_sha": "98cbc6d79b4bceb465e401ffb90fabc738f06095",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/object/camera/thirdperson.h": {
+          "blob_sha": "32221387147788ead2161082311126ec028bd96e",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/object/creature.h": {
+          "blob_sha": "63a39e6d3d05d648c289559617727b57cecc16be",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/object/door.h": {
+          "blob_sha": "f2b56fa3ad4c772fd8cfc1fe915eee438d06d3df",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/object/encounter.h": {
+          "blob_sha": "d683cf409c56b4a5a8f995d588657c321eed74d6",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/object/item.h": {
+          "blob_sha": "249c230926d6128bc0f6832bda2254240470ebbd",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/object/module.h": {
+          "blob_sha": "c338014a7e8d6a9ac163b1a4d732822aef842221",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/object/placeable.h": {
+          "blob_sha": "722049cdae74357a5766468edf771f166442b940",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/object/sound.h": {
+          "blob_sha": "3cacb9f3eb68b136d307b670d7ecfce90f1b77f8",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/object/store.h": {
+          "blob_sha": "243db08b24ad1b838efc64fa25dd659832774f83",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/object/trigger.h": {
+          "blob_sha": "03682dd78c24bd30e3f268bd2a88d0e90c9cf832",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/object/waypoint.h": {
+          "blob_sha": "5bd9e42b0b15e0f16eb4693b59ea3f4b887d437c",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/options.h": {
+          "blob_sha": "f47caa4f5a22e4f3376e8c009f7e894a36e06bcc",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/party.h": {
+          "blob_sha": "6d07fd38bb06f4b9f7db6211380a8ace41e5abdc",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/pathfinder.h": {
+          "blob_sha": "779279a5b20b4a58e633cee8ec88011901323df3",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/player.h": {
+          "blob_sha": "b01a609b14be7dc9f07bde0d0bd8008a2daf58b7",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/portrait.h": {
+          "blob_sha": "f2d9977dfa11fed1a6a652a295a06dca5f1d36c0",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/portraits.h": {
+          "blob_sha": "2a3cb1623611d00d454fe05e2c1c03e290a41f60",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/profiler.h": {
+          "blob_sha": "85133304e38b22ead50d37eb6047f9e05c963c7e",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/reputes.h": {
+          "blob_sha": "e9e590af9d5b4e51b1e390ebb630f2b19e54679b",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/room.h": {
+          "blob_sha": "3407a3f7aa091e7d3847d6d19dcc53bbdeacedde",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/savedgame.h": {
+          "blob_sha": "679ed22650d6d3e4b45df6d2cf00eabbf4fd687c",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/script/routine/argutil.h": {
+          "blob_sha": "a0ff6ea0ac03c8fd934b5d087b5123aa056dd74d",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/script/routine/context.h": {
+          "blob_sha": "955c76e6d802e82996220003eaf09622e4883d71",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/script/routine/objectutil.h": {
+          "blob_sha": "9b2d8292d5e51e939d74665dc6b693f75060e995",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/script/routines.h": {
+          "blob_sha": "1b73bafe47d1570096a9fd9e9fe280d6a56f5785",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/script/runner.h": {
+          "blob_sha": "be894e76cc53fb34ac62604bb61e166dfc50ff6d",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/surface.h": {
+          "blob_sha": "b26db370d09e848e53c90e66090e37b11907a00a",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/surfaces.h": {
+          "blob_sha": "41dea49bc2f34b6d89562c5f481c18f5f9b11dc5",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/talent.h": {
+          "blob_sha": "41c244c2619086e7026471b3fa4061e3327296a6",
+          "encoding": "utf-8"
+        },
+        "include/reone/game/types.h": {
+          "blob_sha": "0659a4d3bf4459d6c06eb2290cbadf70ec604d52",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/CMakeLists.txt": {
+          "blob_sha": "b9ebfa9bf83bfb3e971b94781a9e400bcbd89fe2",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action.cpp": {
+          "blob_sha": "f8147f431b59a99b55fc85082fc953fd55144e60",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/attackobject.cpp": {
+          "blob_sha": "92b660337a60028c125d4339a820d2aa06c6f4e2",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/barkstring.cpp": {
+          "blob_sha": "99a8ae737608fda12bdc4cf3aa5efd43b1ea0f45",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/castfakespellatlocation.cpp": {
+          "blob_sha": "0a54b6276358703886d474194c5e312cdfab1231",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/castfakespellatobject.cpp": {
+          "blob_sha": "dbf0865a7198053f7ea6aac7139f935ae0388814",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/castspellatobject.cpp": {
+          "blob_sha": "1d9818542317985b807e333a91df80e04ae8d054",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/closedoor.cpp": {
+          "blob_sha": "5ab1dda46324c62863141d76d26e34ce3a0e69bc",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/docommand.cpp": {
+          "blob_sha": "4683652c440bcd5f432367ef8f9adc22c31a22fe",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/equipitem.cpp": {
+          "blob_sha": "257454e6dddd41abaa2fded2487edf12985d064c",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/equipmostdamagingmelee.cpp": {
+          "blob_sha": "657ca140d14d8c9c90db14b02a04b127ab74222f",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/equipmostdamagingranged.cpp": {
+          "blob_sha": "2cacf5298626e49ca412659698ce998faa67bc0c",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/follow.cpp": {
+          "blob_sha": "285c89262f4e8450beecc14498f8c41d2fd4086b",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/followleader.cpp": {
+          "blob_sha": "d3cad175c07c8b5b8fafbecc5db9d208036c6ef4",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/followowner.cpp": {
+          "blob_sha": "520ed3626d9e59bc7fdffe448f137d8f645225ef",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/giveitem.cpp": {
+          "blob_sha": "1642aa8ad6273be20ef6029258bc6ee0e3fc1d56",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/interactobject.cpp": {
+          "blob_sha": "800842c7358fd55b5b514b33c0482a783deec537",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/jumptolocation.cpp": {
+          "blob_sha": "a49700d6d22a08fab91d986e08d9d55480adc505",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/jumptoobject.cpp": {
+          "blob_sha": "67250f33e785aae6b49c7dc8fcb15239d1d259f3",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/lockobject.cpp": {
+          "blob_sha": "f086feda34ec962a22c78b5bc69907a63541fc3a",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/moveawayfromobject.cpp": {
+          "blob_sha": "ddf2b2a98f426ebea0b1892d3b646552df2ee500",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/movetolocation.cpp": {
+          "blob_sha": "8aa41a0981accf30d2bab71f5fd2d62ad2cadc01",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/movetoobject.cpp": {
+          "blob_sha": "eece228556c09f917a3670b64e33d861bd8eed06",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/movetopoint.cpp": {
+          "blob_sha": "50a00c66d9d8d5038e7c672b0d299c097817d50f",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/opencontainer.cpp": {
+          "blob_sha": "36084846613666a38dcf7a11c9c00acffb82dee0",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/opendoor.cpp": {
+          "blob_sha": "d6d14ebd8b30f5190e4d5318c9311bbd39b5642f",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/openlock.cpp": {
+          "blob_sha": "76739044bb193e5ae19766510cbd11bcfa7383dd",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/pauseconversation.cpp": {
+          "blob_sha": "0506fdb04161907caab18a3e03989468c251f42a",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/playanimation.cpp": {
+          "blob_sha": "f34b7bda856a21089a8f2ee09a705a96b8677b38",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/randomwalk.cpp": {
+          "blob_sha": "3fb1093954bdf426e65c600b6ab8199ea1f9d631",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/resumeconversation.cpp": {
+          "blob_sha": "7b434980260c2a8e79e86b7d691639809cdfb359",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/startconversation.cpp": {
+          "blob_sha": "04cf7263cf7a27e989cde49bc22c20d2227e6cfe",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/surrendertoenemies.cpp": {
+          "blob_sha": "16850b2697dc92c172b68ae2c4868d1690ba20bb",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/switchweapons.cpp": {
+          "blob_sha": "158e5a5885b701cccf2d3ba915b6449bc64173bb",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/takeitem.cpp": {
+          "blob_sha": "6bda711cf87e62b5cee494ac8ee1504e90e5bcf3",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/unequipitem.cpp": {
+          "blob_sha": "4103a019805a8a0d8d8d3b5dd136bee56f7ffeed",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/unlockobject.cpp": {
+          "blob_sha": "23a74b09d300c39b52e685b1aec57f9d96b90f30",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/usefeat.cpp": {
+          "blob_sha": "25c4706af1128d794608aba60680eeb7f012aebc",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/useskill.cpp": {
+          "blob_sha": "b157286b43bfef9188e5617658e85155313e2507",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/usetalentonobject.cpp": {
+          "blob_sha": "13d3995719666411cb40867e3309b9e78984582f",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/action/wait.cpp": {
+          "blob_sha": "fcd8feb4ba5a169f2807cb6eabdf3aed62fbff35",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/animationutil.cpp": {
+          "blob_sha": "2583787a6edabeb2b95e80eed0cdd4a9b2f46f16",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/camerastyles.cpp": {
+          "blob_sha": "4a4786b69b65b3a74d82f066bd85c93150180834",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/combat.cpp": {
+          "blob_sha": "809c2995c5ef8e2995a58f77b34198b9c563c76a",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/d20/attributes.cpp": {
+          "blob_sha": "061323566bff05fd2a75859c940af659d33a61d9",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/d20/class.cpp": {
+          "blob_sha": "a82f250e815d2bc57e7e452f05930eb5c9f27f8d",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/d20/classes.cpp": {
+          "blob_sha": "d2825c2b1d7f5f01091aac78c21edf4502adf26f",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/d20/feats.cpp": {
+          "blob_sha": "43a6f2be17d01ebf100a54e29efb76a500d02fee",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/d20/skills.cpp": {
+          "blob_sha": "645a5bcfb2c5f39fe8f92194d19743b29fa2ae55",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/d20/spells.cpp": {
+          "blob_sha": "a6aa24cb6f27e44e17891b905e8a634ae201e0e9",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/debug.cpp": {
+          "blob_sha": "a5f8681303c9572c58416f1ce3f433a64b747c66",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/di/module.cpp": {
+          "blob_sha": "db4fd584e153ae8a2442c38154bab421d47657e1",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect.cpp": {
+          "blob_sha": "6d17770cc4ffd70ee23286ad8ebf75549049cce0",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/abilitydecrease.cpp": {
+          "blob_sha": "ee620239f01fe03c00e8bc2eebfe08cde5bbcffe",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/abilityincrease.cpp": {
+          "blob_sha": "eb27e496e50ea05f8c95db947b441033ab4d090c",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/acdecrease.cpp": {
+          "blob_sha": "ff30bf8cd6f692ca36bf1b4c36ace6218686deb9",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/acincrease.cpp": {
+          "blob_sha": "396661ae81657d508d3cfa2862eaed398cdc7460",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/assuredhit.cpp": {
+          "blob_sha": "071ad9c75e00f02290711a7ad9aa0ecdd1d737a5",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/attackdecrease.cpp": {
+          "blob_sha": "3b1af183303a3d8db74c468281a798dacf4c9b84",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/attackincrease.cpp": {
+          "blob_sha": "e4647abb6cd16b1d38b6ab37466ebbe8d6e72aaf",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/beam.cpp": {
+          "blob_sha": "fb5792108a0fe000c9f79bb7d2c3d9777799c763",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/blasterdeflectionincrease.cpp": {
+          "blob_sha": "1487f9269e8b7fc4ae6d0fbe2761ceed21e5ff4c",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/blind.cpp": {
+          "blob_sha": "2b881edcd1ea968e85266aeb35f22bc5eb14a750",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/bodyfuel.cpp": {
+          "blob_sha": "f4fadff08b1661e2cfbad30ad7851b284fa5052f",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/choke.cpp": {
+          "blob_sha": "016f54948977356ff505d7160ba3ff3744776f1c",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/crush.cpp": {
+          "blob_sha": "31931738203ab18c5026207de0d809db78da1507",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/cutscenehorrified.cpp": {
+          "blob_sha": "f0b372262fe1b4dd001322e295df6c8903b897bc",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/cutsceneparalyze.cpp": {
+          "blob_sha": "c56e110e64cff848fd179d3b4d035475f09e4cba",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/cutscenestunned.cpp": {
+          "blob_sha": "c1d547b417a71220201bb499d934c7b011fbe59f",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/damage.cpp": {
+          "blob_sha": "cc83181e11f2ab81267e439f308f3bf489c3a970",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/damagedecrease.cpp": {
+          "blob_sha": "5a30f32b343408fa0624cbedf06c544b8b8215fd",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/damageforcepoints.cpp": {
+          "blob_sha": "b0f4f8bf00370f85e76646d3b8034741c850b3ac",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/damageimmunityincrease.cpp": {
+          "blob_sha": "e33a623ecb06f2dc82232cdca7c449839e5231a4",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/damageincrease.cpp": {
+          "blob_sha": "534c7e0a31abb101e265712b6c9c3cd438692acb",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/damageresistance.cpp": {
+          "blob_sha": "3e4380a032e4c5aa2e23055ac4af95a92e02dc95",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/death.cpp": {
+          "blob_sha": "5e4693c229f513d4a8ab0a74e72e837668add91f",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/disguise.cpp": {
+          "blob_sha": "479e5bb7ffcdecccd97c3784c61413997280b91f",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/droidscramble.cpp": {
+          "blob_sha": "74e12fd0b376ba9730a66f9c058e9250c58dfd1a",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/droidstun.cpp": {
+          "blob_sha": "f36d90a403430b34af8e4d95a831ddd0c227981a",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/entangle.cpp": {
+          "blob_sha": "450d968f221ef556e9f6e4b60c7a4069cc138903",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/factionmodifier.cpp": {
+          "blob_sha": "9be315b1ef2c4d6ae5506429f366f45a5c4e5a81",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/forcebody.cpp": {
+          "blob_sha": "fe3119603d95e849858dce9d56138e16b8426703",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/forcefizzle.cpp": {
+          "blob_sha": "e612455b6cd87001bfbedf2dcab2c74079f25c3d",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/forcepushed.cpp": {
+          "blob_sha": "5c89d670e0de151fd927c0b812f9d1f36fd23ad6",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/forcepushtargeted.cpp": {
+          "blob_sha": "e9c46671d0548b028a6072539f9e93d935fc7ab5",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/forceresistanceincrease.cpp": {
+          "blob_sha": "dbb2f20676c938f40afa5201db3af658373fc1ed",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/forceresisted.cpp": {
+          "blob_sha": "626b2a6383e756a9b7edfb369ce376d902dd68c8",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/forceshield.cpp": {
+          "blob_sha": "aa5ba0f004a5e26d17f9776214a2375a795554ac",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/forcesight.cpp": {
+          "blob_sha": "1072796fe17c6f13f7400136aa62c67390f70107",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/fury.cpp": {
+          "blob_sha": "c0c2506f07057bbec659763c32cb04d8c8afb142",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/heal.cpp": {
+          "blob_sha": "564366ff8baa5d4fab46a9bcec16577ef2591dbb",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/healforcepoints.cpp": {
+          "blob_sha": "68a49b79fc9855496b475d21b91181fb9cbdd22e",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/horrified.cpp": {
+          "blob_sha": "a1ee155739126b80bf212017117208557a2ff0af",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/immunity.cpp": {
+          "blob_sha": "6ba79538636ebdfb29d2d10ebba9f0a8648d637f",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/invisibility.cpp": {
+          "blob_sha": "aa997ae4bd937be8e1266ccf4bee8bc2d7758d79",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/lightsaberthrow.cpp": {
+          "blob_sha": "66c9c12326abc1b8c7d0938a721d9b0bfc2d8205",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/linkeffects.cpp": {
+          "blob_sha": "02d3c20bcd556748d4ea19a05a7dfab80e39dff0",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/mindtrick.cpp": {
+          "blob_sha": "123457d0ef92f6c5df7c3f7231c2f44ff390c6bd",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/modifyattacks.cpp": {
+          "blob_sha": "d2b8d9d4162481af0aa99f15ce89a166f54408df",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/movementspeeddecrease.cpp": {
+          "blob_sha": "4e12c7002e07926e16598222b99a8201d6228fe2",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/movementspeedincrease.cpp": {
+          "blob_sha": "88c658b95aae8c13e04937bd9a0a50a920d24e03",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/paralyze.cpp": {
+          "blob_sha": "a8ef03194b36cd6949ffa236ab9a4be0d68ad926",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/poison.cpp": {
+          "blob_sha": "ff7d50bf3928e3d1b39f0a315f7c39d2c7143fd0",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/psychicstatic.cpp": {
+          "blob_sha": "7ebadb42b20782926747d63b47ccdafeb8b64b9f",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/regenerate.cpp": {
+          "blob_sha": "657e54542166cd21cfb6d17bd02e4715f88bd7ab",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/resurrection.cpp": {
+          "blob_sha": "7846f13d13c49c3a7aaca113ae37674e77bb4107",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/savingthrowdecrease.cpp": {
+          "blob_sha": "f149d5d7d18095a6eafa53662175a99a68c6cc61",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/savingthrowincrease.cpp": {
+          "blob_sha": "ad92f5f35023f79fb8273eadf1a7a7520faa377c",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/skillincrease.cpp": {
+          "blob_sha": "7073c0d7d3ca81ea4c61898ace41aa5be937596f",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/sleep.cpp": {
+          "blob_sha": "61751e7fefcb9857dcbf18668cc4fb34dc448010",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/stunned.cpp": {
+          "blob_sha": "a17b9233ee98ae88441c955de0a80d9b2d6da169",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/temporaryforcepoints.cpp": {
+          "blob_sha": "74b8cff1b693409306e4b7049f3caa221c216d97",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/temporaryhitpoints.cpp": {
+          "blob_sha": "2925ddbf591d22494e2958e88ade8097a6ef9d14",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/trueseeing.cpp": {
+          "blob_sha": "951efb2353d90807627a857858c1d45ffea88349",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/visual.cpp": {
+          "blob_sha": "76f216e085b99a1b50a929d4b835b2d64c725a80",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/vpregenmodifier.cpp": {
+          "blob_sha": "e0027a3cbd7f8a78686d4d928ca479ca4801c5dd",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/effect/whirlwind.cpp": {
+          "blob_sha": "3a08ca0e123f1a102e313108f0db13a32631ef9d",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/footstepsounds.cpp": {
+          "blob_sha": "e47b0180cdf5e6ab0be27326b7a9090c7f4e98a0",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/game.cpp": {
+          "blob_sha": "a6abbaa1d2c376a8059bf2aca722bf84b6e4371f",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui.cpp": {
+          "blob_sha": "7b7d214f71f91cc9e7d73317810498d51db99d00",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/barkbubble.cpp": {
+          "blob_sha": "9ac29307d6c06afb04d1c3d467cfedd391cd0c8f",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/chargen.cpp": {
+          "blob_sha": "6781d1cd6c1b9f7dfdd6177ccfb5109295b70743",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/chargen/abilities.cpp": {
+          "blob_sha": "96497244e90467baa934d23317ca31b1aba380f6",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/chargen/classselect.cpp": {
+          "blob_sha": "d33748ed3a9e24cb3c92d27bc40b8c387b350cb8",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/chargen/custom.cpp": {
+          "blob_sha": "41b60270c08da1af2c7078f313b9ce9531f90148",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/chargen/feats.cpp": {
+          "blob_sha": "0215f68f5d6f6de1c6c50e78765152c0a1d29af7",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/chargen/levelup.cpp": {
+          "blob_sha": "8fb391b0617e7e8091c93c8302b90b3e8d23960f",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/chargen/nameentry.cpp": {
+          "blob_sha": "663b1de9ce110fb0b28620704777abbf4e2ba5c3",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/chargen/portraitselect.cpp": {
+          "blob_sha": "483371e5298558610186e14df79f4a70db0588d1",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/chargen/quick.cpp": {
+          "blob_sha": "e6b96717e75640c9aa6206311061e64021082739",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/chargen/quickorcustom.cpp": {
+          "blob_sha": "0e5224aef05b52dac07767bf87b9e6c4568ee991",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/chargen/skills.cpp": {
+          "blob_sha": "2a04e0bd31e5c886f8d29e68c1e891d0ae3717f8",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/computer.cpp": {
+          "blob_sha": "60c0d9f66f2c621671a766ad1eff26a1feaaa09b",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/container.cpp": {
+          "blob_sha": "d427248095fc5977a87bbc72c9f8e34f1823cd75",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/conversation.cpp": {
+          "blob_sha": "cd50ffbe2b9fbb6b9c47a7e730af3b8a0086c006",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/dialog.cpp": {
+          "blob_sha": "a9566ba81ab54aac8d7817198af328dc29be1dff",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/hud.cpp": {
+          "blob_sha": "58a95721aa0ef2bf2dca41bfa0f894655e7af2f5",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/ingame.cpp": {
+          "blob_sha": "e9043314c8c904a7a82eea8a47a1be81bee0964d",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/ingame/abilities.cpp": {
+          "blob_sha": "5ea773ea40a0f02b0ed3eab30e01f4eac8b0cda3",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/ingame/character.cpp": {
+          "blob_sha": "716e5baf9903a376b56c54f241da72a1b5466a7a",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/ingame/equip.cpp": {
+          "blob_sha": "a8fb9940ef9c4acce8f9c7efcc24160d1734e0d3",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/ingame/inventory.cpp": {
+          "blob_sha": "f3dd724fc4eb260b0121be213f23283f3ebc89b5",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/ingame/journal.cpp": {
+          "blob_sha": "807eb5db7880cf77ed88e9df40e8eb8b78dd33b9",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/ingame/map.cpp": {
+          "blob_sha": "6a0598fac290b203032c4d3f377fd5bfc01f553e",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/ingame/messages.cpp": {
+          "blob_sha": "b956ab64b43b91641167aeebe82695cc32d18de0",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/ingame/options.cpp": {
+          "blob_sha": "3bb114553bf76d6e0b303887f9e1f655307a862c",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/loadscreen.cpp": {
+          "blob_sha": "0c66212483383dce56e3d476c6578e9174bdaf05",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/mainmenu.cpp": {
+          "blob_sha": "80364a325eb578fd7445fa06de13021bd91cd953",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/map.cpp": {
+          "blob_sha": "4eb042342157682964c0e0c3ba68c07b9a314686",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/partyselect.cpp": {
+          "blob_sha": "7eaee27d361e024edf661e0f0d8ed6bdf1102c44",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/saveload.cpp": {
+          "blob_sha": "ac7aeb81fa143a49af791982e20fbeaa0634b05e",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/selectoverlay.cpp": {
+          "blob_sha": "62901f9a12aa99c9624b7bf72a66d036dc733c7f",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/gui/sounds.cpp": {
+          "blob_sha": "34674b25b281dcd2a6959dcba52c189797aaa17f",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/object.cpp": {
+          "blob_sha": "1116f6d5a7f670b37b74f5e56d5ce36944b16016",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/object/area.cpp": {
+          "blob_sha": "6c593831e9e6e82b136bd2374a4819ccb62c5c28",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/object/camera/animated.cpp": {
+          "blob_sha": "ec4dcfbe3ba90fa528ad336dcf737e3fe7d67776",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/object/camera/dialog.cpp": {
+          "blob_sha": "fea3d0a961413d8015fd3d086e81ad9cebb2e0a9",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/object/camera/firstperson.cpp": {
+          "blob_sha": "39af5d12f6c977b74fb4fd8be8cb8fdda5edfee7",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/object/camera/static.cpp": {
+          "blob_sha": "d2cc9c1bfa3346d5452d3a3dc2a8d01f66217e5b",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/object/camera/thirdperson.cpp": {
+          "blob_sha": "c3a2c759b02ac9efa371c2864caca7f3ed4880be",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/object/creature.cpp": {
+          "blob_sha": "932dc3961502bbe68ea722f37a66ece0270b650b",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/object/door.cpp": {
+          "blob_sha": "a08f58be13fa691249091f47a3c0d85c3155df29",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/object/encounter.cpp": {
+          "blob_sha": "b3e52882a9fbad6348e262215c8093198f3d0ac3",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/object/item.cpp": {
+          "blob_sha": "9c98543a39f137b22a797c2ab03c85f757d8b8fd",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/object/module.cpp": {
+          "blob_sha": "814ae28ec14e4b99312690c4a7540d7eb323f587",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/object/placeable.cpp": {
+          "blob_sha": "3c0942b87925e9d9a43be53daa56f9144b75168c",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/object/sound.cpp": {
+          "blob_sha": "7975233f1f383ed973564372011001f9b43a25cb",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/object/trigger.cpp": {
+          "blob_sha": "50cbcb7c4667a9414f0dc7592ba289b7fd17e28d",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/object/waypoint.cpp": {
+          "blob_sha": "c750d27f340d31175c246e532c1b7630ee6c0e11",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/party.cpp": {
+          "blob_sha": "568a1a5578bb62dcb819a6ff3d22b52ae78168a0",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/pathfinder.cpp": {
+          "blob_sha": "8cd071d2130e1e516e5c12cf35c2d52b07135461",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/player.cpp": {
+          "blob_sha": "4a37cbc3ece7bbf520a94228bb1f1ebf51b92a50",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/portraits.cpp": {
+          "blob_sha": "c94d62746009dd477985d6afabee3e9dd385b552",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/reputes.cpp": {
+          "blob_sha": "47f46d6a5be87f435d7d58c3c344eff96f0f2ace",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/room.cpp": {
+          "blob_sha": "f63e075d7346123870f22f39cb6bd95aed05651f",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/script/routine/argutil.cpp": {
+          "blob_sha": "0a5a5e4a6e38dfe562a9607223c016ebeed3459c",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/script/routine/impl/action.cpp": {
+          "blob_sha": "ddfe47ee0767bb30ac276369ad22591d66319f5e",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/script/routine/impl/effect.cpp": {
+          "blob_sha": "7a7283fd3557bf92581dc113036b5c8c29a19b4c",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/script/routine/impl/main.cpp": {
+          "blob_sha": "1a86e390e38f3a7c99cf44a52a7a03f3c1fe7802",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/script/routine/impl/minigame.cpp": {
+          "blob_sha": "376a7c2c26747a29ed9b857d7e8aadd9f5823890",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/script/routines.cpp": {
+          "blob_sha": "07a7e6ce7abdfe0a4595cdc9a7f58b8a37b45fc8",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/script/runner.cpp": {
+          "blob_sha": "0333f3c5be7914b40ea72c6eeddc694ca7ae7d24",
+          "encoding": "utf-8"
+        },
+        "src/libs/game/surfaces.cpp": {
+          "blob_sha": "55e7507cd9345f4404c5896a28366330ce6b77a9",
+          "encoding": "utf-8"
+        }
+      }
+    },
+    "OpenKotOR/PyKotor": {
+      "commit": "ca61ce8d53f5442f73c109e8518cd9a838b2f37c",
+      "tree_sha": "ca61ce8d53f5442f73c109e8518cd9a838b2f37c",
+      "complete_prefixes": [
+        "wiki/"
+      ],
+      "additional_paths": [
+        "README.md"
+      ],
+      "license": "LGPL-3.0-or-later",
+      "license_path": "Libraries/PyKotor/LICENSE",
+      "license_blob": "153d416dc8d2d60076698ec3cbfce34d91436a03",
+      "license_copy": "data/licenses/pykotor-LGPL-3.0-or-later.txt",
+      "license_evidence": "Pinned root README explicitly licenses this project LGPL-3.0-or-later, and wiki Home identifies the monorepo under that license. The library LICENSE supplies its text. The incorporated GPL-3.0 text is also distributed in data/licenses/xoreos-GPL-3.0-or-later.txt. Third-party preserved documents and game-derived excerpts have separate held dispositions.",
+      "coverage": "Complete original selected wiki pages and root README at the pinned revision. Every one of the 70 wiki files is selected or explicitly held. Third-party documents and game-derived source excerpts remain held. Linked images, binaries and external references are outside this text selection. Technical assertions are source claims and have not been independently validated.",
+      "documents": {
+        "wiki/2DA-File-Format.md": {
+          "blob_sha": "25f2570cb622a67d4e19ce333924170c1153f453",
+          "encoding": "utf-8"
+        },
+        "wiki/Area-Modding-and-Room-Transitions.md": {
+          "blob_sha": "561218f2dcee5caa2e8a2439bf2437330bfd3131",
+          "encoding": "utf-8"
+        },
+        "wiki/Audio-and-Localization-Formats.md": {
+          "blob_sha": "44a15cc8d708a0404cff51736b26310eea1402b1",
+          "encoding": "utf-8"
+        },
+        "wiki/BWM-File-Format.md": {
+          "blob_sha": "5cccb449e1de47bbc1541dab03df6e1f5b81a062",
+          "encoding": "utf-8"
+        },
+        "wiki/Blender-Integration.md": {
+          "blob_sha": "74bc385273e05b71c8cfee51e2f57c4cfe2932ba",
+          "encoding": "utf-8"
+        },
+        "wiki/Concepts.md": {
+          "blob_sha": "79db72bcbeb0bef29983c710d4ebbaf2f6bcdcda",
+          "encoding": "utf-8"
+        },
+        "wiki/Container-Formats.md": {
+          "blob_sha": "07414d269c0b4c3434a611b157c120b053b61d36",
+          "encoding": "utf-8"
+        },
+        "wiki/Explanations-on-HoloPatcher-Internal-Logic.md": {
+          "blob_sha": "def02d6053c4b1e15a4c723eab54c9e528309e4f",
+          "encoding": "utf-8"
+        },
+        "wiki/GFF-Creature-and-Dialogue.md": {
+          "blob_sha": "262c763f4ff9c01de1fc85ed04e0baa542871fe4",
+          "encoding": "utf-8"
+        },
+        "wiki/GFF-File-Format.md": {
+          "blob_sha": "67cc17811ab24fe4174f67d536373bd3be5aa367",
+          "encoding": "utf-8"
+        },
+        "wiki/GFF-GUI.md": {
+          "blob_sha": "4b0a51a3a40571cc17ee82ddd00794744d97e247",
+          "encoding": "utf-8"
+        },
+        "wiki/GFF-Items-and-Economy.md": {
+          "blob_sha": "65f9074d480040d5dce1328a39e44c1a74199e7b",
+          "encoding": "utf-8"
+        },
+        "wiki/GFF-Module-and-Area.md": {
+          "blob_sha": "476f4bb22733a7011df3e88dce25f6af3a1ba32f",
+          "encoding": "utf-8"
+        },
+        "wiki/GFF-Spatial-Objects.md": {
+          "blob_sha": "0faac00b1c721f32abba669327be4498597da4bf",
+          "encoding": "utf-8"
+        },
+        "wiki/Ghidra-Reversing-Guide.md": {
+          "blob_sha": "baba6b55f4cd2fdc484b22883b7afd5fa81cb9b3",
+          "encoding": "utf-8"
+        },
+        "wiki/HoloPatcher-README-for-mod-developers.md": {
+          "blob_sha": "472ca7f663a174156d65ba24e667731047e87fe8",
+          "encoding": "utf-8"
+        },
+        "wiki/HoloPatcher.md": {
+          "blob_sha": "6398b1401067907ff3e68f6cdbe0bd5eb5074106",
+          "encoding": "utf-8"
+        },
+        "wiki/Holocron-Toolset-Core-Resources.md": {
+          "blob_sha": "e3f5c67e1999021f2f076d1515d463cf72d102b7",
+          "encoding": "utf-8"
+        },
+        "wiki/Holocron-Toolset-Getting-Started.md": {
+          "blob_sha": "d2a991074b941ee7eb89fa1cb08da4a5660a321c",
+          "encoding": "utf-8"
+        },
+        "wiki/Holocron-Toolset-Map-Builder.md": {
+          "blob_sha": "5b34673cb3b2d653fa05c0a3b5faafc85cac8634",
+          "encoding": "utf-8"
+        },
+        "wiki/Holocron-Toolset-Module-Editor.md": {
+          "blob_sha": "9867c09b64fe4eda63ac5b55bbce0c8480cf9652",
+          "encoding": "utf-8"
+        },
+        "wiki/Holocron-Toolset-Module-Resources.md": {
+          "blob_sha": "9d39a95e053da17c60543233810cfe55236ab811",
+          "encoding": "utf-8"
+        },
+        "wiki/Holocron-Toolset-New-Features-Guide.md": {
+          "blob_sha": "dde93f7cbf69b9fe8093f421ac9c42b7bd58771d",
+          "encoding": "utf-8"
+        },
+        "wiki/Holocron-Toolset-Override-Resources.md": {
+          "blob_sha": "b51a7ff1be225848b384086487fdf73247c42467",
+          "encoding": "utf-8"
+        },
+        "wiki/Home.md": {
+          "blob_sha": "cd424edaf8ca02b3d5d2f307c4405f5cd221e82b",
+          "encoding": "utf-8"
+        },
+        "wiki/Indoor-Area-Room-Layout-and-Walkmesh-Guide.md": {
+          "blob_sha": "2d3331049c3a3585d2cfbdffce0b6eec88f3a1a1",
+          "encoding": "utf-8"
+        },
+        "wiki/Indoor-Map-Builder-Implementation-Guide.md": {
+          "blob_sha": "4c0bc876dc462fecf3f8b9f89f75ec60b00d39a2",
+          "encoding": "utf-8"
+        },
+        "wiki/Indoor-Map-Builder-User-Guide.md": {
+          "blob_sha": "049d68f86afb8f3cd008cb9e86ddf7658dee153c",
+          "encoding": "utf-8"
+        },
+        "wiki/Installing-Mods-with-HoloPatcher.md": {
+          "blob_sha": "c14d1b0373ade029b70f3d1f2ae1d2d1a519be29",
+          "encoding": "utf-8"
+        },
+        "wiki/Kit-Structure-Documentation.md": {
+          "blob_sha": "8a6ed20cdc65a61752600ddbc637e139f31f5725",
+          "encoding": "utf-8"
+        },
+        "wiki/KotorDiff-Integration.md": {
+          "blob_sha": "eaafaf5dd9e520c6194469490040fd2229728145",
+          "encoding": "utf-8"
+        },
+        "wiki/LTR-File-Format.md": {
+          "blob_sha": "c6cd92b9ca59cd5027adca72a7ecff873b369b4f",
+          "encoding": "utf-8"
+        },
+        "wiki/Level-Layout-Formats.md": {
+          "blob_sha": "e12b29f5d28de15837d8b7880a15043ddb44280c",
+          "encoding": "utf-8"
+        },
+        "wiki/MDL-MDX-File-Format.md": {
+          "blob_sha": "e92bd658aed2583703b69114a666baaf284c5572",
+          "encoding": "utf-8"
+        },
+        "wiki/Mod-Creation-Best-Practices.md": {
+          "blob_sha": "d46110da90edaf15c1d2a5b2f1dcd0d2c4c07499",
+          "encoding": "utf-8"
+        },
+        "wiki/NCS-File-Format.md": {
+          "blob_sha": "a269ce8993af40055feb87c4f83e6e16301f29ba",
+          "encoding": "utf-8"
+        },
+        "wiki/NWNNSSCOMP-Command-Line-Reference.md": {
+          "blob_sha": "5b54bcf436a1003b2dfefa2246cdeb4fe9cee723",
+          "encoding": "utf-8"
+        },
+        "wiki/Qt-ItemView-Selection-and-RobustTableView.md": {
+          "blob_sha": "98d640f533cdd2f8a67525998dd7091ccce4144b",
+          "encoding": "utf-8"
+        },
+        "wiki/Resource-Formats-and-Resolution.md": {
+          "blob_sha": "c81d5248a6b34ee21a64d4b0233b6ebb55d433fb",
+          "encoding": "utf-8"
+        },
+        "wiki/TSLPatcher-2DAList-Syntax.md": {
+          "blob_sha": "8de3a1b798eaf46cdf24616e3ed89590a917d36a",
+          "encoding": "utf-8"
+        },
+        "wiki/TSLPatcher-Data-Syntax.md": {
+          "blob_sha": "eeae0d3e5685dbf6ccbe6f13d1ca25743e4881d8",
+          "encoding": "utf-8"
+        },
+        "wiki/TSLPatcher-GFF-Syntax.md": {
+          "blob_sha": "19d0d239f77030f0f3eb5df05d521b2fd39f91d3",
+          "encoding": "utf-8"
+        },
+        "wiki/TSLPatcher-GFFList-Syntax.md": {
+          "blob_sha": "b89fff275f109dd6db0e4c2aba0f12c1e3ec04b5",
+          "encoding": "utf-8"
+        },
+        "wiki/TSLPatcher-HACKList-Syntax.md": {
+          "blob_sha": "b89959d757a7b160743d3c8d640c4001be4c8bce",
+          "encoding": "utf-8"
+        },
+        "wiki/TSLPatcher-Install-and-Hack-Syntax.md": {
+          "blob_sha": "4973e07fa4ddb82d1a43a9848777d0ec9dd00569",
+          "encoding": "utf-8"
+        },
+        "wiki/TSLPatcher-InstallList-Syntax.md": {
+          "blob_sha": "3d979952e8e5899f0f0437c9c3c1ba2c8072fac9",
+          "encoding": "utf-8"
+        },
+        "wiki/TSLPatcher-SSFList-Syntax.md": {
+          "blob_sha": "92a5d68756bd7138ccba6a4d889ba6c3748b1b9e",
+          "encoding": "utf-8"
+        },
+        "wiki/TSLPatcher-TLKList-Syntax.md": {
+          "blob_sha": "7dd32556da27ebfce42833397b1506812c65ed86",
+          "encoding": "utf-8"
+        },
+        "wiki/Texture-Formats.md": {
+          "blob_sha": "d2c533071ccaa690b5393687403b3370b87f5f91",
+          "encoding": "utf-8"
+        },
+        "wiki/Tutorial-Area-Transitions.md": {
+          "blob_sha": "cc10aec3436906e7a1f058493a881299563fd992",
+          "encoding": "utf-8"
+        },
+        "wiki/Tutorial-Creating-Custom-Robes.md": {
+          "blob_sha": "831e7d914584c9b5f94904c0f8d708e0f4003321",
+          "encoding": "utf-8"
+        },
+        "wiki/Tutorial-Creating-Static-Cameras.md": {
+          "blob_sha": "322da79ee44dad4072facd817b4138b5845bd92b",
+          "encoding": "utf-8"
+        },
+        "wiki/Tutorial-Creating-a-New-Store.md": {
+          "blob_sha": "79837b0077f648eb56e04b64a4e243f1d3fa8407",
+          "encoding": "utf-8"
+        },
+        "wiki/UTC-Editor-Field-Types-AgentDecompile.md": {
+          "blob_sha": "0953ba259c9388b7aa065c04de9481d2bab76591",
+          "encoding": "utf-8"
+        },
+        "wiki/reverse_engineering_findings_archive_engine_rendering.md": {
+          "blob_sha": "d3c663a860e9f24930df1088789d272ead814f8b",
+          "encoding": "utf-8"
+        },
+        "wiki/reverse_engineering_findings_archive_game_objects.md": {
+          "blob_sha": "b6f8b4feb559d82faf739ec1cd20888c443b6c4e",
+          "encoding": "utf-8"
+        },
+        "wiki/reverse_engineering_findings_archive_resource_formats.md": {
+          "blob_sha": "972ba21e6d038e62bb3b1a43f16ead01d4b7c04c",
+          "encoding": "utf-8"
+        },
+        "wiki/reverse_engineering_findings_archive_toolset.md": {
+          "blob_sha": "5f43501a5eb77b590ed1d1d0744d5da9e916341c",
+          "encoding": "utf-8"
+        },
+        "wiki/reverse_engineering_findings_archive_tslpatcher.md": {
+          "blob_sha": "aa77cba80d44a6cf8f218cd275068241c4324464",
+          "encoding": "utf-8"
+        },
+        "wiki/reverse_engineering_findings_py_kotor_migrated_docstrings.md": {
+          "blob_sha": "03a8842de22b0710c25cfa7fdafa040a28a07e01",
+          "encoding": "utf-8"
+        },
+        "wiki/reverse_engineering_findings_py_kotor_migrated_io_mdl.md": {
+          "blob_sha": "eb5ec199ff7e28bbab53c47d623c858878fc796e",
+          "encoding": "utf-8"
+        },
+        "README.md": {
+          "blob_sha": "53ad78923e7a41b0dec4cf10fa2dea242276e761",
+          "encoding": "utf-8"
+        }
+      },
+      "excluded_documents": {
+        "wiki/Bioware-Aurora-Conversation.md": {
+          "blob_sha": "2d69cb952935f1ef6b42e0ddeebb7a7de0d0d2f7",
+          "reason": "Preserved third-party documentation whose reuse terms require separate review."
+        },
+        "wiki/Bioware-Aurora-Core-Formats.md": {
+          "blob_sha": "2e39ba6200153f9ad61964e4a3bf8f94e1d4e5e0",
+          "reason": "Preserved third-party documentation whose reuse terms require separate review."
+        },
+        "wiki/Bioware-Aurora-Creature.md": {
+          "blob_sha": "2f1e7ba1773cfcc2aade9c91e898c2db8fb6d861",
+          "reason": "Preserved third-party documentation whose reuse terms require separate review."
+        },
+        "wiki/Bioware-Aurora-Items-Economy-and-Narrative.md": {
+          "blob_sha": "4572bedd86ecc4e43500951c6f807783fdd5585f",
+          "reason": "Preserved third-party documentation whose reuse terms require separate review."
+        },
+        "wiki/Bioware-Aurora-Module-and-Area.md": {
+          "blob_sha": "08c85ade2d6a0c7287a502fe855d3e989f400000",
+          "reason": "Preserved third-party documentation whose reuse terms require separate review."
+        },
+        "wiki/Bioware-Aurora-Spatial-and-Interactive.md": {
+          "blob_sha": "47a16eda891489dd5d21b60fac64263664b11399",
+          "reason": "Preserved third-party documentation whose reuse terms require separate review."
+        },
+        "wiki/TSLPatcher's-Official-Readme.md": {
+          "blob_sha": "fd2c8e3340f8f61eed60a469b88301cf8404504a",
+          "reason": "Preserved third-party documentation whose reuse terms require separate review."
+        },
+        "wiki/NSS-File-Format.md": {
+          "blob_sha": "c0285f20c2a40cf4d4d10dc874a5f09678877ab1",
+          "reason": "Contains extensive BioWare-copyright source script material requiring separate review."
+        },
+        "wiki/reverse_engineering_findings.md": {
+          "blob_sha": "4c73c7eee0664f54a5bda09ab846bc1f6d118c81",
+          "reason": "Executable-derived pseudocode and disassembly excerpts require separate source-level review."
+        }
+      }
+    }
+  }
+}

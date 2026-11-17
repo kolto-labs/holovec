@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "scope": "Unmodified source documents acquired for noncommercial research. Document-specific licenses and notices apply. These artifacts are accounted for separately from searchable text layers and vector shards.",
+  "documents": [
+    {
+      "source_inventory_id": "academic-death-language-kreia-2020",
+      "title": "The Death of Language: Listening to the Echoes (of Georges Bataille) in Star Wars: Knights of the Old Republic II—The Sith Lords",
+      "author": "Marcin Hanuszkiewicz",
+      "publication": "Text Matters: A Journal of Literature, Theory and Culture",
+      "issue": "10",
+      "publication_date": "2020-11-24",
+      "printed_pages": "257–273",
+      "doi": "10.18778/2083-2931.10.16",
+      "source_url": "https://czasopisma.uni.lodz.pl/textmatters/article/view/8675",
+      "repository_url": "https://dspace.uni.lodz.pl/xmlui/handle/11089/38746",
+      "download_url": "https://dspace.uni.lodz.pl/xmlui/bitstream/handle/11089/38746/8675-Article_Text-22531-1-10-20201124.pdf?isAllowed=y&sequence=1",
+      "path": "data/originals/academic-death-language-kreia-2020.pdf",
+      "size": 242399,
+      "sha256": "73d7a7645026d785358e748598e72fca3b51c9ffa30bbd9621e2bd80d2f97641",
+      "media_type": "application/pdf",
+      "pages": 17,
+      "license": "CC-BY-NC-ND-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "license_path": "data/licenses/CC-BY-NC-ND-4.0.txt",
+      "license_evidence": {
+        "repository_html_sha256": "940c1cbb3b749d172db417ef346cd59c594902c25278cbea75e2fac7788c997a",
+        "article_html_sha256": "fae398e93e7b57b166e16296bf0d1cf13f5f9c04e5c43242fffd8840e440aa40",
+        "embedded_pdf_notice": "Author copyright and CC-BY-NC-ND 4.0 notice retained on all 17 pages."
+      },
+      "attribution": "Marcin Hanuszkiewicz (2020), Text Matters 10, pp. 257–273, DOI 10.18778/2083-2931.10.16. Copyright by the author; licensee Łódź University – Łódź University Press, Łódź, Poland. University repository PDF reproduced unchanged under CC BY-NC-ND 4.0.",
+      "alterations": "None; original PDF bytes preserved.",
+      "release_purpose": "Noncommercial research and reference access to the original scholarly article.",
+      "representation": "Complete original article PDF with abstract, analysis, quotations, notes and references.",
+      "third_party_material": "The article includes attributed game and literary quotations in their original scholarly context. Its CC license grants only the rights its licensor holds. Separate rights to those underlying works are not asserted.",
+      "text_layer": null,
+      "source_scope": "Scholarly interpretation of Kreia in KOTOR II, including the author’s restored-content game context. It does not establish canonical game text or exhaustive game coverage.",
+      "acquired_on": "2026-11-17",
+      "license_text_sha256": "38762e3777f4ec00a6f769062a7c3f704fb78ce08303ecff88558da4c49cf9ea"
+    },
+    {
+      "source_inventory_id": "statsjedi-kotor-combat-guide",
+      "title": "Star Wars: Knights of the Old Republic Combat Guide",
+      "author": "StatsJedi",
+      "version": "2.0",
+      "publication_date": "2015-09-16",
+      "source_url": "https://faqs.neoseeker.com/Games/PC/star_wars_kotor_combat.pdf",
+      "download_url": "https://faqs.neoseeker.com/Games/PC/star_wars_kotor_combat.pdf",
+      "path": "data/originals/statsjedi-kotor-combat-guide.pdf",
+      "size": 8317849,
+      "sha256": "8e2d67216489b78183dfe03f3bdac5934b91ec839c5c94d25c0ee6b2b830ac03",
+      "pages": 24,
+      "acquired_on": "2026-11-17",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "license_path": "data/licenses/CC-BY-SA-4.0.txt",
+      "license_text_sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+      "license_evidence": {
+        "embedded_pdf_notice_page": 24,
+        "notice": "Creative Commons Attribution-ShareAlike 4.0 International License."
+      },
+      "attribution": "StatsJedi, Star Wars: Knights of the Old Republic Combat Guide, version 2.0, September 16, 2015. Original guide shared unchanged under CC BY-SA 4.0.",
+      "alterations": "None; original PDF bytes preserved.",
+      "release_purpose": "Research and reference access to the complete fan-authored combat guide under CC BY-SA 4.0.",
+      "representation": "Complete 24-page guide, including modeling assumptions, formulas, statistical tables, figures, analysis, conclusions and source notices.",
+      "text_layers": [
+        "data/statsjedi-combat-analysis.jsonl",
+        "data/statsjedi-combat-conclusions.jsonl"
+      ],
+      "third_party_material": "Underlying game and other third-party rights are separate. The author’s statistical analysis and claims are not independently validated.",
+      "source_scope": "Fan analysis of KOTOR combat mechanics for the specified guide version. This does not establish exhaustive mechanics or current-build correctness.",
+      "media_type": "application/pdf"
+    },
+    {
+      "source_inventory_id": "academic-fantastic-strings-2020",
+      "title": "Fantastic Strings and Where to Find Them: The Quest for High-Quality Video Game Text Corpora",
+      "authors": [
+        "Judith van Stegeren",
+        "Mariët Theune"
+      ],
+      "publication": "Intelligent Narrative Technologies Workshop (INT 2020), author-hosted paper",
+      "publication_year": 2020,
+      "source_url": "https://theune.personalweb.utwente.nl/PUBS/vStegeren-Theune-INT2020.pdf",
+      "download_url": "https://theune.personalweb.utwente.nl/PUBS/vStegeren-Theune-INT2020.pdf",
+      "path": "data/originals/academic-fantastic-strings-2020.pdf",
+      "size": 117158,
+      "sha256": "7509fd80843ff237fc083db70baa55611eb38e3dee9807071d6afd72ba6f1992",
+      "media_type": "application/pdf",
+      "pages": 8,
+      "acquired_on": "2026-11-17",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_path": "data/licenses/CC-BY-4.0.txt",
+      "license_text_sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "license_evidence": {
+        "embedded_pdf_notice_page": 1,
+        "notice": "Author copyright for the paper and an explicit Creative Commons Attribution 4.0 International reuse statement."
+      },
+      "attribution": "Judith van Stegeren and Mariët Theune (2020), Fantastic Strings and Where to Find Them: The Quest for High-Quality Video Game Text Corpora. Copyright 2020 by the authors, shared under CC BY 4.0. Original author-hosted PDF.",
+      "alterations": "None; original PDF bytes preserved.",
+      "release_purpose": "Research and reference access to the complete scholarly paper under CC BY 4.0.",
+      "representation": "Complete eight-page research paper, including corpus quality criteria, acquisition methods, KOTOR corpus description, examples and references.",
+      "third_party_material": "Examples retain their scholarly context and attribution. The paper license covers rights held by its authors. Underlying commercial game rights and permissions for the separate game-text datasets remain unresolved.",
+      "text_layers": [],
+      "source_scope": "Research on game-text corpora, including KOTOR I, Torchlight II and The Elder Scrolls. Original KOTOR game narrative coverage remains a separate question."
+    }
+  ]
+}

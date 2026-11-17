@@ -1,0 +1,127 @@
+{
+  "repo": "https://github.com/OpenKotOR/community-bots",
+  "commit": "f679a18bc29ef6e73f25e2b271c1dddc15f3dbb7",
+  "source_file": "packages/retrieval/src/index.ts",
+  "entries": [
+    {
+      "id": "deadlystream",
+      "name": "Deadly Stream",
+      "kind": "website",
+      "homeUrl": "https://deadlystream.com"
+    },
+    {
+      "id": "lucasforums-archive",
+      "name": "LucasForums Archive",
+      "kind": "website",
+      "homeUrl": "https://lucasforumsarchive.org"
+    },
+    {
+      "id": "pcgamingwiki-kotor",
+      "name": "PCGamingWiki",
+      "kind": "website",
+      "homeUrl": "https://www.pcgamingwiki.com"
+    },
+    {
+      "id": "kotor-neocities",
+      "name": "KOTOR Neocities",
+      "kind": "website",
+      "homeUrl": "https://kotor.neocities.org"
+    },
+    {
+      "id": "pykotor-wiki",
+      "name": "PyKotor Wiki",
+      "kind": "website",
+      "homeUrl": "https://github.com/NickHugi/PyKotor/wiki"
+    },
+    {
+      "id": "reone-repo",
+      "name": "reone",
+      "kind": "github",
+      "homeUrl": "https://github.com/reone/reone"
+    },
+    {
+      "id": "northernlights-repo",
+      "name": "Northern Lights",
+      "kind": "github",
+      "homeUrl": "https://github.com/NickHugi/NorthernLights"
+    },
+    {
+      "id": "mdlops-repo",
+      "name": "MDLOps",
+      "kind": "github",
+      "homeUrl": "https://github.com/bead-v/mdlops"
+    },
+    {
+      "id": "pykotor-repo",
+      "name": "PyKotor",
+      "kind": "github",
+      "homeUrl": "https://github.com/NickHugi/PyKotor"
+    },
+    {
+      "id": "kotorjs-repo",
+      "name": "kotor.js",
+      "kind": "github",
+      "homeUrl": "https://github.com/KobaltBlu/KotOR.js"
+    },
+    {
+      "id": "xoreos-repo",
+      "name": "xoreos",
+      "kind": "github",
+      "homeUrl": "https://github.com/xoreos/xoreos"
+    },
+    {
+      "id": "xoreos-tools-repo",
+      "name": "xoreos-tools",
+      "kind": "github",
+      "homeUrl": "https://github.com/xoreos/xoreos-tools"
+    },
+    {
+      "id": "kotorblender-repo",
+      "name": "KotORBlender",
+      "kind": "github",
+      "homeUrl": "https://github.com/ndixUR/kotorblender"
+    },
+    {
+      "id": "kotormax-repo",
+      "name": "KOTORMax",
+      "kind": "github",
+      "homeUrl": "https://github.com/bead-v/kotormax"
+    },
+    {
+      "id": "mdledit-repo",
+      "name": "MDLEdit",
+      "kind": "github",
+      "homeUrl": "https://github.com/bead-v/mdledit"
+    },
+    {
+      "id": "tga2tpc-repo",
+      "name": "TGA2TPC",
+      "kind": "github",
+      "homeUrl": "https://github.com/ndixUR/tga2tpc"
+    },
+    {
+      "id": "wikipedia-kotor",
+      "name": "Wikipedia \u2014 Star Wars KOTOR",
+      "kind": "website",
+      "homeUrl": "https://en.wikipedia.org/wiki/Star_Wars:_Knights_of_the_Old_Republic"
+    },
+    {
+      "id": "strategywiki-kotor",
+      "name": "StrategyWiki KOTOR",
+      "kind": "website",
+      "homeUrl": "https://strategywiki.org/wiki/Star_Wars:_Knights_of_the_Old_Republic"
+    },
+    {
+      "id": "steam-community-guides-kotor",
+      "name": "Steam Community Guides",
+      "kind": "website",
+      "homeUrl": "https://steamcommunity.com"
+    },
+    {
+      "id": "approved-discord-knowledge",
+      "name": "Approved Discord Knowledge",
+      "kind": "discord",
+      "homeUrl": "discord://approved-channels"
+    }
+  ]
+}

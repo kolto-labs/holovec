@@ -1,0 +1,45 @@
+"""Publish source-pinned SWTOR expansion plot subsections, without references.
+
+Input is local-only raw wiki markup. Empty quote templates, images or text
+quotes are required; this structural check is not complete rights clearance.
+"""
+import hashlib,json,re,sys
+from pathlib import Path
+from urllib.parse import quote
+import mwparserfromhell
+PINS={
+ 'Star Wars: The Old Republic: Knights of the Fallen Empire':('15795291','4a2f78f2293d044e146c4b6f9ae77236b3f056dc3bf336baf39c0c3814499295',16,'expansion-knights-of-the-fallen-empire'),
+ 'Star Wars: The Old Republic: Knights of the Eternal Throne':('15697019','7c77875baf60d3754cc979145813050987faabda4523c8c2bdbeadb326713497',6,'expansion-knights-of-the-eternal-throne'),
+ 'Star Wars: The Old Republic: Onslaught':('15738421','56cfc84f3a0483a8ffed57cccee4b8056cd60e6003b4b692b118b0d3295e21da',4,'expansion-onslaught'),
+ 'Star Wars: The Old Republic: Legacy of the Sith':('15753559','c1b2fb1d7c9b7937b717fd9c6e95fede6d3d5736d9b63d96c4836bc8bcdd4428',9,'expansion-legacy-of-the-sith'),
+}
+OUTPUT_PINS={'Star Wars: The Old Republic: Knights of the Eternal Throne — Knights of the Eternal Throne': '79e4bc55b42fb66185d47fe72410a36e57129af0618c34da7155073a206bf252', 'Star Wars: The Old Republic: Knights of the Eternal Throne — The War for Iokath': '46917aa1c542593133bd7e9be5712ecb358221da947f35856b6b8a76dd3565d5', 'Star Wars: The Old Republic: Knights of the Eternal Throne — Crisis on Umbara': 'd9a25d83883b70f39f45390e5a3387d2c57262ece990d1ba7483be4dc7846ef3', 'Star Wars: The Old Republic: Knights of the Eternal Throne — A Traitor Among the Chiss': '6ce938c7da1d416c2217fc9220988fa9c42d43008acccc25307fa3f1c51808d9', 'Star Wars: The Old Republic: Knights of the Eternal Throne — The Nathema Conspiracy': '1116c3773efa8caaab6d145af106487daa1e7f0cdf8fa6b71b95db4e13eeb423', 'Star Wars: The Old Republic: Knights of the Eternal Throne — Jedi Under Siege': '47c2220c5b6024a605a25ade913db0c562cdc0d178384ac3d6521eb9f29c9738', 'Star Wars: The Old Republic: Knights of the Fallen Empire — Chapter I: The Hunt': 'cee6b70f86d92b8e10bd20d8abc53dba03ed6330b07a682b9ad2ddb5482d4bcd', 'Star Wars: The Old Republic: Knights of the Fallen Empire — Chapter II: A Dream of Empire': '37d8555706b310287bcf40c730987a33493e21c39641c407245fe2ee09d0edc4', 'Star Wars: The Old Republic: Knights of the Fallen Empire — Chapter III: Outlander': '072a186b6a95618873fa6b6b9a96c3a49f6222aedd027033d06a87685f935f54', 'Star Wars: The Old Republic: Knights of the Fallen Empire — Chapter IV: The Gravestone': '3f1920ac0a632d5deba18894e1341e72ef1d04844bec2656cff99aceca52abf7', 'Star Wars: The Old Republic: Knights of the Fallen Empire — Chapter V: From The Grave': '5ac35bb74205eead009782cf6047ac46cfdd289ffd2cba03da761b6037b54a05', 'Star Wars: The Old Republic: Knights of the Fallen Empire — Chapter VI: Asylum': '982669e4f727a3b53a34aa954501c7550686674c2737b4d076849376692e31af', 'Star Wars: The Old Republic: Knights of the Fallen Empire — Chapter VII: The Lady of Sorrows': '01fdd3acb7b8c6fb4a1a841ff0118277490df6a9a7992e183f188321d40a2a2a', 'Star Wars: The Old Republic: Knights of the Fallen Empire — Chapter VIII: Taking Flight': 'a40c86583aa5cdd9ce4eb691dfd044d78339727e591d56c90e4046e013c152c0', 'Star Wars: The Old Republic: Knights of the Fallen Empire — Chapter IX: The Alliance': '647a9e5d1eb9641542aca3b6cd96c341689a3a9a8428475c28e1a6d5aa2cb47c', 'Star Wars: The Old Republic: Knights of the Fallen Empire — Chapter X: Anarchy in Paradise': 'c551e472ba6be35a1f67109c8a1677fb676f22412c31ca32300571d5a933126c', 'Star Wars: The Old Republic: Knights of the Fallen Empire — Chapter XI: Disavowed': 'e48e9007415783822e709939cfe9e148c8650f815652ca8dde14d1c231a981bb', 'Star Wars: The Old Republic: Knights of the Fallen Empire — Chapter XII: Visions in the Dark': 'aee05c14fad7bd6f543277703e8bd064f20b0cf7bd351317ff4000707772fc0a', 'Star Wars: The Old Republic: Knights of the Fallen Empire — Chapter XIII: Profit and Plunder': 'c909d60d40ff5e557d6ebbf7b448a3fea48edb1ba7222f67be2c966a2114f99a', "Star Wars: The Old Republic: Knights of the Fallen Empire — Chapter XIV: Mandalore's Revenge": '148895a7e87784657388c1f1b68c36381c958c4109e2d348ee2541e7e6832894', 'Star Wars: The Old Republic: Knights of the Fallen Empire — Chapter XV: The GEMINI Deception': 'd6586b66ba13357973d9026bcac527859fd71da3da8ee6addb21f07b13dce370', 'Star Wars: The Old Republic: Knights of the Fallen Empire — Chapter XVI: The Battle of Odessen': 'd5b50f4a587e473f53687a5e89f3453d2f0402823490b0b324b2c08a1592e533', 'Star Wars: The Old Republic: Legacy of the Sith — Legacy of the Sith': '543519fae99224d769074f6b95666e0bf7c5e32766cbe72c5977a4d578db8ec6', 'Star Wars: The Old Republic: Legacy of the Sith — Digging Deeper': 'b3f594fb75aaf84e3752beed452256212f0b118c90a0606437830525b08abe64', 'Star Wars: The Old Republic: Legacy of the Sith — Showdown on Ruhnuk': '82c99e324a93167de0ea3f2343d4c6d93a4647a1e3053c1d91d0cedbce9192e4', 'Star Wars: The Old Republic: Legacy of the Sith — Old Wounds': 'bb68a741ac32f5419e346478f186f5d35af344ab19dec99a732954115c12cb42', 'Star Wars: The Old Republic: Legacy of the Sith — Chains in the Dark': '15ccbf3268ec1b79696a2c53896da0421156192b3c00a279c28d80f6fe129927', 'Star Wars: The Old Republic: Legacy of the Sith — Desperate Defiance': 'a9a03b1e4a20add0c0cb02e9ca2d49ed5b344beba1df5c6093bae60777a48f70', 'Star Wars: The Old Republic: Legacy of the Sith — Galactic Threads': 'aa909585e9835150cb3654ac721acceae40b6dada017c616723fb1dab6e117a1', "Star Wars: The Old Republic: Legacy of the Sith — Master's Enigma": 'ad76a0132b01736389c494c863c12fe9d0df1bf9ace2677f597bc5eaa79e3456', 'Star Wars: The Old Republic: Legacy of the Sith — Legacy Reborn': '92888321ac8e1c3617f8a4d3eb3f3c70f180a4827200cfbb5da5452bc0a91ada', 'Star Wars: The Old Republic: Onslaught — Onslaught': 'fb62bd236eaf4dad0663f6d1027a0b8539a618a89703e4df26ed9320a46bc7b5', 'Star Wars: The Old Republic: Onslaught — Pinnacles of Power': '7d4ac3a23ba5319aa7da1f4038867424517ef350438708dd0bb275d0231c1a78', 'Star Wars: The Old Republic: Onslaught — Echoes of Vengeance': 'f87a326246363ef5e3312f605939d1f8ed18951e3f57c8b03e284f479319ac76', 'Star Wars: The Old Republic: Onslaught — The Dark Descent': 'ad1160ea18de16d7e31acd1c0140718c47ebc7e693be63427b812227d644ec0a'}
+def sha(s):return hashlib.sha256(s.encode()).hexdigest()
+x=json.loads(Path(sys.argv[1]).read_text());rows=[]
+for title,(rev,rawhash,count,workid) in sorted(PINS.items()):
+ a=x[title];raw=a['raw_section'];code=mwparserfromhell.parse(raw)
+ if a['revision_id']!=rev or sha(raw)!=rawhash or a['raw_wikitext_sha256']!=rawhash or a['reasons'] not in ([],['quotes_or_dialogue']):raise ValueError('Source or screening changed: '+title)
+ if any(str(t.name).strip().casefold() in ('quote','quotation','blockquote','dialogue','speech') for t in code.filter_templates(recursive=True)):raise ValueError('quote template: '+title)
+ if any(str(l.title).strip().casefold().startswith(('file:','image:')) for l in code.filter_wikilinks(recursive=True)):raise ValueError('image markup: '+title)
+ chunks=code.get_sections(include_headings=True,flat=True);articles=[]
+ for chunk in chunks:
+  headings=chunk.filter_headings(recursive=False)
+  if not headings:
+   if str(chunk).strip():raise ValueError('Unexpected lead text: '+title)
+   continue
+  head=str(headings[0].title).strip();rawsection=str(chunk);chunk.remove(headings[0])
+  for tag in list(chunk.filter_tags(recursive=True)):
+   if str(tag.tag).casefold() in ('ref','references','gallery','blockquote','q'):
+    try:chunk.remove(tag,recursive=True)
+    except ValueError:pass
+  for t in list(chunk.filter_templates(recursive=False)):
+   try:chunk.remove(t,recursive=True)
+   except ValueError:pass
+  text=chunk.strip_code(normalize=True,collapse=True).strip()
+  if sha(text)!=OUTPUT_PINS[title+' — '+head] or re.search(r'["“”]',text):raise ValueError('Unexpected quotation or empty text: '+title+' / '+head)
+  url='https://starwars.fandom.com/wiki/'+quote(title.replace(' ','_'),safe=':/()')
+  articles.append({'title':title+' — '+head,'url':url,'source_revision_url':url+'?oldid='+rev,'revision_id':rev,'timestamp':a['timestamp'],'source_archive_sha256':'a624dfda8f09d80faeb3af744e0f601e99eeddd99eec5e465136ba519f306456','section':head,'plot_wikitext_sha256':rawhash,'section_wikitext_sha256':sha(rawsection),'text_sha256':sha(text),'text':text,'inventory_work_id':workid,'evidence_class':'secondary','license':'CC BY-SA 3.0','attribution':'Wookieepedia contributors; see linked article history','continuity':'Legends','extraction':'References and templates removed; no quote templates or image links detected.','coverage':'Partial source summary; missions, branching choices, updates and later developments may be missing.','embedded':False})
+ if len(articles)!=count or len({z['section'] for z in articles})!=count:raise ValueError('Unexpected subsections: '+title)
+ rows.extend(articles)
+Path('data/wookieepedia-swtor-expansion-sections.jsonl').write_text(''.join(json.dumps(r,ensure_ascii=False,sort_keys=True)+'\n' for r in rows))
+print('Published',len(rows),'secondary expansion subsections')

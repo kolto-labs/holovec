@@ -1,0 +1,490 @@
+{
+  "description": "Publisher-listed edition identifiers for selected existing Old Republic and adjacent work leads, including one reference work. Bibliographic metadata only; current publisher selection is not a complete edition or work census, original publication chronology, content license, or narrative representation.",
+  "retrieved_utc": "2026-11-17T18:43:32.298313+00:00",
+  "method": "Publisher JSON-LD mainEntity Book workExample; each page SHA-256 pins retrieved HTML, which is not republished.",
+  "works": [
+    {
+      "source_inventory_id": "old-republic-book-revan",
+      "publisher_work_title": "Revan: Star Wars Legends (The Old Republic)",
+      "publisher_author": "Drew Karpyshyn",
+      "publisher_language": "English",
+      "source_url": "https://www.penguinrandomhouse.com/books/7861/revan-star-wars-legends-the-old-republic/",
+      "resolved_url": "https://www.penguinrandomhouse.com/books/7861/revan-star-wars-legends-the-old-republic-by-drew-karpyshyn/",
+      "source_html_sha256": "3d195a199de3e98570b47d0aa378893f4bfb574f87ad8c25a79af655e7592ce3",
+      "editions": [
+        {
+          "isbn13": "9780593498934",
+          "format": "Paperback",
+          "publication_date": "2022-11-01",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/7861/revan-star-wars-legends-the-old-republic-by-drew-karpyshyn/9780593498934"
+        },
+        {
+          "isbn13": "9780345532824",
+          "format": "Ebook",
+          "publication_date": "2011-11-15",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/7861/revan-star-wars-legends-the-old-republic-by-drew-karpyshyn/9780345532824"
+        },
+        {
+          "isbn13": "9780307967589",
+          "format": "AudiobookFormat",
+          "publication_date": "2011-11-15",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/7861/revan-star-wars-the-old-republic-by-drew-karpyshyn/9780307967589"
+        }
+      ],
+      "work_kind": "novel",
+      "relevance_scope": null,
+      "primary_content": "not acquired",
+      "permission_to_redistribute_primary": "not established"
+    },
+    {
+      "source_inventory_id": "old-republic-book-deceived",
+      "publisher_work_title": "Deceived: Star Wars Legends (The Old Republic)",
+      "publisher_author": "Paul S. Kemp",
+      "publisher_language": "English",
+      "source_url": "https://www.penguinrandomhouse.com/books/7874/deceived-star-wars-legends-the-old-republic/",
+      "resolved_url": "https://www.penguinrandomhouse.com/books/7874/deceived-star-wars-legends-the-old-republic-by-paul-s-kemp/",
+      "source_html_sha256": "659f8b4e8e03075a1a29db3757182e1e975c2d13cb859f2f9e6b70881a83f5a2",
+      "editions": [
+        {
+          "isbn13": "9780593498941",
+          "format": "Paperback",
+          "publication_date": "2022-11-01",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/7874/deceived-star-wars-legends-the-old-republic-by-paul-s-kemp/9780593498941"
+        },
+        {
+          "isbn13": "9780345529886",
+          "format": "Ebook",
+          "publication_date": "2011-03-22",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/7874/deceived-star-wars-legends-the-old-republic-by-paul-s-kemp/9780345529886"
+        },
+        {
+          "isbn13": "9780307879332",
+          "format": "AudiobookFormat",
+          "publication_date": "2011-03-22",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/7874/deceived-star-wars-the-old-republic-by-paul-s-kemp/9780307879332"
+        }
+      ],
+      "work_kind": "novel",
+      "relevance_scope": null,
+      "primary_content": "not acquired",
+      "permission_to_redistribute_primary": "not established"
+    },
+    {
+      "source_inventory_id": "old-republic-book-fatal-alliance",
+      "publisher_work_title": "Fatal Alliance: Star Wars Legends (The Old Republic)",
+      "publisher_author": "Sean Williams",
+      "publisher_language": "English",
+      "source_url": "https://www.penguinrandomhouse.com/books/7860/fatal-alliance-star-wars-legends-the-old-republic/",
+      "resolved_url": "https://www.penguinrandomhouse.com/books/7860/fatal-alliance-star-wars-legends-the-old-republic-by-sean-williams/",
+      "source_html_sha256": "9b902e8f7ddcbc164fd777b562ff411c501033109e4bd73d06fd6d430d360f88",
+      "editions": [
+        {
+          "isbn13": "9780593600597",
+          "format": "Paperback",
+          "publication_date": "2023-08-15",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/7860/fatal-alliance-star-wars-legends-the-old-republic-by-sean-williams/9780593600597"
+        },
+        {
+          "isbn13": "9780307796042",
+          "format": "Ebook",
+          "publication_date": "2011-06-28",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/7860/fatal-alliance-star-wars-legends-the-old-republic-by-sean-williams/9780307796042"
+        },
+        {
+          "isbn13": "9780307736970",
+          "format": "AudiobookFormat",
+          "publication_date": "2010-07-20",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/7860/fatal-alliance-star-wars-the-old-republic-by-sean-williams/9780307736970"
+        }
+      ],
+      "work_kind": "novel",
+      "relevance_scope": null,
+      "primary_content": "not acquired",
+      "permission_to_redistribute_primary": "not established"
+    },
+    {
+      "source_inventory_id": "old-republic-book-annihilation",
+      "publisher_work_title": "Annihilation: Star Wars Legends (The Old Republic)",
+      "publisher_author": "Drew Karpyshyn",
+      "publisher_language": "English",
+      "source_url": "https://www.penguinrandomhouse.com/books/212712/annihilation-star-wars-legends-the-old-republic-by-drew-karpyshyn/paperback/",
+      "resolved_url": "https://www.penguinrandomhouse.com/books/212712/annihilation-star-wars-legends-the-old-republic-by-drew-karpyshyn/paperback/",
+      "source_html_sha256": "481c56f6ea61f675386e87868a204a13609bf97c0bfc3fa932598bde74de63be",
+      "editions": [
+        {
+          "isbn13": "9780593722176",
+          "format": "Paperback",
+          "publication_date": "2023-10-24",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/212712/annihilation-star-wars-legends-the-old-republic-by-drew-karpyshyn/9780593722176"
+        },
+        {
+          "isbn13": "9780345535672",
+          "format": "Ebook",
+          "publication_date": "2012-11-13",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/212712/annihilation-star-wars-legends-the-old-republic-by-drew-karpyshyn/9780345535672"
+        },
+        {
+          "isbn13": "9780449808399",
+          "format": "AudiobookFormat",
+          "publication_date": "2012-11-13",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/212712/annihilation-star-wars-legends-the-old-republic-by-drew-karpyshyn/9780449808399"
+        }
+      ],
+      "work_kind": "novel",
+      "relevance_scope": null,
+      "primary_content": "not acquired",
+      "permission_to_redistribute_primary": "not established"
+    },
+    {
+      "source_inventory_id": "old-republic-book-knight-errant",
+      "publisher_work_title": "Knight Errant: Star Wars Legends",
+      "publisher_author": "John Jackson Miller",
+      "publisher_language": "English",
+      "source_url": "https://www.penguinrandomhouse.com/books/203232/knight-errant-star-wars-legends-by-john-jackson-miller/",
+      "resolved_url": "https://www.penguinrandomhouse.com/books/203232/knight-errant-star-wars-legends-by-john-jackson-miller/",
+      "source_html_sha256": "48a47767970d1c471c88506aad6dc0952ab207013ad92169e5327c3ead20d048",
+      "editions": [
+        {
+          "isbn13": "9780593726051",
+          "format": "Paperback",
+          "publication_date": "2024-02-06",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/203232/knight-errant-star-wars-legends-by-john-jackson-miller/9780593726051"
+        },
+        {
+          "isbn13": "9780307796530",
+          "format": "Ebook",
+          "publication_date": "2011-06-28",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/203232/knight-errant-star-wars-legends-by-john-jackson-miller/9780307796530"
+        }
+      ],
+      "work_kind": "novel",
+      "relevance_scope": null,
+      "primary_content": "not acquired",
+      "permission_to_redistribute_primary": "not established"
+    },
+    {
+      "source_inventory_id": "old-republic-book-lost-tribe-collected-stories",
+      "publisher_work_title": "Lost Tribe of the Sith: Star Wars Legends: The Collected Stories",
+      "publisher_author": "John Jackson Miller",
+      "publisher_language": "English",
+      "source_url": "https://www.penguinrandomhouse.com/books/7867/lost-tribe-of-the-sith-star-wars-legends-the-collected-stories-by-john-jackson-miller/9780345541321/",
+      "resolved_url": "https://www.penguinrandomhouse.com/books/7867/lost-tribe-of-the-sith-star-wars-legends-the-collected-stories-by-john-jackson-miller/9780345541321/",
+      "source_html_sha256": "8b8b3a58aec07d52b58be68b816b78078aafbd134a7a0f2c7dd397344cef43f0",
+      "editions": [
+        {
+          "isbn13": "9780345541321",
+          "format": "Paperback",
+          "publication_date": "2012-07-24",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/7867/lost-tribe-of-the-sith-star-wars-legends-the-collected-stories-by-john-jackson-miller/9780345541321"
+        },
+        {
+          "isbn13": "9780345534811",
+          "format": "Ebook",
+          "publication_date": "2012-07-24",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/7867/lost-tribe-of-the-sith-star-wars-legends-the-collected-stories-by-john-jackson-miller/9780345534811"
+        }
+      ],
+      "work_kind": "story_collection",
+      "relevance_scope": null,
+      "primary_content": "not acquired",
+      "permission_to_redistribute_primary": "not established"
+    },
+    {
+      "source_inventory_id": "old-republic-book-dawn-of-the-jedi-into-the-void",
+      "publisher_work_title": "Into the Void: Star Wars Legends (Dawn of the Jedi)",
+      "publisher_author": "Tim Lebbon",
+      "publisher_language": "English",
+      "source_url": "https://www.penguinrandomhouse.com/books/222802/into-the-void-star-wars-legends-dawn-of-the-jedi-by-tim-lebbon/",
+      "resolved_url": "https://www.penguinrandomhouse.com/books/222802/into-the-void-star-wars-legends-dawn-of-the-jedi-by-tim-lebbon/",
+      "source_html_sha256": "13be68d81b1d9fafdbbf73aa4946d95f4a894c12a6793a5e5686910f790ef578",
+      "editions": [
+        {
+          "isbn13": "9780593599471",
+          "format": "Paperback",
+          "publication_date": "2023-05-23",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/222802/into-the-void-star-wars-legends-dawn-of-the-jedi-by-tim-lebbon/9780593599471"
+        },
+        {
+          "isbn13": "9780345541949",
+          "format": "Ebook",
+          "publication_date": "2013-05-07",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/222802/into-the-void-star-wars-legends-dawn-of-the-jedi-by-tim-lebbon/9780345541949"
+        },
+        {
+          "isbn13": "9780804148160",
+          "format": "AudiobookFormat",
+          "publication_date": "2013-05-07",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/222802/into-the-void-star-wars-legends-dawn-of-the-jedi-by-tim-lebbon/9780804148160"
+        }
+      ],
+      "work_kind": "novel",
+      "relevance_scope": null,
+      "primary_content": "not acquired",
+      "permission_to_redistribute_primary": "not established"
+    },
+    {
+      "source_inventory_id": "old-republic-book-essential-readers-companion",
+      "publisher_work_title": "The Essential Reader's Companion: Star Wars",
+      "publisher_author": "Pablo Hidalgo",
+      "publisher_language": "English",
+      "source_url": "https://www.penguinrandomhouse.com/books/7825/the-essential-readers-companion-star-wars-by-pablo-hidalgo/",
+      "resolved_url": "https://www.penguinrandomhouse.com/books/7825/the-essential-readers-companion-star-wars-by-pablo-hidalgo/",
+      "source_html_sha256": "a695b8d97c06ca662110d751af4de461c67bd0e92116fe67ef33a212fad3d463",
+      "editions": [
+        {
+          "isbn13": "9780345542724",
+          "format": "Ebook",
+          "publication_date": "2012-10-02",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/7825/the-essential-readers-companion-star-wars-by-pablo-hidalgo/9780345542724"
+        }
+      ],
+      "work_kind": "reference",
+      "relevance_scope": null,
+      "primary_content": "not acquired",
+      "permission_to_redistribute_primary": "not established"
+    },
+    {
+      "source_inventory_id": "old-republic-book-red-harvest",
+      "publisher_work_title": "Red Harvest: Star Wars Legends",
+      "publisher_author": "Joe Schreiber",
+      "publisher_language": "English",
+      "source_url": "https://www.penguinrandomhouse.com/books/7865/red-harvest-star-wars-legends-by-joe-schreiber/",
+      "resolved_url": "https://www.penguinrandomhouse.com/books/7865/red-harvest-star-wars-legends-by-joe-schreiber/",
+      "source_html_sha256": "b40e8e819c0aed1c3c67e04f6e185f1675a3350262fdb2cc47b1691533a3f00f",
+      "editions": [
+        {
+          "isbn13": "9780345518590",
+          "format": "Paperback",
+          "publication_date": "2012-02-28",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/7865/red-harvest-star-wars-legends-by-joe-schreiber/9780345518590"
+        },
+        {
+          "isbn13": "9780307796035",
+          "format": "Ebook",
+          "publication_date": "2011-06-28",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/7865/red-harvest-star-wars-legends-by-joe-schreiber/9780307796035"
+        },
+        {
+          "isbn13": "9780307879363",
+          "format": "AudiobookFormat",
+          "publication_date": "2010-12-28",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/7865/red-harvest-star-wars-by-joe-schreiber/9780307879363"
+        }
+      ],
+      "work_kind": "novel",
+      "relevance_scope": null,
+      "primary_content": "not acquired",
+      "permission_to_redistribute_primary": "not established",
+      "secondary_plot": {
+        "dataset": "data/wookieepedia-reviewed-story-plots.jsonl",
+        "url": "https://starwars.fandom.com/wiki/Red_Harvest_(novel)",
+        "revision_id": "15668901",
+        "text_sha256": "46558011de0334b6bd0bcb052838b2f3e79840c14c259bff5e8ae5b3dcc477f8",
+        "scope": "Partial contributor plot; not the novel or proof of edition-specific contents."
+      },
+      "chronology_note": "Secondary timeline places the novel in 3645 BBY; not independently verified against primary work.",
+      "chronology_source": "https://starwars.fandom.com/wiki/Red_Harvest_(novel)"
+    },
+    {
+      "source_inventory_id": "old-republic-book-darth-bane-path-of-destruction",
+      "publisher_work_title": "Path of Destruction",
+      "publisher_author": "Drew Karpyshyn",
+      "publisher_language": "English",
+      "source_url": "https://www.penguinrandomhouse.com/books/89891/path-of-destruction-by-drew-karpyshyn/",
+      "resolved_url": "https://www.penguinrandomhouse.com/books/89891/path-of-destruction-by-drew-karpyshyn/",
+      "source_html_sha256": "bcf3791afa5589e03fdf8297441e2db319ccdf70c423122e2a7181362066bb60",
+      "editions": [
+        {
+          "isbn13": "9780593358771",
+          "format": "Paperback",
+          "publication_date": "2021-06-15",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/89891/path-of-destruction-by-drew-karpyshyn/9780593358771"
+        },
+        {
+          "isbn13": "9780345477378",
+          "format": "Paperback",
+          "publication_date": "2007-06-26",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/89891/path-of-destruction-star-wars-legends-darth-bane-by-drew-karpyshyn/9780345477378"
+        },
+        {
+          "isbn13": "9780307795823",
+          "format": "Ebook",
+          "publication_date": "2011-06-28",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/89891/path-of-destruction-star-wars-legends-darth-bane-by-drew-karpyshyn/9780307795823"
+        },
+        {
+          "isbn13": "9780385361828",
+          "format": "AudiobookFormat",
+          "publication_date": "2012-10-30",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/89891/path-of-destruction-star-wars-legends-darth-bane-by-drew-karpyshyn/9780385361828"
+        }
+      ],
+      "work_kind": "novel",
+      "relevance_scope": "Adjacent Darth Bane era; separate from KOTOR game-era stories.",
+      "primary_content": "not acquired",
+      "permission_to_redistribute_primary": "not established"
+    },
+    {
+      "source_inventory_id": "old-republic-book-darth-bane-rule-of-two",
+      "publisher_work_title": "Rule of Two: Star Wars Legends (Darth Bane)",
+      "publisher_author": "Drew Karpyshyn",
+      "publisher_language": "English",
+      "source_url": "https://www.penguinrandomhouse.com/books/89892/rule-of-two-star-wars-legends-darth-bane-by-drew-karpyshyn/paperback/",
+      "resolved_url": "https://www.penguinrandomhouse.com/books/89892/rule-of-two-star-wars-legends-darth-bane-by-drew-karpyshyn/paperback/",
+      "source_html_sha256": "e42f6a8c6f7cdc5d8188cdcc31b894c14e5c7a9ab33422b8a3a9546afa507308",
+      "editions": [
+        {
+          "isbn13": "9780593358818",
+          "format": "Paperback",
+          "publication_date": "2021-09-07",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/89892/rule-of-two-star-wars-legends-darth-bane-by-drew-karpyshyn/9780593358818"
+        },
+        {
+          "isbn13": "9780307795861",
+          "format": "Ebook",
+          "publication_date": "2011-06-28",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/89892/rule-of-two-star-wars-legends-darth-bane-by-drew-karpyshyn/9780307795861"
+        },
+        {
+          "isbn13": "9780385361842",
+          "format": "AudiobookFormat",
+          "publication_date": "2012-10-30",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/89892/rule-of-two-star-wars-legends-darth-bane-by-drew-karpyshyn/9780385361842"
+        }
+      ],
+      "work_kind": "novel",
+      "relevance_scope": "Adjacent Darth Bane era; separate from KOTOR game-era stories.",
+      "primary_content": "not acquired",
+      "permission_to_redistribute_primary": "not established"
+    },
+    {
+      "source_inventory_id": "old-republic-book-darth-bane-dynasty-of-evil",
+      "publisher_work_title": "Dynasty of Evil: Star Wars Legends (Darth Bane)",
+      "publisher_author": "Drew Karpyshyn",
+      "publisher_language": "English",
+      "source_url": "https://www.penguinrandomhouse.com/books/89893/dynasty-of-evil-star-wars-legends-darth-bane-by-drew-karpyshyn/paperback/",
+      "resolved_url": "https://www.penguinrandomhouse.com/books/89893/dynasty-of-evil-star-wars-legends-darth-bane-by-drew-karpyshyn/paperback/",
+      "source_html_sha256": "d6644ac18591aa4a50e6a0f53ffe7fcf49bb008008fa73348cfc1c0c824c4e2e",
+      "editions": [
+        {
+          "isbn13": "9780593497043",
+          "format": "Paperback",
+          "publication_date": "2022-04-05",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/89893/dynasty-of-evil-star-wars-legends-darth-bane-by-drew-karpyshyn/9780593497043"
+        },
+        {
+          "isbn13": "9780307796066",
+          "format": "Ebook",
+          "publication_date": "2011-06-28",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/89893/dynasty-of-evil-star-wars-legends-darth-bane-by-drew-karpyshyn/9780307796066"
+        },
+        {
+          "isbn13": "9780385361866",
+          "format": "AudiobookFormat",
+          "publication_date": "2012-10-30",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/89893/dynasty-of-evil-star-wars-legends-darth-bane-by-drew-karpyshyn/9780385361866"
+        }
+      ],
+      "work_kind": "novel",
+      "relevance_scope": "Adjacent Darth Bane era; separate from KOTOR game-era stories.",
+      "primary_content": "not acquired",
+      "permission_to_redistribute_primary": "not established"
+    },
+    {
+      "source_inventory_id": "old-republic-book-crosscurrent",
+      "publisher_work_title": "Crosscurrent: Star Wars Legends",
+      "publisher_author": "Paul Kemp",
+      "publisher_language": "English",
+      "source_url": "https://www.penguinrandomhouse.com/books/91407/crosscurrent-star-wars-legends-by-paul-s-kemp/",
+      "resolved_url": "https://www.penguinrandomhouse.com/books/91407/crosscurrent-star-wars-legends-by-paul-s-kemp/",
+      "source_html_sha256": "98ab54b7ee3002e34b5a37fcbe4be30a36af9660782caa36d97a776411ad08b0",
+      "editions": [
+        {
+          "isbn13": "9780345509055",
+          "format": "Paperback",
+          "publication_date": "2010-01-26",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/91407/crosscurrent-star-wars-legends-by-paul-s-kemp/9780345509055"
+        },
+        {
+          "isbn13": "9780307796011",
+          "format": "Ebook",
+          "publication_date": "2011-06-28",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/91407/crosscurrent-star-wars-legends-by-paul-s-kemp/9780307796011"
+        }
+      ],
+      "work_kind": "novel",
+      "relevance_scope": "Cross-era lead involving an ancient Sith vessel reaching the later Galactic Alliance era. Whole-work relevance and chapter mapping require review.",
+      "primary_content": "not acquired",
+      "permission_to_redistribute_primary": "not established"
+    },
+    {
+      "source_inventory_id": "old-republic-book-riptide",
+      "publisher_work_title": "Riptide: Star Wars Legends",
+      "publisher_author": "Paul S. Kemp",
+      "publisher_language": "English",
+      "source_url": "https://www.penguinrandomhouse.com/books/202866/riptide-star-wars-legends-by-paul-s-kemp/9780345522467/",
+      "resolved_url": "https://www.penguinrandomhouse.com/books/202866/riptide-star-wars-legends-by-paul-s-kemp/9780345522467/",
+      "source_html_sha256": "755c899d64bf8a191a4fd935bc5987eeb2fc97b482ceef44d975c0e55144118b",
+      "editions": [
+        {
+          "isbn13": "9780345522467",
+          "format": "Paperback",
+          "publication_date": "2011-10-25",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/202866/riptide-star-wars-legends-by-paul-s-kemp/9780345522467"
+        },
+        {
+          "isbn13": "9780345532817",
+          "format": "Ebook",
+          "publication_date": "2011-10-25",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/202866/riptide-star-wars-legends-by-paul-s-kemp/9780345532817"
+        }
+      ],
+      "work_kind": "novel",
+      "relevance_scope": "Crosscurrent follow-up in the later Galactic Alliance era. Related narrative lead; Old Republic-specific chapter coverage requires review.",
+      "primary_content": "not acquired",
+      "permission_to_redistribute_primary": "not established"
+    },
+    {
+      "source_inventory_id": "old-republic-book-darth-bane-bundle",
+      "publisher_work_title": "Darth Bane: Star Wars Legends 3-Book Bundle",
+      "publisher_author": "Drew Karpyshyn",
+      "publisher_language": "English",
+      "source_url": "https://www.penguinrandomhouse.com/books/223096/darth-bane-star-wars-legends-3-book-bundle-by-drew-karpyshyn/",
+      "resolved_url": "https://www.penguinrandomhouse.com/books/223096/darth-bane-star-wars-legends-3-book-bundle-by-drew-karpyshyn/",
+      "source_html_sha256": "e82d58706324aad2cbfdbf30779d1f817b0ecc70db9675fe9dca8bd576d90fee",
+      "editions": [
+        {
+          "isbn13": "9780345541192",
+          "format": "Ebook",
+          "publication_date": "2012-11-05",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/223096/darth-bane-star-wars-legends-3-book-bundle-by-drew-karpyshyn/9780345541192"
+        }
+      ],
+      "work_kind": "bundle",
+      "relevance_scope": "Collected edition of three separately inventoried Darth Bane novels; adds an edition lead.",
+      "primary_content": "not acquired",
+      "permission_to_redistribute_primary": "not established"
+    },
+    {
+      "source_inventory_id": "old-republic-book-old-republic-bundle",
+      "publisher_work_title": "The Old Republic Series: Star Wars Legends 4-Book Bundle",
+      "publisher_author": "Sean Williams, Paul S. Kemp, Drew Karpyshyn",
+      "publisher_language": "English",
+      "source_url": "https://www.penguinrandomhouse.com/books/537868/the-old-republic-series-star-wars-legends-4-book-bundle-by-sean-williams-paul-s-kemp-drew-karphyshyn/9781101968765/",
+      "resolved_url": "https://www.penguinrandomhouse.com/books/537868/the-old-republic-series-star-wars-legends-4-book-bundle-by-sean-williams-paul-s-kemp-drew-karphyshyn/9781101968765/",
+      "source_html_sha256": "efeafbbbfb966d2cb64f61c4c79a1dc62475b8f1bb49b17446f2a6b9a913deea",
+      "editions": [
+        {
+          "isbn13": "9781101968765",
+          "format": "Ebook",
+          "publication_date": "2016-03-15",
+          "publisher_edition_url": "https://www.penguinrandomhouse.com/books/537868/the-old-republic-series-star-wars-legends-4-book-bundle-by-sean-williams-paul-s-kemp-drew-karphyshyn/9781101968765"
+        }
+      ],
+      "work_kind": "bundle",
+      "relevance_scope": "Collected edition of the four separately inventoried SWTOR tie-in novels; adds an edition lead.",
+      "primary_content": "not acquired",
+      "permission_to_redistribute_primary": "not established"
+    }
+  ]
+}

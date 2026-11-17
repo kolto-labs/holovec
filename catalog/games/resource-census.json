@@ -1,0 +1,5315 @@
+{
+  "schema_version": 1,
+  "kind": "Observed game-resource metadata census",
+  "license": "CC0-1.0 for HoloVec-authored factual index metadata; underlying game resource rights remain separate",
+  "resource_payloads_included": false,
+  "inference_run": false,
+  "resources": {
+    "path": "catalog/games/resources.parquet",
+    "rows": 160362,
+    "sha256": "ea17c9675c5ebf5f7735e58631406ecbfeb3220aab0fe3ea79caba8a428f315b"
+  },
+  "reader_module_sha256": {
+    "pykotor.common": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pykotor.common.geometry": "1599e7eb5a8c69fef4252fc5220a7589482a783c04903c74d38ae9c1d4fa6e3f",
+    "pykotor.common.language": "ab50fe01a2f2f876790d2458b441a24cf3987dfea128cb466778a7b40cb5fc81",
+    "pykotor.common.misc": "0a80526e47a9eb676b7527ec96f60a7b5aa40d8fcce05c719426e3195b267d55",
+    "pykotor.common.stream": "55a92170d341254858d6475b28650eb58035d9c92562147d6374bad7769449b9",
+    "pykotor.extract": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pykotor.extract.capsule": "ea00c1db2544a4cd4e2df3bff017a05e869cb6038896b1d76634a32f7e24e329",
+    "pykotor.extract.chitin": "98a2e60825a947dd516e34741f0fb4d29c0512d5987079492589293527133b5f",
+    "pykotor.extract.file": "b713c4b1f99654b657982443ad11c36f69d3fce62783e4b4b25257069f5dfb1f",
+    "pykotor.extract.talktable": "b33400bd9e07b58d2a8b872bdcbc3614b7b80aeebf3e8b080dd565bf71b26865",
+    "pykotor.resource.formats.erf": "2ade94c0d297fb2d6d9d055521dd70ab700e8e44689c06abc96f8f7b1a51a4cd",
+    "pykotor.resource.formats.erf.erf_auto": "c33ef97cd954b7155dc99a95f58e36a2e2cda14e419f3e4337470100a4605ef7",
+    "pykotor.resource.formats.erf.erf_data": "9dbe93088adf9ac116441d2ca0814a7e9bf9d8d76aff14f6314e32bc82f19d05",
+    "pykotor.resource.formats.erf.io_erf": "b74d7073d6ce5defce0b9228c2bd7b49a09a0731c67cc79485b52ac50281bf77",
+    "pykotor.resource.formats.rim": "852f9deb0928e57536a2ffdc3affbaeb5be358ade8b3e373537ca46e01f59e2f",
+    "pykotor.resource.formats.rim.io_rim": "09906ad310ea81dc43c30e4fcbba052e31b2c84e44452178c4c898be6a02d2a3",
+    "pykotor.resource.formats.rim.rim_auto": "740963cebdaf7e5fb6a3076517f3f6eb8f62f9b2e2b6f2ec665b32b3e127ca96",
+    "pykotor.resource.formats.rim.rim_data": "31ff92ef86cc7200b7e98f75441d4f4c8d53302ab1c5a3a9e64c6334072e3084",
+    "pykotor.resource.formats.tlk": "ffe25538c13e818c0eae19a79909e69f9aa4b511d2c90ce51285c8431e2c8f52",
+    "pykotor.resource.formats.tlk.io_tlk": "28dc627ddd20be0f14cb1cb198592c949fa282ccb2bb3693bfc385c45c58aaf2",
+    "pykotor.resource.formats.tlk.io_tlk_json": "035e04fd412065b28b984579b453a5c31857797574ed2bff00079f7bf143d4d7",
+    "pykotor.resource.formats.tlk.io_tlk_xml": "b586798a5bd11a144e45bb248f080b3acf0694db8daf22300c6a23161847c3bf",
+    "pykotor.resource.formats.tlk.tlk_auto": "e9d219079dd17618ff023b91fd4ab9cabe50b89c7ab0c4aa964d5963637487a9",
+    "pykotor.resource.formats.tlk.tlk_data": "1ee17f5da560d0f585841fd262195515295e95bd92bf5eec5311cae33979dcc8",
+    "pykotor.resource.type": "87cd6300924d0a4a66e2b81690b1fc4711f5da3aa14d2a59be54bdf143d4e1ea",
+    "pykotor.tools": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pykotor.tools.encoding": "60c8d94d70257b0b2922259e2ce4edd7ddd1a948e29b5762bad65063e03281dc",
+    "pykotor.tools.misc": "24633f5b9718fa685e19046ef9380fa1d780eda84b7a0a1a3f553da8955bce0e",
+    "pykotor.tools.path": "a869d6f4719a834165323193301ec042fc9647cf5ba2195bc96bb6847990040f",
+    "utility.error_handling": "ff2e05b9e1dd5c4561703aebf2fb3e3b9a7e3429d79d065a34ef53d5a8c4145d",
+    "utility.logger_util": "570357eae762bf7f36cf69cb06edc4fdbefb2fab33c44ea5c268ef426633943e",
+    "utility.misc": "9fde13d939d59ad1584c449e57158624178ca5b26448de97cdcbc2fa3fb3878d",
+    "utility.string_util": "0babadf7783da0d7c52312f29e51dcb7c403086ff46e5e5f6abb4a4a5d00c4e2",
+    "utility.system": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utility.system.path": "db4422f983bfbeb4edbb56cd414a6244757afe0931804a6ae4f4e5807a4b7254"
+  },
+  "inventory_tool_sha256": "69f3691e28e3af15ecedf892731c20536b0356e540803952a666a05bd56f553f",
+  "container_index_digest_fields": [
+    "source_entry",
+    "resref",
+    "resource_type",
+    "resource_type_id",
+    "offset",
+    "size"
+  ],
+  "installations": [
+    {
+      "game": "k1",
+      "key_sha256": "2029ec1ee3f0e78a951320a7d9e3cfd0c21fc7ad6ec875e5de59a75f1c62df98",
+      "talk_tables": [
+        {
+          "file": "dialog.tlk",
+          "sha256": "85092f38c3d70592c3d58e6494c1d08b8c3bde436df08a06f927e6bcea094212",
+          "entries": 49265,
+          "language": "ENGLISH"
+        }
+      ],
+      "containers": [
+        {
+          "file": "TexturePacks/swpc_tex_gui.erf",
+          "entries": 1571,
+          "file_size": 111598685,
+          "resource_index_sha256": "f88476f1147065f1f568ff7ae27371fc70fd80fbf6b4d27da4524684f9072eb3"
+        },
+        {
+          "file": "TexturePacks/swpc_tex_tpa.erf",
+          "entries": 3294,
+          "file_size": 399642722,
+          "resource_index_sha256": "f639aa2d02c213cd1fa802053ddac69ca446bd7e9aaa4d50a051ddad8eb249a7"
+        },
+        {
+          "file": "TexturePacks/swpc_tex_tpb.erf",
+          "entries": 3294,
+          "file_size": 116034130,
+          "resource_index_sha256": "ad9378bb8ac1f14e57c9d8026a4da85ef00988f40e8b3685965aba1a971b1e1c"
+        },
+        {
+          "file": "TexturePacks/swpc_tex_tpc.erf",
+          "entries": 3294,
+          "file_size": 45132050,
+          "resource_index_sha256": "4990273863e702cbf9c5431b3ff9963d952a2c7f303790f3abaa049013532589"
+        },
+        {
+          "file": "data/2da.bif",
+          "entries": 209,
+          "file_size": 431840,
+          "resource_index_sha256": "3c7a8da3d750a487de6695c4253dfd84ef9b05f4f1700615f20ac318f9dbfc23"
+        },
+        {
+          "file": "data/_newbif.bif",
+          "entries": 1,
+          "file_size": 77337,
+          "resource_index_sha256": "f13384c12693e308ee09eff602b0b27600847b8aabed4d8ef76501dbbe623c99"
+        },
+        {
+          "file": "data/gui.bif",
+          "entries": 84,
+          "file_size": 1621224,
+          "resource_index_sha256": "dc36db8af1c94d4b99fda34b0680b9efe24f2450e571b3a637deac81cb9ec878"
+        },
+        {
+          "file": "data/items.bif",
+          "entries": 610,
+          "file_size": 16362316,
+          "resource_index_sha256": "a00ddea4229c40a811946cd1f67c59639b7a6b2b14459823e7f9d9ae5daa8e7b"
+        },
+        {
+          "file": "data/layouts.bif",
+          "entries": 124,
+          "file_size": 141915,
+          "resource_index_sha256": "2a533bfe3bcc15bc6968ddbd1f3ab6fca05a20fc714615c479180b42152851d6"
+        },
+        {
+          "file": "data/legacy.bif",
+          "entries": 1,
+          "file_size": 196688,
+          "resource_index_sha256": "48020816e0bef15b501daeae7472e355c43804a32da19c0bc95fcca9360fe170"
+        },
+        {
+          "file": "data/lightmaps.bif",
+          "entries": 978,
+          "file_size": 3811348,
+          "resource_index_sha256": "67265c41c2dda7ba86dab926676af25ee284f1ceaacbbe951a51a1b200652707"
+        },
+        {
+          "file": "data/lightmaps10.bif",
+          "entries": 438,
+          "file_size": 4945347,
+          "resource_index_sha256": "b79e4085f9b3757a595136326cdd2331a3f5c597967fe97c0ddfbe2d7e8d930b"
+        },
+        {
+          "file": "data/lightmaps11.bif",
+          "entries": 758,
+          "file_size": 6972364,
+          "resource_index_sha256": "0c612df5fd05817dd3188523c8d9abe15f9396128ba4e8dcba1265050e67d12f"
+        },
+        {
+          "file": "data/lightmaps12.bif",
+          "entries": 351,
+          "file_size": 5192454,
+          "resource_index_sha256": "27131c3fa1279ab967bd2404a8eb9d13c78c3d57abc0bf1608e5a78abc66e782"
+        },
+        {
+          "file": "data/lightmaps13.bif",
+          "entries": 1369,
+          "file_size": 23308504,
+          "resource_index_sha256": "25f6e472502242049830d59fb8a1241897c4932abb1ad9d694b2c9e7ad3381d9"
+        },
+        {
+          "file": "data/lightmaps2.bif",
+          "entries": 498,
+          "file_size": 2177180,
+          "resource_index_sha256": "71021403a11ba966d96043b4fc0ad73a41fda44dc3aac9487ab2fa6e413fc387"
+        },
+        {
+          "file": "data/lightmaps3.bif",
+          "entries": 567,
+          "file_size": 3630567,
+          "resource_index_sha256": "faa758e4162289aa1c4d4da19734ebb7290a0f307b83a218079c50efe8b3ad16"
+        },
+        {
+          "file": "data/lightmaps4.bif",
+          "entries": 1730,
+          "file_size": 19326133,
+          "resource_index_sha256": "a04bfb74152777ff6f5fb736d45596dc2780400bc5f682049b4900c67f44cf1b"
+        },
+        {
+          "file": "data/lightmaps5.bif",
+          "entries": 943,
+          "file_size": 9694141,
+          "resource_index_sha256": "e3eee678dff8793b33d5f1423dd5d240f15801a7a94e4ddf6c0e6c75d9878373"
+        },
+        {
+          "file": "data/lightmaps6.bif",
+          "entries": 965,
+          "file_size": 12061343,
+          "resource_index_sha256": "b600da5c52fe2094c1d1ef854389864b4b89538bc548ea71cbbd5a475eec8cdf"
+        },
+        {
+          "file": "data/lightmaps7.bif",
+          "entries": 740,
+          "file_size": 7490884,
+          "resource_index_sha256": "e73e9593e88c29a5b4f5843c46a26ea68f87cfb072ce3ac7e007e89ebc097138"
+        },
+        {
+          "file": "data/lightmaps8.bif",
+          "entries": 1303,
+          "file_size": 11259740,
+          "resource_index_sha256": "03c83c4c684342eaf6a09e0de114d025919f6aa14feb2f9c21675161e31b94d0"
+        },
+        {
+          "file": "data/lightmaps9.bif",
+          "entries": 644,
+          "file_size": 4121097,
+          "resource_index_sha256": "20c4fa3ebfa0183192c8e26fe31b16f07cf2757fa8804cf297b7704daef9f9b8"
+        },
+        {
+          "file": "data/models.bif",
+          "entries": 6444,
+          "file_size": 954052730,
+          "resource_index_sha256": "99c24942770520bff254385504e24a2f9c5c7e0f351683c3f05a834cd7e29031"
+        },
+        {
+          "file": "data/party.bif",
+          "entries": 38,
+          "file_size": 6862196,
+          "resource_index_sha256": "e23847f6fb5ae5ff273cece11bed92eda16f0ff049a76088c5b3d20994467ccf"
+        },
+        {
+          "file": "data/player.bif",
+          "entries": 126,
+          "file_size": 15791965,
+          "resource_index_sha256": "f0d7c9971c8db063c5a340c1b4619204fbaf41924568d0f1eb6acdadef448475"
+        },
+        {
+          "file": "data/scripts.bif",
+          "entries": 3558,
+          "file_size": 4723499,
+          "resource_index_sha256": "86f747f5697e10556a2028d9be1b975220abb526ca06b894fe1cf191cc59e0ac"
+        },
+        {
+          "file": "data/sounds.bif",
+          "entries": 1928,
+          "file_size": 194679056,
+          "resource_index_sha256": "b5f98881bd1042bf4cd22242393fb688fe55b884f9616ff7fd97bcb6353e1129"
+        },
+        {
+          "file": "data/templates.bif",
+          "entries": 1387,
+          "file_size": 6259440,
+          "resource_index_sha256": "6275d6fd2489a7754ec367d4dc40d40439c64b98fd7be6838b0b7e66f2ea1cf0"
+        },
+        {
+          "file": "data/textures.bif",
+          "entries": 42,
+          "file_size": 920772,
+          "resource_index_sha256": "fdf3ef558a7757e36608dc21ea7e9d0ca50fbb0de3b3ef4b1ed61ca519624649"
+        },
+        {
+          "file": "lips/M12ab_loc.mod",
+          "entries": 0,
+          "file_size": 160,
+          "resource_index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "file": "lips/STUNT_00_loc.mod",
+          "entries": 0,
+          "file_size": 160,
+          "resource_index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "file": "lips/STUNT_03a_loc.mod",
+          "entries": 7,
+          "file_size": 2321,
+          "resource_index_sha256": "d56d8805ace30e70257626368e5bca82e2d8d3b2d944481bbd9fa8e6ac321970"
+        },
+        {
+          "file": "lips/STUNT_06_loc.mod",
+          "entries": 2,
+          "file_size": 831,
+          "resource_index_sha256": "5e9c266407aa427fcfdbdbcffd37bd20a9328841b781f74288875b7344943ba1"
+        },
+        {
+          "file": "lips/STUNT_07_loc.mod",
+          "entries": 347,
+          "file_size": 110576,
+          "resource_index_sha256": "c953e95927c864edec4db966cb4b62c27f4d62814d08871ca61a90f2271566c3"
+        },
+        {
+          "file": "lips/STUNT_12_loc.mod",
+          "entries": 15,
+          "file_size": 4175,
+          "resource_index_sha256": "ab1e30f74895d27ee903b41d04f31242ee79bc02422f357da8e2193097957247"
+        },
+        {
+          "file": "lips/STUNT_14_loc.mod",
+          "entries": 7,
+          "file_size": 1716,
+          "resource_index_sha256": "3450c3cb719a19546b257c97c6cd142509023dfb062e9a8972b784097f6073ba"
+        },
+        {
+          "file": "lips/STUNT_16_loc.mod",
+          "entries": 399,
+          "file_size": 106632,
+          "resource_index_sha256": "92f5febad4cbfbec4c51d579e7f92260c07a05c423e43f4bc3924a78dbd4545e"
+        },
+        {
+          "file": "lips/STUNT_18_loc.mod",
+          "entries": 353,
+          "file_size": 112074,
+          "resource_index_sha256": "68633e99128334dc5d7263cf6fc9a550254bcb49a2586610fa81dc33ff6dbb66"
+        },
+        {
+          "file": "lips/STUNT_19_loc.mod",
+          "entries": 3,
+          "file_size": 1719,
+          "resource_index_sha256": "24a05bbd4155d71b8b5846c2176630743589558d8b042e46ef3376f0031a5522"
+        },
+        {
+          "file": "lips/STUNT_31b_loc.mod",
+          "entries": 0,
+          "file_size": 160,
+          "resource_index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "file": "lips/STUNT_34_loc.mod",
+          "entries": 4,
+          "file_size": 1537,
+          "resource_index_sha256": "6a80d207b3da4d2297fc2aad0b60b8e9b23bf5cafc9232542a3a0260a9d0ade7"
+        },
+        {
+          "file": "lips/STUNT_35_loc.mod",
+          "entries": 2,
+          "file_size": 871,
+          "resource_index_sha256": "068d57cf4c0c3646073036fa70b014c5c9aefb2b623c7af7911538d7b604ea40"
+        },
+        {
+          "file": "lips/STUNT_42_loc.mod",
+          "entries": 361,
+          "file_size": 115888,
+          "resource_index_sha256": "ea073aff897b15ee33506a5c1b2e832794c7ef5c7693ae308b7ced5ae7c31d21"
+        },
+        {
+          "file": "lips/STUNT_44_loc.mod",
+          "entries": 21,
+          "file_size": 6523,
+          "resource_index_sha256": "e2d5817a21ecc90e2cff115bc28cb083cfa7d800ec10cd38d4c3642e4124c432"
+        },
+        {
+          "file": "lips/STUNT_50a_loc.mod",
+          "entries": 2,
+          "file_size": 496,
+          "resource_index_sha256": "0f557dd80365c7854a6a293f167210b5cebeb9254c48c6556596f9fe199930d8"
+        },
+        {
+          "file": "lips/STUNT_51a_loc.mod",
+          "entries": 7,
+          "file_size": 2666,
+          "resource_index_sha256": "96c7d887cbb4f271ba4e360942cdba0c55e6f377859f77ffb4196509cc8535fd"
+        },
+        {
+          "file": "lips/STUNT_54a_loc.mod",
+          "entries": 3,
+          "file_size": 919,
+          "resource_index_sha256": "7e9f11dea303a2a95112e9df4d193d163da08ebd7a5a126855d6429e1a2f2d42"
+        },
+        {
+          "file": "lips/STUNT_55a_loc.mod",
+          "entries": 398,
+          "file_size": 106884,
+          "resource_index_sha256": "8e5871f51ba69c7b33c31e0a4aebe67d2788a65222edb641650f0a8d166781d9"
+        },
+        {
+          "file": "lips/STUNT_56a_loc.mod",
+          "entries": 4,
+          "file_size": 1087,
+          "resource_index_sha256": "4b1fe54e526c45c247ccc3844b48d9c1501daa7ea8cdf1973c5e3930c64cf5b6"
+        },
+        {
+          "file": "lips/STUNT_57_loc.mod",
+          "entries": 348,
+          "file_size": 112609,
+          "resource_index_sha256": "a8148c1d0ae9f28f9f7da4afb53e729949121442b1aa654264d82999a6b980b1"
+        },
+        {
+          "file": "lips/danm13_loc.mod",
+          "entries": 946,
+          "file_size": 325493,
+          "resource_index_sha256": "c6c35ea2aee9a0d26b5928d5b2b7dcc59dff515969b3ef3bd01a85a03e8db833"
+        },
+        {
+          "file": "lips/danm14aa_loc.mod",
+          "entries": 270,
+          "file_size": 74000,
+          "resource_index_sha256": "258a354b6c5f5ee694e058141fa40eebe0e22860b1288556d99982686e1c556b"
+        },
+        {
+          "file": "lips/danm14ab_loc.mod",
+          "entries": 63,
+          "file_size": 19589,
+          "resource_index_sha256": "878502ab27109b0554d9bffd5932c81a71a3e3a1219cced6d72b163bbc1e9c5c"
+        },
+        {
+          "file": "lips/danm14ac_loc.mod",
+          "entries": 201,
+          "file_size": 55023,
+          "resource_index_sha256": "f0603013e204ef211b587660d3bd8fff54c7f52f5f0f47c677398c2e7c5ae2a7"
+        },
+        {
+          "file": "lips/danm14ad_loc.mod",
+          "entries": 217,
+          "file_size": 45791,
+          "resource_index_sha256": "2ea2a0925f296eea835b2c3d4b3e52fcb9635ca8b78e4fa0e654a9a8ae72b45d"
+        },
+        {
+          "file": "lips/danm14ae_loc.mod",
+          "entries": 0,
+          "file_size": 160,
+          "resource_index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "file": "lips/danm15_loc.mod",
+          "entries": 39,
+          "file_size": 13942,
+          "resource_index_sha256": "2149e431d60dd59f091af87679c2e2f05fc6196fe018d3b1f122d169bbc685bf"
+        },
+        {
+          "file": "lips/danm16_loc.mod",
+          "entries": 99,
+          "file_size": 33037,
+          "resource_index_sha256": "df0e1ca4d546065b87450e313dd6ed35c4f59c8b5809920fc529b828a271568d"
+        },
+        {
+          "file": "lips/ebo_m12aa_loc.mod",
+          "entries": 77,
+          "file_size": 22061,
+          "resource_index_sha256": "b617df80f5d26a3dd628d05028c74327172721ed1c05e3f1944d141f039881be"
+        },
+        {
+          "file": "lips/ebo_m40aa_loc.mod",
+          "entries": 39,
+          "file_size": 12512,
+          "resource_index_sha256": "aa5b9d28fd5354a34183fe13a7bbd49b03d501467e0e8de297d064ab44960e89"
+        },
+        {
+          "file": "lips/ebo_m40ad_loc.mod",
+          "entries": 99,
+          "file_size": 30127,
+          "resource_index_sha256": "dab8fa9b4f6e6f54144f8429c96dd6bfe4067c8616bd702c716c723f4649fbf6"
+        },
+        {
+          "file": "lips/ebo_m41aa_loc.mod",
+          "entries": 37,
+          "file_size": 12966,
+          "resource_index_sha256": "72941001f6bcad173ed7a778ee1dae11f34208cd481412819e1162058faa18a1"
+        },
+        {
+          "file": "lips/ebo_m46ab_loc.mod",
+          "entries": 24,
+          "file_size": 9207,
+          "resource_index_sha256": "dd62af0416b0a2e241b0bd46872557ffcd10a53870d651bbbc33167f272efbb7"
+        },
+        {
+          "file": "lips/end_m01aa_loc.mod",
+          "entries": 81,
+          "file_size": 28613,
+          "resource_index_sha256": "cbd86d43643a9b7a9e39ab38207733c5bbd1b687b75e0bb88536ba009dc414ac"
+        },
+        {
+          "file": "lips/end_m01ab_loc.mod",
+          "entries": 12,
+          "file_size": 3861,
+          "resource_index_sha256": "d17aee6d2acfa5235b094cc5952c21a8e3dd4306447882c30a6ec44300b85b84"
+        },
+        {
+          "file": "lips/global.mod",
+          "entries": 0,
+          "file_size": 160,
+          "resource_index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "file": "lips/kas_m22aa_loc.mod",
+          "entries": 471,
+          "file_size": 131848,
+          "resource_index_sha256": "9667a7abbf3c0b50dde3d5e4e81844455afec169f1a37b8d54be9466f6b1246f"
+        },
+        {
+          "file": "lips/kas_m22ab_loc.mod",
+          "entries": 119,
+          "file_size": 28382,
+          "resource_index_sha256": "f160ce45e2f65c5e85a11490319b35130e8b654a661bc0543f573fd3ed0abd69"
+        },
+        {
+          "file": "lips/kas_m23aa_loc.mod",
+          "entries": 31,
+          "file_size": 7143,
+          "resource_index_sha256": "b00a439c3d0a04df5ed4126959a3cc0166ca28616de2cfed65c3b999944847a1"
+        },
+        {
+          "file": "lips/kas_m23ab_loc.mod",
+          "entries": 33,
+          "file_size": 7229,
+          "resource_index_sha256": "15aff63ddc3800a36cbb4f8ae293db681fedca2710e6d03ac038a6c80caa4029"
+        },
+        {
+          "file": "lips/kas_m23ac_loc.mod",
+          "entries": 35,
+          "file_size": 7645,
+          "resource_index_sha256": "c4d70f0fb7f703907354cda606a4268c9b851be7b1bb172b94ccb39bfb6ac726"
+        },
+        {
+          "file": "lips/kas_m23ad_loc.mod",
+          "entries": 79,
+          "file_size": 16397,
+          "resource_index_sha256": "bbebff3195caf91e9896a360037602afdc92f616a3ffe690b0d82c271210182b"
+        },
+        {
+          "file": "lips/kas_m24aa_loc.mod",
+          "entries": 263,
+          "file_size": 72709,
+          "resource_index_sha256": "7fdc4b34ebe895cea153910c5201629fa0e2382f278d2a1275e85a46ccea1acd"
+        },
+        {
+          "file": "lips/kas_m25aa_loc.mod",
+          "entries": 222,
+          "file_size": 61996,
+          "resource_index_sha256": "ef169284ce7fb8f3df8df503fdebe171b908d6cdb43433d59351b5be9fb58717"
+        },
+        {
+          "file": "lips/korr_m33aa_loc.mod",
+          "entries": 764,
+          "file_size": 210317,
+          "resource_index_sha256": "17698f9cacd93224d9034e2becb4c7da5f2a0fd4088760c560424845d2feb898"
+        },
+        {
+          "file": "lips/korr_m33ab_loc.mod",
+          "entries": 103,
+          "file_size": 27779,
+          "resource_index_sha256": "9079b42bd59186d02da86667f03dbd5d5424edb5c80c86fbe7b82730cd460075"
+        },
+        {
+          "file": "lips/korr_m34aa_loc.mod",
+          "entries": 27,
+          "file_size": 7541,
+          "resource_index_sha256": "478610bffc168e89868d9814009a64360059d0fa3b0d44014cef6452259c4fb1"
+        },
+        {
+          "file": "lips/korr_m35aa_loc.mod",
+          "entries": 706,
+          "file_size": 204288,
+          "resource_index_sha256": "b44fa13792c079a8cd2fab606207bee593d4862b17eeaad7690a2725f54fb13d"
+        },
+        {
+          "file": "lips/korr_m36aa_loc.mod",
+          "entries": 161,
+          "file_size": 46733,
+          "resource_index_sha256": "236588841c62d54c1ca0586f10baffd556381b9d6a5ca4c7fc5110c7d89bdacf"
+        },
+        {
+          "file": "lips/korr_m37aa_loc.mod",
+          "entries": 86,
+          "file_size": 26223,
+          "resource_index_sha256": "7ddced5730ceee46963bd25e6b327496777fbce8cebf555a30d97f85177f731b"
+        },
+        {
+          "file": "lips/korr_m38aa_loc.mod",
+          "entries": 69,
+          "file_size": 21972,
+          "resource_index_sha256": "f6973c227ec81dc09858477e5b4684c45b305220e02336e0210f2e5bd015a0bc"
+        },
+        {
+          "file": "lips/korr_m38ab_loc.mod",
+          "entries": 102,
+          "file_size": 33971,
+          "resource_index_sha256": "0bd4093f57847415707976ca4ccc7ef6656b44f5cf02e510986abba1ccdb1f55"
+        },
+        {
+          "file": "lips/korr_m39aa_loc.mod",
+          "entries": 157,
+          "file_size": 42846,
+          "resource_index_sha256": "8b8c9cdd7f6d95e469a281e6588cdd7b168d234a0f4312af6d36cce31b66beea"
+        },
+        {
+          "file": "lips/legal.mod",
+          "entries": 0,
+          "file_size": 160,
+          "resource_index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "file": "lips/lev_m40aa_loc.mod",
+          "entries": 236,
+          "file_size": 73653,
+          "resource_index_sha256": "b88aa9f324be9421f4dfbeea8daa33fc39f5e4e62641f61a43234c6e28a2c3de"
+        },
+        {
+          "file": "lips/lev_m40ab_loc.mod",
+          "entries": 24,
+          "file_size": 5717,
+          "resource_index_sha256": "207fde1c41b1c2b7b1cb56a7e29cd93c78ed27ae42a1db612546b59377458202"
+        },
+        {
+          "file": "lips/lev_m40ac_loc.mod",
+          "entries": 57,
+          "file_size": 21981,
+          "resource_index_sha256": "652d358301545ba9a5520cf4c5da5060fee411c811087d592a7e79bc82f0681e"
+        },
+        {
+          "file": "lips/lev_m40ad_loc.mod",
+          "entries": 24,
+          "file_size": 5717,
+          "resource_index_sha256": "207fde1c41b1c2b7b1cb56a7e29cd93c78ed27ae42a1db612546b59377458202"
+        },
+        {
+          "file": "lips/liv_m99aa_loc.mod",
+          "entries": 27,
+          "file_size": 8481,
+          "resource_index_sha256": "6a2d619031411e182906ff2a6423744acc619477cfb638fba6f0edae3bf57e29"
+        },
+        {
+          "file": "lips/localization.mod",
+          "entries": 2596,
+          "file_size": 824308,
+          "resource_index_sha256": "223dacb0029b9341771b561746a62b589204422ddb071201ef6b00f1cd156dcf"
+        },
+        {
+          "file": "lips/mainmenu.mod",
+          "entries": 0,
+          "file_size": 160,
+          "resource_index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "file": "lips/manm26aa_loc.mod",
+          "entries": 515,
+          "file_size": 161200,
+          "resource_index_sha256": "5cff4f1b8b05452bb39bdc7d6ca3eee079d2ef3cf426982611f9ab2c0ce24970"
+        },
+        {
+          "file": "lips/manm26ab_loc.mod",
+          "entries": 300,
+          "file_size": 86915,
+          "resource_index_sha256": "26f14e2b27d38be310a501c5525d261041bbd8d04a22218f74c926380180d53f"
+        },
+        {
+          "file": "lips/manm26ac_loc.mod",
+          "entries": 110,
+          "file_size": 31440,
+          "resource_index_sha256": "798fe7877a2863b04de58a1384750cd27d0bfd8ec0f5953d7a247377421daabd"
+        },
+        {
+          "file": "lips/manm26ad_loc.mod",
+          "entries": 289,
+          "file_size": 88472,
+          "resource_index_sha256": "95720c5615b99a789f6a581bbab33bf5a693803bbb279dafc1229a005f10fd17"
+        },
+        {
+          "file": "lips/manm26ae_loc.mod",
+          "entries": 384,
+          "file_size": 115087,
+          "resource_index_sha256": "d72b5021f0d6323b3a1fcb1f478470fad631d89f8cf625a3bfa9255a0a3c0449"
+        },
+        {
+          "file": "lips/manm26mg_loc.mod",
+          "entries": 0,
+          "file_size": 160,
+          "resource_index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "file": "lips/manm27aa_loc.mod",
+          "entries": 46,
+          "file_size": 12463,
+          "resource_index_sha256": "ecaf436565a695cbf5deed662919484ab5838afec0322b6b5bb179cff5828bc6"
+        },
+        {
+          "file": "lips/manm28aa_loc.mod",
+          "entries": 60,
+          "file_size": 18520,
+          "resource_index_sha256": "79348fe3de76b2e537d59d4cee76f800ccc32eb7accd9d4d52168d6c8fc22064"
+        },
+        {
+          "file": "lips/manm28ab_loc.mod",
+          "entries": 85,
+          "file_size": 23440,
+          "resource_index_sha256": "fd505081b8f89bbaab264623d8742665d20296b187486aef8cad08e257547d8f"
+        },
+        {
+          "file": "lips/manm28ac_loc.mod",
+          "entries": 129,
+          "file_size": 35002,
+          "resource_index_sha256": "2a61b08d578f798a83af7879bec4858f04a9b422f9ba91daaed4da41137aeb23"
+        },
+        {
+          "file": "lips/manm28ad_loc.mod",
+          "entries": 0,
+          "file_size": 160,
+          "resource_index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "file": "lips/miniglobal.mod",
+          "entries": 0,
+          "file_size": 160,
+          "resource_index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "file": "lips/sta_m45aa_loc.mod",
+          "entries": 71,
+          "file_size": 18148,
+          "resource_index_sha256": "38497c8c2b163c66461cf63d5974807050e78c780fcddba7c7b7a805de469993"
+        },
+        {
+          "file": "lips/sta_m45ab_loc.mod",
+          "entries": 10,
+          "file_size": 3110,
+          "resource_index_sha256": "287543530475662bba756ef4f4d59f849c06d0849920816cab6d02dfc11d638e"
+        },
+        {
+          "file": "lips/sta_m45ac_loc.mod",
+          "entries": 102,
+          "file_size": 35136,
+          "resource_index_sha256": "7bd4aad28a0ea147ad43bfba62672c9b96e1f8d71f8071a70ff4f94de5d0ed68"
+        },
+        {
+          "file": "lips/sta_m45ad_loc.mod",
+          "entries": 35,
+          "file_size": 15810,
+          "resource_index_sha256": "b6f35a5b23bc0638c02e4e0fb65f2cf4be43ee96e4bfb1ed422fc76390fa5760"
+        },
+        {
+          "file": "lips/subglobal.mod",
+          "entries": 0,
+          "file_size": 160,
+          "resource_index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "file": "lips/tar_m02aa_loc.mod",
+          "entries": 197,
+          "file_size": 72651,
+          "resource_index_sha256": "88218eece03a9fd1c931caf4b2c281401b3568d9477d96c77448c2bf4696f28a"
+        },
+        {
+          "file": "lips/tar_m02ab_loc.mod",
+          "entries": 190,
+          "file_size": 60155,
+          "resource_index_sha256": "45e7193d309a0045021feeef89fd847cc7cae7228a9d91b808b6dc5ebce563e8"
+        },
+        {
+          "file": "lips/tar_m02ac_loc.mod",
+          "entries": 225,
+          "file_size": 76400,
+          "resource_index_sha256": "256b2dce6ae66ff4b9b60ce9f1c1ebee22eb853f583eedc383f52c53a9ec55eb"
+        },
+        {
+          "file": "lips/tar_m02ad_loc.mod",
+          "entries": 189,
+          "file_size": 59677,
+          "resource_index_sha256": "95ef76c090272f7910e91d9f519e8e31e95b5c2c0e57ecd29611cf49f8b40dd9"
+        },
+        {
+          "file": "lips/tar_m02ae_loc.mod",
+          "entries": 538,
+          "file_size": 192334,
+          "resource_index_sha256": "507927eca5ff11c1d0ebe72ac6b9df2366e159980140a1bedc97e9e8f377b06d"
+        },
+        {
+          "file": "lips/tar_m02af_loc.mod",
+          "entries": 84,
+          "file_size": 31657,
+          "resource_index_sha256": "85f36871544cba642fb14e91666432e4ab1300c6682b57e253550b3ea1370b6b"
+        },
+        {
+          "file": "lips/tar_m03aa_loc.mod",
+          "entries": 113,
+          "file_size": 40439,
+          "resource_index_sha256": "4adf02b0d3c82c8927155481f20ab8577cc02e5a90d2f985965e7e3c488fcb9f"
+        },
+        {
+          "file": "lips/tar_m03ab_loc.mod",
+          "entries": 37,
+          "file_size": 11486,
+          "resource_index_sha256": "b249ad8e0be4bcd21bdad7c9e2f04015fff35bcc7682cc28eda85a91636b6f74"
+        },
+        {
+          "file": "lips/tar_m03ad_loc.mod",
+          "entries": 45,
+          "file_size": 17245,
+          "resource_index_sha256": "a71d8ed7dca359a831371be912cd4cced25aeaaffbfa09a71eda752148843f3b"
+        },
+        {
+          "file": "lips/tar_m03ae_loc.mod",
+          "entries": 254,
+          "file_size": 92712,
+          "resource_index_sha256": "ef86a024c4afe2cf21faf2708a884f0fce9cd8426087754442aad4613f3b684b"
+        },
+        {
+          "file": "lips/tar_m03af_loc.mod",
+          "entries": 63,
+          "file_size": 27819,
+          "resource_index_sha256": "11982a7c1ff338bb7a4717a118cbb7c75158f7f67b1ccd0913140048c16677d2"
+        },
+        {
+          "file": "lips/tar_m03mg_loc.mod",
+          "entries": 0,
+          "file_size": 160,
+          "resource_index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "file": "lips/tar_m04aa_loc.mod",
+          "entries": 368,
+          "file_size": 129639,
+          "resource_index_sha256": "b5df68bc5f33b2d29cbf14c2926af069c755e103a7a41520e53456e6677b352e"
+        },
+        {
+          "file": "lips/tar_m05aa_loc.mod",
+          "entries": 46,
+          "file_size": 14788,
+          "resource_index_sha256": "bed403858cd51acf37c3a7b9ec4b590ec86a01e954ff587f164ca06d379618a4"
+        },
+        {
+          "file": "lips/tar_m05ab_loc.mod",
+          "entries": 0,
+          "file_size": 160,
+          "resource_index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "file": "lips/tar_m08aa_loc.mod",
+          "entries": 132,
+          "file_size": 46401,
+          "resource_index_sha256": "8254e2031fa1d66e23c196760059629f9ed572afba74879f84678111bd2af0db"
+        },
+        {
+          "file": "lips/tar_m09aa_loc.mod",
+          "entries": 21,
+          "file_size": 8763,
+          "resource_index_sha256": "b00a7566566f58b27c812b23a763fbe3ad52759086002800eeaf3d9b71d64118"
+        },
+        {
+          "file": "lips/tar_m09ab_loc.mod",
+          "entries": 6,
+          "file_size": 2583,
+          "resource_index_sha256": "b7fc1ed71118748fecababfba5297fd19c6989d6e298c4797e376c7b08fad0c1"
+        },
+        {
+          "file": "lips/tar_m10aa_loc.mod",
+          "entries": 30,
+          "file_size": 13615,
+          "resource_index_sha256": "1463a1750a57cfd7cb5709082f57736603f1c40a806cbbae6b29977f0f0dc630"
+        },
+        {
+          "file": "lips/tar_m10ab_loc.mod",
+          "entries": 53,
+          "file_size": 19214,
+          "resource_index_sha256": "e18c8405bb046126f6c0e32eb0349c1152e3e3be85aa6b519e054d21609f550d"
+        },
+        {
+          "file": "lips/tar_m10ac_loc.mod",
+          "entries": 28,
+          "file_size": 11659,
+          "resource_index_sha256": "07eaf7efb9dc456a6d99146389ffe2a6bbbe2f6de30084557372f9a8182d7ae2"
+        },
+        {
+          "file": "lips/tar_m11aa_loc.mod",
+          "entries": 130,
+          "file_size": 49560,
+          "resource_index_sha256": "fec3475388697bf71f8d87d415f3df5a24c66780bb53bee3814c390c5c354aed"
+        },
+        {
+          "file": "lips/tar_m11ab_loc.mod",
+          "entries": 6,
+          "file_size": 1598,
+          "resource_index_sha256": "041f194a1ca17fbc28a3f393e85b9ef79fff591cfaee5aed4ffa80055277e9ab"
+        },
+        {
+          "file": "lips/tat_m17aa_loc.mod",
+          "entries": 484,
+          "file_size": 133117,
+          "resource_index_sha256": "040f87c1770b16d724c599dd9dd360857635f6a7b838221e8690e846a28f9f88"
+        },
+        {
+          "file": "lips/tat_m17ab_loc.mod",
+          "entries": 342,
+          "file_size": 102561,
+          "resource_index_sha256": "8457911615834b6296d6fda55d2f2e658c237489f5bad3800dcc2b292bb910a7"
+        },
+        {
+          "file": "lips/tat_m17ac_loc.mod",
+          "entries": 67,
+          "file_size": 23776,
+          "resource_index_sha256": "b8ef0104352bb6d05be0d59565ff20b89fad1aba4e16f3725089bcfae8a4de0c"
+        },
+        {
+          "file": "lips/tat_m17ad_loc.mod",
+          "entries": 159,
+          "file_size": 42557,
+          "resource_index_sha256": "d7a7349677f454a6ae54272061f584e37d96916d9d9d62781a5e79f7115bce6f"
+        },
+        {
+          "file": "lips/tat_m17ae_loc.mod",
+          "entries": 214,
+          "file_size": 58752,
+          "resource_index_sha256": "1f16f5e4e6163536de1d3a53be4682e0f3040ff1bb17c3bcc0a119e37787ba45"
+        },
+        {
+          "file": "lips/tat_m17af_loc.mod",
+          "entries": 248,
+          "file_size": 66944,
+          "resource_index_sha256": "6096a3ecd1c7db7f87d5a7b9fdfa85001bb77eaac56abb022eb38ef2148435b1"
+        },
+        {
+          "file": "lips/tat_m17ag_loc.mod",
+          "entries": 144,
+          "file_size": 45142,
+          "resource_index_sha256": "989c6669dd22c81085443040dd309a33a9323b80787aac9a7bd8d6ff769d53bf"
+        },
+        {
+          "file": "lips/tat_m17mg_loc.mod",
+          "entries": 0,
+          "file_size": 160,
+          "resource_index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "file": "lips/tat_m18aa_loc.mod",
+          "entries": 219,
+          "file_size": 58122,
+          "resource_index_sha256": "fada0367b821a416371cccab5de97053d9d6783553dbef458871ba6cd800ff8f"
+        },
+        {
+          "file": "lips/tat_m18ab_loc.mod",
+          "entries": 13,
+          "file_size": 3069,
+          "resource_index_sha256": "8612c1eafd0e96cddc652450fc16ffdfb8038c34a6ff0d5fbed1c7408cfd1e6a"
+        },
+        {
+          "file": "lips/tat_m18ac_loc.mod",
+          "entries": 55,
+          "file_size": 17895,
+          "resource_index_sha256": "630a1c1d8b1eac488e3a3e3dd35f01b70cee39d8b9c62fe94da2cfe099bcb2a0"
+        },
+        {
+          "file": "lips/tat_m20aa_loc.mod",
+          "entries": 208,
+          "file_size": 78084,
+          "resource_index_sha256": "20e192f0ee14573ecd83bc7a1893f5e4867d223b121d8b418168e49376dbf80b"
+        },
+        {
+          "file": "lips/unk_m41aa_loc.mod",
+          "entries": 102,
+          "file_size": 31421,
+          "resource_index_sha256": "6f35483491ee29ae0fdf1211d893fb782ed16025ecf24344a8d3cbb9ca5c6fca"
+        },
+        {
+          "file": "lips/unk_m41ab_loc.mod",
+          "entries": 4,
+          "file_size": 1307,
+          "resource_index_sha256": "9119cafe7b6c4e932a72ddaf27f552c9c1688e49e0ecb577fbc7d96a83de99e2"
+        },
+        {
+          "file": "lips/unk_m41ac_loc.mod",
+          "entries": 21,
+          "file_size": 7898,
+          "resource_index_sha256": "ddabbdf0e19555fbea355ed3e29bf433f4ff354a76845dedd9c89e16bfdbcc5c"
+        },
+        {
+          "file": "lips/unk_m41ad_loc.mod",
+          "entries": 25,
+          "file_size": 8580,
+          "resource_index_sha256": "627536f68ae7e3a7d776455c7e845cbe5ae5da6346bb258d342bd2d1d8b82208"
+        },
+        {
+          "file": "lips/unk_m42aa_loc.mod",
+          "entries": 25,
+          "file_size": 8330,
+          "resource_index_sha256": "34ebd1c9c02e1b4f42a666c34701ef649695a91543e381848b35db24cc70f0ac"
+        },
+        {
+          "file": "lips/unk_m43aa_loc.mod",
+          "entries": 24,
+          "file_size": 8367,
+          "resource_index_sha256": "1f0cdd20e41ecb2aa62e0cf72fc5419795f682ed50091eeb5aee13ed7f24d84f"
+        },
+        {
+          "file": "lips/unk_m44aa_loc.mod",
+          "entries": 9,
+          "file_size": 3597,
+          "resource_index_sha256": "107be26ccb0b07c5e714feb5f72bdcce5d5cb14b491c1305116d727da6b16757"
+        },
+        {
+          "file": "lips/unk_m44ab_loc.mod",
+          "entries": 8,
+          "file_size": 3109,
+          "resource_index_sha256": "8ccc63be79988e9e90083241bd79cf8e6cb4865a7165a26dd183a0d5fa23d9fa"
+        },
+        {
+          "file": "lips/unk_m44ac_loc.mod",
+          "entries": 65,
+          "file_size": 25240,
+          "resource_index_sha256": "8fce0b6b1844b1777062fa77d353d1b8a4147b2aa32c219b2532a17678b8e83c"
+        },
+        {
+          "file": "modules/M12ab.rim",
+          "entries": 3,
+          "file_size": 15251,
+          "resource_index_sha256": "a502fc5113018c57d40ff3e6ae9df519d5443b119abe369c8a938d0193cc69a2"
+        },
+        {
+          "file": "modules/M12ab_s.rim",
+          "entries": 14,
+          "file_size": 21058,
+          "resource_index_sha256": "284d26fe3c18e46c0dd8468a4f21c75804c98910a043e6c58c9062485a51439d"
+        },
+        {
+          "file": "modules/STUNT_00.rim",
+          "entries": 3,
+          "file_size": 5756,
+          "resource_index_sha256": "c3790f594e0ce96e799de38483691e84a45b1bd2f4a531d665545fd3ec863b9f"
+        },
+        {
+          "file": "modules/STUNT_00_s.rim",
+          "entries": 13,
+          "file_size": 19790,
+          "resource_index_sha256": "5721ed1f25f93f300aba5ca7e3a05bc665a1d5f21db33a9ae3b047bc574b4853"
+        },
+        {
+          "file": "modules/STUNT_03a.rim",
+          "entries": 3,
+          "file_size": 7748,
+          "resource_index_sha256": "9d43e97d34e37e5eb58225262d84349e0d7e3994485cd1a248eed4c2483ea26a"
+        },
+        {
+          "file": "modules/STUNT_03a_s.rim",
+          "entries": 14,
+          "file_size": 48710,
+          "resource_index_sha256": "1e01707126c1387fb0e5f754382dfe00d47f028eb9233acb2b6c4462491b909f"
+        },
+        {
+          "file": "modules/STUNT_06.rim",
+          "entries": 3,
+          "file_size": 8290,
+          "resource_index_sha256": "4919efe148723984339a2025aa11b3ea7269f6264a29cae47ee8d6c44f2b86f6"
+        },
+        {
+          "file": "modules/STUNT_06_s.rim",
+          "entries": 21,
+          "file_size": 49558,
+          "resource_index_sha256": "32fc7e73cf23ba942a65d7962f478e71ddb5456ae48cfe9aeb34321c3d05ccf4"
+        },
+        {
+          "file": "modules/STUNT_07.rim",
+          "entries": 3,
+          "file_size": 6572,
+          "resource_index_sha256": "1d666c38cd38e4730ab4f1c6b27c4b26f4e1fc501c46ef522db1eb3149679a4f"
+        },
+        {
+          "file": "modules/STUNT_07_s.rim",
+          "entries": 6,
+          "file_size": 22546,
+          "resource_index_sha256": "6005ba65d09d65bf9cc81ef2171731568a83c1a33423b126d7706b28db82a92c"
+        },
+        {
+          "file": "modules/STUNT_12.rim",
+          "entries": 3,
+          "file_size": 14928,
+          "resource_index_sha256": "0ac40996e73f45cac0515a90e2e331bb821351f96d646d400d1138ff5b0470de"
+        },
+        {
+          "file": "modules/STUNT_12_s.rim",
+          "entries": 51,
+          "file_size": 128690,
+          "resource_index_sha256": "f7628a2841bae36f46f1e64421c402c13ca5ecf817daf1a90f0097f197f48aa6"
+        },
+        {
+          "file": "modules/STUNT_14.rim",
+          "entries": 3,
+          "file_size": 14776,
+          "resource_index_sha256": "3482d476485c5ef9be60b0ee5f4edef57be70a7a024cba32036e7dcd2a9b817f"
+        },
+        {
+          "file": "modules/STUNT_14_s.rim",
+          "entries": 46,
+          "file_size": 136149,
+          "resource_index_sha256": "41185bf04c627e2c3eb736843c57a5f5cc350544a6750e274cb7f61f1d0a6798"
+        },
+        {
+          "file": "modules/STUNT_16.rim",
+          "entries": 3,
+          "file_size": 6414,
+          "resource_index_sha256": "9b3ccfa897ca7cd4224ed8b3a6c35137d5291fb259c1ef6cb78ec1674caeb75e"
+        },
+        {
+          "file": "modules/STUNT_16_s.rim",
+          "entries": 7,
+          "file_size": 17470,
+          "resource_index_sha256": "d17edbe6c82a36800797ed87a6bc153537c375b1a17f17431cedb4d24224be38"
+        },
+        {
+          "file": "modules/STUNT_18.rim",
+          "entries": 3,
+          "file_size": 6858,
+          "resource_index_sha256": "585aebfc932d23118a704b3e68b593284182c1a1c2833d6dd45ca7dfb87b012b"
+        },
+        {
+          "file": "modules/STUNT_18_s.rim",
+          "entries": 9,
+          "file_size": 31878,
+          "resource_index_sha256": "608270ab830490c4651fece1116a7a41066e140e1c413f2f00d2af0702295de9"
+        },
+        {
+          "file": "modules/STUNT_19.rim",
+          "entries": 3,
+          "file_size": 9056,
+          "resource_index_sha256": "3b6c71ff3f32ce21a08bd8d90d3f563799f318cb47faad2e87c3a39eb2108bb5"
+        },
+        {
+          "file": "modules/STUNT_19_s.rim",
+          "entries": 25,
+          "file_size": 50701,
+          "resource_index_sha256": "0b202053f7c6d496b1cdd1651da90fb4f1cd840c197691f97bc16e11f5975644"
+        },
+        {
+          "file": "modules/STUNT_31b.rim",
+          "entries": 3,
+          "file_size": 6288,
+          "resource_index_sha256": "a1f55fe238b01eb03e558dc60b9a51f47601964307e49c4122e807bff22f0e6b"
+        },
+        {
+          "file": "modules/STUNT_31b_s.rim",
+          "entries": 10,
+          "file_size": 14022,
+          "resource_index_sha256": "941828c8bfefe6b7d630d9a536eec160bb627a3013df1f252906e5ce88391cfb"
+        },
+        {
+          "file": "modules/STUNT_34.rim",
+          "entries": 3,
+          "file_size": 6492,
+          "resource_index_sha256": "42d5847d9082e8d066eb06f868437eb09b8761f2239bc4491e740782ce6a8c82"
+        },
+        {
+          "file": "modules/STUNT_34_s.rim",
+          "entries": 8,
+          "file_size": 21626,
+          "resource_index_sha256": "0b24e03e7f9c90612d5ed1197ae0b48f3a895493597a556123df31324e57dc08"
+        },
+        {
+          "file": "modules/STUNT_35.rim",
+          "entries": 3,
+          "file_size": 6418,
+          "resource_index_sha256": "6801207fa2082b8d6e524c2e995f13a135a033a4368adc3f2596cce47d5a5d9a"
+        },
+        {
+          "file": "modules/STUNT_35_s.rim",
+          "entries": 5,
+          "file_size": 9890,
+          "resource_index_sha256": "bd5a7dc5ac9953165346e231b34731cfb4fbef17b8e79bce9bbcafeecd32d824"
+        },
+        {
+          "file": "modules/STUNT_42.rim",
+          "entries": 3,
+          "file_size": 6760,
+          "resource_index_sha256": "3787af689e7748db203aaeb45586426fcb95b568fec0db1a7852968a9f4fdce5"
+        },
+        {
+          "file": "modules/STUNT_42_s.rim",
+          "entries": 7,
+          "file_size": 36690,
+          "resource_index_sha256": "bbb795d2ba0f554dc9bb0564b26f906341f4f80780287ad904f006586ab978ee"
+        },
+        {
+          "file": "modules/STUNT_44.rim",
+          "entries": 3,
+          "file_size": 6760,
+          "resource_index_sha256": "b1637cd5b7f943ca16cef3095a9829088b040dd335edeaf9ef19265813855f90"
+        },
+        {
+          "file": "modules/STUNT_44_s.rim",
+          "entries": 12,
+          "file_size": 52694,
+          "resource_index_sha256": "b2a64285c19c75bdb58bc0c093b8805c032252a5395d8db6d5969bf0fff2c7e1"
+        },
+        {
+          "file": "modules/STUNT_50a.rim",
+          "entries": 3,
+          "file_size": 7262,
+          "resource_index_sha256": "8a51540f614cee44e9f2a9ab2ccd222fff55d3bd899b3d3cb0839cff23536d32"
+        },
+        {
+          "file": "modules/STUNT_50a_s.rim",
+          "entries": 10,
+          "file_size": 22218,
+          "resource_index_sha256": "55802f1ab3848f297fe9ea030e39c843f307f311bb5b12b7fc66addd7278f0ca"
+        },
+        {
+          "file": "modules/STUNT_51a.rim",
+          "entries": 3,
+          "file_size": 8084,
+          "resource_index_sha256": "236fe8e1da2eb60dc2179bfb7b4970cc31302452e3bdc7fd17a540430c223dbe"
+        },
+        {
+          "file": "modules/STUNT_51a_s.rim",
+          "entries": 19,
+          "file_size": 44256,
+          "resource_index_sha256": "fa1e00f8afbdf6f110f630b893275a41b7e494829b9316c3390b96f498d46700"
+        },
+        {
+          "file": "modules/STUNT_54a.rim",
+          "entries": 3,
+          "file_size": 7258,
+          "resource_index_sha256": "2d557f797cbb33e0ed40ab139565af90316148a66d3ced80c0331dc97f24bb14"
+        },
+        {
+          "file": "modules/STUNT_54a_s.rim",
+          "entries": 16,
+          "file_size": 38290,
+          "resource_index_sha256": "63f661f02b489cf540375cf72ff17bcba606151d60c75a767c422801cc49f60d"
+        },
+        {
+          "file": "modules/STUNT_55a.rim",
+          "entries": 3,
+          "file_size": 6969,
+          "resource_index_sha256": "6d2ff139bf9a1ca9896813f4cba4c07ed7626d5ac2ec245d2d408d0ed4233a43"
+        },
+        {
+          "file": "modules/STUNT_55a_s.rim",
+          "entries": 21,
+          "file_size": 43160,
+          "resource_index_sha256": "19d25d50158bf12848ce6100ec8ca0a975cdaffbeec17e8a76899f79b6188b0b"
+        },
+        {
+          "file": "modules/STUNT_56a.rim",
+          "entries": 3,
+          "file_size": 8717,
+          "resource_index_sha256": "267c0d528d8413393691b1cda5f90951c1cdb29da0965e648320ceab1d1c3d8f"
+        },
+        {
+          "file": "modules/STUNT_56a_s.rim",
+          "entries": 23,
+          "file_size": 49988,
+          "resource_index_sha256": "dbf02786ea8fe892de0398314355f0e0a4cc3ba6fbfe03cc7a5aedef7a01ae27"
+        },
+        {
+          "file": "modules/STUNT_57.rim",
+          "entries": 3,
+          "file_size": 10286,
+          "resource_index_sha256": "b99fc00a714807c85a93c4fd0b1d0593a0aaa5043e20ea19cfe6e251dbd0485d"
+        },
+        {
+          "file": "modules/STUNT_57_s.rim",
+          "entries": 45,
+          "file_size": 114066,
+          "resource_index_sha256": "39bb1f14a94e4f4a4b3d675cccc49946c99b3a5f2930c1a782c70476e21d9ddd"
+        },
+        {
+          "file": "modules/danm13.rim",
+          "entries": 3,
+          "file_size": 57765,
+          "resource_index_sha256": "7f8f6f2303dd55f51a156a9d0b784c4fe41f1087620bef48164a6aa8b2b1e1f0"
+        },
+        {
+          "file": "modules/danm13_s.rim",
+          "entries": 461,
+          "file_size": 1570377,
+          "resource_index_sha256": "c287f2db19ea9288f7b3269103d08d526c4c50cd438d42bea3db46cddbe92888"
+        },
+        {
+          "file": "modules/danm14aa.rim",
+          "entries": 3,
+          "file_size": 40051,
+          "resource_index_sha256": "cbd8f8dd332cb3f8ec15724b592dd3e9069750e58c86a0cc3755d7d2e4df12fc"
+        },
+        {
+          "file": "modules/danm14aa_s.rim",
+          "entries": 221,
+          "file_size": 609434,
+          "resource_index_sha256": "86a54d54324865c217886da7df61ebf8a2833900b8c2c4f595a6cf16db9e12f1"
+        },
+        {
+          "file": "modules/danm14ab.rim",
+          "entries": 3,
+          "file_size": 48249,
+          "resource_index_sha256": "57839ef16dfd62925056a181d6ab1fd07fd2a8bbd2359895f80f5071a365cb6d"
+        },
+        {
+          "file": "modules/danm14ab_s.rim",
+          "entries": 177,
+          "file_size": 557818,
+          "resource_index_sha256": "2b956016b6601b4894efeec133ec5a6b27b7a399de178b5f98eef456d18dbf23"
+        },
+        {
+          "file": "modules/danm14ac.rim",
+          "entries": 3,
+          "file_size": 44256,
+          "resource_index_sha256": "87375815e7da9324691d69762f1353f0db129b2a8be2b9cff5ca2c57dbc7a623"
+        },
+        {
+          "file": "modules/danm14ac_s.rim",
+          "entries": 209,
+          "file_size": 1089278,
+          "resource_index_sha256": "8245700973544197e49dfa40c0ca2ff08de9af213c90de04ae0776e6b2e4f9cd"
+        },
+        {
+          "file": "modules/danm14ad.rim",
+          "entries": 3,
+          "file_size": 37181,
+          "resource_index_sha256": "b0bf0d6b1bea7c2e0df9d82acc13cceb29430e67c806cff83f50b4241426ef83"
+        },
+        {
+          "file": "modules/danm14ad_s.rim",
+          "entries": 183,
+          "file_size": 540071,
+          "resource_index_sha256": "1595fd63bc32510b88f092427d1af492cdbf21d52b1514ccabd61d6de5365d53"
+        },
+        {
+          "file": "modules/danm14ae.rim",
+          "entries": 3,
+          "file_size": 18597,
+          "resource_index_sha256": "c88941e5a56c7f6c9fec06cba354b63a852d80f1dcd279bf087d393c78e76b0b"
+        },
+        {
+          "file": "modules/danm14ae_s.rim",
+          "entries": 56,
+          "file_size": 150595,
+          "resource_index_sha256": "28bc928ee53f88a20ed434dcc48523a07acd13f5d32ef642fe50e05a15ddc9e6"
+        },
+        {
+          "file": "modules/danm15.rim",
+          "entries": 3,
+          "file_size": 20087,
+          "resource_index_sha256": "6717dfdc0a30d047dc046440256c4bb9ac6faf639b91623e01fd8239d1a14e30"
+        },
+        {
+          "file": "modules/danm15_s.rim",
+          "entries": 111,
+          "file_size": 493393,
+          "resource_index_sha256": "cad3d7b1c1b2b4c3cec7336176951fcc53b7b6fc4163099a2d8fd44f95c233ff"
+        },
+        {
+          "file": "modules/danm16.rim",
+          "entries": 3,
+          "file_size": 35260,
+          "resource_index_sha256": "b52dfd3ba3f5ffd552066c105034a720116ed5dbf10b55da97750f7d0bfb80f3"
+        },
+        {
+          "file": "modules/danm16_s.rim",
+          "entries": 216,
+          "file_size": 711821,
+          "resource_index_sha256": "4cebd349bec0cbd961e0b86cc5596887469394a4708a890e72683672fa38677e"
+        },
+        {
+          "file": "modules/ebo_m12aa.rim",
+          "entries": 3,
+          "file_size": 39061,
+          "resource_index_sha256": "aa87ad8b4b10179f875bf1e65b2b8f8020e198511e6225ce2e72ef9aae601e3a"
+        },
+        {
+          "file": "modules/ebo_m12aa_s.rim",
+          "entries": 318,
+          "file_size": 478539,
+          "resource_index_sha256": "9a53e2dacc425be4ca2dc3a20f82392989d184f79151ce24ee46ee9ce06981bd"
+        },
+        {
+          "file": "modules/ebo_m40aa.rim",
+          "entries": 3,
+          "file_size": 10795,
+          "resource_index_sha256": "81a032c3c02ecbff2ae0133e243a5ab4b5adb71bf91c52645408f5adf6591ba0"
+        },
+        {
+          "file": "modules/ebo_m40aa_s.rim",
+          "entries": 30,
+          "file_size": 81510,
+          "resource_index_sha256": "1438a2baa41cc2da28505ace4b46446d71209d5f6c7cd8a29105ceaed9eb5698"
+        },
+        {
+          "file": "modules/ebo_m40ad.rim",
+          "entries": 3,
+          "file_size": 11984,
+          "resource_index_sha256": "530766bd2d27f9d2a1e0c78253d509f0838e27c7d7c1ebcd1b456092e038836a"
+        },
+        {
+          "file": "modules/ebo_m40ad_s.rim",
+          "entries": 116,
+          "file_size": 172438,
+          "resource_index_sha256": "019195a6785d8b16b340010e7f120090c64f8fb4a3518ee1b22921cd493ffa38"
+        },
+        {
+          "file": "modules/ebo_m41aa.rim",
+          "entries": 3,
+          "file_size": 20464,
+          "resource_index_sha256": "b3c8dddded948c4903bf78f70d23c49a578f1b85bb62e5de935e6b5503d266ef"
+        },
+        {
+          "file": "modules/ebo_m41aa_s.rim",
+          "entries": 217,
+          "file_size": 185212,
+          "resource_index_sha256": "7c1aa4ee4ad8a1edaa399318b281ab8ea00e21eef1d0e5731e4a4b7c4b8e323b"
+        },
+        {
+          "file": "modules/ebo_m46ab.rim",
+          "entries": 3,
+          "file_size": 10232,
+          "resource_index_sha256": "94f3f8bbbbc5ebb7ebc93e2ff1e889357de4f19ce551e043d02573767296f04b"
+        },
+        {
+          "file": "modules/ebo_m46ab_s.rim",
+          "entries": 31,
+          "file_size": 120758,
+          "resource_index_sha256": "f52821459b2107c71accd3bcee78312ea42d6b21406c0a9db023c1d1b0be1dea"
+        },
+        {
+          "file": "modules/end_m01aa.rim",
+          "entries": 3,
+          "file_size": 55565,
+          "resource_index_sha256": "9aeba654bf3e74b8543daadbeed53481dfb9e7dffa04cb6b0aad5c0b083f2a46"
+        },
+        {
+          "file": "modules/end_m01aa_s.rim",
+          "entries": 368,
+          "file_size": 1370329,
+          "resource_index_sha256": "491ba4672b3404b8c8a06569164f12adcf87188fadb25b6d5de921043057f5ec"
+        },
+        {
+          "file": "modules/end_m01ab.rim",
+          "entries": 3,
+          "file_size": 19890,
+          "resource_index_sha256": "3f2ecc67bd1850adcbe6847513783e5337d5e52830002ed01137c46b76cd5418"
+        },
+        {
+          "file": "modules/end_m01ab_s.rim",
+          "entries": 150,
+          "file_size": 394012,
+          "resource_index_sha256": "e51340de762d53ffc192856c75beaf1a73652f1f1f1f9955cfe2bc9b451a1a8d"
+        },
+        {
+          "file": "modules/kas_m22aa.rim",
+          "entries": 3,
+          "file_size": 50251,
+          "resource_index_sha256": "5aa9331ba23729a16ddc841490fa9a983820702d116328e6a1aa7e3af6e5f197"
+        },
+        {
+          "file": "modules/kas_m22aa_s.rim",
+          "entries": 287,
+          "file_size": 1359707,
+          "resource_index_sha256": "8e5450a5d457edaca0fccd03f66f26df8eb37b1b070c335b03f6a78ebbb9e5b2"
+        },
+        {
+          "file": "modules/kas_m22ab.rim",
+          "entries": 3,
+          "file_size": 52605,
+          "resource_index_sha256": "b6450680deb55ffdcb3d8ce121b6a1137a9cdb5019c873ffd421c0aac08ab16f"
+        },
+        {
+          "file": "modules/kas_m22ab_s.rim",
+          "entries": 236,
+          "file_size": 1222262,
+          "resource_index_sha256": "ffec485fe8e670a5f2bc9db1f5885125a72de592ab062890f054f6b6d91ee402"
+        },
+        {
+          "file": "modules/kas_m23aa.rim",
+          "entries": 3,
+          "file_size": 17431,
+          "resource_index_sha256": "f0183b8add30d14fb30ff6f8f26ecff0bc2b742d6d7aedbfd3d9528de16a5891"
+        },
+        {
+          "file": "modules/kas_m23aa_s.rim",
+          "entries": 57,
+          "file_size": 247467,
+          "resource_index_sha256": "12694a5cf85eea923ff4d9d2bda7e81d980a3cf8f1e90e4344b1977b463fa583"
+        },
+        {
+          "file": "modules/kas_m23ab.rim",
+          "entries": 3,
+          "file_size": 7659,
+          "resource_index_sha256": "a0d3de3776561c52066ac96b5aeb7cc08d446c1be55e3ac80d4fd475fd3de067"
+        },
+        {
+          "file": "modules/kas_m23ab_s.rim",
+          "entries": 25,
+          "file_size": 135851,
+          "resource_index_sha256": "f919537e025cc5a38110cbdc6ea971a774abf9f810d621f4b8272fc775c504eb"
+        },
+        {
+          "file": "modules/kas_m23ac.rim",
+          "entries": 3,
+          "file_size": 7823,
+          "resource_index_sha256": "4445cda0316c2e21499f05947737d44a242dfce4e8b4b789c8fc45f62857e080"
+        },
+        {
+          "file": "modules/kas_m23ac_s.rim",
+          "entries": 23,
+          "file_size": 136687,
+          "resource_index_sha256": "823c213fb93971d69ddfefc7eacf2eb285e4362a5d9b77760c019cf43f93908d"
+        },
+        {
+          "file": "modules/kas_m23ad.rim",
+          "entries": 3,
+          "file_size": 11575,
+          "resource_index_sha256": "19ada97af16014cef290bf7e1d397b60ed984c400d3f91faa2324c09e97f736d"
+        },
+        {
+          "file": "modules/kas_m23ad_s.rim",
+          "entries": 77,
+          "file_size": 625085,
+          "resource_index_sha256": "2147a282b4a7666f65731730cd9bf7b9adedae4a3176207a0412e2ded2a9af8b"
+        },
+        {
+          "file": "modules/kas_m24aa.rim",
+          "entries": 3,
+          "file_size": 60627,
+          "resource_index_sha256": "26134a0a81e327b1c39afd999b88171103a4631bc3ccf06064bd152a088bdd9b"
+        },
+        {
+          "file": "modules/kas_m24aa_s.rim",
+          "entries": 351,
+          "file_size": 1744635,
+          "resource_index_sha256": "77617e629546750c3ac967f14e4196b8358778a3591545df87dee07c63af220b"
+        },
+        {
+          "file": "modules/kas_m25aa.rim",
+          "entries": 3,
+          "file_size": 44695,
+          "resource_index_sha256": "c88680866c351052dfb46a27f710d641b2eaa3025cb0d0d65ce20c54cada8171"
+        },
+        {
+          "file": "modules/kas_m25aa_s.rim",
+          "entries": 220,
+          "file_size": 1460395,
+          "resource_index_sha256": "b1b6b3012efb71b2f9975c80803ce4443b60404cc2360219df8be162563215e8"
+        },
+        {
+          "file": "modules/korr_m33aa.rim",
+          "entries": 3,
+          "file_size": 52590,
+          "resource_index_sha256": "7ededcaaec873732ad31a1fdd7c62a95887ac14bfc839a912c46554d0ce2e79e"
+        },
+        {
+          "file": "modules/korr_m33aa_s.rim",
+          "entries": 422,
+          "file_size": 1766786,
+          "resource_index_sha256": "c0fa1a2cf2518b453763f9933eae9bbe6b9d63408ba2b17c77bb74b5ff6367be"
+        },
+        {
+          "file": "modules/korr_m33ab.rim",
+          "entries": 3,
+          "file_size": 17480,
+          "resource_index_sha256": "931e900889d1e4d15c045a9d0166c06e2695a0a0b712ccd6b6edce1536d1eb14"
+        },
+        {
+          "file": "modules/korr_m33ab_s.rim",
+          "entries": 86,
+          "file_size": 364358,
+          "resource_index_sha256": "7eb87de9ac33e02c0d5e888285bd07930eff165f4c37bd62f2b6b2f0e021ad6f"
+        },
+        {
+          "file": "modules/korr_m34aa.rim",
+          "entries": 3,
+          "file_size": 37518,
+          "resource_index_sha256": "77eeab0ba6c9c7527cf158305074f972821f82468c31149d7ba988fa0f51f12e"
+        },
+        {
+          "file": "modules/korr_m34aa_s.rim",
+          "entries": 184,
+          "file_size": 705834,
+          "resource_index_sha256": "b155e5aa29d71cd7bddd335ac6bf6243b4d79e1fb1c4ed7299c9a4ff8a940fc3"
+        },
+        {
+          "file": "modules/korr_m35aa.rim",
+          "entries": 3,
+          "file_size": 54534,
+          "resource_index_sha256": "f204fcaa915ef988a6a1082612380719788d151056afcd50b9d717a582836ab9"
+        },
+        {
+          "file": "modules/korr_m35aa_s.rim",
+          "entries": 513,
+          "file_size": 2299958,
+          "resource_index_sha256": "d37474469878f602962a437b85f4e3a1f2cd2426259ac99c13d5275d0a08a719"
+        },
+        {
+          "file": "modules/korr_m36aa.rim",
+          "entries": 3,
+          "file_size": 42498,
+          "resource_index_sha256": "fb3256fb719484ca90a39c9fe4d635fb8534dd0a2f3e4fbba766f5f82029c8ec"
+        },
+        {
+          "file": "modules/korr_m36aa_s.rim",
+          "entries": 217,
+          "file_size": 1007670,
+          "resource_index_sha256": "4aed4b7288b7907229abe46cbe323c884e94832b860b3cfae485eb1a6a8cd1d6"
+        },
+        {
+          "file": "modules/korr_m37aa.rim",
+          "entries": 3,
+          "file_size": 27290,
+          "resource_index_sha256": "ec989ea179953ff5d913148f7a9117abaa3cdcb3a0c404b6ea50bad23a3ff7c4"
+        },
+        {
+          "file": "modules/korr_m37aa_s.rim",
+          "entries": 179,
+          "file_size": 594778,
+          "resource_index_sha256": "92ae0cc30c5d1b0abaffd1253420a782defca0c541ace3ae398b05e9f03306f9"
+        },
+        {
+          "file": "modules/korr_m38aa.rim",
+          "entries": 3,
+          "file_size": 24198,
+          "resource_index_sha256": "0ff4865968183de0fe17e9fe52ee201de55eaf82284561b3eefad21679fade6b"
+        },
+        {
+          "file": "modules/korr_m38aa_s.rim",
+          "entries": 97,
+          "file_size": 421750,
+          "resource_index_sha256": "c61e609fba44dc6ea976d17ba07737a674b24df01e67ec61a27e7ef75a80af1b"
+        },
+        {
+          "file": "modules/korr_m38ab.rim",
+          "entries": 3,
+          "file_size": 31770,
+          "resource_index_sha256": "d88a61d5976399fd146e7ab255836d18919adfead4aac359432810b50cfff187"
+        },
+        {
+          "file": "modules/korr_m38ab_s.rim",
+          "entries": 154,
+          "file_size": 604914,
+          "resource_index_sha256": "8fcb01bca3e6107daca1d9711961b5ade83998a9ae8da6857b968177a716546c"
+        },
+        {
+          "file": "modules/korr_m39aa.rim",
+          "entries": 3,
+          "file_size": 38084,
+          "resource_index_sha256": "2d3ea24921182a4eb4dd47ef7318c4e29e7c61b92436ccb4b466158b5ce84b26"
+        },
+        {
+          "file": "modules/korr_m39aa_s.rim",
+          "entries": 313,
+          "file_size": 1210458,
+          "resource_index_sha256": "10a109b78651833600da725600e47f3a85bf3f6d2291ecc12d7bccd2a2c7c1a9"
+        },
+        {
+          "file": "modules/lev_m40aa.rim",
+          "entries": 3,
+          "file_size": 65938,
+          "resource_index_sha256": "7e2ce617570dce1b9e193cc747f78c5c7ec86dbef008f52d380f6b014edc8f67"
+        },
+        {
+          "file": "modules/lev_m40aa_s.rim",
+          "entries": 382,
+          "file_size": 1262792,
+          "resource_index_sha256": "02acad45e40d9c444563f52bc3e79d73ad011af80c2c0a9abf21578ec541f442"
+        },
+        {
+          "file": "modules/lev_m40ab.rim",
+          "entries": 3,
+          "file_size": 60650,
+          "resource_index_sha256": "2813e5f0dfc57773dd9e9aef7886f98bd25ccf53924fb97b2ea37f19738818bb"
+        },
+        {
+          "file": "modules/lev_m40ab_s.rim",
+          "entries": 245,
+          "file_size": 773474,
+          "resource_index_sha256": "c7d2f114a450147f2387374c761c35c6db67507455e687982474a00de948f7e0"
+        },
+        {
+          "file": "modules/lev_m40ac.rim",
+          "entries": 3,
+          "file_size": 42362,
+          "resource_index_sha256": "51657dd87bb58c0482f6aeb0ea5b3c6cd55aecae380bdd838d2884a557e78582"
+        },
+        {
+          "file": "modules/lev_m40ac_s.rim",
+          "entries": 193,
+          "file_size": 624402,
+          "resource_index_sha256": "e211876b663e101b6ef11aa9187e791dc11b260520897eb710b93f22ad2d4664"
+        },
+        {
+          "file": "modules/lev_m40ad.rim",
+          "entries": 3,
+          "file_size": 28984,
+          "resource_index_sha256": "0fc22012c4416a32f5f969be6618b9538ad67323dddcdfafd73455adb858abb6"
+        },
+        {
+          "file": "modules/lev_m40ad_s.rim",
+          "entries": 93,
+          "file_size": 278426,
+          "resource_index_sha256": "c69b6a0b954b34b6396c4930a26e394dafd68e1eda83cba22939b33bc6e74617"
+        },
+        {
+          "file": "modules/liv_m99aa.rim",
+          "entries": 3,
+          "file_size": 35486,
+          "resource_index_sha256": "a44f3e13e0b85b152edbb2f39614ef7d2f750765a688f7728e977eaf52d50700"
+        },
+        {
+          "file": "modules/liv_m99aa_s.rim",
+          "entries": 187,
+          "file_size": 462123,
+          "resource_index_sha256": "16f3b339b30495b8d29664d4ecc8222073a722849e4fd7683935bcaaee98c5ea"
+        },
+        {
+          "file": "modules/manm26aa.rim",
+          "entries": 3,
+          "file_size": 35989,
+          "resource_index_sha256": "c5f1421f74935074f99c0ca5af18ff07baf5c1418ae45eaf77d288cd69ac5881"
+        },
+        {
+          "file": "modules/manm26aa_s.rim",
+          "entries": 250,
+          "file_size": 1590295,
+          "resource_index_sha256": "b61b7097b288eeccb9c90051213252f3d939ffaac73eee9a29c1baa4cdeae40a"
+        },
+        {
+          "file": "modules/manm26ab.rim",
+          "entries": 3,
+          "file_size": 45749,
+          "resource_index_sha256": "baa4b5850a0389355000dfc4317911532746de10a12df604765ca685de0e31ac"
+        },
+        {
+          "file": "modules/manm26ab_s.rim",
+          "entries": 233,
+          "file_size": 914427,
+          "resource_index_sha256": "262ce44a35821ae28257eb6f8d4d30d017b032c8a4537d32238b394fedeb6b11"
+        },
+        {
+          "file": "modules/manm26ac.rim",
+          "entries": 3,
+          "file_size": 32789,
+          "resource_index_sha256": "5aeb9aef36dcb8d3df90a7fca147a66cffdee63c05c2230c28be615f6a6e2c95"
+        },
+        {
+          "file": "modules/manm26ac_s.rim",
+          "entries": 195,
+          "file_size": 396994,
+          "resource_index_sha256": "5ce751c891a27452ec0f0913a805dca02e136e18e8dea473d367dd223affaf5a"
+        },
+        {
+          "file": "modules/manm26ad.rim",
+          "entries": 3,
+          "file_size": 61369,
+          "resource_index_sha256": "be62aabdd6a2891818879324a7b8fbd34be962ec0b1f2371a2841c15200c56f1"
+        },
+        {
+          "file": "modules/manm26ad_s.rim",
+          "entries": 245,
+          "file_size": 835958,
+          "resource_index_sha256": "b77963c31635e74b57fccbbdc8584d4a45873303f204903cb1720e934fd6c9b8"
+        },
+        {
+          "file": "modules/manm26ae.rim",
+          "entries": 3,
+          "file_size": 61221,
+          "resource_index_sha256": "4810fa2d336e37669c59efd154ebfc53067a634683ed0336dbefe42ffbb532ef"
+        },
+        {
+          "file": "modules/manm26ae_s.rim",
+          "entries": 359,
+          "file_size": 1055830,
+          "resource_index_sha256": "e1b76cc653f96f967ca264903a9023438b07857363a1aa47d834eeda748d6080"
+        },
+        {
+          "file": "modules/manm26mg.rim",
+          "entries": 3,
+          "file_size": 29681,
+          "resource_index_sha256": "5270e0cde58dc8ec9ab78200c8157662a9cd577f05296830191523782428ab27"
+        },
+        {
+          "file": "modules/manm26mg_s.rim",
+          "entries": 23,
+          "file_size": 27491,
+          "resource_index_sha256": "a4b33f75153ac53bf1b0f59205714b05c1a67760fd47edd6fe0f397abf270c5a"
+        },
+        {
+          "file": "modules/manm27aa.rim",
+          "entries": 3,
+          "file_size": 80501,
+          "resource_index_sha256": "eed159ea12a0660a109df78a99049e7a45be8e343ed6cd0f18bc461ada5cc08f"
+        },
+        {
+          "file": "modules/manm27aa_s.rim",
+          "entries": 398,
+          "file_size": 1012389,
+          "resource_index_sha256": "91b969b44ae2222f30d9ebcf0eb2cdb3aa8d6eadcb7909ead5c46dd9d4bbd143"
+        },
+        {
+          "file": "modules/manm28aa.rim",
+          "entries": 3,
+          "file_size": 62591,
+          "resource_index_sha256": "f5b3de67a0cf46be48172fea1cfd1c37c040462a814bea45e8767262c283c26f"
+        },
+        {
+          "file": "modules/manm28aa_s.rim",
+          "entries": 270,
+          "file_size": 998825,
+          "resource_index_sha256": "60ad0e1797757b7656d43acc2d8f087f79868d7c5f4d2f7b357e62240c4f2e74"
+        },
+        {
+          "file": "modules/manm28ab.rim",
+          "entries": 3,
+          "file_size": 22097,
+          "resource_index_sha256": "033c054ba2ce3d40091890b42f392a2040cedf807e6f86dee608ea5f78204f24"
+        },
+        {
+          "file": "modules/manm28ab_s.rim",
+          "entries": 86,
+          "file_size": 187309,
+          "resource_index_sha256": "59871becb59cf2b71d3361f897d428e497056f672bb2b46fce577978b40aba7f"
+        },
+        {
+          "file": "modules/manm28ac.rim",
+          "entries": 3,
+          "file_size": 22249,
+          "resource_index_sha256": "d5b587575334843598f1b9211f160e7984574eb746baedab1cc7968837c87881"
+        },
+        {
+          "file": "modules/manm28ac_s.rim",
+          "entries": 91,
+          "file_size": 360240,
+          "resource_index_sha256": "d123849c2aed00e4455b5b68ca00d2819e8376a81365298b3d375291bcd93413"
+        },
+        {
+          "file": "modules/manm28ad.rim",
+          "entries": 3,
+          "file_size": 17461,
+          "resource_index_sha256": "67d96bb549cf45f20342b17d23c8c5a493d6a88517c27c84ef146a0469a98b9f"
+        },
+        {
+          "file": "modules/manm28ad_s.rim",
+          "entries": 87,
+          "file_size": 179346,
+          "resource_index_sha256": "1952ec49342747e99d6a07611274b68cc150b5495962f14cf5284daaa1635018"
+        },
+        {
+          "file": "modules/sta_m45aa.rim",
+          "entries": 3,
+          "file_size": 53559,
+          "resource_index_sha256": "1d4b4bb2720726c49c7e6e955df37e858177eff0ac8ea2ba9ebca9c54728ab39"
+        },
+        {
+          "file": "modules/sta_m45aa_s.rim",
+          "entries": 263,
+          "file_size": 1221566,
+          "resource_index_sha256": "6b6275d4356b6eed214daab0d5adfab5ca5838179daff56e58a8364a989fd442"
+        },
+        {
+          "file": "modules/sta_m45ab.rim",
+          "entries": 3,
+          "file_size": 31159,
+          "resource_index_sha256": "6551ce9d0505cc888103d65fbcbf3d530a2f1e9668898d9215de54714a978144"
+        },
+        {
+          "file": "modules/sta_m45ab_s.rim",
+          "entries": 123,
+          "file_size": 387138,
+          "resource_index_sha256": "659385761b888952c36294397442aa1d340e721a02f0d6e35da10434133b6a4b"
+        },
+        {
+          "file": "modules/sta_m45ac.rim",
+          "entries": 3,
+          "file_size": 56331,
+          "resource_index_sha256": "9471f1225b0b8d6beffc2fec2f0a1d0b101f692bff67c5f7bb0e9815ca4e2dcf"
+        },
+        {
+          "file": "modules/sta_m45ac_s.rim",
+          "entries": 366,
+          "file_size": 1415559,
+          "resource_index_sha256": "6edbfecdb308f04982d2ef4f9e2a67157ac35c77fad1c255a4ba1a7bd1850494"
+        },
+        {
+          "file": "modules/sta_m45ad.rim",
+          "entries": 3,
+          "file_size": 37086,
+          "resource_index_sha256": "4da00db74420de78c17c64c53b94c1c49e40fe8df864874a96151fa03b8ba608"
+        },
+        {
+          "file": "modules/sta_m45ad_s.rim",
+          "entries": 170,
+          "file_size": 1135409,
+          "resource_index_sha256": "efdce08afa7241b0a1c58372454350819e3532d1b29a6075664482f996ee1d07"
+        },
+        {
+          "file": "modules/tar_m02aa.rim",
+          "entries": 3,
+          "file_size": 31458,
+          "resource_index_sha256": "53fd6c60cdad7ac97d8f88cba04d4becf42aab3c6204deb0cbc0912d2f8f8828"
+        },
+        {
+          "file": "modules/tar_m02aa_s.rim",
+          "entries": 256,
+          "file_size": 718383,
+          "resource_index_sha256": "a6b19c2a9e5e2f2e92d7da330f32377e5353d7407c1131aaeea207687181e78e"
+        },
+        {
+          "file": "modules/tar_m02ab.rim",
+          "entries": 3,
+          "file_size": 42159,
+          "resource_index_sha256": "6e12425f2e776cfdd6cb29cd989b63b412439ceff5e3cd66f442c866a0f6dc4a"
+        },
+        {
+          "file": "modules/tar_m02ab_s.rim",
+          "entries": 308,
+          "file_size": 693649,
+          "resource_index_sha256": "bef290c983edf1bcd5e4475510c01902f02e804105e9366ece1395193fc98a06"
+        },
+        {
+          "file": "modules/tar_m02ac.rim",
+          "entries": 3,
+          "file_size": 39681,
+          "resource_index_sha256": "ba12be404f4aec7dc0da1cde2742b66df59ce2e267f3b2b3fba08f8e5750d6b4"
+        },
+        {
+          "file": "modules/tar_m02ac_s.rim",
+          "entries": 267,
+          "file_size": 673690,
+          "resource_index_sha256": "966ed4649a45cd3e7af3e149a2507fa82051a5bd20f9947a807ccb63a75a8198"
+        },
+        {
+          "file": "modules/tar_m02ad.rim",
+          "entries": 3,
+          "file_size": 35728,
+          "resource_index_sha256": "2ae9864008c57ec960e486e8b555ef9e724f2f18d0bfbd68525b874ff58420d1"
+        },
+        {
+          "file": "modules/tar_m02ad_s.rim",
+          "entries": 206,
+          "file_size": 704068,
+          "resource_index_sha256": "50019ddef9d9d85d80315c5cfd2a4fcd4d55dfbd4e929f6e7d7d8d92eee1f93e"
+        },
+        {
+          "file": "modules/tar_m02ae.rim",
+          "entries": 3,
+          "file_size": 36718,
+          "resource_index_sha256": "f75ebea578c41ad2025aa71eccbea66693c2c4870b6dc0150f1622426a7d8d74"
+        },
+        {
+          "file": "modules/tar_m02ae_s.rim",
+          "entries": 427,
+          "file_size": 1224017,
+          "resource_index_sha256": "e17341809fc41c10a010ae4df8423eb52a4bfdcf453b875b1e25f4c8ba0f4069"
+        },
+        {
+          "file": "modules/tar_m02af.rim",
+          "entries": 3,
+          "file_size": 11924,
+          "resource_index_sha256": "82dddf12847253634283af83020b0f4da49ca12fe84c7b0e4f5a326fd7c01f3b"
+        },
+        {
+          "file": "modules/tar_m02af_s.rim",
+          "entries": 41,
+          "file_size": 136202,
+          "resource_index_sha256": "fcb878e73f887b4ccf4ffe2e1d148111d59041b7fddb65b30a78f8f36a5d8397"
+        },
+        {
+          "file": "modules/tar_m03aa.rim",
+          "entries": 3,
+          "file_size": 37478,
+          "resource_index_sha256": "b1233ce37eedcf60618804fe3e0344e72cb995d2cb3b6275cf1e5b699b2a5720"
+        },
+        {
+          "file": "modules/tar_m03aa_s.rim",
+          "entries": 473,
+          "file_size": 783798,
+          "resource_index_sha256": "5289581eff221275e6933a71ee2d735797fffd1d5ece2270fd553ab184339d4d"
+        },
+        {
+          "file": "modules/tar_m03ab.rim",
+          "entries": 3,
+          "file_size": 30542,
+          "resource_index_sha256": "338927291d2379913508fd284a2e242a93572287e4500791ac862b0193cd3176"
+        },
+        {
+          "file": "modules/tar_m03ab_s.rim",
+          "entries": 401,
+          "file_size": 343247,
+          "resource_index_sha256": "c3fcd34a71013d3d8d90f95751bed23c13487e162c83953a9d7ebe3a28c17418"
+        },
+        {
+          "file": "modules/tar_m03ad.rim",
+          "entries": 3,
+          "file_size": 28110,
+          "resource_index_sha256": "3b9bd079039b41a2306275dd5648e4df5b61efc61cbbfa7142588ccf7802e128"
+        },
+        {
+          "file": "modules/tar_m03ad_s.rim",
+          "entries": 395,
+          "file_size": 384165,
+          "resource_index_sha256": "48506f206f2e492af834fd3990496ad2867f5f0cbe55e1a5d4562c79d02dcf9f"
+        },
+        {
+          "file": "modules/tar_m03ae.rim",
+          "entries": 3,
+          "file_size": 28273,
+          "resource_index_sha256": "a4632de9470afdf2b777c390349ae22925294f28763d2e4cac939dd371730bbc"
+        },
+        {
+          "file": "modules/tar_m03ae_s.rim",
+          "entries": 237,
+          "file_size": 838256,
+          "resource_index_sha256": "059719cbfbf10824d915c8e18019c7c8083558e5adbd52e64c580dede0040954"
+        },
+        {
+          "file": "modules/tar_m03af.rim",
+          "entries": 3,
+          "file_size": 19102,
+          "resource_index_sha256": "ae1f3b4b1648dd00eb8f5cbecdcec7c6e5715f53505d02404abf2db19bec731c"
+        },
+        {
+          "file": "modules/tar_m03af_s.rim",
+          "entries": 96,
+          "file_size": 349396,
+          "resource_index_sha256": "05e9b9c617a356414cf3c5ce75e9945953d42bfc9dcd47e73a9658bccf320521"
+        },
+        {
+          "file": "modules/tar_m03mg.rim",
+          "entries": 3,
+          "file_size": 28788,
+          "resource_index_sha256": "e95dd85872fb1c890aa1cda82e374ee45957096f54929dd8331ee6fc55677e4d"
+        },
+        {
+          "file": "modules/tar_m03mg_s.rim",
+          "entries": 25,
+          "file_size": 29101,
+          "resource_index_sha256": "6b57a5e3ccba4679a6877f26b414a86eff29370cfeb800f7e588dc60625b9206"
+        },
+        {
+          "file": "modules/tar_m04aa.rim",
+          "entries": 3,
+          "file_size": 85925,
+          "resource_index_sha256": "085504629aa9e06a581ad40be3fe02a9a475e01a5961f5bfa910306ba2a27f24"
+        },
+        {
+          "file": "modules/tar_m04aa_s.rim",
+          "entries": 426,
+          "file_size": 1583073,
+          "resource_index_sha256": "55c38b6f86b2de5718c7ae5c57325f56d38bd8ba94cf6e56df87d49aa718dc6d"
+        },
+        {
+          "file": "modules/tar_m05aa.rim",
+          "entries": 3,
+          "file_size": 43174,
+          "resource_index_sha256": "1d01db781aafb37921f92f126665a5f077fb029d86b4debfa72b293dc7c44ada"
+        },
+        {
+          "file": "modules/tar_m05aa_s.rim",
+          "entries": 171,
+          "file_size": 567676,
+          "resource_index_sha256": "1adcd9c5bc0623b01dd198ad38ebfdca438611ebcfe7d12d84a534a0b1af3256"
+        },
+        {
+          "file": "modules/tar_m05ab.rim",
+          "entries": 3,
+          "file_size": 30006,
+          "resource_index_sha256": "fa5bb4135fe6dac715b70c1ea04ec66db42fbb44164ea53b70c588eeef73f05f"
+        },
+        {
+          "file": "modules/tar_m05ab_s.rim",
+          "entries": 89,
+          "file_size": 222082,
+          "resource_index_sha256": "d38f7696d643273558372c5918abf718a24697be5bde29ec6e5244a57907b5ef"
+        },
+        {
+          "file": "modules/tar_m08aa.rim",
+          "entries": 3,
+          "file_size": 58502,
+          "resource_index_sha256": "7793fd0bfb46b153450cce7dd54e393d53e25be066a591f9387e753dcfab9a69"
+        },
+        {
+          "file": "modules/tar_m08aa_s.rim",
+          "entries": 231,
+          "file_size": 850628,
+          "resource_index_sha256": "35b2dad310c4a910b50bc56f142aa5c09179ea4d6fcf4ce7176478e92da129d8"
+        },
+        {
+          "file": "modules/tar_m09aa.rim",
+          "entries": 3,
+          "file_size": 42202,
+          "resource_index_sha256": "802ee20e29f2bc399191b829594e3f13814250f45947605f9b7261673ae1ab7c"
+        },
+        {
+          "file": "modules/tar_m09aa_s.rim",
+          "entries": 182,
+          "file_size": 550718,
+          "resource_index_sha256": "abfad15a8d1d612f488bc48b90a86cd4fc9a73eb80eaa4c702bb39fc2e151933"
+        },
+        {
+          "file": "modules/tar_m09ab.rim",
+          "entries": 3,
+          "file_size": 8026,
+          "resource_index_sha256": "6cf90dbc123a17efd522fa34bd6219aea6ac50cee4e90bfe36b37c47da53c395"
+        },
+        {
+          "file": "modules/tar_m09ab_s.rim",
+          "entries": 16,
+          "file_size": 42873,
+          "resource_index_sha256": "3dee61fa42a97b5d70d23a980f24da43bfab7eb5e799ff2bcf47f3aaf3538d25"
+        },
+        {
+          "file": "modules/tar_m10aa.rim",
+          "entries": 3,
+          "file_size": 50401,
+          "resource_index_sha256": "fc493a6f0bbbd9b10e519f83139a4ee698a9261e2dc6b17930d19c88656c9b64"
+        },
+        {
+          "file": "modules/tar_m10aa_s.rim",
+          "entries": 464,
+          "file_size": 594781,
+          "resource_index_sha256": "96f198b6cd6c0fb261fe6ae0eda4828d9c8648af9ac65e40be0acc2945c82766"
+        },
+        {
+          "file": "modules/tar_m10ab.rim",
+          "entries": 3,
+          "file_size": 25541,
+          "resource_index_sha256": "7bc346feff6743b590e85c97f3878cf27b3dc359a0ee13a2c53e42f55f8a2e9b"
+        },
+        {
+          "file": "modules/tar_m10ab_s.rim",
+          "entries": 410,
+          "file_size": 293558,
+          "resource_index_sha256": "7feec0a3bcc4a97303094571f17c4c759e59371d4d7e62505729990c116edca8"
+        },
+        {
+          "file": "modules/tar_m10ac.rim",
+          "entries": 3,
+          "file_size": 41557,
+          "resource_index_sha256": "fe72232fd53b01f65523228894a894284e8e8e836b438b5fcfcb45778f9da746"
+        },
+        {
+          "file": "modules/tar_m10ac_s.rim",
+          "entries": 450,
+          "file_size": 556532,
+          "resource_index_sha256": "3eb3e91217d80b0587446f13a102a2cb33cc909cd6e3fe1846f7aba396c2a8c6"
+        },
+        {
+          "file": "modules/tar_m11aa.rim",
+          "entries": 3,
+          "file_size": 33134,
+          "resource_index_sha256": "0f817ca99cd7e9a5add1d63676b34e029fba664518f02039cd99078903c60de2"
+        },
+        {
+          "file": "modules/tar_m11aa_s.rim",
+          "entries": 120,
+          "file_size": 426139,
+          "resource_index_sha256": "23576cf2084a2eb78efb999dd16ce886ebaeea825f2c180b4f2ef2ef6d8ffc9f"
+        },
+        {
+          "file": "modules/tar_m11ab.rim",
+          "entries": 3,
+          "file_size": 8098,
+          "resource_index_sha256": "8ad3ced036acbe0f307da5b9b6774769349c741f7035660069ef1f2ae9d6af09"
+        },
+        {
+          "file": "modules/tar_m11ab_s.rim",
+          "entries": 18,
+          "file_size": 120566,
+          "resource_index_sha256": "8b606e04c55cee9fe4394902648eaaa8e6337e8634412d5a8ccb11719cf7ebbb"
+        },
+        {
+          "file": "modules/tat_m17aa.rim",
+          "entries": 3,
+          "file_size": 56731,
+          "resource_index_sha256": "2228c31f2aec3caa604e2d3d6b3e01e386142b944c0f79f1cfac72cad26c054f"
+        },
+        {
+          "file": "modules/tat_m17aa_s.rim",
+          "entries": 207,
+          "file_size": 917450,
+          "resource_index_sha256": "5a72af653f2ff0a4e73fcbc9ea0ffb3870a82444bfd509f5a370693b6a40f6c4"
+        },
+        {
+          "file": "modules/tat_m17ab.rim",
+          "entries": 3,
+          "file_size": 20923,
+          "resource_index_sha256": "d74d4433d0e0cdc9c0abb0c50b2f02ac6a59a6cba06b037043ea1cf3915bf25d"
+        },
+        {
+          "file": "modules/tat_m17ab_s.rim",
+          "entries": 104,
+          "file_size": 566025,
+          "resource_index_sha256": "e8850f2185e9532f9589427963d41fec5207109b2d6e61d27efe6140ad877031"
+        },
+        {
+          "file": "modules/tat_m17ac.rim",
+          "entries": 3,
+          "file_size": 9239,
+          "resource_index_sha256": "984555f2507dc8d006bea7a6d9df00625a35f2e1a0be0f8458f181f9e2c71a09"
+        },
+        {
+          "file": "modules/tat_m17ac_s.rim",
+          "entries": 55,
+          "file_size": 269510,
+          "resource_index_sha256": "4ad6751e0b6244831b1f31fcdfa713675e61b9aaabc9cca4fe7d54a53a2c28e1"
+        },
+        {
+          "file": "modules/tat_m17ad.rim",
+          "entries": 3,
+          "file_size": 11915,
+          "resource_index_sha256": "765c3fdcce14451a65b50074201ee2ce2501e5ef64f72e3a7a53442f174afa9b"
+        },
+        {
+          "file": "modules/tat_m17ad_s.rim",
+          "entries": 99,
+          "file_size": 573406,
+          "resource_index_sha256": "b2dd4d218a9273a20acdd90e8e51e3b1dfaab6fbbd35ebe8748e07a2224af428"
+        },
+        {
+          "file": "modules/tat_m17ae.rim",
+          "entries": 3,
+          "file_size": 14755,
+          "resource_index_sha256": "7b102d38c8be377036c23bb30391ce94addc0bdc58ada2e6ad1f1bc1fe1a5e26"
+        },
+        {
+          "file": "modules/tat_m17ae_s.rim",
+          "entries": 163,
+          "file_size": 845666,
+          "resource_index_sha256": "eb643d36e9a5169d60dc58d3606b3c3884e8807bd8e0c3319e0dfbc0d83161d2"
+        },
+        {
+          "file": "modules/tat_m17af.rim",
+          "entries": 3,
+          "file_size": 13131,
+          "resource_index_sha256": "3a91115068d52c9da425e293d1ecc8f65508ca961494d421156e824b9bf80830"
+        },
+        {
+          "file": "modules/tat_m17af_s.rim",
+          "entries": 83,
+          "file_size": 423474,
+          "resource_index_sha256": "4c68847f43e15a7aefd7ee7511088e6468b671a45520de7e7f2aae33c5c44680"
+        },
+        {
+          "file": "modules/tat_m17ag.rim",
+          "entries": 3,
+          "file_size": 11119,
+          "resource_index_sha256": "073ec7f3c04744a5db24bbb0d1f9e9451274941f7780d03a29692226b7156f5b"
+        },
+        {
+          "file": "modules/tat_m17ag_s.rim",
+          "entries": 63,
+          "file_size": 282626,
+          "resource_index_sha256": "88b9f52c5ecef988b6e5ccb2c27e63737d22f4429fb9b465b91250fd31bd82ce"
+        },
+        {
+          "file": "modules/tat_m17mg.rim",
+          "entries": 3,
+          "file_size": 29295,
+          "resource_index_sha256": "d52c81ede30eae7b468fa2bef4f6eebcec363399447c3fde17ccf01c5ae1ec7f"
+        },
+        {
+          "file": "modules/tat_m17mg_s.rim",
+          "entries": 25,
+          "file_size": 28633,
+          "resource_index_sha256": "f9197489ddb65be617bde063a3ad65827f85ac4a559f8d8fa7bce6d11ff39d28"
+        },
+        {
+          "file": "modules/tat_m18aa.rim",
+          "entries": 3,
+          "file_size": 96348,
+          "resource_index_sha256": "d2d86bc09db95d8bd14080ede45445500e5d384e07a1e552b474a66f387b0a81"
+        },
+        {
+          "file": "modules/tat_m18aa_s.rim",
+          "entries": 363,
+          "file_size": 2299765,
+          "resource_index_sha256": "94719f0a221096b96cff637d8f6e8611bfbc76a68fb1a170d0a823ae0d62746a"
+        },
+        {
+          "file": "modules/tat_m18ab.rim",
+          "entries": 3,
+          "file_size": 77679,
+          "resource_index_sha256": "ea298b5c27baa01087d5750697d46f6a45650f0a2d8ab1951e139edde611958a"
+        },
+        {
+          "file": "modules/tat_m18ab_s.rim",
+          "entries": 171,
+          "file_size": 966178,
+          "resource_index_sha256": "8df32f84bfbe662a56381af7e33c2d2829931900c11f30542998963673e13b26"
+        },
+        {
+          "file": "modules/tat_m18ac.rim",
+          "entries": 3,
+          "file_size": 77384,
+          "resource_index_sha256": "986a1664e313177b64162c053fe801d19ab97034d0cf5569d2c3be099ae13c7d"
+        },
+        {
+          "file": "modules/tat_m18ac_s.rim",
+          "entries": 267,
+          "file_size": 1084823,
+          "resource_index_sha256": "c8f3609347f89f7967cf111b9faed11d93b11186d6c7baed1900c745f5e2ecb3"
+        },
+        {
+          "file": "modules/tat_m20aa.rim",
+          "entries": 3,
+          "file_size": 31447,
+          "resource_index_sha256": "c2179ecb8ec1f7921742a28d9c5ac62ef58e8b878645dcd2b21d2b08ec7192ea"
+        },
+        {
+          "file": "modules/tat_m20aa_s.rim",
+          "entries": 175,
+          "file_size": 944306,
+          "resource_index_sha256": "a29b3692f38b76779e6b808db6a289697263bf985057256c2c0fffb7ff2bc9f0"
+        },
+        {
+          "file": "modules/unk_m41aa.rim",
+          "entries": 3,
+          "file_size": 36658,
+          "resource_index_sha256": "309db5741b85619b84bc9399551b696d039f6e298138a6dc05126686a55a244a"
+        },
+        {
+          "file": "modules/unk_m41aa_s.rim",
+          "entries": 264,
+          "file_size": 911562,
+          "resource_index_sha256": "63d69a45ffc4b7ea5ff3e3a852159a71f51f56fcc4403edfbe7b3c342207b4e8"
+        },
+        {
+          "file": "modules/unk_m41ab.rim",
+          "entries": 3,
+          "file_size": 31210,
+          "resource_index_sha256": "f55cab7823ca9e2a0c68cd3dc22bf18ae5c4da2e5a0323c831e080acc8a78d06"
+        },
+        {
+          "file": "modules/unk_m41ab_s.rim",
+          "entries": 154,
+          "file_size": 497358,
+          "resource_index_sha256": "e46ecdda369698774a243cede828d7dd70efd9fb643ca259d41115521df18485"
+        },
+        {
+          "file": "modules/unk_m41ac.rim",
+          "entries": 3,
+          "file_size": 29070,
+          "resource_index_sha256": "e755bb8aa6fa129262a1a9bfd26412cd003d8d349b44d14b2af384b4013d55a4"
+        },
+        {
+          "file": "modules/unk_m41ac_s.rim",
+          "entries": 158,
+          "file_size": 624433,
+          "resource_index_sha256": "81f509060da115349532517f98ea04afa17a3e877baa6ebd0ae0cc98ce6a54e9"
+        },
+        {
+          "file": "modules/unk_m41ad.rim",
+          "entries": 3,
+          "file_size": 30366,
+          "resource_index_sha256": "f70c052b7cd9d619fd234f962934277e3d93f7a0075fd7d9b431d2e4286f8be3"
+        },
+        {
+          "file": "modules/unk_m41ad_s.rim",
+          "entries": 246,
+          "file_size": 546965,
+          "resource_index_sha256": "08f11abe8ad2444321e654f1b04b669cbfdd9974fcdd70c4890603ac41aa4b5d"
+        },
+        {
+          "file": "modules/unk_m42aa.rim",
+          "entries": 3,
+          "file_size": 51914,
+          "resource_index_sha256": "c795b63e15fd41a47441857ec914b61c3c26939e6cdb68d5c40c0a750c871b09"
+        },
+        {
+          "file": "modules/unk_m42aa_s.rim",
+          "entries": 235,
+          "file_size": 1152842,
+          "resource_index_sha256": "b96b3dbf545fb26106998482889e03e9bf4d8a5546f88d0e4901e842e99fcc07"
+        },
+        {
+          "file": "modules/unk_m43aa.rim",
+          "entries": 3,
+          "file_size": 40666,
+          "resource_index_sha256": "31f8274e3b792686915973bb32827c24fe5fd6b3f0b38e7f0ceb0b8792639f6b"
+        },
+        {
+          "file": "modules/unk_m43aa_s.rim",
+          "entries": 193,
+          "file_size": 717141,
+          "resource_index_sha256": "5e1b8a04688e0cf3282e1c125f3d15273c6ca01863b281f51bdfd9defe0a9133"
+        },
+        {
+          "file": "modules/unk_m44aa.rim",
+          "entries": 3,
+          "file_size": 63110,
+          "resource_index_sha256": "af3944c7b5cc77ffec3a1aeeb5baf8b942f25398f6fe08f7f5a71a19f82a161a"
+        },
+        {
+          "file": "modules/unk_m44aa_s.rim",
+          "entries": 317,
+          "file_size": 982149,
+          "resource_index_sha256": "b9b7088b94aa190455b5d6f51b3c3b286b539825e4975c33e8fb3e0613f4e119"
+        },
+        {
+          "file": "modules/unk_m44ab.rim",
+          "entries": 3,
+          "file_size": 22474,
+          "resource_index_sha256": "f156da3a8ff949b82ca320d4bd9a11eb4a8288813c672dfd327e02dabafdb88f"
+        },
+        {
+          "file": "modules/unk_m44ab_s.rim",
+          "entries": 95,
+          "file_size": 204546,
+          "resource_index_sha256": "69a72fd87440953269f7cfbaab9c8e819493d8761e82e1aba04a6df84fa7fa2d"
+        },
+        {
+          "file": "modules/unk_m44ac.rim",
+          "entries": 3,
+          "file_size": 25202,
+          "resource_index_sha256": "881c667b2613c9e90917808a32f63ebf38353f15fb02011ab6fedf7d63e31a58"
+        },
+        {
+          "file": "modules/unk_m44ac_s.rim",
+          "entries": 132,
+          "file_size": 727996,
+          "resource_index_sha256": "220f675f6a7c38a8d6c42b24bf7be82b711a51828f3779040bb59f59926ea45c"
+        },
+        {
+          "file": "rims/chargen.rim",
+          "entries": 30,
+          "file_size": 2555540,
+          "resource_index_sha256": "d6e4b310acf6482ea867611f2fac2234a2734fb10ca4b66548191bbc81071340"
+        },
+        {
+          "file": "rims/chargendx.rim",
+          "entries": 30,
+          "file_size": 1969674,
+          "resource_index_sha256": "c0470e54c05a49c9ed3cb4c00736060f2221cc86b8d1a0aba8bacd83e2398de6"
+        },
+        {
+          "file": "rims/global.rim",
+          "entries": 949,
+          "file_size": 20718578,
+          "resource_index_sha256": "9368560653092cfed2d7a485eb4b2ba78f3ba57b6a335953d7db09628cfeb6f5"
+        },
+        {
+          "file": "rims/globaldx.rim",
+          "entries": 180,
+          "file_size": 630666,
+          "resource_index_sha256": "e75bd060b5c430aa28ac6d491a45183a2a153693466e5194a88fe978952cd62c"
+        },
+        {
+          "file": "rims/legal.rim",
+          "entries": 0,
+          "file_size": 120,
+          "resource_index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "file": "rims/legaldx.rim",
+          "entries": 0,
+          "file_size": 120,
+          "resource_index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "file": "rims/mainmenu.rim",
+          "entries": 1,
+          "file_size": 387869,
+          "resource_index_sha256": "771bd74aa943644b62635bc0f296739163fddff3017adfbcb60ab381a70d4139"
+        },
+        {
+          "file": "rims/mainmenudx.rim",
+          "entries": 2,
+          "file_size": 265082,
+          "resource_index_sha256": "af2429748062df50e7d0ece59b132bdd36acaf42a8c203a5d9498ceed5780028"
+        },
+        {
+          "file": "rims/miniglobal.rim",
+          "entries": 704,
+          "file_size": 12282394,
+          "resource_index_sha256": "362372822039d4d397788122241182682f651c1d4f384431c4a231acd9f10ab6"
+        },
+        {
+          "file": "rims/miniglobaldx.rim",
+          "entries": 40,
+          "file_size": 224266,
+          "resource_index_sha256": "73c4e544fa817c38793912a82fffba781667f201c6222724180a2b54068293de"
+        },
+        {
+          "file": "rims/subglobal.rim",
+          "entries": 0,
+          "file_size": 120,
+          "resource_index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "file": "rims/subglobaldx.rim",
+          "entries": 0,
+          "file_size": 120,
+          "resource_index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ],
+      "executables": [
+        {
+          "file": "swkotor.exe",
+          "sha256": "2719ed2cb678e2c1ff5b2a787f9804d8e5f8dd52a02c2279080f031636e03a05",
+          "size": 4395008
+        }
+      ],
+      "inventory_id": "9b3989b60c17f48b4400ee468947a6e1395198072bfa90b0d4fc1660f844212b",
+      "source_kind": "Observed local harness asset tree; distribution, build and modification provenance unverified",
+      "base_resources": 25836,
+      "base_types": {
+        "2da": 209,
+        "bic": 1,
+        "btc": 3,
+        "bti": 1,
+        "dlg": 32,
+        "dwk": 156,
+        "gui": 84,
+        "itp": 16,
+        "jrl": 1,
+        "ltr": 3,
+        "lyt": 124,
+        "mdl": 2832,
+        "mdx": 2832,
+        "ncs": 1784,
+        "nss": 1774,
+        "pwk": 196,
+        "ssf": 106,
+        "tga": 5601,
+        "txi": 5615,
+        "utc": 205,
+        "utd": 50,
+        "ute": 65,
+        "uti": 557,
+        "utp": 317,
+        "utt": 21,
+        "utw": 9,
+        "vis": 112,
+        "wav": 1928,
+        "wok": 1202
+      },
+      "indexed_resources": 78006,
+      "indexed_containers": 399,
+      "indexed_types": {
+        "2da": 515,
+        "are": 117,
+        "bic": 1,
+        "btc": 3,
+        "bti": 1,
+        "dlg": 1167,
+        "dwk": 156,
+        "fac": 20,
+        "git": 117,
+        "gui": 84,
+        "ifo": 117,
+        "itp": 16,
+        "jrl": 4,
+        "lip": 18206,
+        "ltr": 3,
+        "lyt": 124,
+        "mdl": 3071,
+        "mdx": 3084,
+        "ncs": 13139,
+        "nss": 1774,
+        "pth": 132,
+        "pwk": 196,
+        "ssf": 316,
+        "tga": 5601,
+        "tpc": 11452,
+        "txi": 5616,
+        "utc": 1958,
+        "utd": 575,
+        "ute": 133,
+        "uti": 1055,
+        "utm": 38,
+        "utp": 1784,
+        "uts": 635,
+        "utt": 1121,
+        "utw": 2058,
+        "vis": 112,
+        "wav": 2303,
+        "wok": 1202
+      },
+      "observed_asset_files": {
+        "TexturePacks": {
+          "files": 4,
+          "bytes": 672407587
+        },
+        "chitin.key": {
+          "files": 1,
+          "bytes": 569239
+        },
+        "data": {
+          "files": 26,
+          "bytes": 1316112080
+        },
+        "dialog.tlk": {
+          "files": 1,
+          "bytes": 5394446
+        },
+        "lips": {
+          "files": 123,
+          "bytes": 5625868
+        },
+        "modules": {
+          "files": 234,
+          "bytes": 72466498
+        },
+        "movies": {
+          "files": 61,
+          "bytes": 606082480
+        },
+        "rims": {
+          "files": 12,
+          "bytes": 39034549
+        },
+        "streammusic": {
+          "files": 119,
+          "bytes": 199468577
+        },
+        "streamsounds": {
+          "files": 970,
+          "bytes": 117658808
+        },
+        "streamwaves": {
+          "files": 13799,
+          "bytes": 548313692
+        },
+        "swkotor.exe": {
+          "files": 1,
+          "bytes": 4395008
+        }
+      },
+      "scope": "KEY-referenced BIF resource tables and discovered RIM, ERF and MOD resource tables. Loose assets and override files are counted only. Resource payloads, dialogue text, branch state and original-build fidelity are unverified.",
+      "metadata_stable_during_read": true
+    },
+    {
+      "game": "k2",
+      "key_sha256": "47bea08efb5c582918fe2ff32fec845ce1cf604ce8bdd62f5b437004fb257412",
+      "talk_tables": [
+        {
+          "file": "dialog.tlk",
+          "sha256": "d362a5159e49364c3030c9c873ecdb1f2edb7a0c5c5720cf66d519ed65dffaf9",
+          "entries": 136487,
+          "language": "ENGLISH"
+        }
+      ],
+      "containers": [
+        {
+          "file": "data/2da.bif",
+          "entries": 424,
+          "file_size": 908682,
+          "resource_index_sha256": "1343806295442968d9b92bc2ed2484adb3ba1cabeeeb7b6c70af37d1a853d3aa"
+        },
+        {
+          "file": "data/dialogs.bif",
+          "entries": 31,
+          "file_size": 12061533,
+          "resource_index_sha256": "7b3ff29dc7b47cbae2e8c868a32769b6b8b60f49985a288d7c0542114e40eff0"
+        },
+        {
+          "file": "data/gui.bif",
+          "entries": 159,
+          "file_size": 3163669,
+          "resource_index_sha256": "6a79a99107830950fba012388f7243149281c70e0933b56c49e863df2489b002"
+        },
+        {
+          "file": "data/layouts.bif",
+          "entries": 86,
+          "file_size": 153782,
+          "resource_index_sha256": "bce1761fd135c6959d76909b6aceec21b68e3a9afb6208d054b6b1487bff04e9"
+        },
+        {
+          "file": "data/legacy.bif",
+          "entries": 1,
+          "file_size": 196688,
+          "resource_index_sha256": "48020816e0bef15b501daeae7472e355c43804a32da19c0bc95fcca9360fe170"
+        },
+        {
+          "file": "data/lightmaps.bif",
+          "entries": 3882,
+          "file_size": 91195876,
+          "resource_index_sha256": "b9bce82d3e5304838c0cb8c68e63a1cb8056bdaee607f6478d21ceaa4e21493e"
+        },
+        {
+          "file": "data/models.bif",
+          "entries": 8338,
+          "file_size": 866238402,
+          "resource_index_sha256": "6b86ca099f26262448f047d15a24b4f820c7cfeae174af921309d319f5dbc5b2"
+        },
+        {
+          "file": "data/scripts.bif",
+          "entries": 1250,
+          "file_size": 5415098,
+          "resource_index_sha256": "0c06affb7647c887093e8e3102f3f3958d922600be58c815001c1d80b3e0a9b1"
+        },
+        {
+          "file": "data/sounds.bif",
+          "entries": 2265,
+          "file_size": 259696688,
+          "resource_index_sha256": "8246478dc3da32677679411ffedd170d009db9f462bd0c9d73d02ce152bfde76"
+        },
+        {
+          "file": "data/templates.bif",
+          "entries": 1969,
+          "file_size": 4255689,
+          "resource_index_sha256": "c1b8d4ef1b169b96e47be6806dff6a428cbcddc11bcc70010cad8da0d6212ea9"
+        },
+        {
+          "file": "data/textures.bif",
+          "entries": 34,
+          "file_size": 592529,
+          "resource_index_sha256": "2be746a5ae14daa01f6038850549960bd795a5100a88e57dd5638ce23783b9e9"
+        },
+        {
+          "file": "lips/001ebo_loc.mod",
+          "entries": 184,
+          "file_size": 59637,
+          "resource_index_sha256": "62e04c462676346e7b955e319c37f90b7c2da495e9ff5a77f185971364040bdb"
+        },
+        {
+          "file": "lips/002ebo_loc.mod",
+          "entries": 48,
+          "file_size": 13744,
+          "resource_index_sha256": "e0d9f0dbeae8bdf7175b8029faf4aadb76a33f9478eabfc4ab458f56a78a5240"
+        },
+        {
+          "file": "lips/003ebo_loc.mod",
+          "entries": 1708,
+          "file_size": 447624,
+          "resource_index_sha256": "a8be760c7f26702dd936867d7ebff347491f0e9d205a58dbe745bab547d8f4ae"
+        },
+        {
+          "file": "lips/004ebo_loc.mod",
+          "entries": 40,
+          "file_size": 8735,
+          "resource_index_sha256": "83b1df0ab425d7802f0b2909afecdc5eb56c1ede2680360f602ba543af49fec2"
+        },
+        {
+          "file": "lips/005ebo_loc.mod",
+          "entries": 660,
+          "file_size": 181990,
+          "resource_index_sha256": "929823967ac3f0a4077275901516bcb19a1defdf656be6d009e4fe09f0928758"
+        },
+        {
+          "file": "lips/006ebo_loc.mod",
+          "entries": 76,
+          "file_size": 17838,
+          "resource_index_sha256": "5ccf270058f380c9b5f0f363b6392cbb31b95d7e2dbf7d955537fa0d2f1aaa39"
+        },
+        {
+          "file": "lips/007ebo_loc.mod",
+          "entries": 242,
+          "file_size": 65616,
+          "resource_index_sha256": "8ffde21929e16d4cd81dc1779c696008abbc59086c1679505b7bb86a916a59f5"
+        },
+        {
+          "file": "lips/101per_loc.mod",
+          "entries": 670,
+          "file_size": 182040,
+          "resource_index_sha256": "c05383b99a72f2c6276f5f1b6536d345ca80c09f46622ff28fa5be4d56fe7a68"
+        },
+        {
+          "file": "lips/102per_loc.mod",
+          "entries": 389,
+          "file_size": 92747,
+          "resource_index_sha256": "30318c6778ec77925fb565859773978f557999e863f70762f1075750d71c555a"
+        },
+        {
+          "file": "lips/103per_loc.mod",
+          "entries": 161,
+          "file_size": 60158,
+          "resource_index_sha256": "c5a129acff34675d012aaf2c5fe2b48b59dac403d911ec9006f44c9fd393cce2"
+        },
+        {
+          "file": "lips/104per_loc.mod",
+          "entries": 338,
+          "file_size": 78609,
+          "resource_index_sha256": "43b1d0e890b155a3073555980d510ec9be1699103adeb95ca61bd3820e59c082"
+        },
+        {
+          "file": "lips/105per_loc.mod",
+          "entries": 64,
+          "file_size": 20552,
+          "resource_index_sha256": "95b551de586d4256ab6190535916d94a796c4c09f4a213ac22b09435138fdf49"
+        },
+        {
+          "file": "lips/106per_loc.mod",
+          "entries": 346,
+          "file_size": 82623,
+          "resource_index_sha256": "7d4bd64c1dbeefd9326c27d7b76dc73db37f0dede5574c7b320a3b241b02a7a1"
+        },
+        {
+          "file": "lips/107per_loc.mod",
+          "entries": 329,
+          "file_size": 76327,
+          "resource_index_sha256": "ceb15e975a2b19bba4cb483abb0f322b0d82e8d38ee8b6cb88109e49fe56fe10"
+        },
+        {
+          "file": "lips/151har_loc.mod",
+          "entries": 87,
+          "file_size": 20601,
+          "resource_index_sha256": "e35d35a2fe39e4eedd1ed0e1e9e374a938014494314233195a077888f55c280c"
+        },
+        {
+          "file": "lips/152har_loc.mod",
+          "entries": 13,
+          "file_size": 3804,
+          "resource_index_sha256": "018a644e150e0857dfcf6f6b1941afb7d74427d5bd22f7bbc5b1129046923c4b"
+        },
+        {
+          "file": "lips/153har_loc.mod",
+          "entries": 28,
+          "file_size": 5654,
+          "resource_index_sha256": "ac350d2656e32436f9658fd31ae10793b0f770b21399ad0df912ede0a19e2c8f"
+        },
+        {
+          "file": "lips/201tel_loc.mod",
+          "entries": 197,
+          "file_size": 44731,
+          "resource_index_sha256": "1e804f8f2b18e14ae202ef567e9a2ed9c73b07d0301afe0946167744d7812e31"
+        },
+        {
+          "file": "lips/202tel_loc.mod",
+          "entries": 263,
+          "file_size": 69639,
+          "resource_index_sha256": "76cc147ab8de68c9062e6a55fcae17012f906260fab37c090116add1c89db09d"
+        },
+        {
+          "file": "lips/203tel_loc.mod",
+          "entries": 367,
+          "file_size": 90151,
+          "resource_index_sha256": "944213be555db7b1aadc068dfe8d713f7fda16cf62f64f926e65e9e81b9e96e8"
+        },
+        {
+          "file": "lips/204tel_loc.mod",
+          "entries": 82,
+          "file_size": 19521,
+          "resource_index_sha256": "7a404161bcdcc76947cb3c5529175c0075ad18b4c61ed920e3d28147e916b053"
+        },
+        {
+          "file": "lips/205tel_loc.mod",
+          "entries": 54,
+          "file_size": 12027,
+          "resource_index_sha256": "4f2a0fa550f0b77d731be2a076377fa939acd47c85696d9f09095bc4a822cbd6"
+        },
+        {
+          "file": "lips/207tel_loc.mod",
+          "entries": 297,
+          "file_size": 72661,
+          "resource_index_sha256": "ac91c2df7702ee068bc26da60801202ff17c10247b6bfeda9ce9069050571da3"
+        },
+        {
+          "file": "lips/208tel_loc.mod",
+          "entries": 61,
+          "file_size": 11813,
+          "resource_index_sha256": "3df140fd348d5445427ec2e2996b4a1c39418e539cc984d51f44247dd6665f9b"
+        },
+        {
+          "file": "lips/209tel_loc.mod",
+          "entries": 234,
+          "file_size": 64632,
+          "resource_index_sha256": "2fcc950480f842c183ec9d084477e49ad7119e1b53deeaaa2cae44eea5bd662c"
+        },
+        {
+          "file": "lips/220tel_loc.mod",
+          "entries": 8,
+          "file_size": 2149,
+          "resource_index_sha256": "69b8f22e48902c45b4a5cec7b6db84fa935fc995faf99da1396c7e30cc5f064a"
+        },
+        {
+          "file": "lips/221tel_loc.mod",
+          "entries": 147,
+          "file_size": 34661,
+          "resource_index_sha256": "89761e194e5664b7359bc1023324d527ed056f64be66c463ed9e3d2f8b1b9e6a"
+        },
+        {
+          "file": "lips/222tel_loc.mod",
+          "entries": 33,
+          "file_size": 7024,
+          "resource_index_sha256": "20e42e31071f3bcf43504b829e3eaca564ece53bbf1f71c5ee99fba9801b2964"
+        },
+        {
+          "file": "lips/231tel_loc.mod",
+          "entries": 338,
+          "file_size": 66689,
+          "resource_index_sha256": "7b22bcbd406223cf0e095ae395b41ca9ed1c802324387d4e1579c02143fc8cff"
+        },
+        {
+          "file": "lips/232tel_loc.mod",
+          "entries": 34,
+          "file_size": 8817,
+          "resource_index_sha256": "802d60d6314a1e38d00378b03c5721aef4947a55d4f8c6b594508ed0393357a3"
+        },
+        {
+          "file": "lips/233tel_loc.mod",
+          "entries": 45,
+          "file_size": 10520,
+          "resource_index_sha256": "3fa922e400258fbaf6db892877cb8e9e2af8af429404dd39237f36fc83fc6b55"
+        },
+        {
+          "file": "lips/261tel_loc.mod",
+          "entries": 422,
+          "file_size": 111166,
+          "resource_index_sha256": "35f92fa777ce7b00a006b4772f6f09b8cc5424c4501ecf99062e90bf2b1a9a71"
+        },
+        {
+          "file": "lips/262tel_loc.mod",
+          "entries": 1494,
+          "file_size": 361642,
+          "resource_index_sha256": "2abaad35c66fc2b388ad0b776b4202f855e6947543025bc71a45ec06f1cad7cf"
+        },
+        {
+          "file": "lips/298tel_loc.mod",
+          "entries": 145,
+          "file_size": 44835,
+          "resource_index_sha256": "1edd67d33c815fe38879f2a746a8d4349ad227887be8c5b38b16a9423e5a517e"
+        },
+        {
+          "file": "lips/299tel_loc.mod",
+          "entries": 119,
+          "file_size": 38992,
+          "resource_index_sha256": "16219c197850bbc28ce304dfd48e0d2f697e32dc47e4800f058149d22da046ab"
+        },
+        {
+          "file": "lips/301nar_loc.mod",
+          "entries": 719,
+          "file_size": 184522,
+          "resource_index_sha256": "96b5c69b659043e3d4eadb0e9f5beba925d1898f6e87b992f567d523446d6e8a"
+        },
+        {
+          "file": "lips/302nar_loc.mod",
+          "entries": 425,
+          "file_size": 86980,
+          "resource_index_sha256": "43beac82e2b9707ec50d51f430b5a81d401b5f8b9f7a1a073fcc9329490be368"
+        },
+        {
+          "file": "lips/303nar_loc.mod",
+          "entries": 932,
+          "file_size": 259856,
+          "resource_index_sha256": "9b84e7fba78a793bf532c529e4203ac691a7a2305f1d23df72d7687443cbdaa3"
+        },
+        {
+          "file": "lips/304nar_loc.mod",
+          "entries": 187,
+          "file_size": 43326,
+          "resource_index_sha256": "e3fb870aea83b2f58909caa9e76c96da0257a09e983256d737aa01b3f85dc558"
+        },
+        {
+          "file": "lips/305nar_loc.mod",
+          "entries": 988,
+          "file_size": 249204,
+          "resource_index_sha256": "cef8eacd67f80a64de342a4a9d855269dad2adf0b916e7a8574641868c99c1f5"
+        },
+        {
+          "file": "lips/306nar_loc.mod",
+          "entries": 247,
+          "file_size": 55331,
+          "resource_index_sha256": "e848bbf584f7df7536496ab7a8b93a0cbff8c9029c3d0cc37537aac8c838f374"
+        },
+        {
+          "file": "lips/351nar_loc.mod",
+          "entries": 147,
+          "file_size": 41086,
+          "resource_index_sha256": "428d7d4aef288b8ef5accce8cefec5e7b569e067dea2f67830115c46e6379f77"
+        },
+        {
+          "file": "lips/352nar_loc.mod",
+          "entries": 365,
+          "file_size": 98840,
+          "resource_index_sha256": "25b1266376275b4c33116f9e0168ea14e64b5dbb49c7ee1196b20be839a8014e"
+        },
+        {
+          "file": "lips/401dxn_loc.mod",
+          "entries": 48,
+          "file_size": 11754,
+          "resource_index_sha256": "3b0a040a2e1b39df2d530a95a327458007c629ed6ddaca9712aee25746b90825"
+        },
+        {
+          "file": "lips/402dxn_loc.mod",
+          "entries": 220,
+          "file_size": 54075,
+          "resource_index_sha256": "319b268e0e4111e39e6c42c61969f971ee3f471293f42ae5cc750a609a9dbb21"
+        },
+        {
+          "file": "lips/403dxn_loc.mod",
+          "entries": 566,
+          "file_size": 162653,
+          "resource_index_sha256": "5de02bb5f3b5a68513fd93b928f22619a3fc8331e07912f87906a10e3f9f40fb"
+        },
+        {
+          "file": "lips/404dxn_loc.mod",
+          "entries": 0,
+          "file_size": 160,
+          "resource_index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "file": "lips/410dxn_loc.mod",
+          "entries": 56,
+          "file_size": 15073,
+          "resource_index_sha256": "9055b05cbe63d75cdbcf83f5a0222bb3d5d9002f0d4db7eaeebb985299f4e7d2"
+        },
+        {
+          "file": "lips/411dxn_loc.mod",
+          "entries": 73,
+          "file_size": 19809,
+          "resource_index_sha256": "6ce62e6583b432b1b637b2137c31d6d953ddcce4380ce8469b798c712e4f5bd5"
+        },
+        {
+          "file": "lips/501ond_loc.mod",
+          "entries": 192,
+          "file_size": 53806,
+          "resource_index_sha256": "36faacb1f294730411107012c4db1cf25de35be25de2f5a087c7988b3035af56"
+        },
+        {
+          "file": "lips/502ond_loc.mod",
+          "entries": 506,
+          "file_size": 137033,
+          "resource_index_sha256": "30701f988003f752bd4c4d6e3ba767c4098b8460f6601c8fc10cde498a2835e8"
+        },
+        {
+          "file": "lips/503ond_loc.mod",
+          "entries": 425,
+          "file_size": 114315,
+          "resource_index_sha256": "3c5d1cc17b7de3ca555db449a6a84d257b1048bae56fa1947a2a1433dce864f5"
+        },
+        {
+          "file": "lips/504ond_loc.mod",
+          "entries": 71,
+          "file_size": 15918,
+          "resource_index_sha256": "dc7cd69a51ac83196f570f9e2d7785f55069a62eae9aefbcdfbc36723b912e6d"
+        },
+        {
+          "file": "lips/506ond_loc.mod",
+          "entries": 379,
+          "file_size": 103227,
+          "resource_index_sha256": "3cfe843a10cd6fc932c4ae50d976c28fde65c121bf10b37d6cd74a851b7366a8"
+        },
+        {
+          "file": "lips/511ond_loc.mod",
+          "entries": 64,
+          "file_size": 16762,
+          "resource_index_sha256": "e25524223a42c4f8feb58197844cd03d1acb585562a25c239f7cfcdfe27a6ccd"
+        },
+        {
+          "file": "lips/512ond_loc.mod",
+          "entries": 147,
+          "file_size": 36521,
+          "resource_index_sha256": "59f3cb29757114f31ac6b67bdb102c4cf767a898b7024be5fc881b695e1b2898"
+        },
+        {
+          "file": "lips/601dan_loc.mod",
+          "entries": 369,
+          "file_size": 97642,
+          "resource_index_sha256": "4a3966043272abd25bf1bdabce77c2dbd94504d91c472fc85fa94bbd4d1192fe"
+        },
+        {
+          "file": "lips/602dan_loc.mod",
+          "entries": 1067,
+          "file_size": 344376,
+          "resource_index_sha256": "d9e5f4089350d87e3699f993db84864b6d83a269f154872cca49a946f351cc9e"
+        },
+        {
+          "file": "lips/603dan_loc.mod",
+          "entries": 0,
+          "file_size": 160,
+          "resource_index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "file": "lips/604dan_loc.mod",
+          "entries": 121,
+          "file_size": 34858,
+          "resource_index_sha256": "b90a73875bfb8bf5db2fb8ce2f041ca2158d5d5a0b67d6f2a4fb835a968cb023"
+        },
+        {
+          "file": "lips/605dan_loc.mod",
+          "entries": 316,
+          "file_size": 97518,
+          "resource_index_sha256": "d1c59b9066e7862f01fa766216286ce327536eca7a7e20406e2716dfbe6cfbc3"
+        },
+        {
+          "file": "lips/610dan_loc.mod",
+          "entries": 505,
+          "file_size": 155045,
+          "resource_index_sha256": "d52831e5841d2760374d1599246c54f0ff9a503f5ab95a0f01fe9b1a901c4e5d"
+        },
+        {
+          "file": "lips/650dan_loc.mod",
+          "entries": 1020,
+          "file_size": 279639,
+          "resource_index_sha256": "891056e95ea0e2d2c0d018876fd0412ea832b3f42dddd5c77de9335d3e7f410c"
+        },
+        {
+          "file": "lips/701kor_loc.mod",
+          "entries": 70,
+          "file_size": 18620,
+          "resource_index_sha256": "3d8624d4d8e7e5a727bc5e84cefe07ed2902b0223923994f5914f9795088a9f3"
+        },
+        {
+          "file": "lips/702kor_loc.mod",
+          "entries": 68,
+          "file_size": 16224,
+          "resource_index_sha256": "b3d238c4ff274eefc0560a0d3968fea83f82150f32eecbd4c8eefa2addac920c"
+        },
+        {
+          "file": "lips/710kor_loc.mod",
+          "entries": 21,
+          "file_size": 4088,
+          "resource_index_sha256": "2f00a440fe7dea723989209f85a6c674112298fd83808455b3394ccf0047c52a"
+        },
+        {
+          "file": "lips/711kor_loc.mod",
+          "entries": 421,
+          "file_size": 98993,
+          "resource_index_sha256": "f1db352e5acb98edcc19703a47988451ebef1d4ae5926b0a75c4beffaac98334"
+        },
+        {
+          "file": "lips/851nih_loc.mod",
+          "entries": 139,
+          "file_size": 35782,
+          "resource_index_sha256": "bdf7f3726ee4ce61003ccbf6dcbd02e0b6b511530214c57bee3387c72a5d02e2"
+        },
+        {
+          "file": "lips/852nih_loc.mod",
+          "entries": 56,
+          "file_size": 10438,
+          "resource_index_sha256": "4b1d9162ff42597e1a2a2d3a6dfb1f9f17e9b39f250753fed95a03a8ef93a5b8"
+        },
+        {
+          "file": "lips/853nih_loc.mod",
+          "entries": 42,
+          "file_size": 7811,
+          "resource_index_sha256": "b14d13992271ade1a2bbd4db80b59d44fb6f84e3f8a114fa71d2177965f9a61e"
+        },
+        {
+          "file": "lips/901mal_loc.mod",
+          "entries": 60,
+          "file_size": 16590,
+          "resource_index_sha256": "e386fb98e8f84b97472bde373605fb4cd8625832853dd6d777e9ab1b87a750d1"
+        },
+        {
+          "file": "lips/902mal_loc.mod",
+          "entries": 887,
+          "file_size": 269531,
+          "resource_index_sha256": "d138c9c5fb54c0bccc64c456c02b4ee9350cc15a3eaf30ad10368ca10863cbb2"
+        },
+        {
+          "file": "lips/903mal_loc.mod",
+          "entries": 152,
+          "file_size": 41026,
+          "resource_index_sha256": "113df049516e5a723320799fbc8459492df6494cdca59488b568b1dc0fc55839"
+        },
+        {
+          "file": "lips/904mal_loc.mod",
+          "entries": 225,
+          "file_size": 67450,
+          "resource_index_sha256": "b72983a34adfb226611b969dbf1831d48648a2995347334f5717a26178ce6e06"
+        },
+        {
+          "file": "lips/905mal_loc.mod",
+          "entries": 121,
+          "file_size": 35073,
+          "resource_index_sha256": "fe2b791a7e999aeae994e125446526928b1ed036749f904be0ebd9132d3425da"
+        },
+        {
+          "file": "lips/906mal_loc.mod",
+          "entries": 121,
+          "file_size": 35073,
+          "resource_index_sha256": "fe2b791a7e999aeae994e125446526928b1ed036749f904be0ebd9132d3425da"
+        },
+        {
+          "file": "lips/907mal_loc.mod",
+          "entries": 890,
+          "file_size": 253080,
+          "resource_index_sha256": "0c8a7b562c7e29cf940b9be83c048834d9b5282194135c19161a4b82c91a7778"
+        },
+        {
+          "file": "lips/950cor_loc.mod",
+          "entries": 95,
+          "file_size": 23605,
+          "resource_index_sha256": "ad3e5cfa855b2093ad4e50a14ab1da5d1ec18cf4ee403a055c0278d5945145ce"
+        },
+        {
+          "file": "lips/localization.mod",
+          "entries": 3456,
+          "file_size": 931783,
+          "resource_index_sha256": "1e07c4d2d3f0237305092098834b6d3fe667729bff7ce552e12eb872e7081063"
+        },
+        {
+          "file": "modules/001ebo.mod",
+          "entries": 251,
+          "file_size": 1077774,
+          "resource_index_sha256": "f125c4487c492ab56cb13095c3556752643e7b29282d78af51a0c1f31eb0f525"
+        },
+        {
+          "file": "modules/001ebo.rim",
+          "entries": 3,
+          "file_size": 49203,
+          "resource_index_sha256": "e54b38783e3ad7300ffced427510f446078f4d89e4448a8d563a9fd908d2d0d8"
+        },
+        {
+          "file": "modules/001ebo_dlg.erf",
+          "entries": 47,
+          "file_size": 728325,
+          "resource_index_sha256": "41ac91ee9f440bbffa6ec3725dbdad8b80bc26d46cb10b4754c6dcaa7ba1570c"
+        },
+        {
+          "file": "modules/001ebo_s.rim",
+          "entries": 201,
+          "file_size": 293556,
+          "resource_index_sha256": "679c3ef40f824e86bb2f80c004f292197ff765a300dc2bca18731a60026c1f1f"
+        },
+        {
+          "file": "modules/002ebo.mod",
+          "entries": 88,
+          "file_size": 268600,
+          "resource_index_sha256": "4b5ff8e20167a851a8d5619c47edd2fc1836dffe15d7a93afe1c608455c15467"
+        },
+        {
+          "file": "modules/002ebo.rim",
+          "entries": 3,
+          "file_size": 19552,
+          "resource_index_sha256": "fca3f759e478dc88ac58124a8d50deb4e10c7ae9c4764ec4a275f9e31eabd04a"
+        },
+        {
+          "file": "modules/002ebo_dlg.erf",
+          "entries": 13,
+          "file_size": 161312,
+          "resource_index_sha256": "616c28eb7f19b7e71ac3a8762fa98e978ada3e31fa021a8b1db69b79923f6440"
+        },
+        {
+          "file": "modules/002ebo_s.rim",
+          "entries": 72,
+          "file_size": 85798,
+          "resource_index_sha256": "fa9cf34a2403bcb2f020561f5dde92e3442ca8d8698c78fac212a394061f6eef"
+        },
+        {
+          "file": "modules/003ebo.mod",
+          "entries": 319,
+          "file_size": 4028191,
+          "resource_index_sha256": "f445181d9bcbc1100063bc41b7a8e23a001714417dcb8723a808c43b59bedbdb"
+        },
+        {
+          "file": "modules/003ebo.rim",
+          "entries": 3,
+          "file_size": 78263,
+          "resource_index_sha256": "810aaef4895947b726576c09de166015f985a7ea8f9f8ccd49db14e0f221ca86"
+        },
+        {
+          "file": "modules/003ebo_dlg.erf",
+          "entries": 54,
+          "file_size": 2813704,
+          "resource_index_sha256": "58d063d97350cf3a17de5d2e6ab4b4d0bf3e90eff5892c8a9ce91c05a0d70e51"
+        },
+        {
+          "file": "modules/003ebo_s.rim",
+          "entries": 180,
+          "file_size": 482094,
+          "resource_index_sha256": "6090b9a3f64dd3212be82c6520b121afcd47e238580b99f3090efc5cf5fefc3a"
+        },
+        {
+          "file": "modules/004ebo.mod",
+          "entries": 60,
+          "file_size": 185536,
+          "resource_index_sha256": "1fe0ec49cb12b1ae2d3d56069de036d890ef26b7198b46b154c063b6f8345e83"
+        },
+        {
+          "file": "modules/004ebo.rim",
+          "entries": 3,
+          "file_size": 22819,
+          "resource_index_sha256": "f4345d91ce37c6f8763d65f10248e5741a60ab0d3895b7cf21e5d57ca8373a21"
+        },
+        {
+          "file": "modules/004ebo_dlg.erf",
+          "entries": 4,
+          "file_size": 140078,
+          "resource_index_sha256": "64a36bef876d372b78e988c5b920e01a96d4ce221832e4ff0db6989138d430e0"
+        },
+        {
+          "file": "modules/004ebo_s.rim",
+          "entries": 41,
+          "file_size": 89452,
+          "resource_index_sha256": "84fa687c3a8a145e9ed5af14151128364cbdda61458ab9280cf9474c091d2c38"
+        },
+        {
+          "file": "modules/005ebo.mod",
+          "entries": 55,
+          "file_size": 163897,
+          "resource_index_sha256": "e1aca14ddd3a4ade017470730bfcd1fbedd7c6f13687df33eab0ac0c1fec1f2c"
+        },
+        {
+          "file": "modules/005ebo.rim",
+          "entries": 3,
+          "file_size": 24414,
+          "resource_index_sha256": "ae9e06b63a0a30f30b454a01869ad35e0c373051662deb6c04a77e1cd6ee1753"
+        },
+        {
+          "file": "modules/005ebo_dlg.erf",
+          "entries": 1,
+          "file_size": 4046,
+          "resource_index_sha256": "d266052babf1f4831315b22496db7162bd46971d2fa0520b6fd1c44e640f380b"
+        },
+        {
+          "file": "modules/005ebo_s.rim",
+          "entries": 46,
+          "file_size": 85218,
+          "resource_index_sha256": "ca40f39f7fa6a35503a402ea17b067979450376e413b66a89037578f745e35f7"
+        },
+        {
+          "file": "modules/006ebo.mod",
+          "entries": 55,
+          "file_size": 370763,
+          "resource_index_sha256": "3688b9b46f0df0d3189d91abba45165da71b20dd72077a6eb253cf9d3b01a95a"
+        },
+        {
+          "file": "modules/006ebo.rim",
+          "entries": 3,
+          "file_size": 19435,
+          "resource_index_sha256": "4741023d5ec18f863c6023916a0e586b13b8d36f32b013c2ff5fd46fc189d906"
+        },
+        {
+          "file": "modules/006ebo_dlg.erf",
+          "entries": 3,
+          "file_size": 279002,
+          "resource_index_sha256": "17ddf966b118d153a263ec51d1336ef7ae8dfd1f89cfdc1c5481b80e930df291"
+        },
+        {
+          "file": "modules/006ebo_s.rim",
+          "entries": 40,
+          "file_size": 37034,
+          "resource_index_sha256": "03a281c0f8dbda5e87d30836d0d309046e39d8d9293887921d4407e35d35a4cf"
+        },
+        {
+          "file": "modules/007ebo.mod",
+          "entries": 15,
+          "file_size": 99989,
+          "resource_index_sha256": "933208d7534345ff9e90b5e1c1a4628baf3c3fcbf4b3daddf3598d6693c89bc1"
+        },
+        {
+          "file": "modules/007ebo.rim",
+          "entries": 3,
+          "file_size": 9778,
+          "resource_index_sha256": "44ff1b46cce7dfb22bff818f600fef3a973d1f3e701dfcc185ba475e537b119b"
+        },
+        {
+          "file": "modules/007ebo_dlg.erf",
+          "entries": 3,
+          "file_size": 86443,
+          "resource_index_sha256": "6438c7884d2a16b0bf3123b81c5b0336c3579866d275812dfa9fec078634bb31"
+        },
+        {
+          "file": "modules/007ebo_s.rim",
+          "entries": 9,
+          "file_size": 3717,
+          "resource_index_sha256": "6242e44b4a7ccc53164f18ecdfb57ad115f78b34d50cd0a0e2e924038b7c00e4"
+        },
+        {
+          "file": "modules/012ebo.mod",
+          "entries": 82,
+          "file_size": 191702,
+          "resource_index_sha256": "ff04345375e9ba3df1fa6192f4a66cbea1f3450c1d404b01e2aeb0804415c0ca"
+        },
+        {
+          "file": "modules/020ebo.mod",
+          "entries": 61,
+          "file_size": 256692,
+          "resource_index_sha256": "855f44954bedd3012961164b4eb9fff3a76a7a3897b6d82f2d0e77165df591da"
+        },
+        {
+          "file": "modules/101per.mod",
+          "entries": 411,
+          "file_size": 1928294,
+          "resource_index_sha256": "65bd57c56728db4b1f3540fe1a2fc07c3c4fbe592374f8e9f543d24b49bf6ab1"
+        },
+        {
+          "file": "modules/101per.rim",
+          "entries": 3,
+          "file_size": 76098,
+          "resource_index_sha256": "a7cd5012c190a64b70707f2b02d5ae68827961f2df9afadeea87b50d0f10ac3a"
+        },
+        {
+          "file": "modules/101per_dlg.erf",
+          "entries": 24,
+          "file_size": 1324594,
+          "resource_index_sha256": "9555f2ad802d7076294f447bb813012f5b2cdc23489f62596777d44051efa5d6"
+        },
+        {
+          "file": "modules/101per_s.rim",
+          "entries": 379,
+          "file_size": 437645,
+          "resource_index_sha256": "a6c3aa8bb5a08dd967a6ea042a306a529ea979c24bb5062abcdfe1670178f71a"
+        },
+        {
+          "file": "modules/102per.mod",
+          "entries": 189,
+          "file_size": 876432,
+          "resource_index_sha256": "c5022b0e05a940369cec83967dd056cb5e5e9550ac77e42caf751d4ad81612b2"
+        },
+        {
+          "file": "modules/102per.rim",
+          "entries": 3,
+          "file_size": 62814,
+          "resource_index_sha256": "c444749e65611ac83dc83fef389837e254c7d9e0862406446da28dee2b99932c"
+        },
+        {
+          "file": "modules/102per_dlg.erf",
+          "entries": 9,
+          "file_size": 376990,
+          "resource_index_sha256": "a4f8137688f824a2ff44b9fa19efdcb71ff0bc32512c65f72db06b148e78bede"
+        },
+        {
+          "file": "modules/102per_s.rim",
+          "entries": 177,
+          "file_size": 439345,
+          "resource_index_sha256": "fee0b1de9418150eb81afd060c5e1bd760d9ea1b7a33ae1f79873a48ec644232"
+        },
+        {
+          "file": "modules/103per.mod",
+          "entries": 321,
+          "file_size": 1581371,
+          "resource_index_sha256": "22513105e7f99d73001c7b3f61e964544345927575c53cfc9a37bd14c88dd29e"
+        },
+        {
+          "file": "modules/103per.rim",
+          "entries": 3,
+          "file_size": 56930,
+          "resource_index_sha256": "ccf16c62eca2946ba38fc74e3d9bea93c60660ee735bbfe5f2b1a2355c9ce17b"
+        },
+        {
+          "file": "modules/103per_dlg.erf",
+          "entries": 23,
+          "file_size": 969175,
+          "resource_index_sha256": "d543af0ea29ae2eec107299ce835b1e97d143b89c2468417bff4442c23c5ddb2"
+        },
+        {
+          "file": "modules/103per_s.rim",
+          "entries": 289,
+          "file_size": 518340,
+          "resource_index_sha256": "96ab09f5728b2a364b4e7611b690852356ba5a385c59fe6588f45567a0b346a4"
+        },
+        {
+          "file": "modules/104per.mod",
+          "entries": 73,
+          "file_size": 191256,
+          "resource_index_sha256": "ee684863e018692009a55bf8c43445795d82c214514eee6b9effbf4a99f155ba"
+        },
+        {
+          "file": "modules/104per.rim",
+          "entries": 3,
+          "file_size": 18044,
+          "resource_index_sha256": "77bde6a8740ab2c148ecbd39768c2b79f7c36c684ad7a33552fd5daa72a15da5"
+        },
+        {
+          "file": "modules/104per_dlg.erf",
+          "entries": 5,
+          "file_size": 75171,
+          "resource_index_sha256": "bdbb0eda0d4b23a0e54c65c6d5ada3180a4c28df87b9cdaafb4a6be64eb93b89"
+        },
+        {
+          "file": "modules/104per_s.rim",
+          "entries": 50,
+          "file_size": 55789,
+          "resource_index_sha256": "5aa638d0a0b35e5b5ac9a0d78ca7c36ba57d12640e3dfc12fa81eb8dadf90707"
+        },
+        {
+          "file": "modules/105per.mod",
+          "entries": 275,
+          "file_size": 1240662,
+          "resource_index_sha256": "fdc82cd8391bafad75b0187c9d55267396d9bf6b2540fdc276965bf1c70e7b76"
+        },
+        {
+          "file": "modules/105per.rim",
+          "entries": 3,
+          "file_size": 68182,
+          "resource_index_sha256": "028fbe6dbd7f815caf1267ddca885a902e960f91c3b1120c24f3560f569547ae"
+        },
+        {
+          "file": "modules/105per_dlg.erf",
+          "entries": 19,
+          "file_size": 625448,
+          "resource_index_sha256": "36d941ba9d11c81862ced5aabe6ed8845fbf54cc5ada9b9f13caef9c4d9bccf1"
+        },
+        {
+          "file": "modules/105per_s.rim",
+          "entries": 252,
+          "file_size": 542838,
+          "resource_index_sha256": "c0b9e706d8baccd5605831164dc02c1c47b4fbff69a07f002028bbc9091f5150"
+        },
+        {
+          "file": "modules/106per.mod",
+          "entries": 240,
+          "file_size": 689681,
+          "resource_index_sha256": "471a106bb818dfca9256b2f507117ca2d9c18ba4509d051c67c905cb8568a969"
+        },
+        {
+          "file": "modules/106per.rim",
+          "entries": 3,
+          "file_size": 49442,
+          "resource_index_sha256": "72fc63f7c91b9b00baa624b1d8798f348d938c58d64139835bcd403358c7d17d"
+        },
+        {
+          "file": "modules/106per_dlg.erf",
+          "entries": 12,
+          "file_size": 294219,
+          "resource_index_sha256": "5fb0d3801a64fe5e9ab9e82979c4ff549354c777cb73306cdc79029adc01fcbb"
+        },
+        {
+          "file": "modules/106per_s.rim",
+          "entries": 223,
+          "file_size": 338016,
+          "resource_index_sha256": "2011165d587313d0219619721c0f95a6b5d0f4155d599a25278fa0abe523fe94"
+        },
+        {
+          "file": "modules/107per.mod",
+          "entries": 54,
+          "file_size": 122636,
+          "resource_index_sha256": "edb7d13e73cacbe842217a80476b6b5f1a7b51760df9bd0ada0ce679986eb2ce"
+        },
+        {
+          "file": "modules/107per.rim",
+          "entries": 3,
+          "file_size": 25662,
+          "resource_index_sha256": "ed24a2c8fb2bda4f68ff8cba2456e7490916fe5397778019e86efba31a63e397"
+        },
+        {
+          "file": "modules/107per_dlg.erf",
+          "entries": 2,
+          "file_size": 22700,
+          "resource_index_sha256": "72cca2c422cb3a20f062dc420815a8a9eff4310b417fbb3f3513b87f9126796e"
+        },
+        {
+          "file": "modules/107per_s.rim",
+          "entries": 49,
+          "file_size": 74692,
+          "resource_index_sha256": "e23895bde3cff225dfdbb5cdafdddfa0c5e2f62dda6c9ba4e8bd6d4bbedf336e"
+        },
+        {
+          "file": "modules/151har.mod",
+          "entries": 114,
+          "file_size": 593752,
+          "resource_index_sha256": "bcf9591ee77bb8cdb5794fded20d26912b9424f83289f3440293d36681e30bbf"
+        },
+        {
+          "file": "modules/151har.rim",
+          "entries": 3,
+          "file_size": 35952,
+          "resource_index_sha256": "f300b4af120a7b68eca148d7d8d878f173be30b62f9b864bcd485856ceaacfe2"
+        },
+        {
+          "file": "modules/151har_dlg.erf",
+          "entries": 9,
+          "file_size": 302821,
+          "resource_index_sha256": "1737ff78638272b8306e16743bf9667ef2e742aa8c7ef3eab44599d29c757543"
+        },
+        {
+          "file": "modules/151har_s.rim",
+          "entries": 102,
+          "file_size": 251360,
+          "resource_index_sha256": "2852389d36f7c42d7b46e8af11f4459909e61c515eee3bf5f284c9b53d76fe0f"
+        },
+        {
+          "file": "modules/152har.mod",
+          "entries": 139,
+          "file_size": 638130,
+          "resource_index_sha256": "abbde9ff3cbc8d84dbcd4b8b6a1363dd799a5ee0a067d9675ff4cf4dbae81688"
+        },
+        {
+          "file": "modules/152har.rim",
+          "entries": 3,
+          "file_size": 42350,
+          "resource_index_sha256": "3cc0c2088faa3dfffe9fdbb466802670500603fced14154b2d5e304bc3ec58dd"
+        },
+        {
+          "file": "modules/152har_dlg.erf",
+          "entries": 11,
+          "file_size": 146072,
+          "resource_index_sha256": "1b81174983669b7caeee6557cb289f70fd609cac8bc26f616dd7867397b76153"
+        },
+        {
+          "file": "modules/152har_s.rim",
+          "entries": 123,
+          "file_size": 386577,
+          "resource_index_sha256": "59e2b74b9cbe60d19c7d3bce6033c3f6377af2d63ccf326752ee340dac3323d1"
+        },
+        {
+          "file": "modules/153har.mod",
+          "entries": 95,
+          "file_size": 311894,
+          "resource_index_sha256": "29c53b4225f78161112625cba1d7747addac05388607a896b50f3415cb26e132"
+        },
+        {
+          "file": "modules/153har.rim",
+          "entries": 3,
+          "file_size": 31914,
+          "resource_index_sha256": "fa9c27e8f019e5ae3a40dc5a69529afb0ba6eca6617047320d939b3da2f53ce1"
+        },
+        {
+          "file": "modules/153har_dlg.erf",
+          "entries": 8,
+          "file_size": 169080,
+          "resource_index_sha256": "027457e8f21768fb6f17a25cc97370422b6a2e16619bff1dddf7d754f5efaf31"
+        },
+        {
+          "file": "modules/153har_s.rim",
+          "entries": 81,
+          "file_size": 111988,
+          "resource_index_sha256": "5e8b774bc1c9035279244829888e856d908c4391b4a2878154f296f4d894a44b"
+        },
+        {
+          "file": "modules/154har.mod",
+          "entries": 102,
+          "file_size": 175700,
+          "resource_index_sha256": "46665360b1f871d748a524a9b324608e44e4f0e9667e7fd7e107552ef75f0896"
+        },
+        {
+          "file": "modules/154har.rim",
+          "entries": 3,
+          "file_size": 34323,
+          "resource_index_sha256": "3dd28847732c7d18c8675fb205bb392a7091da69ac2c021757249d4337629cc8"
+        },
+        {
+          "file": "modules/154har_dlg.erf",
+          "entries": 1,
+          "file_size": 6273,
+          "resource_index_sha256": "459c3f31b053cae17cb3490227c25dacf7a6fa33c30197a066a5a0984bab55c6"
+        },
+        {
+          "file": "modules/154har_s.rim",
+          "entries": 97,
+          "file_size": 136568,
+          "resource_index_sha256": "4d33af05fec792d5b3ff049e541d6642ea3cca1565cdc84ef2adc29ce848c216"
+        },
+        {
+          "file": "modules/201tel.mod",
+          "entries": 311,
+          "file_size": 1442980,
+          "resource_index_sha256": "215b06c93580808116cc5a48e94225bbd75c918fc14282da497f1bd63fd41c76"
+        },
+        {
+          "file": "modules/201tel.rim",
+          "entries": 3,
+          "file_size": 56887,
+          "resource_index_sha256": "377d191f92d53642a86326f0b883d7a45e567d6875572ee269d5c8348597efdf"
+        },
+        {
+          "file": "modules/201tel_dlg.erf",
+          "entries": 38,
+          "file_size": 854455,
+          "resource_index_sha256": "0c91aa685c979c09bcc466ccc85c098558ecb2e43d6b21b8b218d575db56d7de"
+        },
+        {
+          "file": "modules/201tel_s.rim",
+          "entries": 256,
+          "file_size": 465126,
+          "resource_index_sha256": "38d2aa4480de081e7e5ebac65a3a5511d9ee9c491e4633dc318d2a591a757a02"
+        },
+        {
+          "file": "modules/202tel.mod",
+          "entries": 287,
+          "file_size": 1539594,
+          "resource_index_sha256": "939295c1ea83632d83a32d484d97857a679009a9f59747206c9565e79ee73b35"
+        },
+        {
+          "file": "modules/202tel.rim",
+          "entries": 3,
+          "file_size": 48683,
+          "resource_index_sha256": "1e1ddd75a2e1e3a9873c0fd7e06db6022b862d6a17d2b564c2a4d0c56548036a"
+        },
+        {
+          "file": "modules/202tel_dlg.erf",
+          "entries": 12,
+          "file_size": 940373,
+          "resource_index_sha256": "8066175018aef758b7b57a158f071f4ed2086fc3ccf6972bfe5e0f7c249acb09"
+        },
+        {
+          "file": "modules/202tel_s.rim",
+          "entries": 263,
+          "file_size": 426972,
+          "resource_index_sha256": "7162b211c368be591431c14db2c22791a3f6d4cef8ef6fda769d967827e47355"
+        },
+        {
+          "file": "modules/203tel.mod",
+          "entries": 454,
+          "file_size": 2270764,
+          "resource_index_sha256": "91094ffbe7aa0b97843b022d5e988abfd1b4d24a13312cfa02588b5f8275e0c5"
+        },
+        {
+          "file": "modules/203tel.rim",
+          "entries": 3,
+          "file_size": 74658,
+          "resource_index_sha256": "167085fefde9c1360405c4e9225cc297d4de8265c5d84b4dc8650dc977d09d23"
+        },
+        {
+          "file": "modules/203tel_dlg.erf",
+          "entries": 36,
+          "file_size": 1482089,
+          "resource_index_sha256": "0f228b63df7d7e1ff4623c099c044b4451d034ff831b4862ce91b8aef21401f8"
+        },
+        {
+          "file": "modules/203tel_s.rim",
+          "entries": 412,
+          "file_size": 655728,
+          "resource_index_sha256": "27996fb16b5231ad08b5d9a9d8f8f0303d0a76ab10415eb24b8396beb9f3f929"
+        },
+        {
+          "file": "modules/204tel.mod",
+          "entries": 183,
+          "file_size": 1188689,
+          "resource_index_sha256": "65e3fe55841da23ab20310faa1a555655e17bcd564d13f8f1213847c95173d49"
+        },
+        {
+          "file": "modules/204tel.rim",
+          "entries": 3,
+          "file_size": 60103,
+          "resource_index_sha256": "eff7fc3cc74730bd3d33aa22680a12790ded107d7e2c80f6e63a6b5d697035a7"
+        },
+        {
+          "file": "modules/204tel_dlg.erf",
+          "entries": 17,
+          "file_size": 880123,
+          "resource_index_sha256": "aac91146b9db3b144551c9d7a616c4e2b3d3958496553c856a0acb56bc8f72fe"
+        },
+        {
+          "file": "modules/204tel_s.rim",
+          "entries": 161,
+          "file_size": 214864,
+          "resource_index_sha256": "149e8c5454fe06195f1a49e19e1ec5d42459e879d0198d84c940cbdab89514e6"
+        },
+        {
+          "file": "modules/205tel.mod",
+          "entries": 47,
+          "file_size": 239231,
+          "resource_index_sha256": "392e7a422517345208b7c281c4579922192facf39d69df17a613e0511c6ed201"
+        },
+        {
+          "file": "modules/205tel.rim",
+          "entries": 3,
+          "file_size": 19259,
+          "resource_index_sha256": "231947b1c1f969befaf59c204655072017c55aa06cd866088a3f6de88253e08d"
+        },
+        {
+          "file": "modules/205tel_dlg.erf",
+          "entries": 1,
+          "file_size": 144056,
+          "resource_index_sha256": "ae42bb24d8f92725239f5557a24ee1ae047a740cbdb4a9ae6528d82f660c8d87"
+        },
+        {
+          "file": "modules/205tel_s.rim",
+          "entries": 43,
+          "file_size": 71464,
+          "resource_index_sha256": "93039dd5555572b688af480106a199cd00524becd6b542fa68dec0c160b7e758"
+        },
+        {
+          "file": "modules/207tel.mod",
+          "entries": 160,
+          "file_size": 1301725,
+          "resource_index_sha256": "7294ef59bedda2d3ec1fedc6e36441a1a7f4480cb4455766f8c09d7b8d1b4b2c"
+        },
+        {
+          "file": "modules/207tel.rim",
+          "entries": 3,
+          "file_size": 26069,
+          "resource_index_sha256": "3adcd8a68708ed42037bf3a05e876b5a33ca45df8aa2a8f680d36953fa1b652e"
+        },
+        {
+          "file": "modules/207tel_dlg.erf",
+          "entries": 16,
+          "file_size": 851545,
+          "resource_index_sha256": "f3c5d5bd562be20b8ae585c8b3c8d84904afcb1c9f4dc1faa0e18f98101ad2db"
+        },
+        {
+          "file": "modules/207tel_s.rim",
+          "entries": 139,
+          "file_size": 353734,
+          "resource_index_sha256": "2b549024eb8731f9b4a2ec6674426ab8c92d18caa3047e415a56d029f45b34d5"
+        },
+        {
+          "file": "modules/208tel.mod",
+          "entries": 385,
+          "file_size": 1048264,
+          "resource_index_sha256": "4f25025607424888f2b2b0a0f2c20734eef2ca79dbbdd1802fad13f7434307be"
+        },
+        {
+          "file": "modules/208tel.rim",
+          "entries": 3,
+          "file_size": 39376,
+          "resource_index_sha256": "f63718328847b830cca347b60bc119efacc4d3774781b1eb5f9c7d3530a8c4fa"
+        },
+        {
+          "file": "modules/208tel_dlg.erf",
+          "entries": 10,
+          "file_size": 334719,
+          "resource_index_sha256": "6eb02fee26c9f94684a027fe35c48e62d876db61079aaca90fc341720f441bf4"
+        },
+        {
+          "file": "modules/208tel_s.rim",
+          "entries": 372,
+          "file_size": 636904,
+          "resource_index_sha256": "98374f413e197126c3d8af9e91ea2bf052b23540f35d22e6982007601fbf4587"
+        },
+        {
+          "file": "modules/209tel.mod",
+          "entries": 398,
+          "file_size": 1256683,
+          "resource_index_sha256": "71a418de41f07e446943ca9e69910dd3632a7d83eba8039b35ae2711f41d67de"
+        },
+        {
+          "file": "modules/209tel.rim",
+          "entries": 3,
+          "file_size": 47168,
+          "resource_index_sha256": "399767c864efd31d0186dfbde4d1afdaad16f989cc9379ee5a28aa59f3254b00"
+        },
+        {
+          "file": "modules/209tel_dlg.erf",
+          "entries": 17,
+          "file_size": 670941,
+          "resource_index_sha256": "7a04eb356bbd1218b83b2b4802bd2ef28ced2b15ba69f800535a48a395c05d07"
+        },
+        {
+          "file": "modules/209tel_s.rim",
+          "entries": 378,
+          "file_size": 519192,
+          "resource_index_sha256": "cb4a285abbe931a9b5c8560f2090d585350e3af0d3067058d22057dd4adcd77b"
+        },
+        {
+          "file": "modules/211tel.rim",
+          "entries": 3,
+          "file_size": 67211,
+          "resource_index_sha256": "21e5caa5ec2cd278d7df3ac8f175ed8c892b6309c7febdd29366695ac9b98315"
+        },
+        {
+          "file": "modules/211tel_dlg.erf",
+          "entries": 0,
+          "file_size": 160,
+          "resource_index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "file": "modules/211tel_s.rim",
+          "entries": 44,
+          "file_size": 54057,
+          "resource_index_sha256": "35d9f7d1ef4e7a06d6cc850d639e1e1e40f06d1f89ad340824100606e312dd40"
+        },
+        {
+          "file": "modules/220tel.mod",
+          "entries": 38,
+          "file_size": 111231,
+          "resource_index_sha256": "38de6fcfd7d7b96ad28c62acb0bd6634967a0b24c4bbd502affc1a6bc4401cbe"
+        },
+        {
+          "file": "modules/220tel.rim",
+          "entries": 3,
+          "file_size": 21671,
+          "resource_index_sha256": "89c62ff37a19d3c7f5d80521ed601b7b37efbf2013cb971341acd1bb61eec4d2"
+        },
+        {
+          "file": "modules/220tel_dlg.erf",
+          "entries": 4,
+          "file_size": 29754,
+          "resource_index_sha256": "a1bc0a8c4382bc764a45268051af87ca974d5f8e4b69b93dc87f3cabd2154c22"
+        },
+        {
+          "file": "modules/220tel_s.rim",
+          "entries": 30,
+          "file_size": 53782,
+          "resource_index_sha256": "82b0e00ec0002791d4f1dc8a8565f53bfcf234fdd83d2129445ef0d1fc11e391"
+        },
+        {
+          "file": "modules/221tel.mod",
+          "entries": 142,
+          "file_size": 703472,
+          "resource_index_sha256": "c282c8444b431000c3eb12b734d2923bda00994b4c67c53429240a84ba6c5e11"
+        },
+        {
+          "file": "modules/221tel.rim",
+          "entries": 3,
+          "file_size": 34618,
+          "resource_index_sha256": "4c30a6e75e779a7d9f82d15b18244ba32abb1ef4a557866fee84e45b067c3ce1"
+        },
+        {
+          "file": "modules/221tel_dlg.erf",
+          "entries": 16,
+          "file_size": 453588,
+          "resource_index_sha256": "0354572433940cb128d117192325dfb74e7e06373bf78898c0d842e0590a3eb7"
+        },
+        {
+          "file": "modules/221tel_s.rim",
+          "entries": 121,
+          "file_size": 207950,
+          "resource_index_sha256": "e8d132b6c5246455c05ec22c27665fa67c54a9a34d76227b5093231ab3ad9ce7"
+        },
+        {
+          "file": "modules/222tel.mod",
+          "entries": 104,
+          "file_size": 337474,
+          "resource_index_sha256": "2a269e16b0d39e758be6b8c8fbe23cf1d8539a18655c438914308ef208714795"
+        },
+        {
+          "file": "modules/222tel.rim",
+          "entries": 3,
+          "file_size": 31694,
+          "resource_index_sha256": "ec4f81d1703154468ff9b54a80fc00dd1ec5b846efb4b16a7446fdab6de9e145"
+        },
+        {
+          "file": "modules/222tel_dlg.erf",
+          "entries": 8,
+          "file_size": 114307,
+          "resource_index_sha256": "8c5e46900edf8482fc15a367ce7fd424ed1814055a16c31c41c9713053044ce9"
+        },
+        {
+          "file": "modules/222tel_s.rim",
+          "entries": 86,
+          "file_size": 170506,
+          "resource_index_sha256": "dc7fb367aedb9891a17dbd72ae97db5cc926b1ccea174602aa848644b7678bac"
+        },
+        {
+          "file": "modules/225tel.mod",
+          "entries": 7,
+          "file_size": 21891,
+          "resource_index_sha256": "6764976e1d969c61f9d1b2d5f42424bcf5f64e9b134c9811ce91bad3e6b0c67f"
+        },
+        {
+          "file": "modules/231tel.mod",
+          "entries": 107,
+          "file_size": 488557,
+          "resource_index_sha256": "c993aaea32ba07ba1630d5acdcf6463444f7c78f88739bb63a6ad2b4fc67693a"
+        },
+        {
+          "file": "modules/231tel.rim",
+          "entries": 3,
+          "file_size": 43512,
+          "resource_index_sha256": "fc9185872af38ab93f35b63908efcc996c20b77ac9f72a3aa2754a7ca8d8530c"
+        },
+        {
+          "file": "modules/231tel_dlg.erf",
+          "entries": 8,
+          "file_size": 293687,
+          "resource_index_sha256": "dc3d6a2b366f9c40107c3af70b9f31d144512dd0fa98de03856ffc673131ac95"
+        },
+        {
+          "file": "modules/231tel_s.rim",
+          "entries": 95,
+          "file_size": 141552,
+          "resource_index_sha256": "289e85409691939007afd8a798fbe9ac9780967b2850bc719cf3560b1921467b"
+        },
+        {
+          "file": "modules/232tel.mod",
+          "entries": 205,
+          "file_size": 850546,
+          "resource_index_sha256": "0b6d00a3e125674be16dcc75989c995428610fe72ca65fae52876016296b198f"
+        },
+        {
+          "file": "modules/232tel.rim",
+          "entries": 3,
+          "file_size": 86508,
+          "resource_index_sha256": "0bf023d2a9ec108f70c9e9e131b7ef896e2ac30dff63821c91a0ca219a8fcebf"
+        },
+        {
+          "file": "modules/232tel_dlg.erf",
+          "entries": 31,
+          "file_size": 325131,
+          "resource_index_sha256": "c0c8f3596e7377a7bf783a2875ffad033e8625445e69f127c66e58659283df76"
+        },
+        {
+          "file": "modules/232tel_s.rim",
+          "entries": 164,
+          "file_size": 412670,
+          "resource_index_sha256": "b62f18dccd7b647b2f72da09c20471e8cf7afe5cb9772bdcaac94d5458b8e752"
+        },
+        {
+          "file": "modules/233tel.mod",
+          "entries": 56,
+          "file_size": 220897,
+          "resource_index_sha256": "7bb10f65125476fe3df2ef3fc5a83907d195d77e1b7d42a4c46604139d8f2090"
+        },
+        {
+          "file": "modules/233tel.rim",
+          "entries": 3,
+          "file_size": 24011,
+          "resource_index_sha256": "c443aba231e32eab74b0354be935c4d65f5ba7e3f5880a1482046c3c8caec9af"
+        },
+        {
+          "file": "modules/233tel_dlg.erf",
+          "entries": 4,
+          "file_size": 103238,
+          "resource_index_sha256": "66fd2446bdaa44d8867270c05923c997093043e68d5358fa3824f6e126df9888"
+        },
+        {
+          "file": "modules/233tel_s.rim",
+          "entries": 46,
+          "file_size": 81974,
+          "resource_index_sha256": "406020f9729680fec3e4cd89860ec0d758dad983522073971f90e2bebb72efba"
+        },
+        {
+          "file": "modules/235tel.mod",
+          "entries": 19,
+          "file_size": 69824,
+          "resource_index_sha256": "dffa0f00ac8279a4e6e1b77e712bde0e18f933a0c684d1e7eb44399acd4f33b6"
+        },
+        {
+          "file": "modules/261tel.mod",
+          "entries": 63,
+          "file_size": 638617,
+          "resource_index_sha256": "4ae5d75af9c202836ff0f844a95d5d63a9dd5be533a9eca551d201df42289970"
+        },
+        {
+          "file": "modules/261tel.rim",
+          "entries": 3,
+          "file_size": 15676,
+          "resource_index_sha256": "1ff79bad3978be8fec69d51233dc9abb4b03ed2f4d94967b5f7dec3b4ead272b"
+        },
+        {
+          "file": "modules/261tel_dlg.erf",
+          "entries": 5,
+          "file_size": 90127,
+          "resource_index_sha256": "54a2e28950d6615470f99773c556741ed70861e08c08b7ca218301fd95714bf0"
+        },
+        {
+          "file": "modules/261tel_s.rim",
+          "entries": 48,
+          "file_size": 97136,
+          "resource_index_sha256": "95b26ee016eea61d1edebf5bdd7a2d6c3bd5fd6625e866e8cb5dda891fc3c44d"
+        },
+        {
+          "file": "modules/262tel.mod",
+          "entries": 267,
+          "file_size": 4246886,
+          "resource_index_sha256": "1f93095a57d96abadec4558af554cf000be420ed1ed55737f7535f8fca94eabb"
+        },
+        {
+          "file": "modules/262tel.rim",
+          "entries": 3,
+          "file_size": 75668,
+          "resource_index_sha256": "c7fc2c29655406cb88c3694c5c24a3cf0a3bb7e60b2c44d861892e439f5c21ef"
+        },
+        {
+          "file": "modules/262tel_dlg.erf",
+          "entries": 24,
+          "file_size": 2827646,
+          "resource_index_sha256": "947977f4ce345fd220bc758afe17f0492c93d545420a5428f92bba68844b8dc0"
+        },
+        {
+          "file": "modules/262tel_s.rim",
+          "entries": 211,
+          "file_size": 831168,
+          "resource_index_sha256": "5e120a4876de89bb0470585a6fdce78e92fbb27609b21bfea42e4e25caa091a8"
+        },
+        {
+          "file": "modules/298tel.mod",
+          "entries": 196,
+          "file_size": 1360931,
+          "resource_index_sha256": "35510415770af75b2a1c5d4adc3d004c0e65903193a8c219f585d8dc3f5c64df"
+        },
+        {
+          "file": "modules/299tel.mod",
+          "entries": 235,
+          "file_size": 1406162,
+          "resource_index_sha256": "b96a13bb8f12fa47513e2b0c6012a4a22f32f098e7920c306154aef6ad716672"
+        },
+        {
+          "file": "modules/301nar.mod",
+          "entries": 580,
+          "file_size": 4804704,
+          "resource_index_sha256": "c7ef5178912d9961a8d8ec713a117f1d3d7af39fa3be6735026917884207db38"
+        },
+        {
+          "file": "modules/301nar.rim",
+          "entries": 3,
+          "file_size": 86054,
+          "resource_index_sha256": "0d5cc6967680fcf8376a4ba5e9ccbc542cf40c051eb5e252cfe6e24b8f058585"
+        },
+        {
+          "file": "modules/301nar_dlg.erf",
+          "entries": 53,
+          "file_size": 3229271,
+          "resource_index_sha256": "a40eeebe1ff122d790608e9ab072d8e90db4da0c799bfcff9568f59f03b82bad"
+        },
+        {
+          "file": "modules/301nar_s.rim",
+          "entries": 493,
+          "file_size": 795935,
+          "resource_index_sha256": "fb48b31781e847b6f06d74eaaddc839b8fd27828e82c0a5cfc4ff9044e73387c"
+        },
+        {
+          "file": "modules/302nar.mod",
+          "entries": 248,
+          "file_size": 2595423,
+          "resource_index_sha256": "2fe5509c6d6c6a04775e958a5cec881eb8979e6289963dec420437e8edef5724"
+        },
+        {
+          "file": "modules/302nar.rim",
+          "entries": 3,
+          "file_size": 62428,
+          "resource_index_sha256": "94f4d1ab1d14a834776dced633e39fc91cd6d6d80d1be2498b9b9e28e6a92028"
+        },
+        {
+          "file": "modules/302nar_dlg.erf",
+          "entries": 29,
+          "file_size": 1872841,
+          "resource_index_sha256": "940aa67171a6b49dd09058a7ca7f9836b1c0ed850c1142a886ad859518c0ed6d"
+        },
+        {
+          "file": "modules/302nar_s.rim",
+          "entries": 201,
+          "file_size": 340851,
+          "resource_index_sha256": "07ac76a8e524d2104bb211372cb2c8ad3e4eae3e6ba9043663310f3d9fe440e2"
+        },
+        {
+          "file": "modules/303nar.mod",
+          "entries": 462,
+          "file_size": 4554253,
+          "resource_index_sha256": "04a97576482a00ba8bd8ecfbf565a584aea2aaaadec37cd53701a29e66438bba"
+        },
+        {
+          "file": "modules/303nar.rim",
+          "entries": 3,
+          "file_size": 86416,
+          "resource_index_sha256": "4c3036c746144c5c8149d6a087dd040e4f5431f2463459c404e284e8a247a6b5"
+        },
+        {
+          "file": "modules/303nar_dlg.erf",
+          "entries": 61,
+          "file_size": 3461915,
+          "resource_index_sha256": "b48c51ea4fc981a25bcf70d2304b14717fdb6feb8a79250653b297d8a4744cc8"
+        },
+        {
+          "file": "modules/303nar_s.rim",
+          "entries": 362,
+          "file_size": 591264,
+          "resource_index_sha256": "fd181f21595d3320855e56944e27be0ed437a2c06acc664a505381b79b38d6e9"
+        },
+        {
+          "file": "modules/304nar.mod",
+          "entries": 164,
+          "file_size": 1148551,
+          "resource_index_sha256": "1e9ba378609f32e8200377a4469f4be7dfcf7198f83686d81428bdbed69a5890"
+        },
+        {
+          "file": "modules/304nar.rim",
+          "entries": 3,
+          "file_size": 43792,
+          "resource_index_sha256": "34956bb8c862d3cc47a8d14ea584825ba1826605cc5162ea2d0f93a90ea985e5"
+        },
+        {
+          "file": "modules/304nar_dlg.erf",
+          "entries": 22,
+          "file_size": 727548,
+          "resource_index_sha256": "2f3c6b66c6adc19ebac755ca3cac476ec152dd7f5060d5ebc06d2582d49db540"
+        },
+        {
+          "file": "modules/304nar_s.rim",
+          "entries": 111,
+          "file_size": 240608,
+          "resource_index_sha256": "0ee822319e45a59c4a5c18596416e60a9ae5b2829376eaf2a5a53b264c46b106"
+        },
+        {
+          "file": "modules/305nar.mod",
+          "entries": 286,
+          "file_size": 1300519,
+          "resource_index_sha256": "356a59eb33aa353fb83f96cff9d1168afd0465c57880d17e2072ab7e95ac4f8c"
+        },
+        {
+          "file": "modules/305nar.rim",
+          "entries": 3,
+          "file_size": 100844,
+          "resource_index_sha256": "0dee6ea8b1bf905b33b7cb9e28f3ec1b41445b3aeba40ecff6fe4c1ce35e30f0"
+        },
+        {
+          "file": "modules/305nar_dlg.erf",
+          "entries": 23,
+          "file_size": 676814,
+          "resource_index_sha256": "e21d27c8888ac36f94ce70881a2b74b602332cd476e5c580393d371f63a3d00b"
+        },
+        {
+          "file": "modules/305nar_s.rim",
+          "entries": 238,
+          "file_size": 347636,
+          "resource_index_sha256": "d503671f23b578caeb22ff03464b777cefacb84064f36d7d1ece5859bf6b82aa"
+        },
+        {
+          "file": "modules/306nar.mod",
+          "entries": 182,
+          "file_size": 1776710,
+          "resource_index_sha256": "943fd7cfdd72963dfd2dd1077fe3a1932dc36c30dae520ea1b4689c381bf31b8"
+        },
+        {
+          "file": "modules/306nar.rim",
+          "entries": 3,
+          "file_size": 38723,
+          "resource_index_sha256": "892d4c7d1f0c6d71f22b8850b11837e964bff023a55742a0e9d1abdd7ca92db8"
+        },
+        {
+          "file": "modules/306nar_dlg.erf",
+          "entries": 32,
+          "file_size": 1253317,
+          "resource_index_sha256": "9f8558f5d58408be456a42bac3bfd7274402f3186760a8a97e628192efead222"
+        },
+        {
+          "file": "modules/306nar_s.rim",
+          "entries": 141,
+          "file_size": 385815,
+          "resource_index_sha256": "be4c80a932bc4ecc99b099cb6a4d2f785fb6f2d999e3eecbd6e46ca9be4a60f4"
+        },
+        {
+          "file": "modules/307nar.mod",
+          "entries": 99,
+          "file_size": 466732,
+          "resource_index_sha256": "c887fc159e0edb5b6331c5de67ffec3dbb41ec8734664ce035b9a4902da31af9"
+        },
+        {
+          "file": "modules/350nar.mod",
+          "entries": 98,
+          "file_size": 515210,
+          "resource_index_sha256": "98520576868eae7fe07d5c8c3701db0aa2987a2ae8f2c5c8b68acca931956356"
+        },
+        {
+          "file": "modules/351nar.mod",
+          "entries": 237,
+          "file_size": 2422290,
+          "resource_index_sha256": "3b4a7478927c1b7daa947cf24017c088768610cff785b13d847bc44a2583f590"
+        },
+        {
+          "file": "modules/351nar.rim",
+          "entries": 3,
+          "file_size": 71984,
+          "resource_index_sha256": "484ac8763f23146981f3af97aa567cc18802fcc01a27b8b12b63061c0631be4a"
+        },
+        {
+          "file": "modules/351nar_dlg.erf",
+          "entries": 24,
+          "file_size": 1683974,
+          "resource_index_sha256": "33c430fd11322281b70b9fdcd7c0286fdb41637150caf5384359e0478fc29caf"
+        },
+        {
+          "file": "modules/351nar_s.rim",
+          "entries": 190,
+          "file_size": 551641,
+          "resource_index_sha256": "d7420aa6b68a7e4a7878699bdb3690c2a302b39483006f68b586030d98b4d10f"
+        },
+        {
+          "file": "modules/352nar.mod",
+          "entries": 40,
+          "file_size": 361144,
+          "resource_index_sha256": "ff88636525059be8e3820fc788dd17a9e8c24c91a88b81efd6fdd37de59e4211"
+        },
+        {
+          "file": "modules/352nar.rim",
+          "entries": 3,
+          "file_size": 13007,
+          "resource_index_sha256": "3c9f08c5b96aed114a0c51020749925d652b70fe5d2ef79cc4fb465fb657af4b"
+        },
+        {
+          "file": "modules/352nar_dlg.erf",
+          "entries": 7,
+          "file_size": 288965,
+          "resource_index_sha256": "d2d7bd4ad329f9dc41b872984f84b6d8c19b7b4ff9f2adde50db74893d8d7a08"
+        },
+        {
+          "file": "modules/352nar_s.rim",
+          "entries": 30,
+          "file_size": 52641,
+          "resource_index_sha256": "06baf87bb98deb1a51397cd39636a4497a73c595cc4b0f9443621166f0a7b805"
+        },
+        {
+          "file": "modules/371nar.rim",
+          "entries": 3,
+          "file_size": 61719,
+          "resource_index_sha256": "941ecd9851ba5a0281577f5609f87a1566a0d0596bee69efa8e6fb35ef2b323a"
+        },
+        {
+          "file": "modules/371nar_dlg.erf",
+          "entries": 0,
+          "file_size": 160,
+          "resource_index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "file": "modules/371nar_s.rim",
+          "entries": 52,
+          "file_size": 61178,
+          "resource_index_sha256": "94c3ab074e1ac829ab9176951529b0c250b9e640ad01b47405d86f7aca4df19e"
+        },
+        {
+          "file": "modules/401dxn.rim",
+          "entries": 3,
+          "file_size": 43127,
+          "resource_index_sha256": "67d3637a8efeef4191b6b20c0dc6423557a2f97331abebbeed569f83c6fe1d4b"
+        },
+        {
+          "file": "modules/401dxn_dlg.erf",
+          "entries": 9,
+          "file_size": 357315,
+          "resource_index_sha256": "8f99cf71d81fa90136b0f33a303b9eed043677c5e9176890bf573ebf9130c04f"
+        },
+        {
+          "file": "modules/401dxn_s.rim",
+          "entries": 107,
+          "file_size": 409859,
+          "resource_index_sha256": "f2bfaa95605bd1ad6aa61586b252396814728c61e8b2a41d18a53ea6bc076812"
+        },
+        {
+          "file": "modules/402dxn.mod",
+          "entries": 196,
+          "file_size": 1634127,
+          "resource_index_sha256": "27c996e0a83b90833020d2eee49f25eda003057f3760980b53ad5e39637446d1"
+        },
+        {
+          "file": "modules/402dxn.rim",
+          "entries": 3,
+          "file_size": 64448,
+          "resource_index_sha256": "7e8fe82fb44d4d88e0603977e4b992e9ee6721b9cd1a4b9429d48c50a8d5e6a1"
+        },
+        {
+          "file": "modules/402dxn_dlg.erf",
+          "entries": 15,
+          "file_size": 703887,
+          "resource_index_sha256": "7e72b20202c80c4a92d1247764ff6291feef33b2aca667ec78bfe9c81d16fb3a"
+        },
+        {
+          "file": "modules/402dxn_s.rim",
+          "entries": 165,
+          "file_size": 690891,
+          "resource_index_sha256": "40802f318cd452a25871361dac439fc7294f0449d550e721a467b5b9e5461719"
+        },
+        {
+          "file": "modules/403dxn.mod",
+          "entries": 217,
+          "file_size": 2577921,
+          "resource_index_sha256": "f64afb2b70172eaa2d29148ca9d0027b4ec6946099bdc6f7b12a8ad90fe6daf3"
+        },
+        {
+          "file": "modules/403dxn.rim",
+          "entries": 3,
+          "file_size": 75120,
+          "resource_index_sha256": "bff8deeea0233441c7153b2a7e1dee684e48c621cca002dd97647ff44c91640c"
+        },
+        {
+          "file": "modules/403dxn_dlg.erf",
+          "entries": 22,
+          "file_size": 1597708,
+          "resource_index_sha256": "01cfa91024f79ee3f35ae2daa1cbe935bf74cceb3a446ba2fbadb6471484407d"
+        },
+        {
+          "file": "modules/403dxn_s.rim",
+          "entries": 182,
+          "file_size": 631648,
+          "resource_index_sha256": "31f8e9fb73a68853be39e01b0f31edc4a55eda00f26844b93d5c64bc2cf46c38"
+        },
+        {
+          "file": "modules/404dxn.mod",
+          "entries": 33,
+          "file_size": 311150,
+          "resource_index_sha256": "49fcc94d6013675ff442ac74a1ae9c07e729f1ed587bba13fa9025ab8be24338"
+        },
+        {
+          "file": "modules/404dxn.rim",
+          "entries": 3,
+          "file_size": 18122,
+          "resource_index_sha256": "360d1e9f7aa0ee3047493fb2faa64dbe8b624e59916191e8588d91d2c29dd81b"
+        },
+        {
+          "file": "modules/404dxn_dlg.erf",
+          "entries": 2,
+          "file_size": 46883,
+          "resource_index_sha256": "d485fe85280cdf8819934e350e933ba1c714409378e16332291374e7a9149751"
+        },
+        {
+          "file": "modules/404dxn_s.rim",
+          "entries": 28,
+          "file_size": 246914,
+          "resource_index_sha256": "8c99067ae8968a8a6cc62b2e4afe6abd4804aac487f894fcb43c70e47f5106f8"
+        },
+        {
+          "file": "modules/410dxn.mod",
+          "entries": 140,
+          "file_size": 818872,
+          "resource_index_sha256": "68cd6ad0927c62a5f757bb596d82b4c74f16e51a60612b5063990947930ad340"
+        },
+        {
+          "file": "modules/410dxn.rim",
+          "entries": 3,
+          "file_size": 48992,
+          "resource_index_sha256": "02f48a1d6a9a74178634292d8aaf80fe421e9cbf7085f06a802d888951fa3301"
+        },
+        {
+          "file": "modules/410dxn_dlg.erf",
+          "entries": 11,
+          "file_size": 284106,
+          "resource_index_sha256": "751ff19244addf1866fd8abf666a330c631c98748c4abdad978c5338db05233a"
+        },
+        {
+          "file": "modules/410dxn_s.rim",
+          "entries": 122,
+          "file_size": 418429,
+          "resource_index_sha256": "f16d64961a6bc923f25c0d759ad15b85be617fe1c9852227772062bea676cb73"
+        },
+        {
+          "file": "modules/411dxn.mod",
+          "entries": 184,
+          "file_size": 1539756,
+          "resource_index_sha256": "960dc34b4a193d7c72907a93823ee4a35a1464f9abb9dba7dde2a945560d2207"
+        },
+        {
+          "file": "modules/411dxn.rim",
+          "entries": 3,
+          "file_size": 56644,
+          "resource_index_sha256": "004a6b14ba59af47b2034131463c7758d19f6a46299aed11b8d2329297294d1c"
+        },
+        {
+          "file": "modules/411dxn_dlg.erf",
+          "entries": 17,
+          "file_size": 462504,
+          "resource_index_sha256": "8e7d6ba655002d70e8e608f7da3ecad032633b269b271f4cd58735d3f9c00006"
+        },
+        {
+          "file": "modules/411dxn_s.rim",
+          "entries": 160,
+          "file_size": 990149,
+          "resource_index_sha256": "eec6350f1cf967a1419dd61b4fbe98655acbbd68d243cf7aa667ec104e84823f"
+        },
+        {
+          "file": "modules/421dxn.rim",
+          "entries": 3,
+          "file_size": 15854,
+          "resource_index_sha256": "9c8fe95cc6a704415305ceec5442421e7e9d1c1b172ffe8f1f39fed567e00b6e"
+        },
+        {
+          "file": "modules/421dxn_dlg.erf",
+          "entries": 0,
+          "file_size": 160,
+          "resource_index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "file": "modules/421dxn_s.rim",
+          "entries": 23,
+          "file_size": 18183,
+          "resource_index_sha256": "a76b6f74f2526a612330ae12e18b01cde81268f84b7cb045ef8866edb669d2be"
+        },
+        {
+          "file": "modules/501ond.mod",
+          "entries": 139,
+          "file_size": 978283,
+          "resource_index_sha256": "36c55293c19a8cf5d39a6f08df19b6ff1113ffe0e2cd19718f071197d2a77c88"
+        },
+        {
+          "file": "modules/501ond.rim",
+          "entries": 3,
+          "file_size": 29932,
+          "resource_index_sha256": "0fea6c4b52fe0dfe7711a23ac05ebfd3e346470014606bb800342c90b4b481b6"
+        },
+        {
+          "file": "modules/501ond_dlg.erf",
+          "entries": 18,
+          "file_size": 551042,
+          "resource_index_sha256": "bf81d43ce633af0a057e1374aaef1efa0d72de45ed000d9ff875de6be7885339"
+        },
+        {
+          "file": "modules/501ond_s.rim",
+          "entries": 107,
+          "file_size": 314961,
+          "resource_index_sha256": "d8c9294f799ca0750581ac64dbc20ac1e04d2011b45f9a4efc539589bdf8ce2c"
+        },
+        {
+          "file": "modules/502ond.mod",
+          "entries": 234,
+          "file_size": 2180063,
+          "resource_index_sha256": "61f4b1ae9ecee050409bc5ea3de9ecb04f1b798815b84f5530c600d56dc478e2"
+        },
+        {
+          "file": "modules/502ond.rim",
+          "entries": 3,
+          "file_size": 58600,
+          "resource_index_sha256": "bfbefd00b0747640ea88305112fef5153076c1b3e233bc8516f8386c9154b8c4"
+        },
+        {
+          "file": "modules/502ond_dlg.erf",
+          "entries": 28,
+          "file_size": 1380521,
+          "resource_index_sha256": "12fbc199346708217e037f7d2d376588885826e5390d2a51eab9a03da5f8cec0"
+        },
+        {
+          "file": "modules/502ond_s.rim",
+          "entries": 187,
+          "file_size": 538821,
+          "resource_index_sha256": "71e59459a4b884f044bcd9fcf91f345d1a74de0e841a4e53364534997e32098c"
+        },
+        {
+          "file": "modules/503ond.mod",
+          "entries": 158,
+          "file_size": 2407303,
+          "resource_index_sha256": "2d072c501a1fa712c15b65ac3459d9d20e15470edb91f7194aeccaaac87c56d4"
+        },
+        {
+          "file": "modules/503ond.rim",
+          "entries": 3,
+          "file_size": 32588,
+          "resource_index_sha256": "f7ce633b0f0142cee62a208466c7dc2ac53198856e8dfce9ece79c07f160009c"
+        },
+        {
+          "file": "modules/503ond_dlg.erf",
+          "entries": 27,
+          "file_size": 1463296,
+          "resource_index_sha256": "8733c45a8254e08c43547ab198e86e36074db87ea2d67eee479ea469a33d5a4c"
+        },
+        {
+          "file": "modules/503ond_s.rim",
+          "entries": 127,
+          "file_size": 775358,
+          "resource_index_sha256": "f5fefcb0069167452c1021d2d9aec1308ce06d2dd70b47ac713e96c631a04778"
+        },
+        {
+          "file": "modules/504ond.mod",
+          "entries": 161,
+          "file_size": 1007455,
+          "resource_index_sha256": "b012dda6f33b6d4fed53f7d9e1253d66a15ab5f611c345aacc4f048ebe97b31a"
+        },
+        {
+          "file": "modules/504ond.rim",
+          "entries": 3,
+          "file_size": 77904,
+          "resource_index_sha256": "dc49e9faff5f078275e14710dcead61f238e46a7b0e67620a172a460a0b4a853"
+        },
+        {
+          "file": "modules/504ond_dlg.erf",
+          "entries": 17,
+          "file_size": 220948,
+          "resource_index_sha256": "314b8e4431964f9dab7aa9ef85410064a7e9aa2dd0a0313ff53b44ecd010f46c"
+        },
+        {
+          "file": "modules/504ond_s.rim",
+          "entries": 136,
+          "file_size": 678259,
+          "resource_index_sha256": "8a4a153ee757359e4678a4d2b80c6e1a608d36ba2c651b0e633a92d4b2711083"
+        },
+        {
+          "file": "modules/505ond.rim",
+          "entries": 3,
+          "file_size": 17634,
+          "resource_index_sha256": "a4e18000ca05ba4a8e91c63f364a219ea723d1093747bb2b3fe1866e3a3f7bda"
+        },
+        {
+          "file": "modules/505ond_dlg.erf",
+          "entries": 0,
+          "file_size": 160,
+          "resource_index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "file": "modules/505ond_s.rim",
+          "entries": 21,
+          "file_size": 15393,
+          "resource_index_sha256": "ed3e5e5c8760cd8e2515bbee6ab35fbe35060453ab38dc2ff23dca86115c26ad"
+        },
+        {
+          "file": "modules/506ond.mod",
+          "entries": 275,
+          "file_size": 3167144,
+          "resource_index_sha256": "8a0e097cbb64c8f6cca950d53fc8eff6041c9b7ce640bd46c21a6c13637f74a8"
+        },
+        {
+          "file": "modules/506ond.rim",
+          "entries": 3,
+          "file_size": 125288,
+          "resource_index_sha256": "5e6b1c140fe75ded07a634ffdde8257ffbaf8f7f08a663cbc722ef0dfd5527bb"
+        },
+        {
+          "file": "modules/506ond_dlg.erf",
+          "entries": 30,
+          "file_size": 1284058,
+          "resource_index_sha256": "1ed1398d0045de66cfd333eebff07016c334e0a52f016530fe117428acdb71a7"
+        },
+        {
+          "file": "modules/506ond_s.rim",
+          "entries": 232,
+          "file_size": 1295379,
+          "resource_index_sha256": "e4a553be7ac55ef2f291670a730fb8c3404a193e55c98abc95a13952bb37fdc7"
+        },
+        {
+          "file": "modules/510ond.mod",
+          "entries": 46,
+          "file_size": 95477,
+          "resource_index_sha256": "d5f81c6c3c27b1d91715ae9a7dd1b7c021118c02f21f399818f957ef88928e3a"
+        },
+        {
+          "file": "modules/510ond.rim",
+          "entries": 3,
+          "file_size": 42503,
+          "resource_index_sha256": "1495987cd0ad18e3cbc3a437dd31ac698240311c415a8b4f2c26752d57d87d1d"
+        },
+        {
+          "file": "modules/510ond_dlg.erf",
+          "entries": 0,
+          "file_size": 160,
+          "resource_index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "file": "modules/510ond_s.rim",
+          "entries": 43,
+          "file_size": 53861,
+          "resource_index_sha256": "416d8cd3490bb9fd434e2bb9ae0d8c573e52be048ca192ac7b2349901e12b78f"
+        },
+        {
+          "file": "modules/511ond.mod",
+          "entries": 55,
+          "file_size": 422121,
+          "resource_index_sha256": "cf99a5c6a9a43abbafde825a7c126c2b7c7224b859226a0aca7f6a1966b2ea5e"
+        },
+        {
+          "file": "modules/511ond.rim",
+          "entries": 3,
+          "file_size": 28334,
+          "resource_index_sha256": "b472605eb12e70e6f14da7c6bd331c53612163a24b53bc9b168436e5a3a59d6f"
+        },
+        {
+          "file": "modules/511ond_dlg.erf",
+          "entries": 4,
+          "file_size": 177678,
+          "resource_index_sha256": "8755cfda8d8c1d4e0e40e76523852c01c91dec88a67dfd97e54f989b622d9a6e"
+        },
+        {
+          "file": "modules/511ond_s.rim",
+          "entries": 47,
+          "file_size": 206701,
+          "resource_index_sha256": "0b14eb5c8d541c45e0f30944ca973b297a8f375dff0bb6aafd62485bf71ea1e1"
+        },
+        {
+          "file": "modules/512ond.mod",
+          "entries": 136,
+          "file_size": 1050915,
+          "resource_index_sha256": "0f3842814f48ee453d8c1df6032fe4b9e1a91e276768cb2162729b8a02a9d51f"
+        },
+        {
+          "file": "modules/512ond.rim",
+          "entries": 3,
+          "file_size": 43991,
+          "resource_index_sha256": "5ae189fa7e5b0ac9fa8c04f4bef3ce5c135f2b8ac7a48434893d6bc0c5a157f7"
+        },
+        {
+          "file": "modules/512ond_dlg.erf",
+          "entries": 19,
+          "file_size": 478484,
+          "resource_index_sha256": "596d1b46c17e06334d0c70851533287f1bd88439cfe4ebe55e0a3e6c43e47033"
+        },
+        {
+          "file": "modules/512ond_s.rim",
+          "entries": 113,
+          "file_size": 471950,
+          "resource_index_sha256": "e4a562306310e2c21071834d7a712957b24704dffb74735a2b5bacad3002c27a"
+        },
+        {
+          "file": "modules/601dan.mod",
+          "entries": 266,
+          "file_size": 2427155,
+          "resource_index_sha256": "9c7c2d638bf066593b13d80ef6e316dae73f195b6309301f24eb7c0a31b34865"
+        },
+        {
+          "file": "modules/601dan.rim",
+          "entries": 3,
+          "file_size": 56236,
+          "resource_index_sha256": "43a18e3f8b1e41237911fa8b868c38340b19d2db3ba148065207768a1d119fd8"
+        },
+        {
+          "file": "modules/601dan_dlg.erf",
+          "entries": 15,
+          "file_size": 1346390,
+          "resource_index_sha256": "79fe5cad6c293a5e1874d4a94d649925eef1d58149d1755fe4752634062b2935"
+        },
+        {
+          "file": "modules/601dan_s.rim",
+          "entries": 178,
+          "file_size": 613248,
+          "resource_index_sha256": "7b8d19f38dd17f36679de36f5cd75e1450dc8eb8b2dc986683544291a7d8cbac"
+        },
+        {
+          "file": "modules/602dan.mod",
+          "entries": 240,
+          "file_size": 2775755,
+          "resource_index_sha256": "cdc3dbbb8ecc2333ea7f45ee26abd1e1d81f18d5d782225c0213f6104f9f9e24"
+        },
+        {
+          "file": "modules/602dan.rim",
+          "entries": 3,
+          "file_size": 56896,
+          "resource_index_sha256": "9d03d9ca1ffdebe34a10de045e8a0bf01b393a5b70158c30ea19a50e48bcca35"
+        },
+        {
+          "file": "modules/602dan_dlg.erf",
+          "entries": 32,
+          "file_size": 2041689,
+          "resource_index_sha256": "db54cd9656488ab572f22840b16701547b40cf422643fed1d84cc6714c984a6c"
+        },
+        {
+          "file": "modules/602dan_s.rim",
+          "entries": 188,
+          "file_size": 534220,
+          "resource_index_sha256": "beede815e2fa399c5fb727236ed410c2cac093053ce1c7d127050edc9762e806"
+        },
+        {
+          "file": "modules/603dan.rim",
+          "entries": 3,
+          "file_size": 29524,
+          "resource_index_sha256": "897492a2b7f3a3ed11d040c3530e052ce3cece053ed395a093db59c9651399a1"
+        },
+        {
+          "file": "modules/603dan_dlg.erf",
+          "entries": 1,
+          "file_size": 44224,
+          "resource_index_sha256": "08c2dbbe5bdf2625e2e1d45c5e620bd40c698201ca9bdbfc5dc5dcea70698066"
+        },
+        {
+          "file": "modules/603dan_s.rim",
+          "entries": 111,
+          "file_size": 330473,
+          "resource_index_sha256": "246525891b0a352f486b3b5dd9950fde610fcefea0a939a55e97e04cbb48597b"
+        },
+        {
+          "file": "modules/604dan.mod",
+          "entries": 100,
+          "file_size": 1074511,
+          "resource_index_sha256": "1aa038adc56a4f260fee272e504f97798d11334feb7efa7dbe35cd8fec60ddda"
+        },
+        {
+          "file": "modules/604dan.rim",
+          "entries": 3,
+          "file_size": 34593,
+          "resource_index_sha256": "e2c9abfea6048ab9cd02b4dc1e06ba6ee92d092c36e3d63f3d19632b0a463462"
+        },
+        {
+          "file": "modules/604dan_dlg.erf",
+          "entries": 9,
+          "file_size": 532454,
+          "resource_index_sha256": "2538a18cd204f0153c0d72ce0159d2400d15f5917ad0f913082ae69b4d251edc"
+        },
+        {
+          "file": "modules/604dan_s.rim",
+          "entries": 87,
+          "file_size": 389870,
+          "resource_index_sha256": "61ce5abe65a791bea24ff4f9d77d8d7aa900c3cf549f76ae207586d1beb59343"
+        },
+        {
+          "file": "modules/605dan.mod",
+          "entries": 129,
+          "file_size": 1516085,
+          "resource_index_sha256": "5975db29234a54d69f4210d83dbecb81122e8a25e52d1ccf2741acaed21ff0df"
+        },
+        {
+          "file": "modules/605dan.rim",
+          "entries": 3,
+          "file_size": 35064,
+          "resource_index_sha256": "85bc465101161cfc9d25c72fc8c5fa9d8d6f955787b8f7deb6da1efbaa027209"
+        },
+        {
+          "file": "modules/605dan_dlg.erf",
+          "entries": 14,
+          "file_size": 878331,
+          "resource_index_sha256": "84aea7d3da138022eca6fbc79c4dc502bc2a364221df9c8488ba6d2498b45f56"
+        },
+        {
+          "file": "modules/605dan_s.rim",
+          "entries": 84,
+          "file_size": 332030,
+          "resource_index_sha256": "7885fbfa04ea7240f753a08674fd22751d621aeaa666cb7f2f98c62963f288bb"
+        },
+        {
+          "file": "modules/610dan.mod",
+          "entries": 181,
+          "file_size": 1722413,
+          "resource_index_sha256": "b6725cae515803d90120b5ec23261a249d11ee29ec853311a6d50a4518f696bc"
+        },
+        {
+          "file": "modules/610dan.rim",
+          "entries": 3,
+          "file_size": 71430,
+          "resource_index_sha256": "b8d7e190005668a20ef783beb34a7b5d74ff7f11dff8b8f8ad9a7ee32bb26cd3"
+        },
+        {
+          "file": "modules/610dan_dlg.erf",
+          "entries": 9,
+          "file_size": 757379,
+          "resource_index_sha256": "2a8f5233ccc3514f7ef194e892a68a9198a43ea19f08741479da4ac6bcd59a92"
+        },
+        {
+          "file": "modules/610dan_s.rim",
+          "entries": 147,
+          "file_size": 607751,
+          "resource_index_sha256": "6a10fe272c842599cbfb5d6143fff33784b826ad0f3abab8fedd492a1141235d"
+        },
+        {
+          "file": "modules/650dan.mod",
+          "entries": 152,
+          "file_size": 1586981,
+          "resource_index_sha256": "e0e64899c38b865df28437ab4407830cc9cae4100b436267c6c5e58770bd93f8"
+        },
+        {
+          "file": "modules/650dan.rim",
+          "entries": 3,
+          "file_size": 26381,
+          "resource_index_sha256": "97bc15ab500f91369221a07660a227fb313850b3a12082cadebc30c3cda3251a"
+        },
+        {
+          "file": "modules/650dan_dlg.erf",
+          "entries": 7,
+          "file_size": 1184746,
+          "resource_index_sha256": "c471c542e4010ccb3a8dcc223c3b446dedac02d3c8a8eb232ff6fe73f4d71c0b"
+        },
+        {
+          "file": "modules/650dan_s.rim",
+          "entries": 116,
+          "file_size": 217194,
+          "resource_index_sha256": "97f5a19a4374516debdf3521bb6ec61ef051fc0895d962b1c07165fede99a01e"
+        },
+        {
+          "file": "modules/701kor.mod",
+          "entries": 84,
+          "file_size": 522612,
+          "resource_index_sha256": "3913e41363345920ff10962116111209486bd9fa5f3d3d2d7c4191e08c9d70f9"
+        },
+        {
+          "file": "modules/701kor.rim",
+          "entries": 3,
+          "file_size": 37947,
+          "resource_index_sha256": "92c9821fc214d678cfd07dbb33a7a127df99ce0a52710d018eb4103e26bdfed3"
+        },
+        {
+          "file": "modules/701kor_dlg.erf",
+          "entries": 3,
+          "file_size": 205462,
+          "resource_index_sha256": "61569f6264c615eb79b42c9cf071ba52e886aae6aaf4f4eef1953495d8875cad"
+        },
+        {
+          "file": "modules/701kor_s.rim",
+          "entries": 68,
+          "file_size": 221219,
+          "resource_index_sha256": "31ef1c1c0745ed6f45050c6af0b0df9051147b77d2dbac94661f6e4d4922dbad"
+        },
+        {
+          "file": "modules/702kor.rim",
+          "entries": 3,
+          "file_size": 65585,
+          "resource_index_sha256": "907b21a4451d34f9e09b12f5ee765f83f5047899eeba44432105c111d809f48e"
+        },
+        {
+          "file": "modules/702kor_dlg.erf",
+          "entries": 10,
+          "file_size": 475977,
+          "resource_index_sha256": "86a0494f5495bca234f79fa3c584afc3a9e83f36dfef214debb562baf9e66571"
+        },
+        {
+          "file": "modules/702kor_s.rim",
+          "entries": 122,
+          "file_size": 355915,
+          "resource_index_sha256": "3e9d65ef3a2eece46e936b743123433d856f5a4cf979a63b7c85771d8868465f"
+        },
+        {
+          "file": "modules/710kor.mod",
+          "entries": 44,
+          "file_size": 443038,
+          "resource_index_sha256": "11c34fdb8f23263f560e60467332d09d58a85109de7db14cb501d830f26e98c6"
+        },
+        {
+          "file": "modules/710kor.rim",
+          "entries": 3,
+          "file_size": 34540,
+          "resource_index_sha256": "be35ee9812fe59146a6f6254bbe16a7e72b4f3b74cc68179a2f6f900c339d262"
+        },
+        {
+          "file": "modules/710kor_dlg.erf",
+          "entries": 1,
+          "file_size": 79207,
+          "resource_index_sha256": "729a3df6f8e8ed1b36d999fcec632bc8bce5996d9301f05c033e80cff0ff493b"
+        },
+        {
+          "file": "modules/710kor_s.rim",
+          "entries": 40,
+          "file_size": 312234,
+          "resource_index_sha256": "11d3e175732ac70a4d131fb9610429dcfefe6d0351c728daea0922321d05b3fa"
+        },
+        {
+          "file": "modules/711kor.mod",
+          "entries": 133,
+          "file_size": 1643730,
+          "resource_index_sha256": "3d73f3db25c37815ad27e707efc1f47768437f24503de4cfa9e78bb3b01a24fc"
+        },
+        {
+          "file": "modules/711kor.rim",
+          "entries": 3,
+          "file_size": 63348,
+          "resource_index_sha256": "49b4665cbf3c7f4468429799859a072a5f5cfba78f6002196c834713ebc6a5a3"
+        },
+        {
+          "file": "modules/711kor_dlg.erf",
+          "entries": 10,
+          "file_size": 452689,
+          "resource_index_sha256": "af8d21621129a076e8e88a731f465a13996268d74c4665001318151c207160d5"
+        },
+        {
+          "file": "modules/711kor_s.rim",
+          "entries": 103,
+          "file_size": 910438,
+          "resource_index_sha256": "65e6e573a1a331479a73b18c0fce5d4b3546db00bdee0a38c91cea834bca808d"
+        },
+        {
+          "file": "modules/851nih.mod",
+          "entries": 116,
+          "file_size": 784196,
+          "resource_index_sha256": "94c7a3a83cfa22d6cfecb1cb40b8b4d41db98c1ee794bf532f70678961b58a2d"
+        },
+        {
+          "file": "modules/851nih.rim",
+          "entries": 3,
+          "file_size": 80459,
+          "resource_index_sha256": "a674a60bb6b7bf5d36d3e42b9ae25aaf47342b8e1c95fe6bcb332a23b9f0b8fb"
+        },
+        {
+          "file": "modules/851nih_dlg.erf",
+          "entries": 11,
+          "file_size": 428465,
+          "resource_index_sha256": "117bdd1be7a7136c4ee93a081d150844df813cf4e76c95908ad6104644e94f99"
+        },
+        {
+          "file": "modules/851nih_s.rim",
+          "entries": 97,
+          "file_size": 251195,
+          "resource_index_sha256": "fec15f61d57f96c4be37d44b01f25ff1fdea74f2777f6178ae8756875ee3a9c7"
+        },
+        {
+          "file": "modules/852nih.mod",
+          "entries": 119,
+          "file_size": 693663,
+          "resource_index_sha256": "a117bd7317ad583f34171e64f4592e1d37b233674e901d0f26d48a9b4e5acab1"
+        },
+        {
+          "file": "modules/852nih.rim",
+          "entries": 3,
+          "file_size": 37907,
+          "resource_index_sha256": "720de67f5bd0b0f207512a3f52ab1281767fc85ad9e0cfa2c09294ccf60f3fef"
+        },
+        {
+          "file": "modules/852nih_dlg.erf",
+          "entries": 6,
+          "file_size": 293336,
+          "resource_index_sha256": "74806fa99d6d7eb3c5d94ba846caa2657ab82e221f66a573bad07c0329013494"
+        },
+        {
+          "file": "modules/852nih_s.rim",
+          "entries": 50,
+          "file_size": 160270,
+          "resource_index_sha256": "43b4ee9468bc87203675ea6b71d781b07c42c8b00e5af5fd17613f49dd3cc925"
+        },
+        {
+          "file": "modules/853nih.mod",
+          "entries": 33,
+          "file_size": 173258,
+          "resource_index_sha256": "1518b345fdba19b962fa5552c7a514b393bfd7e63cf8af38d40f3cbbcf3f50ac"
+        },
+        {
+          "file": "modules/853nih.rim",
+          "entries": 3,
+          "file_size": 20803,
+          "resource_index_sha256": "05cf9b0603ec511556a6c91812f6c014ce99327fabf03111fd0f68b8b4e5a06b"
+        },
+        {
+          "file": "modules/853nih_dlg.erf",
+          "entries": 3,
+          "file_size": 99953,
+          "resource_index_sha256": "ac64cf4bde0b2e0b25f0691ba02a4d6b03f9ab90099a326ce3e54cc46b54e9a8"
+        },
+        {
+          "file": "modules/853nih_s.rim",
+          "entries": 26,
+          "file_size": 48878,
+          "resource_index_sha256": "0cd7708d23bd416541f3b613dfd3744c96f8e53fb56d975326d63c064879fd51"
+        },
+        {
+          "file": "modules/856nih.mod",
+          "entries": 25,
+          "file_size": 109732,
+          "resource_index_sha256": "28d220eff9027e096e51be394e9f4494e777f47ec1c10aad8eb2e460c63a1eef"
+        },
+        {
+          "file": "modules/901mal.mod",
+          "entries": 53,
+          "file_size": 381503,
+          "resource_index_sha256": "71eed1116e5a99439f404fcfb771e6502498edcfabc2842f1b1312a825eeef1d"
+        },
+        {
+          "file": "modules/901mal.rim",
+          "entries": 3,
+          "file_size": 59875,
+          "resource_index_sha256": "d56c86a35a141646614db0571945c62a0f2390b08e2bdc04da0266bb98be6689"
+        },
+        {
+          "file": "modules/901mal_dlg.erf",
+          "entries": 5,
+          "file_size": 167395,
+          "resource_index_sha256": "e8a3bd5aef35a4d7c4e0260129ebc6e54e03bf3fc7facfa2e2d739c1584210fa"
+        },
+        {
+          "file": "modules/901mal_s.rim",
+          "entries": 44,
+          "file_size": 140646,
+          "resource_index_sha256": "34f5469dbd863e786bb57d4e02a46eb934be4f50d66b81c3a1e4aeebc4cb8e64"
+        },
+        {
+          "file": "modules/902mal.mod",
+          "entries": 119,
+          "file_size": 745846,
+          "resource_index_sha256": "85e8592243a7ab607c7b9a9c807c40a1d898bf0286acea6955b9daa8642ede7f"
+        },
+        {
+          "file": "modules/902mal.rim",
+          "entries": 3,
+          "file_size": 38171,
+          "resource_index_sha256": "5c6c9e61dbc8081959ed95b11f613a50acc1e0bd0a45c308119bd6b51c4bf4ec"
+        },
+        {
+          "file": "modules/902mal_dlg.erf",
+          "entries": 8,
+          "file_size": 245523,
+          "resource_index_sha256": "f498fbdd3f41095dd8d5d9205bba6b6a463e94524467e3a06777e48cd53fa804"
+        },
+        {
+          "file": "modules/902mal_s.rim",
+          "entries": 73,
+          "file_size": 297202,
+          "resource_index_sha256": "6031ae8f2c294f2d5e9587303ba6b7742d335c4c3079c76ced8442ddc10b33c3"
+        },
+        {
+          "file": "modules/903mal.mod",
+          "entries": 94,
+          "file_size": 790223,
+          "resource_index_sha256": "e84df36889522e2c7c062e73f69f5914bf548eb18bb0b38fef9975907d07858b"
+        },
+        {
+          "file": "modules/903mal.rim",
+          "entries": 3,
+          "file_size": 51951,
+          "resource_index_sha256": "d0fbb5e247a7c7dbaffebcb669707128d6fb4fc5b45e41ce6cc54c9098154701"
+        },
+        {
+          "file": "modules/903mal_dlg.erf",
+          "entries": 7,
+          "file_size": 491323,
+          "resource_index_sha256": "6150b4acbacdc5c12bb89467bd9c9349c9d9a3fd3e8609b7e11585c52efe29d3"
+        },
+        {
+          "file": "modules/903mal_s.rim",
+          "entries": 77,
+          "file_size": 212099,
+          "resource_index_sha256": "febfd898da153d4304a5b656fdbded3c51b3fbd74817b519e17941033cfe9f61"
+        },
+        {
+          "file": "modules/904mal.mod",
+          "entries": 96,
+          "file_size": 1019881,
+          "resource_index_sha256": "8d4a7b8cc0370dec7e4cb2dcd9f18b9d73ca883705fac1c8afd387482683671f"
+        },
+        {
+          "file": "modules/904mal.rim",
+          "entries": 3,
+          "file_size": 15827,
+          "resource_index_sha256": "363fc15d575449765828f631ab5f6b9f05e5b3f6f12f285d77c210a735ad842f"
+        },
+        {
+          "file": "modules/904mal_dlg.erf",
+          "entries": 4,
+          "file_size": 637941,
+          "resource_index_sha256": "28205c7b79e935892a8cef9b815ceb1b7923a7c2da6a1acc47c6b102dd10f567"
+        },
+        {
+          "file": "modules/904mal_s.rim",
+          "entries": 48,
+          "file_size": 100600,
+          "resource_index_sha256": "45c44b7c4df7a9ab0de0c54be573290c2ffefee9b5101610c0143c6eaca22840"
+        },
+        {
+          "file": "modules/905mal.mod",
+          "entries": 33,
+          "file_size": 160958,
+          "resource_index_sha256": "ca33a3288e6fb38c26d1ffc7fe0d28e416c156054683988c7590285b83016bc6"
+        },
+        {
+          "file": "modules/905mal.rim",
+          "entries": 3,
+          "file_size": 34847,
+          "resource_index_sha256": "1510a98fcf2f32476e80f60cf6843c858c6203c231d73400631868ace35034bf"
+        },
+        {
+          "file": "modules/905mal_dlg.erf",
+          "entries": 2,
+          "file_size": 361511,
+          "resource_index_sha256": "5841ed7e783abd1c261a182ceb2fd72b4da1b140fb36ab5ec7d6b7363fd704a4"
+        },
+        {
+          "file": "modules/905mal_s.rim",
+          "entries": 29,
+          "file_size": 121171,
+          "resource_index_sha256": "fb769dcfabac48a4d6dc3c7c63ebda1a2b044dc9d1ccd1482cb39626bb6243d6"
+        },
+        {
+          "file": "modules/906mal.mod",
+          "entries": 52,
+          "file_size": 592577,
+          "resource_index_sha256": "015eb7a59e1fe236abf19e023269bcaad626ccb1f2742cbc3c044a12c01a9cf3"
+        },
+        {
+          "file": "modules/906mal.rim",
+          "entries": 3,
+          "file_size": 31139,
+          "resource_index_sha256": "490f84d81b500d72808bc17e72899bd37eaeb2f2b0cd2bb451d8eaf168847637"
+        },
+        {
+          "file": "modules/906mal_dlg.erf",
+          "entries": 1,
+          "file_size": 353591,
+          "resource_index_sha256": "4431e04359703548d1eb39636b248fb8e525475b9bba43f6792c3826fd7c73ec"
+        },
+        {
+          "file": "modules/906mal_s.rim",
+          "entries": 24,
+          "file_size": 115466,
+          "resource_index_sha256": "eaab66d6a16b622c379855a453f8551a387c643ede58a9172869d39569736ff0"
+        },
+        {
+          "file": "modules/907mal.mod",
+          "entries": 60,
+          "file_size": 1040277,
+          "resource_index_sha256": "626283b72f3e7c4cda2b301220aba83f43e4b31d8650ef4d1729fd373be84744"
+        },
+        {
+          "file": "modules/907mal.rim",
+          "entries": 3,
+          "file_size": 20962,
+          "resource_index_sha256": "eeb46744f06671fd17a8c0d32a6cfee22c7b3318a7b1ea1a38c669154b9a3e81"
+        },
+        {
+          "file": "modules/907mal_dlg.erf",
+          "entries": 5,
+          "file_size": 757103,
+          "resource_index_sha256": "c8cf6318fb545fbb10804911f8f68c59db9687a924538a583fd45561ac6ce0d0"
+        },
+        {
+          "file": "modules/907mal_s.rim",
+          "entries": 20,
+          "file_size": 40159,
+          "resource_index_sha256": "e8cbd9265afeed75e416ad8d40d8eb63be2516a8122b029ebcfdf334f943be8b"
+        },
+        {
+          "file": "modules/908mal.mod",
+          "entries": 13,
+          "file_size": 37509,
+          "resource_index_sha256": "898c06f284d691967dbb5b74dade8ab9461604331b4f50f3435a0411ddd80c91"
+        },
+        {
+          "file": "modules/909mal.mod",
+          "entries": 53,
+          "file_size": 258297,
+          "resource_index_sha256": "390d7c856a4f884ebc798b35cae6ef91d50736274e8f1a95e6c0f22989365f14"
+        },
+        {
+          "file": "modules/910mal.mod",
+          "entries": 13,
+          "file_size": 76068,
+          "resource_index_sha256": "2a01764ed3bee2004c3346d0ed42aa2d84e351c07fd7600993c6acf92b889f8b"
+        },
+        {
+          "file": "modules/925mal.mod",
+          "entries": 118,
+          "file_size": 406392,
+          "resource_index_sha256": "705a6e82339f7a10187928bac4bb640e18ecc230c2e334c5b4f29193f61e64e8"
+        },
+        {
+          "file": "modules/950cor.mod",
+          "entries": 44,
+          "file_size": 438381,
+          "resource_index_sha256": "8a3dcb2d0c09e4e38c33fbc0a037be4406180558b26dd392ec6c7cf23a766be8"
+        },
+        {
+          "file": "modules/950cor.rim",
+          "entries": 3,
+          "file_size": 20191,
+          "resource_index_sha256": "8bc0859d80a892a40fe9bb1d4bf108b955c6dbf77169fe05a529e6c4d19f0856"
+        },
+        {
+          "file": "modules/950cor_dlg.erf",
+          "entries": 1,
+          "file_size": 320945,
+          "resource_index_sha256": "b45ddb30199b069806ba0ca6bcce11184e776724560062c7717bb4af996cc37a"
+        },
+        {
+          "file": "modules/950cor_s.rim",
+          "entries": 37,
+          "file_size": 63888,
+          "resource_index_sha256": "629b158bb66af9b7bbf16e3fdd30612e5813257820cbc49ba570e15695c489b0"
+        },
+        {
+          "file": "texturepacks/swpc_tex_gui.erf",
+          "entries": 1912,
+          "file_size": 132776589,
+          "resource_index_sha256": "13cdb013951f1cb3f6f4c16269047866b9c616ec7df1ec6aa1081037d01db67c"
+        },
+        {
+          "file": "texturepacks/swpc_tex_tpa.erf",
+          "entries": 3286,
+          "file_size": 462780634,
+          "resource_index_sha256": "e71f994c9d69f4da86ce128f3db8a6ab7d2cb62a0d794538fcc3dd254efeca11"
+        },
+        {
+          "file": "texturepacks/swpc_tex_tpb.erf",
+          "entries": 3286,
+          "file_size": 126944714,
+          "resource_index_sha256": "ec9fb214303347c29024e7198306bf09feaa44c52997571af1d532ae1765a297"
+        },
+        {
+          "file": "texturepacks/swpc_tex_tpc.erf",
+          "entries": 3286,
+          "file_size": 42985762,
+          "resource_index_sha256": "61e0fd339d5eb6ee752bb5333a5bb16633a3f05f6fad1692e2ccd4c6cfcabe4d"
+        }
+      ],
+      "executables": [],
+      "inventory_id": "a4b22510875bd82143633a3e1e685f14ba85934cba5597f3fb0bc3827041a603",
+      "source_kind": "Observed local harness asset tree; distribution, build and modification provenance unverified",
+      "base_resources": 18439,
+      "base_types": {
+        "2da": 424,
+        "bic": 1,
+        "btc": 3,
+        "dlg": 30,
+        "dwk": 324,
+        "gui": 159,
+        "itp": 18,
+        "jrl": 1,
+        "ltr": 3,
+        "lyt": 86,
+        "mdl": 3237,
+        "mdx": 3237,
+        "ncs": 612,
+        "nss": 638,
+        "pwk": 304,
+        "ssf": 70,
+        "tga": 10,
+        "tpc": 3801,
+        "txi": 26,
+        "utc": 284,
+        "utd": 104,
+        "ute": 65,
+        "uti": 994,
+        "utp": 383,
+        "utt": 34,
+        "utw": 9,
+        "vis": 81,
+        "wav": 2265,
+        "wok": 1236
+      },
+      "indexed_resources": 82356,
+      "indexed_containers": 428,
+      "indexed_types": {
+        "2da": 424,
+        "are": 170,
+        "bic": 1,
+        "btc": 3,
+        "dlg": 2392,
+        "dwk": 324,
+        "erf": 1,
+        "git": 170,
+        "gui": 159,
+        "ifo": 170,
+        "itp": 18,
+        "jrl": 1,
+        "lip": 26959,
+        "ltr": 3,
+        "lyt": 88,
+        "mdl": 3239,
+        "mdx": 3239,
+        "ncs": 10195,
+        "nss": 647,
+        "pth": 162,
+        "pwk": 304,
+        "rim": 2,
+        "ssf": 70,
+        "tga": 10,
+        "tpc": 15571,
+        "txi": 26,
+        "utc": 3399,
+        "utd": 879,
+        "ute": 165,
+        "uti": 1391,
+        "utm": 51,
+        "utp": 2308,
+        "uts": 2720,
+        "utt": 1434,
+        "utw": 2078,
+        "vis": 82,
+        "wav": 2265,
+        "wok": 1236
+      },
+      "observed_asset_files": {
+        "chitin.key": {
+          "files": 1,
+          "bytes": 406035
+        },
+        "data": {
+          "files": 11,
+          "bytes": 1243878636
+        },
+        "dialog.tlk": {
+          "files": 1,
+          "bytes": 10233069
+        },
+        "lips": {
+          "files": 79,
+          "bytes": 7124625
+        },
+        "modules": {
+          "files": 334,
+          "bytes": 179606243
+        },
+        "movies": {
+          "files": 71,
+          "bytes": 21186679648
+        },
+        "override": {
+          "files": 6548,
+          "bytes": 13514789542
+        },
+        "streammusic": {
+          "files": 163,
+          "bytes": 165931683
+        },
+        "streamsounds": {
+          "files": 832,
+          "bytes": 137485784
+        },
+        "streamvoice": {
+          "files": 17243,
+          "bytes": 621019179
+        },
+        "texturepacks": {
+          "files": 4,
+          "bytes": 765487699
+        }
+      },
+      "scope": "KEY-referenced BIF resource tables and discovered RIM, ERF and MOD resource tables. Loose assets and override files are counted only. Resource payloads, dialogue text, branch state and original-build fidelity are unverified.",
+      "metadata_stable_during_read": true
+    }
+  ],
+  "limitations": [
+    "Observed harness trees have unverified modification and build provenance.",
+    "Container indices identify candidate resources; narrative completeness, state-dependent traversal and payload content are unverified.",
+    "Loose and override assets have aggregate counts only. Other builds, platforms, patches and languages require separate inventories."
+  ]
+}

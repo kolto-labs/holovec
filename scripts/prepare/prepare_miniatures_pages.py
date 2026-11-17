@@ -1,0 +1,16 @@
+import xml.etree.ElementTree as ET,subprocess,hashlib,json
+from pathlib import Path
+names={'Knights of the Old Republic: Opportunities','Czerka 431 (scenario)','Payback (scenario)','Onderon Cutoff','Permanent Demotion','Battle of Czerka 431','Joni Ree'}
+p=Path('/tmp/holovec-wookieepedia-20261108.xml.7z')
+with p.open('rb') as f: assert hashlib.file_digest(f,'sha256').hexdigest()=='a624dfda8f09d80faeb3af744e0f601e99eeddd99eec5e465136ba519f306456'
+proc=subprocess.Popen(['7z','x','-so',str(p)],stdout=subprocess.PIPE);out={};root=None
+for event,el in ET.iterparse(proc.stdout,events=('start','end')):
+ if root is None and event=='start':root=el
+ if event!='end' or not el.tag.endswith('}page'):continue
+ title=el.findtext('{*}title')
+ if title in names:
+  rev=el.find('{*}revision');raw=rev.findtext('{*}text') or '';out[title]={'raw_wikitext':raw,'revision_id':rev.findtext('{*}id'),'timestamp':rev.findtext('{*}timestamp'),'sha256':hashlib.sha256(raw.encode()).hexdigest()}
+ root.clear()
+if proc.wait():raise RuntimeError('decompression failed')
+q=Path('/tmp/holovec-miniatures-raw.json');q.write_text(json.dumps({'archive_sha256':'a624dfda8f09d80faeb3af744e0f601e99eeddd99eec5e465136ba519f306456','records':{k:dict(v,raw_wikitext_sha256=v['sha256']) for k,v in out.items()}},ensure_ascii=False));q.chmod(0o600)
+print('Found',len(out),'titles',sorted(out),'missing',sorted(names-set(out)))

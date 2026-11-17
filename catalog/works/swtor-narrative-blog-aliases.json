@@ -1,0 +1,486 @@
+{
+  "scope": "Live publisher responses compared by article title and normalized visible article-text SHA-256; observation is time-specific and does not establish reuse rights. Failed or mismatched aliases are not used.",
+  "observation_date": "2026-11-16",
+  "items": [
+    {
+      "title": "A Letter from Special Executive Rasmus Blys",
+      "source_url": "https://www.swtor.com/blog/letter-special-executive-rasmus-blys",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/letter-special-executive-rasmus-blys",
+        "date": "07.08.2013",
+        "title": "A Letter from Special Executive Rasmus Blys",
+        "body_sha256": "be1dc5cdcfbb9889c8554bd98d13e3be3e4cdb1629d559ac048f20be4db978eb"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20130708",
+      "date_observation": {
+        "url": "https://www.swtor.com/info/news/blog/20130708",
+        "date": "07.08.2013",
+        "title": "A Letter from Special Executive Rasmus Blys",
+        "body_sha256": "be1dc5cdcfbb9889c8554bd98d13e3be3e4cdb1629d559ac048f20be4db978eb"
+      },
+      "verified_same_article": true
+    },
+    {
+      "title": "A Record of the Dread Masters",
+      "source_url": "https://www.swtor.com/blog/record-dread-masters",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/record-dread-masters",
+        "date": "09.13.2013",
+        "title": "A Record of the Dread Masters",
+        "body_sha256": "d3dc799969a0339138283c47b589ee9db92cb6268c240a63daf6f5f75f0ae17d"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20130913",
+      "date_observation": {
+        "url": "https://www.swtor.com/info/news/blog/20130913",
+        "date": "09.13.2013",
+        "title": "A Record of the Dread Masters",
+        "body_sha256": "d3dc799969a0339138283c47b589ee9db92cb6268c240a63daf6f5f75f0ae17d"
+      },
+      "verified_same_article": true
+    },
+    {
+      "title": "Additional Personnel Files",
+      "source_url": "https://www.swtor.com/blog/additional-personnel-files",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/additional-personnel-files",
+        "date": "12.20.2013",
+        "title": "Additional Personnel Files",
+        "body_sha256": "aa76eb4371ddfaa0f06cab3dad0ad98729a9c6fad2828670bf218fb5482c9f51"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20131220",
+      "date_observation": {
+        "url": "https://www.swtor.com/info/news/blog/20131220",
+        "date": "12.20.2013",
+        "title": "Additional Personnel Files",
+        "body_sha256": "aa76eb4371ddfaa0f06cab3dad0ad98729a9c6fad2828670bf218fb5482c9f51"
+      },
+      "verified_same_article": true
+    },
+    {
+      "title": "CZ-198 and the State of Czerka Corporation",
+      "source_url": "https://www.swtor.com/blog/cz-198-and-state-czerka-corporation",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/cz-198-and-state-czerka-corporation",
+        "date": "07.29.2013",
+        "title": "CZ-198 and the State of Czerka Corporation",
+        "body_sha256": "46f89653fa6a299321d1d83e7372eda76d169fd829528d309fbc442ff4e8f5fd"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20130729",
+      "date_observation": {
+        "url": "https://www.swtor.com/info/news/blog/20130729",
+        "date": "07.29.2013",
+        "title": "CZ-198 and the State of Czerka Corporation",
+        "body_sha256": "46f89653fa6a299321d1d83e7372eda76d169fd829528d309fbc442ff4e8f5fd"
+      },
+      "verified_same_article": true
+    },
+    {
+      "title": "CZ-198 – Meet the Staff",
+      "source_url": "https://www.swtor.com/blog/cz-198-%E2%80%93-meet-staff",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/cz-198-%E2%80%93-meet-staff",
+        "date": "08.02.2013",
+        "title": "CZ-198 – Meet the Staff",
+        "body_sha256": "ef5e554f334be2fb26fdee40fdd6847f88a8895124203ea1a0d9dbd7625e51a5"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20130802",
+      "date_observation": {
+        "url": "https://www.swtor.com/info/news/blog/20130802",
+        "date": "08.02.2013",
+        "title": "CZ-198 – Meet the Staff",
+        "body_sha256": "ef5e554f334be2fb26fdee40fdd6847f88a8895124203ea1a0d9dbd7625e51a5"
+      },
+      "verified_same_article": true
+    },
+    {
+      "title": "Companions 101: Aric Jorgan",
+      "source_url": "https://www.swtor.com/blog/companions-101-aric-jorgan",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/companions-101-aric-jorgan",
+        "date": "01.16.2013",
+        "title": "Companions 101: Aric Jorgan",
+        "body_sha256": "32cd26a9bff5f5a8abc68d0c7cae2a2ccea783a636c599e728a019948f22b43c"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20130116",
+      "date_observation": {
+        "url": "https://www.swtor.com/info/news/blog/20130116",
+        "date": "01.16.2013",
+        "title": "Companions 101: Aric Jorgan",
+        "body_sha256": "32cd26a9bff5f5a8abc68d0c7cae2a2ccea783a636c599e728a019948f22b43c"
+      },
+      "verified_same_article": true
+    },
+    {
+      "title": "Companions 101: Corso Riggs",
+      "source_url": "https://www.swtor.com/blog/companions-101-corso-riggs",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/companions-101-corso-riggs",
+        "date": "06.27.2013",
+        "title": "Companions 101: Corso Riggs",
+        "body_sha256": "eda1869c9595038e4c6ff4de52dad3e283032620e46b46def3e403c7fcee3bf8"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20130627",
+      "date_observation": {
+        "url": "https://www.swtor.com/info/news/blog/20130627",
+        "date": "06.27.2013",
+        "title": "Companions 101: Corso Riggs",
+        "body_sha256": "eda1869c9595038e4c6ff4de52dad3e283032620e46b46def3e403c7fcee3bf8"
+      },
+      "verified_same_article": true
+    },
+    {
+      "title": "Companions 101: Kaliyo Djannis",
+      "source_url": "https://www.swtor.com/blog/companions-101-kaliyo-djannis",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/companions-101-kaliyo-djannis",
+        "date": "10.01.2012",
+        "title": "Companions 101: Kaliyo Djannis",
+        "body_sha256": "ecbe8ad743bf685b4457aea3d6d407b229bf430e1c760b3e054c7107e898db9e"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20121001",
+      "date_observation": {
+        "url": "https://www.swtor.com/info/news/blog/20121001",
+        "date": "10.01.2012",
+        "title": "Companions 101: Kaliyo Djannis",
+        "body_sha256": "ecbe8ad743bf685b4457aea3d6d407b229bf430e1c760b3e054c7107e898db9e"
+      },
+      "verified_same_article": true
+    },
+    {
+      "title": "Companions 101: Kira Carsen",
+      "source_url": "https://www.swtor.com/blog/companions-101-kira-carsen",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/companions-101-kira-carsen",
+        "date": "10.23.2012",
+        "title": "Companions 101: Kira Carsen",
+        "body_sha256": "c0e75020b0317df547a490ed7c06e3e827d57914d8a5e487fbb678261bbc28ed"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20121023",
+      "date_observation": {
+        "error": "HTTPError"
+      },
+      "verified_same_article": false
+    },
+    {
+      "title": "Companions 101: Mako",
+      "source_url": "https://www.swtor.com/blog/companions-101-mako",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/companions-101-mako",
+        "date": "03.18.2013",
+        "title": "Companions 101: Mako",
+        "body_sha256": "8973b352ccd315c7881b66008156560c0e15965e08233b01eba3e1640068153d"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20130318",
+      "date_observation": {
+        "url": "https://www.swtor.com/info/news/blog/20130318",
+        "date": "03.18.2013",
+        "title": "Companions 101: Mako",
+        "body_sha256": "8973b352ccd315c7881b66008156560c0e15965e08233b01eba3e1640068153d"
+      },
+      "verified_same_article": true
+    },
+    {
+      "title": "Companions 101: Vette",
+      "source_url": "https://www.swtor.com/blog/companions-101-vette",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/companions-101-vette",
+        "date": "11.29.2012",
+        "title": "Companions 101: Vette",
+        "body_sha256": "1ab82fa4c26ac6562f9285eb093a000455f4551890f7e0f17e8be8887466e986"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20121129",
+      "date_observation": {
+        "url": "https://www.swtor.com/info/news/blog/20121129",
+        "date": "11.29.2012",
+        "title": "Companions 101: Vette",
+        "body_sha256": "1ab82fa4c26ac6562f9285eb093a000455f4551890f7e0f17e8be8887466e986"
+      },
+      "verified_same_article": true
+    },
+    {
+      "title": "Facilities: Take a Virtual Tour",
+      "source_url": "https://www.swtor.com/blog/facilities-take-virtual-tour",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/facilities-take-virtual-tour",
+        "date": "06.28.2013",
+        "title": "Facilities: Take a Virtual Tour",
+        "body_sha256": "f82817c571ecf335f30904674d81e7fe1aa2ac5581f22753e8950a6bee3657d7"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20130628",
+      "date_observation": {
+        "url": "https://www.swtor.com/info/news/blog/20130628",
+        "date": "06.28.2013",
+        "title": "Facilities: Take a Virtual Tour",
+        "body_sha256": "f82817c571ecf335f30904674d81e7fe1aa2ac5581f22753e8950a6bee3657d7"
+      },
+      "verified_same_article": true
+    },
+    {
+      "title": "Four More Picks for You",
+      "source_url": "https://www.swtor.com/blog/four-more-picks-you",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/four-more-picks-you",
+        "date": "12.20.2013",
+        "title": "Four More Picks for You",
+        "body_sha256": "6e46cb22c2a91af91cfb1d31d23ebb918c55a8e5134b06e6dee25ee59ff0eb6f"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20131220",
+      "date_observation": {
+        "url": "https://www.swtor.com/info/news/blog/20131220",
+        "date": "12.20.2013",
+        "title": "Additional Personnel Files",
+        "body_sha256": "aa76eb4371ddfaa0f06cab3dad0ad98729a9c6fad2828670bf218fb5482c9f51"
+      },
+      "verified_same_article": false
+    },
+    {
+      "title": "Go Big, Go Small, Go Nowhere",
+      "source_url": "https://www.swtor.com/blog/go-big-go-small-go-nowhere",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/go-big-go-small-go-nowhere",
+        "date": "04.01.2015",
+        "title": "Go Big, Go Small, Go Nowhere",
+        "body_sha256": "9b2981ac96d06d0b77f0a31255c4575badd74c08f7322f23c2a1a39f4578f188"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20150401",
+      "date_observation": {
+        "error": "HTTPError"
+      },
+      "verified_same_article": false
+    },
+    {
+      "title": "HoloNet News Exclusive Interview: Baron Deathmark",
+      "source_url": "https://www.swtor.com/blog/holonet-news-exclusive-interview-baron-deathmark",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/holonet-news-exclusive-interview-baron-deathmark",
+        "date": "08.26.2013",
+        "title": "HoloNet News Exclusive Interview: Baron Deathmark",
+        "body_sha256": "dcbc2282ba36a2ed33f039372d4f7121f55aabc982ab06e16b239a6523906abb"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20130826",
+      "date_observation": {
+        "url": "https://www.swtor.com/info/news/blog/20130826",
+        "date": "08.26.2013",
+        "title": "HoloNet News Exclusive Interview: Baron Deathmark",
+        "body_sha256": "dcbc2282ba36a2ed33f039372d4f7121f55aabc982ab06e16b239a6523906abb"
+      },
+      "verified_same_article": true
+    },
+    {
+      "title": "HoloNet News Exclusive Interview: Baron Deathmark, Part 2",
+      "source_url": "https://www.swtor.com/blog/holonet-news-exclusive-interview-baron-deathmark-part-2",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/holonet-news-exclusive-interview-baron-deathmark-part-2",
+        "date": "09.06.2013",
+        "title": "HoloNet News Exclusive Interview: Baron Deathmark, Part 2",
+        "body_sha256": "9886a736b9d01099de29a14742b22f8594ec2cb939901444ab0b49ef91f76568"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20130906",
+      "date_observation": {
+        "url": "https://www.swtor.com/info/news/blog/20130906",
+        "date": "09.06.2013",
+        "title": "HoloNet News Exclusive Interview: Baron Deathmark, Part 2",
+        "body_sha256": "9886a736b9d01099de29a14742b22f8594ec2cb939901444ab0b49ef91f76568"
+      },
+      "verified_same_article": true
+    },
+    {
+      "title": "HoloNet News Exclusive Interview: Baron Deathmark, third listed installment",
+      "source_url": "https://www.swtor.com/blog/holonet-news-exclusive-interview-baron-deathmark-0",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/holonet-news-exclusive-interview-baron-deathmark-0",
+        "date": "11.26.2013",
+        "title": "HoloNet News Exclusive Interview: Baron Deathmark",
+        "body_sha256": "30bcefe9fe59c1b0f4c75649c06c52630c591ee127224efabc64a7236c820b44"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20131126",
+      "date_observation": {
+        "url": "https://www.swtor.com/info/news/blog/20131126",
+        "date": "11.26.2013",
+        "title": "HoloNet News Exclusive Interview: Baron Deathmark",
+        "body_sha256": "30bcefe9fe59c1b0f4c75649c06c52630c591ee127224efabc64a7236c820b44"
+      },
+      "verified_same_article": true
+    },
+    {
+      "title": "Imperial Edict GR-1NC4",
+      "source_url": "https://www.swtor.com/blog/imperial-edict-gr-1nc4",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/imperial-edict-gr-1nc4",
+        "date": "12.16.2013",
+        "title": "IMPERIAL EDICT GR-1NC4",
+        "body_sha256": "cf1fd3d5ef0f1ee135b63a4ad4468530ebd1507577a9c131c96e131259ff3be6"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20131216",
+      "date_observation": {
+        "url": "https://www.swtor.com/info/news/blog/20131216",
+        "date": "12.16.2013",
+        "title": "IMPERIAL EDICT GR-1NC4",
+        "body_sha256": "cf1fd3d5ef0f1ee135b63a4ad4468530ebd1507577a9c131c96e131259ff3be6"
+      },
+      "verified_same_article": true
+    },
+    {
+      "title": "Imperial Intelligence Report: Persons of Interest on Makeb",
+      "source_url": "https://www.swtor.com/blog/imperial-intelligence-report-persons-interest-makeb",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/imperial-intelligence-report-persons-interest-makeb",
+        "date": "04.08.2013",
+        "title": "Imperial Intelligence Report: Persons of Interest on Makeb",
+        "body_sha256": "6215ad63d87fb7a545fd914b8c2ee0df8716da658ba170bd7bc5a8722528bf0f"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20130408",
+      "date_observation": {
+        "url": "https://www.swtor.com/info/news/blog/20130408",
+        "date": "04.08.2013",
+        "title": "Imperial Intelligence Report: Persons of Interest on Makeb",
+        "body_sha256": "6215ad63d87fb7a545fd914b8c2ee0df8716da658ba170bd7bc5a8722528bf0f"
+      },
+      "verified_same_article": true
+    },
+    {
+      "title": "RE: Kuat Drive Yards",
+      "source_url": "https://www.swtor.com/blog/re-kuat-drive-yards",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/re-kuat-drive-yards",
+        "date": "01.17.2014",
+        "title": "RE: Kuat Drive Yards",
+        "body_sha256": "925e06e326cc7d32e3d5dbf4bfad6cdbc58002850e1893a94055710451e618f7"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20140117",
+      "date_observation": {
+        "url": "https://www.swtor.com/info/news/blog/20140117",
+        "date": "01.17.2014",
+        "title": "RE: Kuat Drive Yards",
+        "body_sha256": "925e06e326cc7d32e3d5dbf4bfad6cdbc58002850e1893a94055710451e618f7"
+      },
+      "verified_same_article": true
+    },
+    {
+      "title": "Raider’s Cove: Persons of Interest",
+      "source_url": "https://www.swtor.com/blog/raider%E2%80%99s-cove-persons-interest",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/raider%E2%80%99s-cove-persons-interest",
+        "date": "12.01.2014",
+        "title": "Raider’s Cove: Persons of Interest",
+        "body_sha256": "d47e36d6f1cc5426da5ea0e34d86030ad797630333c0b47b29a1cd535a187081"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20141201",
+      "date_observation": {
+        "url": "https://www.swtor.com/info/news/blog/20141201",
+        "date": "12.01.2014",
+        "title": "Rishi: Places of Interest",
+        "body_sha256": "f1167448916110327c421003f526dd04d5cdbea5dfabba202e41c18b3b0a0f3f"
+      },
+      "verified_same_article": false
+    },
+    {
+      "title": "Rishi: Places of Interest",
+      "source_url": "https://www.swtor.com/blog/rishi-places-interest",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/rishi-places-interest",
+        "date": "12.01.2014",
+        "title": "Rishi: Places of Interest",
+        "body_sha256": "f1167448916110327c421003f526dd04d5cdbea5dfabba202e41c18b3b0a0f3f"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20141201",
+      "date_observation": {
+        "url": "https://www.swtor.com/info/news/blog/20141201",
+        "date": "12.01.2014",
+        "title": "Rishi: Places of Interest",
+        "body_sha256": "f1167448916110327c421003f526dd04d5cdbea5dfabba202e41c18b3b0a0f3f"
+      },
+      "verified_same_article": true
+    },
+    {
+      "title": "SIS Intel Report: Key locations overview of the planet Makeb",
+      "source_url": "https://www.swtor.com/blog/sis-intel-report-key-locations-overview-planet-makeb",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/sis-intel-report-key-locations-overview-planet-makeb",
+        "date": "04.04.2013",
+        "title": "SIS Intel Report: Key locations overview of the planet Makeb",
+        "body_sha256": "2b9c9589a95f74c4e520a4737a583c387237728192d8dbe4f359a726abdd55d1"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20130404",
+      "date_observation": {
+        "url": "https://www.swtor.com/info/news/blog/20130404",
+        "date": "04.04.2013",
+        "title": "SIS Intel Report: Key locations overview of the planet Makeb",
+        "body_sha256": "2b9c9589a95f74c4e520a4737a583c387237728192d8dbe4f359a726abdd55d1"
+      },
+      "verified_same_article": true
+    },
+    {
+      "title": "Since KOTOR: Manaan",
+      "source_url": "https://www.swtor.com/blog/kotor-manaan",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/kotor-manaan",
+        "date": "07.18.2014",
+        "title": "Since KOTOR: Manaan",
+        "body_sha256": "7fe82dda53bad5adb12be912a882e6e3a73400cf90eb5d3295cafe5a43ea5a2d"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20140718",
+      "date_observation": {
+        "url": "https://www.swtor.com/info/news/blog/20140718",
+        "date": "07.18.2014",
+        "title": "Since KOTOR: Manaan",
+        "body_sha256": "7fe82dda53bad5adb12be912a882e6e3a73400cf90eb5d3295cafe5a43ea5a2d"
+      },
+      "verified_same_article": true
+    },
+    {
+      "title": "State of the Galaxy",
+      "source_url": "https://www.swtor.com/blog/state-galaxy",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/state-galaxy",
+        "date": "04.07.2014",
+        "title": "State of the Galaxy",
+        "body_sha256": "761ef10a7240bb71e689df2ed8e587cd99ce8ec5c8738927566b4f552964fc3f"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20140407",
+      "date_observation": {
+        "url": "https://www.swtor.com/info/news/blog/20140407",
+        "date": "04.07.2014",
+        "title": "State of the Galaxy",
+        "body_sha256": "761ef10a7240bb71e689df2ed8e587cd99ce8ec5c8738927566b4f552964fc3f"
+      },
+      "verified_same_article": true
+    },
+    {
+      "title": "The Revanites’ Ascendance",
+      "source_url": "https://www.swtor.com/blog/revanites%E2%80%99-ascendance",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/revanites%E2%80%99-ascendance",
+        "date": "10.22.2014",
+        "title": "The Revanites’ Ascendance",
+        "body_sha256": "4279c37502e4835a4a4c22c4e704f273005920ec5843da3a84336a681a515d83"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20141022",
+      "date_observation": {
+        "url": "https://www.swtor.com/info/news/blog/20141022",
+        "date": "10.22.2014",
+        "title": "The Revanites’ Ascendance",
+        "body_sha256": "4279c37502e4835a4a4c22c4e704f273005920ec5843da3a84336a681a515d83"
+      },
+      "verified_same_article": true
+    },
+    {
+      "title": "Work with Pride. Work with Czerka.",
+      "source_url": "https://www.swtor.com/blog/work-pride.-work-czerka.",
+      "source_observation": {
+        "url": "https://www.swtor.com/blog/work-pride.-work-czerka.",
+        "date": "07.16.2013",
+        "title": "WORK WITH PRIDE. WORK WITH CZERKA.",
+        "body_sha256": "53df945870f3d392439aa25cd9dc4461752a148dbcd3137ec4aec9f1a51a5be1"
+      },
+      "date_url": "https://www.swtor.com/info/news/blog/20130716",
+      "date_observation": {
+        "url": "https://www.swtor.com/info/news/blog/20130716",
+        "date": "07.16.2013",
+        "title": "WORK WITH PRIDE. WORK WITH CZERKA.",
+        "body_sha256": "53df945870f3d392439aa25cd9dc4461752a148dbcd3137ec4aec9f1a51a5be1"
+      },
+      "verified_same_article": true
+    }
+  ]
+}

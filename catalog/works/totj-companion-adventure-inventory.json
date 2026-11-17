@@ -1,0 +1,56 @@
+{
+  "scope": "Three adventure leads in the pinned wiki category; not a complete contents census. Attribution, title, type, branches and placement need verification against the original book.",
+  "parent_work": "Tales of the Jedi Companion (1996)",
+  "source_category_audit_sha256": "4e18949f49be4a974241a3eea021812aea46f8de56709b3f348fea9ecfce0c38",
+  "source_layer_sha256": "e9e3d3efa1fb443d5c258fc470a166f0b427b6ab8deeb6f454a52296df417ad5",
+  "items": [
+    {
+      "title": "Evil Arisen",
+      "work_type": "adventure or adventure seed (secondary classification)",
+      "parent_work_id": "totj-companion-1996",
+      "primary_content_acquired": false,
+      "primary_rights": "not_established",
+      "secondary_category_evidence": "https://starwars.fandom.com/wiki/Evil_Arisen",
+      "secondary_context": {
+        "source_layer": "data/wookieepedia-broad-references.jsonl",
+        "source_row": 4062,
+        "source_url": "https://starwars.fandom.com/wiki/Evil_Arisen",
+        "text_sha256": "a8f58325d3f0617d3e2806ca38f71e2bff1c453093d9f44f1368305af23e0844",
+        "source_document_sha256": "a8f58325d3f0617d3e2806ca38f71e2bff1c453093d9f44f1368305af23e0844"
+      },
+      "secondary_content_caveat": "Existing broad wiki snapshot is unembedded and its unmarked third-party excerpts have not been cleared."
+    },
+    {
+      "title": "Ruins of Kabus-Dabeh",
+      "work_type": "adventure or adventure seed (secondary classification)",
+      "parent_work_id": "totj-companion-1996",
+      "primary_content_acquired": false,
+      "primary_rights": "not_established",
+      "secondary_category_evidence": "https://starwars.fandom.com/wiki/Ruins_of_Kabus-Dabeh",
+      "secondary_context": {
+        "source_layer": "data/wookieepedia-broad-references.jsonl",
+        "source_row": 10452,
+        "source_url": "https://starwars.fandom.com/wiki/Ruins_of_Kabus-Dabeh",
+        "text_sha256": "1ddcf230bc0bd2a0eee6800d116790ba2403fbc20d5eec52c60c9796621b5060",
+        "source_document_sha256": "1ddcf230bc0bd2a0eee6800d116790ba2403fbc20d5eec52c60c9796621b5060"
+      },
+      "secondary_content_caveat": "Existing broad wiki snapshot is unembedded and its unmarked third-party excerpts have not been cleared."
+    },
+    {
+      "title": "The Muza Disappearances",
+      "work_type": "adventure or adventure seed (secondary classification)",
+      "parent_work_id": "totj-companion-1996",
+      "primary_content_acquired": false,
+      "primary_rights": "not_established",
+      "secondary_category_evidence": "https://starwars.fandom.com/wiki/The_Muza_Disappearances",
+      "secondary_context": {
+        "source_layer": "data/wookieepedia-broad-references.jsonl",
+        "source_row": 12302,
+        "source_url": "https://starwars.fandom.com/wiki/The_Muza_Disappearances",
+        "text_sha256": "9980caa5b72bd8f4186d6fb8683733b1f4e548716ec1e8bc36c76f9d15e8bca2",
+        "source_document_sha256": "9980caa5b72bd8f4186d6fb8683733b1f4e548716ec1e8bc36c76f9d15e8bca2"
+      },
+      "secondary_content_caveat": "Existing broad wiki snapshot is unembedded and its unmarked third-party excerpts have not been cleared."
+    }
+  ]
+}

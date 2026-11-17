@@ -1,0 +1,88 @@
+[
+  {
+    "id": "pykotor-wiki",
+    "repo": "NickHugi/PyKotor",
+    "default_branch": "master",
+    "license_spdx": "LGPL-3.0",
+    "license_evidence": "repository-level metadata; file-level terms not reviewed",
+    "status": "discovery_only"
+  },
+  {
+    "id": "reone-repo",
+    "repo": "reone/reone",
+    "status": "unavailable",
+    "error": "gh: Not Found (HTTP 404)"
+  },
+  {
+    "id": "northernlights-repo",
+    "repo": "NickHugi/NorthernLights",
+    "status": "unavailable",
+    "error": "gh: Not Found (HTTP 404)"
+  },
+  {
+    "id": "mdlops-repo",
+    "repo": "bead-v/mdlops",
+    "status": "unavailable",
+    "error": "gh: Not Found (HTTP 404)"
+  },
+  {
+    "id": "pykotor-repo",
+    "repo": "NickHugi/PyKotor",
+    "default_branch": "master",
+    "license_spdx": "LGPL-3.0",
+    "license_evidence": "repository-level metadata; file-level terms not reviewed",
+    "status": "discovery_only"
+  },
+  {
+    "id": "kotorjs-repo",
+    "repo": "KobaltBlu/KotOR.js",
+    "default_branch": "master",
+    "license_spdx": "GPL-3.0",
+    "license_evidence": "repository-level metadata; file-level terms not reviewed",
+    "status": "discovery_only"
+  },
+  {
+    "id": "xoreos-repo",
+    "repo": "xoreos/xoreos",
+    "default_branch": "master",
+    "license_spdx": "GPL-3.0",
+    "license_evidence": "repository-level metadata; file-level terms not reviewed",
+    "status": "discovery_only"
+  },
+  {
+    "id": "xoreos-tools-repo",
+    "repo": "xoreos/xoreos-tools",
+    "default_branch": "master",
+    "license_spdx": "GPL-3.0",
+    "license_evidence": "repository-level metadata; file-level terms not reviewed",
+    "status": "discovery_only"
+  },
+  {
+    "id": "kotorblender-repo",
+    "repo": "ndixUR/kotorblender",
+    "default_branch": "master",
+    "license_spdx": "GPL-3.0",
+    "license_evidence": "repository-level metadata; file-level terms not reviewed",
+    "status": "discovery_only"
+  },
+  {
+    "id": "kotormax-repo",
+    "repo": "bead-v/kotormax",
+    "status": "unavailable",
+    "error": "gh: Not Found (HTTP 404)"
+  },
+  {
+    "id": "mdledit-repo",
+    "repo": "bead-v/mdledit",
+    "status": "unavailable",
+    "error": "gh: Not Found (HTTP 404)"
+  },
+  {
+    "id": "tga2tpc-repo",
+    "repo": "ndixUR/tga2tpc",
+    "default_branch": "master",
+    "license_spdx": "GPL-3.0",
+    "license_evidence": "repository-level metadata; file-level terms not reviewed",
+    "status": "discovery_only"
+  }
+]

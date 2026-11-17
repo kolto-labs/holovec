@@ -1,0 +1,8 @@
+vectors/*.parquet filter=lfs diff=lfs merge=lfs -text
+data/wookieepedia-broad-references.jsonl filter=lfs diff=lfs merge=lfs -text
+unified/*.parquet filter=lfs diff=lfs merge=lfs -text
+unified/configs/*.parquet filter=lfs diff=lfs merge=lfs -text
+data/*.parquet filter=lfs diff=lfs merge=lfs -text
+catalog/games/*.parquet filter=lfs diff=lfs merge=lfs -text
+data/exarch-mission-metadata.jsonl filter=lfs diff=lfs merge=lfs -text
+data/originals/*.pdf filter=lfs diff=lfs merge=lfs -text

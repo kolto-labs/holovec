@@ -1,0 +1,37 @@
+{
+  "description": "Tabletop adventure discovery and partial secondary coverage; primary works and their reuse rights remain unresolved. Bibliography is not a completeness claim.",
+  "items": [
+    {
+      "title": "Iridonian Darkness",
+      "author": "Sterling Hershey",
+      "bibliographic_evidence": [
+        "https://www.sterlinghershey.com/freelance",
+        "https://theforce.net/rpg/story/Wizardscom_October_Updates_118266.asp"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "secondary_summary": {
+        "dataset": "data/wookieepedia-kotor-adventure-summaries.jsonl",
+        "revision_url": "https://starwars.fandom.com/wiki/Iridonian_Darkness?oldid=15402574",
+        "text_sha256": "1ab9bb9266947939b0465551dfed92b62d75c5388dd689b23da45cb588c1e7c2",
+        "coverage": "screened contributor introduction only; wiki plot section empty"
+      }
+    },
+    {
+      "title": "The Betrayal of Darth Revan",
+      "author": "Patrick Stutzman",
+      "bibliographic_evidence": [
+        "https://s3.amazonaws.com/download.penny-arcade.com/pax/paxguide.pdf",
+        "https://alexandria.dk/en/data?scenarie=6657"
+      ],
+      "primary_content": "not_acquired",
+      "redistribution_permission": "not_established",
+      "secondary_summary": {
+        "dataset": "data/wookieepedia-kotor-adventure-summaries.jsonl",
+        "revision_url": "https://starwars.fandom.com/wiki/The_Betrayal_of_Darth_Revan?oldid=15324986",
+        "text_sha256": "6966689e8f9c32c6ea5348e13fa54b0fd08e8ac2285f35d8582221f1d509a8d7",
+        "coverage": "screened contributor plot summary; player choices and primary work incomplete"
+      }
+    }
+  ]
+}

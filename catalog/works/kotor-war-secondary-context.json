@@ -1,0 +1,79 @@
+{
+  "description": "Discovery link to an already-published secondary section that appears to describe the five-issue War miniseries. Attribution to specific issues, complete source fidelity, rights of unmarked excerpts, and primary comic content are not established.",
+  "dataset": "data/wookieepedia-legends.parquet",
+  "title": "Zayne Carrick",
+  "doc_id": "wookieepedia/Z/Zayne_Carrick.md",
+  "url": "https://starwars.fandom.com/wiki/Zayne_Carrick",
+  "source_text_sha256": "e6095488bae8235db962c8719cc18e0ae9dd31a059732e711d3e1a2519593757",
+  "upstream_dataset_revision": "5d19bba512fa8c65b225c1819d7971db316b871c",
+  "article_revision_id": null,
+  "section_heading": "Drafted",
+  "section_start": 96107,
+  "section_end": 97352,
+  "section_sha256": "8f21773e2949ec7dbe5c47698d9ac3838c8778aea90ffbcf863c212605e425e1",
+  "overlapping_vector_passages": [
+    {
+      "id": "7793561c3ba754791dfaa5652a950f125a0b8b64f3c22f14da3fcb6b4c6578ca",
+      "shard": "vectors/wookieepedia-07100.parquet",
+      "start": 95158,
+      "end": 97157
+    },
+    {
+      "id": "f0e9e833effd9c599659335b7e23922f03db3e51516421ba92faffbb31742164",
+      "shard": "vectors/wookieepedia-07100.parquet",
+      "start": 96957,
+      "end": 98952
+    }
+  ],
+  "coverage": "Arc-level secondary character context, not per-issue coverage. The source section contains a quotation marker and is under review; no new inference was run.",
+  "reviewed_secondary_section": {
+    "dataset": "data/wookieepedia-war-zayne-summary.jsonl",
+    "revision_id": "15810710",
+    "text_sha256": "59ebed7f11c42a78ac4cc57c0d6e787a3001e79ac680306237d5456562625dc6",
+    "scope": "Quote-screened character-level arc overview; not per-issue or primary coverage; unmarked excerpts remain unverified."
+  },
+  "additional_character_sections": [
+    {
+      "dataset": "data/wookieepedia-war-character-biographies.jsonl",
+      "title": "Dorjander Kace — Prisoner of the Mando'ade",
+      "revision_id": "15765191",
+      "text_sha256": "e53fbc071067f3734f4509dd50aa8c4dd8e17772a0f97f25b239d5f4a6914f01",
+      "scope": "Secondary biography, not individual issue or primary comic coverage."
+    },
+    {
+      "dataset": "data/wookieepedia-war-character-biographies.jsonl",
+      "title": "Dorjander Kace — The Mandalorian Knights",
+      "revision_id": "15765191",
+      "text_sha256": "90487b2305292365ea0f8d7d572de71a74cc442e538da2a8962a3b85dd6ea9c9",
+      "scope": "Secondary biography, not individual issue or primary comic coverage."
+    },
+    {
+      "dataset": "data/wookieepedia-war-character-biographies.jsonl",
+      "title": "Dorjander Kace — Final moves",
+      "revision_id": "15765191",
+      "text_sha256": "aa9d195b6a7edf3361816c06965c7eb2460e4ae38809d46a600bdffd56e1e463",
+      "scope": "Secondary biography, not individual issue or primary comic coverage."
+    },
+    {
+      "dataset": "data/wookieepedia-war-character-biographies.jsonl",
+      "title": "Dorjander Kace — Downfall",
+      "revision_id": "15765191",
+      "text_sha256": "543efe87a7c5ffa7e2cc6957df78b6c33c83fa001cd4c3becb3011e1fef568cb",
+      "scope": "Secondary biography, not individual issue or primary comic coverage."
+    },
+    {
+      "dataset": "data/wookieepedia-war-character-biographies.jsonl",
+      "title": "Dallan Morvis — Biography",
+      "revision_id": "15732743",
+      "text_sha256": "956cfb826797542cc70f7a51ddcee286023448a3ce929d099fbd0beec59dcff5",
+      "scope": "Secondary biography, not individual issue or primary comic coverage."
+    },
+    {
+      "dataset": "data/wookieepedia-war-character-biographies.jsonl",
+      "title": "Koblus Sornell — Biography",
+      "revision_id": "14400278",
+      "text_sha256": "9055bd356ef690e6d1eeb43728d51d573fe075c13882614ddee150b22bf035c3",
+      "scope": "Secondary biography, not individual issue or primary comic coverage."
+    }
+  ]
+}
