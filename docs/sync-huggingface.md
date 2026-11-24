@@ -255,9 +255,19 @@ has no `HF_TOKEN` and cannot run Actions.
 - Not tested live: `list_repo_tree` returning `lfs.sha256` for Xet-backed files (if
   absent, comparisons fall back to git blob ids and can only produce false
   "differs", which fails closed on outbound and yields byte-identical, therefore
-  empty, diffs on inbound); `create_tag` / `list_repo_refs` on dataset repos with a
-  fine-grained token; whether `parent_commit` rejection surfaces as an HTTP 412 with
+  empty, diffs on inbound); whether `parent_commit` rejection surfaces as an HTTP 412 with
   this exact exception type (the commit is rejected either way, the run fails).
+- Fixed after the first live run (2026-11-24): `create_tag` with a message makes an
+  *annotated* tag, and `list_repo_refs` reports such a tag by its tag-object id, not by
+  the commit it points at. The first sync (commit `1c1e551`) created the repo, uploaded
+  and tagged correctly, but the next run could not match the tag to any commit and
+  refused with "never been synced" (it failed closed; nothing was overwritten). The
+  adapter now resolves each `gh-sync-*` tag with `repo_info(revision="refs/tags/<tag>")`,
+  checked against public Hub repos with annotated tags (`bigscience/bloom-560m`,
+  `allenai/c4`), where the listed id differs and the resolved id is the tag's commit.
+  Cost: one small API call per `gh-sync-*` tag per run (one tag is added per push to
+  `main`); a tag that cannot be resolved is skipped, which can only make the run fail
+  closed.
 - The exact permission names on the Hub token screen (write contents, create repos)
   are from memory of the UI, not checked today.
 - The Hub docs page `huggingface.co/docs/huggingface_hub/en/guides/upload` could not be

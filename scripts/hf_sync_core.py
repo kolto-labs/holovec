@@ -17,7 +17,7 @@ import shutil
 import subprocess
 from dataclasses import dataclass, field
 from pathlib import Path, PurePosixPath
-from typing import Iterable, Mapping
+from typing import Callable, Iterable, Mapping
 
 import yaml
 
@@ -353,6 +353,34 @@ def pick_base(
         if cid in by_commit:
             return cid, sorted(by_commit[cid])
     return None, []
+
+
+def resolve_sync_tags(
+    listed: Mapping[str, str],
+    commit_ids: Iterable[str],
+    peel: Callable[[str], str | None],
+) -> dict[str, str]:
+    """Map each ``gh-sync-*`` tag to the commit it points at.
+
+    ``listed`` maps tag name -> the id the Hub's refs listing reports.  For a lightweight
+    tag that is the commit id; for an annotated tag (what ``create_tag(tag_message=...)``
+    makes) it is the id of the tag *object*, which matches no commit.  Tags whose listed id
+    is a known commit are used as-is; the rest are resolved with ``peel(tag_name)``, which
+    returns the commit id or None.  A tag that cannot be resolved is dropped, so the caller
+    sees no sync base and fails closed rather than guessing.  Non-sync tags are ignored.
+    """
+    known = set(commit_ids)
+    out: dict[str, str] = {}
+    for name, target in listed.items():
+        if not TAG_RE.match(name):
+            continue
+        if target in known:
+            out[name] = target
+            continue
+        commit = peel(name)
+        if commit:
+            out[name] = commit
+    return out
 
 
 def is_empty_remote(files: Iterable[str]) -> bool:

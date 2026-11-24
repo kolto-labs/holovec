@@ -46,6 +46,7 @@ from hf_sync_core import (  # noqa: E402
     pick_base,
     plan_inbound,
     plan_outbound,
+    resolve_sync_tags,
     split_card,
     stage_tree,
 )
@@ -93,8 +94,21 @@ class HfHub:
             refs = self.api.list_repo_refs(self.repo_id, repo_type="dataset")
         except RepositoryNotFoundError:
             return RemoteState(False)
-        tags = {t.name: t.target_commit for t in refs.tags}
+        # Annotated tags are listed by their tag-object id, not the commit they point at
+        # (seen on the live Hub), so resolve each gh-sync tag to its commit.
+        listed = {t.name: t.target_commit for t in refs.tags}
+        tags = resolve_sync_tags(listed, commits, self._peel_tag)
         return RemoteState(True, commits[0] if commits else None, commits, tags)
+
+    def _peel_tag(self, name: str) -> str | None:
+        """Commit id that tag ``name`` points at, or None if it cannot be resolved."""
+        from huggingface_hub.errors import HfHubHTTPError
+
+        try:
+            return self.api.repo_info(self.repo_id, repo_type="dataset", revision=f"refs/tags/{name}").sha
+        except HfHubHTTPError as exc:
+            out(f"::warning::could not resolve Hub tag {name}: {exc}")
+            return None
 
     def tree(self, rev: str) -> Manifest:
         m: Manifest = {}
