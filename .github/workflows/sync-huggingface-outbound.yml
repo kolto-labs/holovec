@@ -1,0 +1,78 @@
+# GitHub -> Hugging Face dataset (add/update only; never deletes or overwrites Hub-only content).
+# Design, guarantees and recovery runbook: docs/sync-huggingface.md
+name: sync-huggingface-outbound
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Print what would change; upload and tag nothing"
+        type: boolean
+        default: true
+      adopt_head:
+        description: "First sync into a NON-empty Hub repo only: full sha of the reviewed Hub head to adopt (never overwrites differing files)"
+        type: string
+        default: ""
+      max_drop_percent:
+        description: "Refuse if staged file count or size is more than this percent below the Hub"
+        type: string
+        default: "10"
+
+# One shared group for both sync workflows: runs queue, they never overlap.
+concurrency:
+  group: huggingface-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  outbound:
+    if: github.repository == 'kolto-labs/holovec'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      HF_REPO_ID: ${{ vars.HF_REPO_ID || 'kolto-labs/holovec' }}
+      HF_PRIVATE: ${{ vars.HF_PRIVATE || 'true' }}
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || false }}
+      ADOPT_HEAD: ${{ github.event_name == 'workflow_dispatch' && inputs.adopt_head || '' }}
+      MAX_DROP: ${{ github.event_name == 'workflow_dispatch' && inputs.max_drop_percent || '10' }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          lfs: true
+          persist-credentials: false
+
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.12"
+
+      - name: Install pinned tooling
+        run: python -m pip install --disable-pip-version-check 'huggingface_hub==2.4.0' 'PyYAML>=6' pytest
+
+      - name: Run sync tests
+        run: python -m pytest -q tests/test_hf_sync.py
+
+      - name: Sync to Hugging Face
+        run: |
+          set -euo pipefail
+          stage="$RUNNER_TEMP/hf-stage"
+          if [ -z "${HF_TOKEN:-}" ]; then
+            echo "::notice::HF_TOKEN secret is not set; validating the staging tree and dataset card only"
+            python scripts/hf_sync.py stage --stage-dir "$stage"
+            exit 0
+          fi
+          args=(outbound
+            --repo-id "$HF_REPO_ID"
+            --stage-dir "$stage"
+            --github-sha "$GITHUB_SHA"
+            --github-repo "$GITHUB_REPOSITORY"
+            --private "$HF_PRIVATE"
+            --max-drop-percent "$MAX_DROP"
+            --create-if-missing)
+          if [ "$DRY_RUN" = "true" ]; then args+=(--dry-run); fi
+          if [ -n "$ADOPT_HEAD" ]; then args+=(--adopt-head "$ADOPT_HEAD"); fi
+          python scripts/hf_sync.py "${args[@]}"

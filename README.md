@@ -6,6 +6,8 @@ The collection can include lore references, game material, guides, bibliographic
 
 [Usage](docs/usage.md) · [Full source catalog](docs/sources.md)
 
+Mirrored to the Hugging Face dataset: [sync design and runbook](docs/sync-huggingface.md).
+
 ## 📚 Sources at a glance
 
 | | Category | What is tracked | Publisher / host | Status |
