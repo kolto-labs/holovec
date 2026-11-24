@@ -518,3 +518,63 @@ def test_private_cli_flag_accepts_messy_value_and_fails_closed_on_junk(capsys):
         hf_sync.main(ns_args + ["--private", "maybe"])
     assert exc.value.code == 2
     assert "HF_PRIVATE must be one of" in capsys.readouterr().err
+
+
+# --- annotated sync tags (regression: list_repo_refs reports the tag *object* id) -----------
+
+HUB_C1, HUB_C2 = "c1" * 20, "c2" * 20
+TAG_OBJ = "70" * 20  # id of an annotated tag object: never a commit id
+
+
+def test_resolve_sync_tags_peels_annotated_tags_to_their_commit():
+    peeled = []
+
+    def peel(name):
+        peeled.append(name)
+        return {"gh-sync-aaaaaaaaaaaa": HUB_C1}.get(name)
+
+    got = core.resolve_sync_tags(
+        {"gh-sync-aaaaaaaaaaaa": TAG_OBJ, "gh-sync-bbbbbbbbbbbb": HUB_C2, "v1.0": TAG_OBJ},
+        [HUB_C2, HUB_C1],
+        peel,
+    )
+    # lightweight tag already names a commit: used as-is, not peeled; non-sync tags ignored
+    assert got == {"gh-sync-aaaaaaaaaaaa": HUB_C1, "gh-sync-bbbbbbbbbbbb": HUB_C2}
+    assert peeled == ["gh-sync-aaaaaaaaaaaa"]
+    assert core.pick_base([HUB_C2, HUB_C1], got) == (HUB_C2, ["bbbbbbbbbbbb"])
+
+
+def test_resolve_sync_tags_skips_tags_that_cannot_be_peeled():
+    got = core.resolve_sync_tags({"gh-sync-aaaaaaaaaaaa": TAG_OBJ}, [HUB_C1], lambda name: None)
+    assert got == {}  # unresolvable -> no base -> outbound fails closed (never guesses)
+
+
+class _Ref:
+    def __init__(self, name, target):
+        self.name, self.ref, self.target_commit = name, f"refs/tags/{name}", target
+
+
+class _StubApi:
+    """Mimics HfApi for an annotated tag: refs list the tag object, repo_info peels it."""
+
+    def __init__(self):
+        self.revisions = []
+
+    def list_repo_commits(self, repo_id, repo_type):
+        return [type("C", (), {"commit_id": HUB_C1})()]
+
+    def list_repo_refs(self, repo_id, repo_type):
+        return type("R", (), {"tags": [_Ref("gh-sync-1c1e551ec707", TAG_OBJ)], "branches": []})()
+
+    def repo_info(self, repo_id, repo_type, revision):
+        self.revisions.append(revision)
+        assert revision == "refs/tags/gh-sync-1c1e551ec707"
+        return type("I", (), {"sha": HUB_C1})()
+
+
+def test_real_hfhub_state_maps_annotated_sync_tag_to_commit():
+    hub = hf_sync.HfHub("o/r", None)
+    hub.api = _StubApi()
+    st = hub.state()
+    assert st.tags == {"gh-sync-1c1e551ec707": HUB_C1}
+    assert core.pick_base(st.commits, st.tags) == (HUB_C1, ["1c1e551ec707"])
