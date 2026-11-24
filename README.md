@@ -12,27 +12,19 @@ Codeberg sync (GitHub to Codeberg, fast-forward only, plus review-only inbound P
 
 ## 📚 Sources at a glance
 
-| | Category | What is tracked | Publisher / host | Status |
-|:---:|---|---|---|:---:|
-| 🎮 | Games | KOTOR I and II resource metadata; SWTOR class stories, expansions and updates | Steam depot data for KOTOR I; SWTOR via swtor.com | 📇 🔎 |
-| 📖 | Novels | 16 works: Old Republic novels, Darth Bane, Lost Tribe of the Sith, Dawn of the Jedi, reference books, bundles (2007–2024 editions) | Penguin Random House | 🔎 |
-| 💥 | Comics | 24 series, 162 issues (1992–2013), 11 collected editions | Dark Horse series; Marvel and PRH Comics catalogs | 🔎 |
-| 🕸️ | SWTOR webcomics | *Threat of Peace* (27) and *Blood of the Empire* (12) | swtor.com | 🔎 |
-| 🎲 | Tabletop and miniatures | Campaign Guide supplements, creature articles, adventures, 8 miniatures scenarios, *Tales of the Jedi Companion* | Wizards of the Coast, West End Games, DK | 🔎 🟡 |
-| 🛰️ | Official SWTOR web fiction | 23 short stories, 33 companion features, patch-note index (373 links) | swtor.com | 🔎 |
-| 🌐 | Community and wikis | Wookieepedia, Wikipedia, StrategyWiki, PCGamingWiki, Arqade, SFF Stack Exchange, mission checklists | Fandom, Wikimedia, Stack Exchange and others | 🟡 |
-| 📄 | Original documents | Combat guide (StatsJedi), two scholarly papers, a research dialogue corpus | CC-licensed or rights-held | ✅ 📄 🚧 |
-| 🚫 | Excluded | Software source code and tooling documentation | n/a | 🚫 |
+**105 cataloged entries:** 🟢 1 full text · 🟡 17 partial · 🏷️ 4 metadata only · 📎 2 PDF only · 🔒 2 rights hold · ⚪ 79 leads only
 
-| Icon | Meaning | Entries |
-|:---:|---|---:|
-| ✅ | Ingested | 1 |
-| 🟡 | Partially ingested or screened | 17 |
-| 📇 | Metadata only | 4 |
-| 📄 | Original document preserved, no text layer | 2 |
-| 🚧 | Held pending rights review | 2 |
-| 🔎 | Discovery lead only, nothing ingested | 79 |
-| 🚫 | Outside the corpus boundary | n/a |
+| Category | What is tracked | Publisher / host | Status |
+|---|---|---|---|
+| 🎮 **Games** | KOTOR I and II resource metadata; SWTOR class stories, expansions and updates | Steam depot data for KOTOR I; SWTOR via swtor.com | 🟡 Partial<br>🏷️ Metadata only<br>⚪ Lead only |
+| 📖 **Novels** | 16 works: Old Republic novels, Darth Bane, Lost Tribe of the Sith, Dawn of the Jedi, reference books, bundles (2007–2024 editions) | Penguin Random House | 🟡 Partial<br>⚪ Lead only |
+| 💬 **Comics** | 24 series, 162 issues (1992–2013), 11 collected editions | Dark Horse series; Marvel and PRH Comics catalogs | ⚪ Lead only |
+| 🖼️ **SWTOR webcomics** | *Threat of Peace* (27) and *Blood of the Empire* (12) | swtor.com | ⚪ Lead only |
+| 🎲 **Tabletop and miniatures** | Campaign Guide supplements, creature articles, adventures, 8 miniatures scenarios, *Tales of the Jedi Companion* | Wizards of the Coast, West End Games, DK | 🟡 Partial<br>🔒 Rights hold<br>⚪ Lead only |
+| ✍️ **Official SWTOR web fiction** | 23 short stories, 33 companion features, patch-note index (373 links) | swtor.com | ⚪ Lead only |
+| 🌐 **Community and wikis** | Wookieepedia, Wikipedia, StrategyWiki, PCGamingWiki, Arqade, SFF Stack Exchange, mission checklists | Fandom, Wikimedia, Stack Exchange and others | 🟡 Partial<br>🏷️ Metadata only<br>⚪ Lead only |
+| 📑 **Original documents** | Combat guide (StatsJedi), two scholarly papers, a research dialogue corpus | CC-licensed or rights-held | 🟢 Full text<br>📎 PDF only (no text)<br>🔒 Rights hold |
+| ⛔ **Excluded** | Software source code and tooling documentation | n/a | ⛔ Out of scope |
 
 > ⚠️ Most entries are leads, not content. A listing is evidence that a work exists, not permission to redistribute it.
 
