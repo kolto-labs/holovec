@@ -481,3 +481,40 @@ def test_no_shell_or_eval_in_scripts():
         src = (Path(__file__).resolve().parents[1] / "scripts" / name).read_text()
         for bad in ("shell=True", "eval(", "exec(", "os.system", "delete_patterns=", "--force", "create_pr=True"):
             assert bad not in src, f"{name} contains {bad}"
+
+
+@pytest.mark.parametrize(
+    "raw,expected",
+    [
+        ("", "true"),  # not configured at any level: private default
+        ("   \n", "true"),
+        ("true", "true"),
+        ("True", "true"),
+        (" TRUE\n", "true"),
+        ("1", "true"),
+        ("false", "false"),
+        ("False", "false"),
+        (" false\n", "false"),
+        ("no", "false"),
+        ("0", "false"),
+    ],
+)
+def test_private_flag_normalises_org_and_repo_values(raw, expected):
+    assert hf_sync.private_flag(raw) == expected
+
+
+@pytest.mark.parametrize("raw", ["maybe", "public", "fals", "***", "true false"])
+def test_private_flag_rejects_unrecognised_values(raw):
+    import argparse
+
+    with pytest.raises(argparse.ArgumentTypeError):
+        hf_sync.private_flag(raw)
+
+
+def test_private_cli_flag_accepts_messy_value_and_fails_closed_on_junk(capsys):
+    # Argument parsing only; no Hub access. Messy-but-valid values parse, junk exits non-zero.
+    ns_args = ["outbound", "--repo-id", "o/r", "--stage-dir", "/tmp/x", "--github-sha", "0" * 40]
+    with pytest.raises(SystemExit) as exc:
+        hf_sync.main(ns_args + ["--private", "maybe"])
+    assert exc.value.code == 2
+    assert "HF_PRIVATE must be one of" in capsys.readouterr().err

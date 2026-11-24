@@ -34,8 +34,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     env:
+      # Each name resolves repository-level first, then organization-level (GitHub applies
+      # the lowest level that defines the name). A repository value overrides the org one.
       HF_REPO_ID: ${{ vars.HF_REPO_ID || 'kolto-labs/holovec' }}
-      HF_PRIVATE: ${{ vars.HF_PRIVATE || 'true' }}
+      # HF_PRIVATE may be a secret or a variable; a secret wins over a variable of the same
+      # name. Empty means private. The script normalises case/whitespace and rejects junk.
+      HF_PRIVATE: ${{ secrets.HF_PRIVATE || vars.HF_PRIVATE || 'true' }}
       HF_TOKEN: ${{ secrets.HF_TOKEN }}
       DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || false }}
       ADOPT_HEAD: ${{ github.event_name == 'workflow_dispatch' && inputs.adopt_head || '' }}
@@ -61,7 +65,7 @@ jobs:
           set -euo pipefail
           stage="$RUNNER_TEMP/hf-stage"
           if [ -z "${HF_TOKEN:-}" ]; then
-            echo "::notice::HF_TOKEN secret is not set; validating the staging tree and dataset card only"
+            echo "::notice::HF_TOKEN is not set (neither a repository nor an organization secret, or this repo is not granted the org secret); validating the staging tree and dataset card only"
             python scripts/hf_sync.py stage --stage-dir "$stage"
             exit 0
           fi

@@ -410,6 +410,30 @@ def _pr_body(rep: dict, head: str) -> str:
 
 # ----------------------------------------------------------------------- main
 
+_TRUE_WORDS = frozenset({"true", "1", "yes", "on"})
+_FALSE_WORDS = frozenset({"false", "0", "no", "off"})
+
+
+def private_flag(value: str) -> str:
+    """Normalise the HF_PRIVATE setting to "true" or "false".
+
+    The value arrives from a GitHub org/repo secret or variable, so it may carry case or
+    whitespace differences ("True", " false\\n"). An empty value means "not configured" and
+    keeps the safe default (private). Only an explicit false-word makes the Hub repo public;
+    anything unrecognised is an error, never a guess.
+    """
+    word = value.strip().lower()
+    if word == "":
+        return "true"
+    if word in _TRUE_WORDS:
+        return "true"
+    if word in _FALSE_WORDS:
+        return "false"
+    raise argparse.ArgumentTypeError(
+        "HF_PRIVATE must be one of true/false/1/0/yes/no/on/off (or empty for the private default)"
+    )
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -423,7 +447,7 @@ def main(argv: list[str] | None = None) -> int:
     sub.choices["outbound"].add_argument("--github-sha", required=True)
     sub.choices["outbound"].add_argument("--github-repo", default="")
     sub.choices["outbound"].add_argument("--dry-run", action="store_true")
-    sub.choices["outbound"].add_argument("--private", choices=["true", "false"], default="true")
+    sub.choices["outbound"].add_argument("--private", type=private_flag, default="true")
     sub.choices["outbound"].add_argument("--create-if-missing", action="store_true")
     sub.choices["outbound"].add_argument("--adopt-head", default="")
     sub.choices["outbound"].add_argument("--max-drop-percent", type=float, default=10.0)
