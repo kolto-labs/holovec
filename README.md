@@ -8,6 +8,8 @@ The collection can include lore references, game material, guides, bibliographic
 
 Mirrored to the Hugging Face dataset: [sync design and runbook](docs/sync-huggingface.md).
 
+Codeberg sync (GitHub to Codeberg, fast-forward only, plus review-only inbound PRs): [docs/sync-codeberg.md](docs/sync-codeberg.md)
+
 ## 📚 Sources at a glance
 
 | | Category | What is tracked | Publisher / host | Status |
