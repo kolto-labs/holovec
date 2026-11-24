@@ -1,0 +1,103 @@
+# Hugging Face dataset -> GitHub, as a pull request only (never pushes to main, never force-pushes).
+# Design, guarantees and recovery runbook: docs/sync-huggingface.md
+name: sync-huggingface-inbound
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Compute and show the proposed changes; push no branch and open no PR"
+        type: boolean
+        default: true
+
+concurrency:
+  group: huggingface-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write # push the sync/from-hf-* review branch (never main)
+  pull-requests: write # open the PR
+
+jobs:
+  inbound:
+    if: github.repository == 'kolto-labs/holovec'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      # Repository-level values override organization-level ones (GitHub applies the lowest level).
+      HF_REPO_ID: ${{ vars.HF_REPO_ID || 'kolto-labs/holovec' }}
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || false }}
+      GH_TOKEN: ${{ github.token }}
+      GIT_LFS_SKIP_SMUDGE: "1" # compare via LFS pointers; no LFS download for the daily check
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true # required to push the review branch
+
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.12"
+
+      - name: Install pinned tooling
+        run: python -m pip install --disable-pip-version-check 'huggingface_hub==2.4.0' 'PyYAML>=6'
+
+      - name: Pull Hub changes into the working tree
+        id: pull
+        run: |
+          set -euo pipefail
+          if [ -z "${HF_TOKEN:-}" ]; then
+            echo "::notice::HF_TOKEN is not set (neither a repository nor an organization secret, or this repo is not granted the org secret); nothing to do"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          python scripts/hf_sync.py inbound \
+            --repo-id "$HF_REPO_ID" \
+            --report "$RUNNER_TEMP/report.json" \
+            --pr-body "$RUNNER_TEMP/pr-body.md"
+          py='import json,sys; r=json.load(open(sys.argv[1])); print(str(r["changed"]).lower(), r.get("hub_head",""))'
+          read -r changed head < <(python -c "$py" "$RUNNER_TEMP/report.json")
+          echo "changed=$changed" >> "$GITHUB_OUTPUT"
+          echo "head=$head" >> "$GITHUB_OUTPUT"
+
+      - name: Open the review PR
+        if: steps.pull.outputs.changed == 'true'
+        env:
+          HUB_HEAD: ${{ steps.pull.outputs.head }}
+        run: |
+          set -euo pipefail
+          if ! [[ "$HUB_HEAD" =~ ^[0-9a-f]{40}$ ]]; then echo "::error::bad Hub head"; exit 1; fi
+          branch="sync/from-hf-${HUB_HEAD:0:12}"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No git-visible change after applying Hub content (loop guard); nothing to propose."
+            exit 0
+          fi
+          if [ "$DRY_RUN" = "true" ]; then
+            echo "DRY RUN: would push $branch and open a PR. Proposed change:"
+            git diff --cached --stat | tail -n 40
+            exit 0
+          fi
+          if git ls-remote --exit-code --heads origin "$branch" > /dev/null 2>&1; then
+            echo "Branch $branch already exists (this Hub revision was already proposed)."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git commit -q -m "Import Hugging Face dataset changes (${HUB_HEAD:0:12})" -m "HF-Revision: $HUB_HEAD"
+          # Plain refspec to a new branch: no force, never main.
+          git push origin "HEAD:refs/heads/$branch"
+          # Supersede older open proposals (their branches are kept; nothing is deleted).
+          gh pr list --state open --json number,headRefName \
+            --jq '.[] | select(.headRefName | startswith("sync/from-hf-")) | .number' |
+            while read -r n; do
+              gh pr close "$n" --comment "Superseded by a newer Hub revision (${HUB_HEAD:0:12})."
+            done
+          gh pr create --base main --head "$branch" \
+            --title "Import Hugging Face dataset changes (${HUB_HEAD:0:12})" \
+            --body-file "$RUNNER_TEMP/pr-body.md"
