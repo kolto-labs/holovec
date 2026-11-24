@@ -134,7 +134,7 @@ Rejected, with the reason:
    `cancel-in-progress: false`: runs queue and never overlap. `permissions` is
    `contents: read` for outbound; inbound has `contents: write` and
    `pull-requests: write`, needed to push the review branch and open the PR.
-7. Only secret: `HF_TOKEN`. It is passed through the environment, never on a command
+7. Only secret that is required: `HF_TOKEN`. It is passed through the environment, never on a command
    line, never printed. Third-party actions are pinned to full commit SHAs
    (`actions/checkout` v7.0.1 and `actions/setup-python` v7.1.0, resolved with
    `git ls-remote` on 2026-11-24). All Hub content is data: hashed, compared and
@@ -147,10 +147,11 @@ Rejected, with the reason:
 
 ## Manual steps for you
 
-1. Decide visibility. The workflow creates the repo as private unless the repository
-   variable `HF_PRIVATE` is `false` (Settings, Secrets and variables, Actions,
-   Variables). Making a repo public is your decision; the default is private. Optional
-   variable `HF_REPO_ID` overrides `kolto-labs/holovec`.
+1. Decide visibility. The workflow creates the repo as private unless `HF_PRIVATE` is
+   a false-word (`false`, `0`, `no`, `off`; case and surrounding whitespace do not
+   matter, anything unrecognised stops the run). Making a repo public is your decision;
+   the default is private. Optional variable `HF_REPO_ID` overrides `kolto-labs/holovec`.
+   See "Where the settings come from" below for org-level versus repo-level values.
 2. Easiest and tightest path: create the empty dataset repo yourself on the Hub
    (`kolto-labs/holovec`, type Dataset, private) so the token does not need
    create-repo rights. If you skip this, the outbound workflow creates it.
@@ -159,8 +160,10 @@ Rejected, with the reason:
    write access to repo contents. No org-wide, inference or other permissions. If you
    want the workflow to create the repo, the token also needs create-repo permission
    in the `kolto-labs` namespace; prefer step 2 instead.
-4. Add it as a GitHub secret: repo Settings, Secrets and variables, Actions, New
-   repository secret, name `HF_TOKEN`.
+4. Add it as a GitHub secret named `HF_TOKEN`, either once for the whole organization
+   (org Settings, Secrets and variables, Actions, New organization secret, with
+   repository access that includes `holovec`) or on this repository only. A repository
+   secret overrides an organization secret of the same name.
 5. GitHub branch protection on `main` (Settings, Rules, Rulesets, or Branches): require a
    pull request before merging, block force pushes, restrict deletions. Inbound
    relies on this; it is not something a workflow can set for you.
@@ -168,6 +171,37 @@ Rejected, with the reason:
    create and approve pull requests", otherwise inbound cannot open the PR (the branch
    is still pushed and you can open it by hand).
 7. Bootstrap, see below. Always start with a dry run.
+
+## Where the settings come from
+
+The workflows read `secrets.HF_TOKEN`, `secrets.HF_PRIVATE`, `vars.HF_PRIVATE` and
+`vars.HF_REPO_ID`. For each name, GitHub itself picks the value from the lowest level
+that defines it: environment, then repository, then organization. So an organization
+value is used by default, and defining the same name on this repository overrides it
+without any workflow change. (GitHub docs, "Secrets reference" and "Variables
+reference".)
+
+| Setting | Kinds accepted | Order of precedence |
+| --- | --- | --- |
+| `HF_TOKEN` | secret | repository secret, then organization secret |
+| `HF_PRIVATE` | secret or variable | secret (repository, then organization), then variable (repository, then organization), then the private default |
+| `HF_REPO_ID` | variable | repository variable, then organization variable, then `kolto-labs/holovec` |
+
+Things to know:
+
+- An organization secret or variable must have `holovec` in its repository access
+  policy, and organization-level secrets are not available to private repositories on
+  GitHub Free. If the token is unreachable the workflows say so and do nothing harmful
+  (outbound only validates, inbound exits).
+- A secret beats a variable of the same name across levels. If the org defines
+  `HF_PRIVATE` as a secret and this repo defines it as a variable, the org secret wins.
+  To override per repository, use the same kind at the repository level.
+- A secret value is masked in logs, so a secret `HF_PRIVATE` of `true` or `false` turns
+  every `true`/`false` in the run log into asterisks. Harmless, but a variable keeps
+  logs readable; `HF_PRIVATE` is not sensitive.
+- Manage organization secrets from the CLI with `gh secret set HF_TOKEN --org kolto-labs
+  --repos holovec` (needs the `admin:org` scope) and variables with `gh variable set`.
+  Not run here; check `--help` first.
 
 ## Bootstrap the first sync
 
@@ -211,7 +245,7 @@ Symptom: outbound fails with "the Hub has commits that GitHub does not have".
 Nothing here ran against a real Hub repo or a real GitHub Actions runner: the sandbox
 has no `HF_TOKEN` and cannot run Actions.
 
-- Verified: 31 pytest tests with a fake Hub pass; `actionlint` (with `shellcheck`) and
+- Verified: 48 pytest tests with a fake Hub pass (including the `HF_PRIVATE` value parsing); `actionlint` (with `shellcheck`) and
   `yamllint` pass on both workflows; the staging and card generator ran on the real
   repo (476 files, 195,467,415 bytes, valid `DatasetCard`); `hf_sync.py outbound
   --dry-run` ran anonymously against `kolto-labs/holovec` and reported "would create
@@ -234,6 +268,14 @@ has no `HF_TOKEN` and cannot run Actions.
 - GitHub Git LFS quota: outbound downloads about 195 MB of LFS content per push to
   `main`. Whether Actions downloads count against the org's LFS bandwidth quota was not
   checked; inbound avoids LFS downloads by comparing LFS pointer hashes.
+- Org/repo precedence for `secrets.*` and `vars.*` (lowest level wins) is from GitHub's
+  Actions "Secrets reference" and "Variables reference" pages, read on 2026-11-24. It was
+  not exercised on a live runner. The `gh secret set --org ... --repos` and
+  `gh variable set` commands in "Where the settings come from" were NOT checked with
+  `--help` (a sandbox hook blocked the command); run `--help` before relying on them.
+- Cross-kind precedence (an org-level secret versus a repo-level variable of the same
+  name) follows from the workflow expression `secrets.HF_PRIVATE || vars.HF_PRIVATE`; it
+  was reasoned from the expression, not tested on a runner.
 - Hub-side tag protection: anyone with write access to the Hub repo can create or
   delete `gh-sync-*` tags, which would confuse the marker. Grant write access narrowly.
 - Hub "keyless" publishing through OIDC Trusted Publishers is mentioned in the Hub docs
