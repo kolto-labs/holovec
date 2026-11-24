@@ -1,0 +1,50 @@
+name: sync-codeberg-out
+
+# GitHub -> Codeberg. Additive and fast-forward only; see docs/sync-codeberg.md.
+# main is pushed fast-forward-only, tags are create-only. Nothing is ever forced,
+# mirrored, pruned or deleted. Anything surprising fails the run with nothing pushed.
+
+on:
+  push:
+    branches: [main]
+    tags: ['**']
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Print what would be pushed; push nothing"
+        type: boolean
+        default: true
+
+permissions: {}
+
+concurrency:
+  group: sync-codeberg          # shared with sync-codeberg-in so the two never race
+  cancel-in-progress: false
+
+jobs:
+  push:
+    # Runs only in the canonical repo. Automatic runs also require the repository
+    # variable CODEBERG_SYNC_ENABLED=true (set it after the manual setup is done).
+    if: >-
+      github.repository == 'kolto-labs/holovec' &&
+      (github.event_name == 'workflow_dispatch' || vars.CODEBERG_SYNC_ENABLED == 'true')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    permissions:
+      contents: read
+    env:
+      GIT_LFS_SKIP_SMUDGE: "1"
+    steps:
+      - name: Check out full history
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          fetch-depth: 0          # ancestry checks need complete history
+          persist-credentials: true   # read-only GITHUB_TOKEN, scoped to github.com; needed for git lfs fetch
+
+      - name: Push to Codeberg (guarded)
+        env:
+          CODEBERG_URL: ${{ vars.CODEBERG_REPO_URL || 'https://codeberg.org/kolto-labs/holovec.git' }}
+          CODEBERG_USER: ${{ vars.CODEBERG_USER }}
+          CODEBERG_TOKEN: ${{ secrets.CODEBERG_TOKEN }}
+          DRY_RUN: ${{ (github.event_name == 'workflow_dispatch' && inputs.dry_run) && 'true' || 'false' }}
+        run: ./scripts/codeberg-sync-out.sh

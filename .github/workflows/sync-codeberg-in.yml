@@ -1,0 +1,49 @@
+name: sync-codeberg-in
+
+# Codeberg -> GitHub, review-only. Read-only fetch of Codeberg main over anonymous
+# HTTPS. New Codeberg commits are published on sync/from-codeberg and a pull
+# request is opened for a human. This workflow never pushes to main.
+# See docs/sync-codeberg.md.
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Report only; create no branch and no PR"
+        type: boolean
+        default: true
+
+permissions: {}
+
+concurrency:
+  group: sync-codeberg
+  cancel-in-progress: false
+
+jobs:
+  pull:
+    if: >-
+      github.repository == 'kolto-labs/holovec' &&
+      (github.event_name == 'workflow_dispatch' || vars.CODEBERG_SYNC_ENABLED == 'true')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    permissions:
+      contents: write         # push sync/from-codeberg only (script hard-codes the ref)
+      pull-requests: write    # open the review PR
+    env:
+      GIT_LFS_SKIP_SMUDGE: "1"
+    steps:
+      - name: Check out full history
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          fetch-depth: 0
+          persist-credentials: true   # the script pushes sync/from-codeberg with this token
+
+      - name: Detect Codeberg-only commits and open or update the review PR
+        env:
+          CODEBERG_URL: ${{ vars.CODEBERG_REPO_URL || 'https://codeberg.org/kolto-labs/holovec.git' }}
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          DRY_RUN: ${{ (github.event_name == 'workflow_dispatch' && inputs.dry_run) && 'true' || 'false' }}
+        run: ./scripts/codeberg-sync-in.sh

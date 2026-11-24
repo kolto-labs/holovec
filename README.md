@@ -6,6 +6,7 @@ The collection can include lore references, game material, guides, bibliographic
 
 [Usage](docs/usage.md) · [Full source catalog](docs/sources.md)
 
+Codeberg sync (GitHub to Codeberg, fast-forward only, plus review-only inbound PRs): [docs/sync-codeberg.md](docs/sync-codeberg.md)
 ## 📚 Sources at a glance
 
 | | Category | What is tracked | Publisher / host | Status |
